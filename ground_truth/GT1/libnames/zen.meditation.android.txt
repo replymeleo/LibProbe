@@ -1,0 +1,6 @@
+com.android.support
+com.github.afollestad
+com.github.juankysoriano
+com.nineoldandroids
+com.novoda
+de.hdodenhof

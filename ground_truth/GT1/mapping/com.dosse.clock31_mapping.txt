@@ -1,0 +1,42 @@
+# compiler: R8
+# compiler_version: 4.0.48
+# min_api: 21
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: f9e45c1
+# pg_map_hash: SHA-256 f9e45c129a1516cac12792e47c20b822b68386b632f72eab455c9eb59aa24338
+com.dosse.clock31.C31Widget -> com.dosse.clock31.C31Widget:
+    boolean updatePending -> a
+    void updateAppWidget(android.content.Context,android.appwidget.AppWidgetManager,int) -> a
+com.dosse.clock31.C31WidgetConfigureActivity -> com.dosse.clock31.C31WidgetConfigureActivity:
+    int mAppWidgetId -> a
+    void proceedWithWidgetCreation() -> a
+    1:1:com.dosse.clock31.databinding.C31WidgetConfigureBinding com.dosse.clock31.databinding.C31WidgetConfigureBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):0:0 -> onCreate
+    1:1:com.dosse.clock31.databinding.C31WidgetConfigureBinding com.dosse.clock31.databinding.C31WidgetConfigureBinding.inflate(android.view.LayoutInflater):0 -> onCreate
+    1:1:void onCreate(android.os.Bundle):0 -> onCreate
+    2:2:com.dosse.clock31.databinding.C31WidgetConfigureBinding com.dosse.clock31.databinding.C31WidgetConfigureBinding.bind(android.view.View):0:0 -> onCreate
+    2:2:com.dosse.clock31.databinding.C31WidgetConfigureBinding com.dosse.clock31.databinding.C31WidgetConfigureBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):0 -> onCreate
+    2:2:com.dosse.clock31.databinding.C31WidgetConfigureBinding com.dosse.clock31.databinding.C31WidgetConfigureBinding.inflate(android.view.LayoutInflater):0 -> onCreate
+    2:2:void onCreate(android.os.Bundle):0 -> onCreate
+    3:3:void onCreate(android.os.Bundle):0:0 -> onCreate
+    4:4:com.dosse.clock31.databinding.C31WidgetConfigureBinding com.dosse.clock31.databinding.C31WidgetConfigureBinding.bind(android.view.View):0:0 -> onCreate
+    4:4:com.dosse.clock31.databinding.C31WidgetConfigureBinding com.dosse.clock31.databinding.C31WidgetConfigureBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):0 -> onCreate
+    4:4:com.dosse.clock31.databinding.C31WidgetConfigureBinding com.dosse.clock31.databinding.C31WidgetConfigureBinding.inflate(android.view.LayoutInflater):0 -> onCreate
+    4:4:void onCreate(android.os.Bundle):0 -> onCreate
+    0:65535:void failWidgetCreation():0:0 -> onRequestPermissionsResult
+    0:65535:void onRequestPermissionsResult(int,java.lang.String[],int[]):0 -> onRequestPermissionsResult
+com.dosse.clock31.CalendarRemoteViewsService$CalendarRemoteViewsFactory -> com.dosse.clock31.CalendarRemoteViewsService$a:
+    android.content.Context context -> a
+    java.util.List entries -> b
+    com.dosse.clock31.CalendarRemoteViewsService this$0 -> c
+    void updateCalendarInfo() -> a
+com.dosse.clock31.CalendarRemoteViewsService$CalendarRemoteViewsFactory$CalendarListEntry -> com.dosse.clock31.CalendarRemoteViewsService$a$a:
+    boolean eventAllDay -> e
+    int eventColor -> f
+    long eventId -> a
+    long eventEnd -> d
+    long eventBegin -> c
+    java.lang.String eventTitle -> b
+    1:1:long utcToLocal(long):0:0 -> <init>
+    1:1:void <init>(com.dosse.clock31.CalendarRemoteViewsService$CalendarRemoteViewsFactory,long,java.lang.String,long,long,boolean,int):0 -> <init>
+    2:2:void <init>(com.dosse.clock31.CalendarRemoteViewsService$CalendarRemoteViewsFactory,long,java.lang.String,long,long,boolean,int):0:0 -> <init>

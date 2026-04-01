@@ -1,0 +1,1462 @@
+# compiler: R8
+# compiler_version: 8.11.18
+# min_api: 25
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 5f05ba5
+# pg_map_hash: SHA-256 5f05ba527ace234873fa527f796c69180a0102158ddac8e1f7fd57add00c1a8e
+eu.veldsoft.tuty.fruty.slot.AboutActivity -> eu.veldsoft.tuty.fruty.slot.AboutActivity:
+# {"id":"sourceFile","fileName":"AboutActivity.java"}
+    1:4:void <init>():8:8 -> <init>
+    1:3:void onCreate(android.os.Bundle):12:12 -> onCreate
+    4:9:void onCreate(android.os.Bundle):13:13 -> onCreate
+eu.veldsoft.tuty.fruty.slot.Bet -> a.a:
+# {"id":"sourceFile","fileName":"Bet.java"}
+    long value -> a
+eu.veldsoft.tuty.fruty.slot.Combination -> a.b:
+# {"id":"sourceFile","fileName":"Combination.java"}
+    char[][] mask -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Object;"}
+    1:4:void <init>(char[][]):65:65 -> <init>
+    5:30:void <init>(char[][]):39:39 -> <init>
+    31:49:void <init>(char[][]):68:68 -> <init>
+    2:25:char[][] getMask():85:85 -> a
+    26:44:char[][] getMask():89:89 -> a
+eu.veldsoft.tuty.fruty.slot.GameScreen -> a.c:
+# {"id":"sourceFile","fileName":"GameScreen.java"}
+    eu.veldsoft.tuty.fruty.slot.Reels reels -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/o;"}
+    eu.veldsoft.tuty.fruty.slot.LinesSelector selector -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/e;"}
+    eu.veldsoft.tuty.fruty.slot.Bet bet -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/a;"}
+    eu.veldsoft.tuty.fruty.slot.TotalBet total -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/s;"}
+    eu.veldsoft.tuty.fruty.slot.WinnerPaid paid -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/u;"}
+    eu.veldsoft.tuty.fruty.slot.Credit credit -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/a;"}
+eu.veldsoft.tuty.fruty.slot.HelpActivity -> eu.veldsoft.tuty.fruty.slot.HelpActivity:
+# {"id":"sourceFile","fileName":"HelpActivity.java"}
+    1:4:void <init>():8:8 -> <init>
+    1:3:void onCreate(android.os.Bundle):12:12 -> onCreate
+    4:9:void onCreate(android.os.Bundle):13:13 -> onCreate
+eu.veldsoft.tuty.fruty.slot.InnerBannerActivity -> eu.veldsoft.tuty.fruty.slot.InnerBannerActivity:
+# {"id":"sourceFile","fileName":"InnerBannerActivity.java"}
+    long timeout -> a
+    1:5:void <init>():14:14 -> <init>
+    6:8:void <init>():15:15 -> <init>
+    1:3:void onCreate(android.os.Bundle):19:19 -> onCreate
+    4:8:void onCreate(android.os.Bundle):20:20 -> onCreate
+    9:21:void onCreate(android.os.Bundle):25:25 -> onCreate
+    22:24:void onCreate(android.os.Bundle):26:26 -> onCreate
+    25:34:void onCreate(android.os.Bundle):31:31 -> onCreate
+    35:37:void onCreate(android.os.Bundle):32:32 -> onCreate
+    38:41:void onCreate(android.os.Bundle):38:38 -> onCreate
+    42:47:void onCreate(android.os.Bundle):39:39 -> onCreate
+    48:56:void onCreate(android.os.Bundle):38:38 -> onCreate
+    57:66:void onCreate(android.os.Bundle):41:41 -> onCreate
+    67:69:void onCreate(android.os.Bundle):44:44 -> onCreate
+    1:3:void onResume():50:50 -> onResume
+    4:20:void onResume():52:52 -> onResume
+eu.veldsoft.tuty.fruty.slot.InnerBannerActivity$1 -> a.d:
+# {"id":"sourceFile","fileName":"InnerBannerActivity.java"}
+    int a.InnerBannerActivity$1.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    eu.veldsoft.tuty.fruty.slot.InnerBannerActivity this$0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Landroid/app/Activity;"}
+    1:1:void a.InnerBannerActivity$1.<init>(android.app.Activity,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    6:11:void eu.veldsoft.tuty.fruty.slot.SplashActivity$1.run():75:75 -> run
+    12:13:java.lang.String eu.veldsoft.tuty.fruty.slot.SplashActivity.access$000(eu.veldsoft.tuty.fruty.slot.SplashActivity):13:13 -> run
+    12:13:void eu.veldsoft.tuty.fruty.slot.SplashActivity$1.run():76 -> run
+    14:20:void eu.veldsoft.tuty.fruty.slot.SplashActivity$1.run():76:76 -> run
+    21:24:void eu.veldsoft.tuty.fruty.slot.SplashActivity$1.run():75:75 -> run
+    25:32:void run():55:55 -> run
+eu.veldsoft.tuty.fruty.slot.LinesSelector -> a.e:
+# {"id":"sourceFile","fileName":"LinesSelector.java"}
+    char[] selected -> a
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination[][][] CORRESPONDANCE -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"[[[La/f;"}
+    double[] LINES_MULTIPLIERS -> c
+    1:1:void <clinit>():92:92 -> <clinit>
+    2:2:void <clinit>():718:718 -> <clinit>
+    7:19:int numberOfSelectedLines():876:876 -> a
+eu.veldsoft.tuty.fruty.slot.PrizeCombination -> a.f:
+# {"id":"sourceFile","fileName":"PrizeCombination.java"}
+    eu.veldsoft.tuty.fruty.slot.Combination combination -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/b;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol symbol -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    int coefficient -> c
+    java.lang.String name -> d
+    1:3:void <init>(eu.veldsoft.tuty.fruty.slot.Combination,eu.veldsoft.tuty.fruty.slot.ReelSymbol,int,java.lang.String):91:91 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/b;La/n;ILjava/lang/String;)V"}
+    4:5:void <init>(eu.veldsoft.tuty.fruty.slot.Combination,eu.veldsoft.tuty.fruty.slot.ReelSymbol,int,java.lang.String):92:92 -> <init>
+    6:7:void <init>(eu.veldsoft.tuty.fruty.slot.Combination,eu.veldsoft.tuty.fruty.slot.ReelSymbol,int,java.lang.String):93:93 -> <init>
+    8:9:void <init>(eu.veldsoft.tuty.fruty.slot.Combination,eu.veldsoft.tuty.fruty.slot.ReelSymbol,int,java.lang.String):94:94 -> <init>
+    10:12:void <init>(eu.veldsoft.tuty.fruty.slot.Combination,eu.veldsoft.tuty.fruty.slot.ReelSymbol,int,java.lang.String):95:95 -> <init>
+    1:8:boolean equals(eu.veldsoft.tuty.fruty.slot.PrizeCombination):238:238 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/f;)Z"}
+    9:15:boolean equals(eu.veldsoft.tuty.fruty.slot.PrizeCombination):242:242 -> a
+    16:25:boolean equals(eu.veldsoft.tuty.fruty.slot.PrizeCombination):246:246 -> a
+    26:52:boolean eu.veldsoft.tuty.fruty.slot.Combination.equals(eu.veldsoft.tuty.fruty.slot.Combination):134:134 -> a
+    26:52:boolean equals(eu.veldsoft.tuty.fruty.slot.PrizeCombination):246 -> a
+    53:65:boolean equals(eu.veldsoft.tuty.fruty.slot.PrizeCombination):250:250 -> a
+eu.veldsoft.tuty.fruty.slot.Prizes -> a.g:
+# {"id":"sourceFile","fileName":"Prizes.java"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_027_SYMBOL_01_CONFIGURATION_27 -> A
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_079_SYMBOL_03_CONFIGURATION_23 -> A0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_131_SYMBOL_05_CONFIGURATION_19 -> A1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_183_SYMBOL_07_CONFIGURATION_15 -> A2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_235_SYMBOL_09_CONFIGURATION_11 -> A3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_028_SYMBOL_01_CONFIGURATION_28 -> B
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_080_SYMBOL_03_CONFIGURATION_24 -> B0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_132_SYMBOL_05_CONFIGURATION_20 -> B1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_184_SYMBOL_07_CONFIGURATION_16 -> B2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_236_SYMBOL_09_CONFIGURATION_12 -> B3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_029_SYMBOL_02_CONFIGURATION_01 -> C
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_081_SYMBOL_03_CONFIGURATION_25 -> C0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_133_SYMBOL_05_CONFIGURATION_21 -> C1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_185_SYMBOL_07_CONFIGURATION_17 -> C2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_237_SYMBOL_09_CONFIGURATION_13 -> C3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_030_SYMBOL_02_CONFIGURATION_02 -> D
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_082_SYMBOL_03_CONFIGURATION_26 -> D0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_134_SYMBOL_05_CONFIGURATION_22 -> D1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_186_SYMBOL_07_CONFIGURATION_18 -> D2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_238_SYMBOL_09_CONFIGURATION_14 -> D3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_031_SYMBOL_02_CONFIGURATION_03 -> E
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_083_SYMBOL_03_CONFIGURATION_27 -> E0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_135_SYMBOL_05_CONFIGURATION_23 -> E1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_187_SYMBOL_07_CONFIGURATION_19 -> E2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_239_SYMBOL_09_CONFIGURATION_15 -> E3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_032_SYMBOL_02_CONFIGURATION_04 -> F
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_084_SYMBOL_03_CONFIGURATION_28 -> F0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_136_SYMBOL_05_CONFIGURATION_24 -> F1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_188_SYMBOL_07_CONFIGURATION_20 -> F2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_240_SYMBOL_09_CONFIGURATION_16 -> F3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_033_SYMBOL_02_CONFIGURATION_05 -> G
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_085_SYMBOL_04_CONFIGURATION_01 -> G0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_137_SYMBOL_05_CONFIGURATION_25 -> G1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_189_SYMBOL_07_CONFIGURATION_21 -> G2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_241_SYMBOL_09_CONFIGURATION_17 -> G3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_034_SYMBOL_02_CONFIGURATION_06 -> H
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_086_SYMBOL_04_CONFIGURATION_02 -> H0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_138_SYMBOL_05_CONFIGURATION_26 -> H1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_190_SYMBOL_07_CONFIGURATION_22 -> H2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_242_SYMBOL_09_CONFIGURATION_18 -> H3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_035_SYMBOL_02_CONFIGURATION_07 -> I
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_087_SYMBOL_04_CONFIGURATION_03 -> I0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_139_SYMBOL_05_CONFIGURATION_27 -> I1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_191_SYMBOL_07_CONFIGURATION_23 -> I2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_243_SYMBOL_09_CONFIGURATION_19 -> I3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_036_SYMBOL_02_CONFIGURATION_08 -> J
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_088_SYMBOL_04_CONFIGURATION_04 -> J0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_140_SYMBOL_05_CONFIGURATION_28 -> J1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_192_SYMBOL_07_CONFIGURATION_24 -> J2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_244_SYMBOL_09_CONFIGURATION_20 -> J3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_037_SYMBOL_02_CONFIGURATION_09 -> K
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_089_SYMBOL_04_CONFIGURATION_05 -> K0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_141_SYMBOL_06_CONFIGURATION_01 -> K1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_193_SYMBOL_07_CONFIGURATION_25 -> K2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_245_SYMBOL_09_CONFIGURATION_21 -> K3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_038_SYMBOL_02_CONFIGURATION_10 -> L
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_090_SYMBOL_04_CONFIGURATION_06 -> L0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_142_SYMBOL_06_CONFIGURATION_02 -> L1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_194_SYMBOL_07_CONFIGURATION_26 -> L2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_246_SYMBOL_09_CONFIGURATION_22 -> L3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_039_SYMBOL_02_CONFIGURATION_11 -> M
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_091_SYMBOL_04_CONFIGURATION_07 -> M0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_143_SYMBOL_06_CONFIGURATION_03 -> M1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_195_SYMBOL_07_CONFIGURATION_27 -> M2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_247_SYMBOL_09_CONFIGURATION_23 -> M3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_040_SYMBOL_02_CONFIGURATION_12 -> N
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_092_SYMBOL_04_CONFIGURATION_08 -> N0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_144_SYMBOL_06_CONFIGURATION_04 -> N1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_196_SYMBOL_07_CONFIGURATION_28 -> N2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_248_SYMBOL_09_CONFIGURATION_24 -> N3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_041_SYMBOL_02_CONFIGURATION_13 -> O
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_093_SYMBOL_04_CONFIGURATION_09 -> O0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_145_SYMBOL_06_CONFIGURATION_05 -> O1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_197_SYMBOL_08_CONFIGURATION_01 -> O2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_249_SYMBOL_09_CONFIGURATION_25 -> O3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_042_SYMBOL_02_CONFIGURATION_14 -> P
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_094_SYMBOL_04_CONFIGURATION_10 -> P0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_146_SYMBOL_06_CONFIGURATION_06 -> P1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_198_SYMBOL_08_CONFIGURATION_02 -> P2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_250_SYMBOL_09_CONFIGURATION_26 -> P3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_043_SYMBOL_02_CONFIGURATION_15 -> Q
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_095_SYMBOL_04_CONFIGURATION_11 -> Q0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_147_SYMBOL_06_CONFIGURATION_07 -> Q1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_199_SYMBOL_08_CONFIGURATION_03 -> Q2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_251_SYMBOL_09_CONFIGURATION_27 -> Q3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_044_SYMBOL_02_CONFIGURATION_16 -> R
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_096_SYMBOL_04_CONFIGURATION_12 -> R0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_148_SYMBOL_06_CONFIGURATION_08 -> R1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_200_SYMBOL_08_CONFIGURATION_04 -> R2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_252_SYMBOL_09_CONFIGURATION_28 -> R3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_045_SYMBOL_02_CONFIGURATION_17 -> S
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_097_SYMBOL_04_CONFIGURATION_13 -> S0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_149_SYMBOL_06_CONFIGURATION_09 -> S1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_201_SYMBOL_08_CONFIGURATION_05 -> S2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_046_SYMBOL_02_CONFIGURATION_18 -> T
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_098_SYMBOL_04_CONFIGURATION_14 -> T0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_150_SYMBOL_06_CONFIGURATION_10 -> T1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_202_SYMBOL_08_CONFIGURATION_06 -> T2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_047_SYMBOL_02_CONFIGURATION_19 -> U
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_099_SYMBOL_04_CONFIGURATION_15 -> U0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_151_SYMBOL_06_CONFIGURATION_11 -> U1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_203_SYMBOL_08_CONFIGURATION_07 -> U2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_048_SYMBOL_02_CONFIGURATION_20 -> V
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_100_SYMBOL_04_CONFIGURATION_16 -> V0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_152_SYMBOL_06_CONFIGURATION_12 -> V1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_204_SYMBOL_08_CONFIGURATION_08 -> V2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_049_SYMBOL_02_CONFIGURATION_21 -> W
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_101_SYMBOL_04_CONFIGURATION_17 -> W0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_153_SYMBOL_06_CONFIGURATION_13 -> W1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_205_SYMBOL_08_CONFIGURATION_09 -> W2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_050_SYMBOL_02_CONFIGURATION_22 -> X
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_102_SYMBOL_04_CONFIGURATION_18 -> X0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_154_SYMBOL_06_CONFIGURATION_14 -> X1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_206_SYMBOL_08_CONFIGURATION_10 -> X2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_051_SYMBOL_02_CONFIGURATION_23 -> Y
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_103_SYMBOL_04_CONFIGURATION_19 -> Y0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_155_SYMBOL_06_CONFIGURATION_15 -> Y1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_207_SYMBOL_08_CONFIGURATION_11 -> Y2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_052_SYMBOL_02_CONFIGURATION_24 -> Z
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_104_SYMBOL_04_CONFIGURATION_20 -> Z0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_156_SYMBOL_06_CONFIGURATION_16 -> Z1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_208_SYMBOL_08_CONFIGURATION_12 -> Z2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_001_SYMBOL_01_CONFIGURATION_01 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_053_SYMBOL_02_CONFIGURATION_25 -> a0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_105_SYMBOL_04_CONFIGURATION_21 -> a1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_157_SYMBOL_06_CONFIGURATION_17 -> a2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_209_SYMBOL_08_CONFIGURATION_13 -> a3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_002_SYMBOL_01_CONFIGURATION_02 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_054_SYMBOL_02_CONFIGURATION_26 -> b0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_106_SYMBOL_04_CONFIGURATION_22 -> b1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_158_SYMBOL_06_CONFIGURATION_18 -> b2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_210_SYMBOL_08_CONFIGURATION_14 -> b3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_003_SYMBOL_01_CONFIGURATION_03 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_055_SYMBOL_02_CONFIGURATION_27 -> c0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_107_SYMBOL_04_CONFIGURATION_23 -> c1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_159_SYMBOL_06_CONFIGURATION_19 -> c2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_211_SYMBOL_08_CONFIGURATION_15 -> c3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_004_SYMBOL_01_CONFIGURATION_04 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_056_SYMBOL_02_CONFIGURATION_28 -> d0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_108_SYMBOL_04_CONFIGURATION_24 -> d1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_160_SYMBOL_06_CONFIGURATION_20 -> d2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_212_SYMBOL_08_CONFIGURATION_16 -> d3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_005_SYMBOL_01_CONFIGURATION_05 -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_057_SYMBOL_03_CONFIGURATION_01 -> e0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_109_SYMBOL_04_CONFIGURATION_25 -> e1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_161_SYMBOL_06_CONFIGURATION_21 -> e2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_213_SYMBOL_08_CONFIGURATION_17 -> e3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_006_SYMBOL_01_CONFIGURATION_06 -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_058_SYMBOL_03_CONFIGURATION_02 -> f0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_110_SYMBOL_04_CONFIGURATION_26 -> f1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_162_SYMBOL_06_CONFIGURATION_22 -> f2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_214_SYMBOL_08_CONFIGURATION_18 -> f3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_007_SYMBOL_01_CONFIGURATION_07 -> g
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_059_SYMBOL_03_CONFIGURATION_03 -> g0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_111_SYMBOL_04_CONFIGURATION_27 -> g1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_163_SYMBOL_06_CONFIGURATION_23 -> g2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_215_SYMBOL_08_CONFIGURATION_19 -> g3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_008_SYMBOL_01_CONFIGURATION_08 -> h
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_060_SYMBOL_03_CONFIGURATION_04 -> h0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_112_SYMBOL_04_CONFIGURATION_28 -> h1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_164_SYMBOL_06_CONFIGURATION_24 -> h2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_216_SYMBOL_08_CONFIGURATION_20 -> h3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_009_SYMBOL_01_CONFIGURATION_09 -> i
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_061_SYMBOL_03_CONFIGURATION_05 -> i0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_113_SYMBOL_05_CONFIGURATION_01 -> i1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_165_SYMBOL_06_CONFIGURATION_25 -> i2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_217_SYMBOL_08_CONFIGURATION_21 -> i3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_010_SYMBOL_01_CONFIGURATION_10 -> j
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_062_SYMBOL_03_CONFIGURATION_06 -> j0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_114_SYMBOL_05_CONFIGURATION_02 -> j1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_166_SYMBOL_06_CONFIGURATION_26 -> j2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_218_SYMBOL_08_CONFIGURATION_22 -> j3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_011_SYMBOL_01_CONFIGURATION_11 -> k
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_063_SYMBOL_03_CONFIGURATION_07 -> k0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_115_SYMBOL_05_CONFIGURATION_03 -> k1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_167_SYMBOL_06_CONFIGURATION_27 -> k2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_219_SYMBOL_08_CONFIGURATION_23 -> k3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_012_SYMBOL_01_CONFIGURATION_12 -> l
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_064_SYMBOL_03_CONFIGURATION_08 -> l0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_116_SYMBOL_05_CONFIGURATION_04 -> l1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_168_SYMBOL_06_CONFIGURATION_28 -> l2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_220_SYMBOL_08_CONFIGURATION_24 -> l3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_013_SYMBOL_01_CONFIGURATION_13 -> m
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_065_SYMBOL_03_CONFIGURATION_09 -> m0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_117_SYMBOL_05_CONFIGURATION_05 -> m1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_169_SYMBOL_07_CONFIGURATION_01 -> m2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_221_SYMBOL_08_CONFIGURATION_25 -> m3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_014_SYMBOL_01_CONFIGURATION_14 -> n
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_066_SYMBOL_03_CONFIGURATION_10 -> n0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_118_SYMBOL_05_CONFIGURATION_06 -> n1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_170_SYMBOL_07_CONFIGURATION_02 -> n2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_222_SYMBOL_08_CONFIGURATION_26 -> n3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_015_SYMBOL_01_CONFIGURATION_15 -> o
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_067_SYMBOL_03_CONFIGURATION_11 -> o0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_119_SYMBOL_05_CONFIGURATION_07 -> o1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_171_SYMBOL_07_CONFIGURATION_03 -> o2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_223_SYMBOL_08_CONFIGURATION_27 -> o3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_016_SYMBOL_01_CONFIGURATION_16 -> p
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_068_SYMBOL_03_CONFIGURATION_12 -> p0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_120_SYMBOL_05_CONFIGURATION_08 -> p1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_172_SYMBOL_07_CONFIGURATION_04 -> p2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_224_SYMBOL_08_CONFIGURATION_28 -> p3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_017_SYMBOL_01_CONFIGURATION_17 -> q
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_069_SYMBOL_03_CONFIGURATION_13 -> q0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_121_SYMBOL_05_CONFIGURATION_09 -> q1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_173_SYMBOL_07_CONFIGURATION_05 -> q2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_225_SYMBOL_09_CONFIGURATION_01 -> q3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_018_SYMBOL_01_CONFIGURATION_18 -> r
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_070_SYMBOL_03_CONFIGURATION_14 -> r0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_122_SYMBOL_05_CONFIGURATION_10 -> r1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_174_SYMBOL_07_CONFIGURATION_06 -> r2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_226_SYMBOL_09_CONFIGURATION_02 -> r3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_019_SYMBOL_01_CONFIGURATION_19 -> s
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_071_SYMBOL_03_CONFIGURATION_15 -> s0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_123_SYMBOL_05_CONFIGURATION_11 -> s1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_175_SYMBOL_07_CONFIGURATION_07 -> s2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_227_SYMBOL_09_CONFIGURATION_03 -> s3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_020_SYMBOL_01_CONFIGURATION_20 -> t
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_072_SYMBOL_03_CONFIGURATION_16 -> t0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_124_SYMBOL_05_CONFIGURATION_12 -> t1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_176_SYMBOL_07_CONFIGURATION_08 -> t2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_228_SYMBOL_09_CONFIGURATION_04 -> t3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_021_SYMBOL_01_CONFIGURATION_21 -> u
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_073_SYMBOL_03_CONFIGURATION_17 -> u0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_125_SYMBOL_05_CONFIGURATION_13 -> u1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_177_SYMBOL_07_CONFIGURATION_09 -> u2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_229_SYMBOL_09_CONFIGURATION_05 -> u3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_022_SYMBOL_01_CONFIGURATION_22 -> v
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_074_SYMBOL_03_CONFIGURATION_18 -> v0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_126_SYMBOL_05_CONFIGURATION_14 -> v1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_178_SYMBOL_07_CONFIGURATION_10 -> v2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_230_SYMBOL_09_CONFIGURATION_06 -> v3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_023_SYMBOL_01_CONFIGURATION_23 -> w
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_075_SYMBOL_03_CONFIGURATION_19 -> w0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_127_SYMBOL_05_CONFIGURATION_15 -> w1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_179_SYMBOL_07_CONFIGURATION_11 -> w2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_231_SYMBOL_09_CONFIGURATION_07 -> w3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_024_SYMBOL_01_CONFIGURATION_24 -> x
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_076_SYMBOL_03_CONFIGURATION_20 -> x0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_128_SYMBOL_05_CONFIGURATION_16 -> x1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_180_SYMBOL_07_CONFIGURATION_12 -> x2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_232_SYMBOL_09_CONFIGURATION_08 -> x3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_025_SYMBOL_01_CONFIGURATION_25 -> y
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_077_SYMBOL_03_CONFIGURATION_21 -> y0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_129_SYMBOL_05_CONFIGURATION_17 -> y1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_181_SYMBOL_07_CONFIGURATION_13 -> y2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_233_SYMBOL_09_CONFIGURATION_09 -> y3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_026_SYMBOL_01_CONFIGURATION_26 -> z
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_078_SYMBOL_03_CONFIGURATION_22 -> z0
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_130_SYMBOL_05_CONFIGURATION_18 -> z1
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_182_SYMBOL_07_CONFIGURATION_14 -> z2
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination COMBINATION_234_SYMBOL_09_CONFIGURATION_10 -> z3
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    1:1:void <clinit>():40:40 -> <clinit>
+    2:2:void <clinit>():48:48 -> <clinit>
+    3:3:void <clinit>():56:56 -> <clinit>
+    4:4:void <clinit>():64:64 -> <clinit>
+    5:5:void <clinit>():72:72 -> <clinit>
+    6:6:void <clinit>():80:80 -> <clinit>
+    7:7:void <clinit>():88:88 -> <clinit>
+    8:8:void <clinit>():96:96 -> <clinit>
+    9:9:void <clinit>():104:104 -> <clinit>
+    10:10:void <clinit>():112:112 -> <clinit>
+    11:11:void <clinit>():120:120 -> <clinit>
+    12:12:void <clinit>():128:128 -> <clinit>
+    13:13:void <clinit>():136:136 -> <clinit>
+    14:14:void <clinit>():144:144 -> <clinit>
+    15:15:void <clinit>():152:152 -> <clinit>
+    16:16:void <clinit>():160:160 -> <clinit>
+    17:17:void <clinit>():168:168 -> <clinit>
+    18:18:void <clinit>():176:176 -> <clinit>
+    19:19:void <clinit>():184:184 -> <clinit>
+    20:20:void <clinit>():192:192 -> <clinit>
+    21:21:void <clinit>():200:200 -> <clinit>
+    22:22:void <clinit>():208:208 -> <clinit>
+    23:23:void <clinit>():216:216 -> <clinit>
+    24:24:void <clinit>():224:224 -> <clinit>
+    25:25:void <clinit>():232:232 -> <clinit>
+    26:26:void <clinit>():240:240 -> <clinit>
+    27:27:void <clinit>():248:248 -> <clinit>
+    28:28:void <clinit>():256:256 -> <clinit>
+    29:29:void <clinit>():264:264 -> <clinit>
+    30:30:void <clinit>():272:272 -> <clinit>
+    31:31:void <clinit>():280:280 -> <clinit>
+    32:32:void <clinit>():288:288 -> <clinit>
+    33:33:void <clinit>():296:296 -> <clinit>
+    34:34:void <clinit>():304:304 -> <clinit>
+    35:35:void <clinit>():312:312 -> <clinit>
+    36:36:void <clinit>():320:320 -> <clinit>
+    37:37:void <clinit>():328:328 -> <clinit>
+    38:38:void <clinit>():336:336 -> <clinit>
+    39:39:void <clinit>():344:344 -> <clinit>
+    40:40:void <clinit>():351:351 -> <clinit>
+    41:41:void <clinit>():359:359 -> <clinit>
+    42:42:void <clinit>():367:367 -> <clinit>
+    43:43:void <clinit>():375:375 -> <clinit>
+    44:44:void <clinit>():383:383 -> <clinit>
+    45:45:void <clinit>():391:391 -> <clinit>
+    46:46:void <clinit>():399:399 -> <clinit>
+    47:47:void <clinit>():407:407 -> <clinit>
+    48:48:void <clinit>():415:415 -> <clinit>
+    49:49:void <clinit>():423:423 -> <clinit>
+    50:50:void <clinit>():430:430 -> <clinit>
+    51:51:void <clinit>():438:438 -> <clinit>
+    52:52:void <clinit>():446:446 -> <clinit>
+    53:53:void <clinit>():454:454 -> <clinit>
+    54:54:void <clinit>():462:462 -> <clinit>
+    55:55:void <clinit>():470:470 -> <clinit>
+    56:56:void <clinit>():478:478 -> <clinit>
+    57:57:void <clinit>():486:486 -> <clinit>
+    58:58:void <clinit>():494:494 -> <clinit>
+    59:59:void <clinit>():502:502 -> <clinit>
+    60:60:void <clinit>():510:510 -> <clinit>
+    61:61:void <clinit>():518:518 -> <clinit>
+    62:62:void <clinit>():526:526 -> <clinit>
+    63:63:void <clinit>():534:534 -> <clinit>
+    64:64:void <clinit>():542:542 -> <clinit>
+    65:65:void <clinit>():550:550 -> <clinit>
+    66:66:void <clinit>():558:558 -> <clinit>
+    67:67:void <clinit>():566:566 -> <clinit>
+    68:68:void <clinit>():574:574 -> <clinit>
+    69:69:void <clinit>():582:582 -> <clinit>
+    70:70:void <clinit>():590:590 -> <clinit>
+    71:71:void <clinit>():598:598 -> <clinit>
+    72:72:void <clinit>():606:606 -> <clinit>
+    73:73:void <clinit>():614:614 -> <clinit>
+    74:74:void <clinit>():622:622 -> <clinit>
+    75:75:void <clinit>():630:630 -> <clinit>
+    76:76:void <clinit>():638:638 -> <clinit>
+    77:77:void <clinit>():646:646 -> <clinit>
+    78:78:void <clinit>():654:654 -> <clinit>
+    79:79:void <clinit>():662:662 -> <clinit>
+    80:80:void <clinit>():670:670 -> <clinit>
+    81:81:void <clinit>():678:678 -> <clinit>
+    82:82:void <clinit>():686:686 -> <clinit>
+    83:83:void <clinit>():694:694 -> <clinit>
+    84:84:void <clinit>():702:702 -> <clinit>
+    85:85:void <clinit>():710:710 -> <clinit>
+    86:86:void <clinit>():718:718 -> <clinit>
+    87:87:void <clinit>():726:726 -> <clinit>
+    88:88:void <clinit>():734:734 -> <clinit>
+    89:89:void <clinit>():742:742 -> <clinit>
+    90:90:void <clinit>():749:749 -> <clinit>
+    91:91:void <clinit>():757:757 -> <clinit>
+    92:92:void <clinit>():765:765 -> <clinit>
+    93:93:void <clinit>():773:773 -> <clinit>
+    94:94:void <clinit>():781:781 -> <clinit>
+    95:95:void <clinit>():789:789 -> <clinit>
+    96:96:void <clinit>():797:797 -> <clinit>
+    97:97:void <clinit>():805:805 -> <clinit>
+    98:98:void <clinit>():813:813 -> <clinit>
+    99:99:void <clinit>():821:821 -> <clinit>
+    100:100:void <clinit>():829:829 -> <clinit>
+    101:101:void <clinit>():837:837 -> <clinit>
+    102:102:void <clinit>():845:845 -> <clinit>
+    103:103:void <clinit>():853:853 -> <clinit>
+    104:104:void <clinit>():861:861 -> <clinit>
+    105:105:void <clinit>():869:869 -> <clinit>
+    106:106:void <clinit>():877:877 -> <clinit>
+    107:107:void <clinit>():885:885 -> <clinit>
+    108:108:void <clinit>():893:893 -> <clinit>
+    109:109:void <clinit>():901:901 -> <clinit>
+    110:110:void <clinit>():909:909 -> <clinit>
+    111:111:void <clinit>():917:917 -> <clinit>
+    112:112:void <clinit>():925:925 -> <clinit>
+    113:113:void <clinit>():933:933 -> <clinit>
+    114:114:void <clinit>():941:941 -> <clinit>
+    115:115:void <clinit>():949:949 -> <clinit>
+    116:116:void <clinit>():957:957 -> <clinit>
+    117:117:void <clinit>():965:965 -> <clinit>
+    118:118:void <clinit>():973:973 -> <clinit>
+    119:119:void <clinit>():981:981 -> <clinit>
+    120:120:void <clinit>():989:989 -> <clinit>
+    121:121:void <clinit>():997:997 -> <clinit>
+    122:122:void <clinit>():1005:1005 -> <clinit>
+    123:123:void <clinit>():1013:1013 -> <clinit>
+    124:124:void <clinit>():1021:1021 -> <clinit>
+    125:125:void <clinit>():1029:1029 -> <clinit>
+    126:126:void <clinit>():1037:1037 -> <clinit>
+    127:127:void <clinit>():1045:1045 -> <clinit>
+    128:128:void <clinit>():1053:1053 -> <clinit>
+    129:129:void <clinit>():1061:1061 -> <clinit>
+    130:130:void <clinit>():1069:1069 -> <clinit>
+    131:131:void <clinit>():1077:1077 -> <clinit>
+    132:132:void <clinit>():1085:1085 -> <clinit>
+    133:133:void <clinit>():1093:1093 -> <clinit>
+    134:134:void <clinit>():1101:1101 -> <clinit>
+    135:135:void <clinit>():1109:1109 -> <clinit>
+    136:136:void <clinit>():1117:1117 -> <clinit>
+    137:137:void <clinit>():1125:1125 -> <clinit>
+    138:138:void <clinit>():1133:1133 -> <clinit>
+    139:139:void <clinit>():1141:1141 -> <clinit>
+    140:140:void <clinit>():1149:1149 -> <clinit>
+    141:141:void <clinit>():1157:1157 -> <clinit>
+    142:142:void <clinit>():1165:1165 -> <clinit>
+    143:143:void <clinit>():1173:1173 -> <clinit>
+    144:144:void <clinit>():1181:1181 -> <clinit>
+    145:145:void <clinit>():1189:1189 -> <clinit>
+    146:146:void <clinit>():1197:1197 -> <clinit>
+    147:147:void <clinit>():1205:1205 -> <clinit>
+    148:148:void <clinit>():1213:1213 -> <clinit>
+    149:149:void <clinit>():1221:1221 -> <clinit>
+    150:150:void <clinit>():1229:1229 -> <clinit>
+    151:151:void <clinit>():1237:1237 -> <clinit>
+    152:152:void <clinit>():1245:1245 -> <clinit>
+    153:153:void <clinit>():1253:1253 -> <clinit>
+    154:154:void <clinit>():1261:1261 -> <clinit>
+    155:155:void <clinit>():1269:1269 -> <clinit>
+    156:156:void <clinit>():1277:1277 -> <clinit>
+    157:157:void <clinit>():1285:1285 -> <clinit>
+    158:158:void <clinit>():1293:1293 -> <clinit>
+    159:159:void <clinit>():1301:1301 -> <clinit>
+    160:160:void <clinit>():1309:1309 -> <clinit>
+    161:161:void <clinit>():1317:1317 -> <clinit>
+    162:162:void <clinit>():1325:1325 -> <clinit>
+    163:163:void <clinit>():1333:1333 -> <clinit>
+    164:164:void <clinit>():1341:1341 -> <clinit>
+    165:165:void <clinit>():1349:1349 -> <clinit>
+    166:166:void <clinit>():1357:1357 -> <clinit>
+    167:167:void <clinit>():1365:1365 -> <clinit>
+    168:168:void <clinit>():1373:1373 -> <clinit>
+    169:169:void <clinit>():1381:1381 -> <clinit>
+    170:170:void <clinit>():1389:1389 -> <clinit>
+    171:171:void <clinit>():1397:1397 -> <clinit>
+    172:172:void <clinit>():1405:1405 -> <clinit>
+    173:173:void <clinit>():1413:1413 -> <clinit>
+    174:174:void <clinit>():1421:1421 -> <clinit>
+    175:175:void <clinit>():1429:1429 -> <clinit>
+    176:176:void <clinit>():1437:1437 -> <clinit>
+    177:177:void <clinit>():1445:1445 -> <clinit>
+    178:178:void <clinit>():1453:1453 -> <clinit>
+    179:179:void <clinit>():1461:1461 -> <clinit>
+    180:180:void <clinit>():1469:1469 -> <clinit>
+    181:181:void <clinit>():1477:1477 -> <clinit>
+    182:182:void <clinit>():1485:1485 -> <clinit>
+    183:183:void <clinit>():1493:1493 -> <clinit>
+    184:184:void <clinit>():1501:1501 -> <clinit>
+    185:185:void <clinit>():1509:1509 -> <clinit>
+    186:186:void <clinit>():1517:1517 -> <clinit>
+    187:187:void <clinit>():1525:1525 -> <clinit>
+    188:188:void <clinit>():1533:1533 -> <clinit>
+    189:189:void <clinit>():1541:1541 -> <clinit>
+    190:190:void <clinit>():1549:1549 -> <clinit>
+    191:191:void <clinit>():1557:1557 -> <clinit>
+    192:192:void <clinit>():1565:1565 -> <clinit>
+    193:193:void <clinit>():1573:1573 -> <clinit>
+    194:194:void <clinit>():1581:1581 -> <clinit>
+    195:195:void <clinit>():1589:1589 -> <clinit>
+    196:196:void <clinit>():1597:1597 -> <clinit>
+    197:197:void <clinit>():1605:1605 -> <clinit>
+    198:198:void <clinit>():1613:1613 -> <clinit>
+    199:199:void <clinit>():1621:1621 -> <clinit>
+    200:200:void <clinit>():1629:1629 -> <clinit>
+    201:201:void <clinit>():1637:1637 -> <clinit>
+    202:202:void <clinit>():1645:1645 -> <clinit>
+    203:203:void <clinit>():1653:1653 -> <clinit>
+    204:204:void <clinit>():1661:1661 -> <clinit>
+    205:205:void <clinit>():1669:1669 -> <clinit>
+    206:206:void <clinit>():1677:1677 -> <clinit>
+    207:207:void <clinit>():1685:1685 -> <clinit>
+    208:208:void <clinit>():1693:1693 -> <clinit>
+    209:209:void <clinit>():1701:1701 -> <clinit>
+    210:210:void <clinit>():1709:1709 -> <clinit>
+    211:211:void <clinit>():1717:1717 -> <clinit>
+    212:212:void <clinit>():1725:1725 -> <clinit>
+    213:213:void <clinit>():1733:1733 -> <clinit>
+    214:214:void <clinit>():1741:1741 -> <clinit>
+    215:215:void <clinit>():1749:1749 -> <clinit>
+    216:216:void <clinit>():1757:1757 -> <clinit>
+    217:217:void <clinit>():1765:1765 -> <clinit>
+    218:218:void <clinit>():1773:1773 -> <clinit>
+    219:219:void <clinit>():1781:1781 -> <clinit>
+    220:220:void <clinit>():1789:1789 -> <clinit>
+    221:221:void <clinit>():1797:1797 -> <clinit>
+    222:222:void <clinit>():1805:1805 -> <clinit>
+    223:223:void <clinit>():1813:1813 -> <clinit>
+    224:224:void <clinit>():1821:1821 -> <clinit>
+    225:225:void <clinit>():1829:1829 -> <clinit>
+    226:226:void <clinit>():1837:1837 -> <clinit>
+    227:227:void <clinit>():1845:1845 -> <clinit>
+    228:228:void <clinit>():1853:1853 -> <clinit>
+    229:229:void <clinit>():1861:1861 -> <clinit>
+    230:230:void <clinit>():1869:1869 -> <clinit>
+    231:231:void <clinit>():1877:1877 -> <clinit>
+    232:232:void <clinit>():1885:1885 -> <clinit>
+    233:233:void <clinit>():1893:1893 -> <clinit>
+    234:234:void <clinit>():1901:1901 -> <clinit>
+    235:235:void <clinit>():1909:1909 -> <clinit>
+    236:236:void <clinit>():1917:1917 -> <clinit>
+    237:237:void <clinit>():1925:1925 -> <clinit>
+    238:238:void <clinit>():1933:1933 -> <clinit>
+    239:239:void <clinit>():1941:1941 -> <clinit>
+    240:240:void <clinit>():1949:1949 -> <clinit>
+    241:241:void <clinit>():1957:1957 -> <clinit>
+    242:242:void <clinit>():1965:1965 -> <clinit>
+    243:243:void <clinit>():1973:1973 -> <clinit>
+    244:244:void <clinit>():1981:1981 -> <clinit>
+    245:245:void <clinit>():1989:1989 -> <clinit>
+    246:246:void <clinit>():1997:1997 -> <clinit>
+    247:247:void <clinit>():2005:2005 -> <clinit>
+    248:248:void <clinit>():2013:2013 -> <clinit>
+    249:249:void <clinit>():2021:2021 -> <clinit>
+    250:250:void <clinit>():2029:2029 -> <clinit>
+    251:251:void <clinit>():2037:2037 -> <clinit>
+    252:252:void <clinit>():2045:2045 -> <clinit>
+eu.veldsoft.tuty.fruty.slot.R$drawable -> a.h:
+eu.veldsoft.tuty.fruty.slot.R$id -> a.i:
+eu.veldsoft.tuty.fruty.slot.R$layout -> a.j:
+eu.veldsoft.tuty.fruty.slot.R$menu -> a.k:
+eu.veldsoft.tuty.fruty.slot.R$raw -> a.l:
+eu.veldsoft.tuty.fruty.slot.R$string -> a.m:
+eu.veldsoft.tuty.fruty.slot.ReelSymbol -> a.n:
+# {"id":"sourceFile","fileName":"ReelSymbol.java"}
+eu.veldsoft.tuty.fruty.slot.Reels -> a.o:
+# {"id":"sourceFile","fileName":"Reels.java"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol[][] visibleCombination -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"[[La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelsDistribution distribution -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/p;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol SYMBOL_01 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol SYMBOL_02 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol SYMBOL_03 -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol SYMBOL_04 -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol SYMBOL_05 -> g
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol SYMBOL_06 -> h
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol SYMBOL_07 -> i
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol SYMBOL_08 -> j
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol SYMBOL_09 -> k
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol SPECIAL_SYMBOL_01 -> l
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol[] SPECIAL_SYMBOLS -> m
+      # {"id":"com.android.tools.r8.residualsignature","signature":"[La/n;"}
+    1:2:void <clinit>():39:39 -> <clinit>
+    3:5:void eu.veldsoft.tuty.fruty.slot.ReelSymbol.<init>(java.lang.String):51:51 -> <clinit>
+    3:5:void <clinit>():39 -> <clinit>
+    6:7:void <clinit>():39:39 -> <clinit>
+    8:9:void <clinit>():44:44 -> <clinit>
+    10:12:void eu.veldsoft.tuty.fruty.slot.ReelSymbol.<init>(java.lang.String):51:51 -> <clinit>
+    10:12:void <clinit>():44 -> <clinit>
+    13:14:void <clinit>():44:44 -> <clinit>
+    15:16:void <clinit>():49:49 -> <clinit>
+    17:19:void eu.veldsoft.tuty.fruty.slot.ReelSymbol.<init>(java.lang.String):51:51 -> <clinit>
+    17:19:void <clinit>():49 -> <clinit>
+    20:21:void <clinit>():49:49 -> <clinit>
+    22:23:void <clinit>():54:54 -> <clinit>
+    24:26:void eu.veldsoft.tuty.fruty.slot.ReelSymbol.<init>(java.lang.String):51:51 -> <clinit>
+    24:26:void <clinit>():54 -> <clinit>
+    27:28:void <clinit>():54:54 -> <clinit>
+    29:30:void <clinit>():59:59 -> <clinit>
+    31:33:void eu.veldsoft.tuty.fruty.slot.ReelSymbol.<init>(java.lang.String):51:51 -> <clinit>
+    31:33:void <clinit>():59 -> <clinit>
+    34:35:void <clinit>():59:59 -> <clinit>
+    36:37:void <clinit>():64:64 -> <clinit>
+    38:40:void eu.veldsoft.tuty.fruty.slot.ReelSymbol.<init>(java.lang.String):51:51 -> <clinit>
+    38:40:void <clinit>():64 -> <clinit>
+    41:42:void <clinit>():64:64 -> <clinit>
+    43:44:void <clinit>():69:69 -> <clinit>
+    45:47:void eu.veldsoft.tuty.fruty.slot.ReelSymbol.<init>(java.lang.String):51:51 -> <clinit>
+    45:47:void <clinit>():69 -> <clinit>
+    48:49:void <clinit>():69:69 -> <clinit>
+    50:51:void <clinit>():74:74 -> <clinit>
+    52:54:void eu.veldsoft.tuty.fruty.slot.ReelSymbol.<init>(java.lang.String):51:51 -> <clinit>
+    52:54:void <clinit>():74 -> <clinit>
+    55:56:void <clinit>():74:74 -> <clinit>
+    57:58:void <clinit>():79:79 -> <clinit>
+    59:61:void eu.veldsoft.tuty.fruty.slot.ReelSymbol.<init>(java.lang.String):51:51 -> <clinit>
+    59:61:void <clinit>():79 -> <clinit>
+    62:63:void <clinit>():79:79 -> <clinit>
+    64:65:void <clinit>():84:84 -> <clinit>
+    66:68:void eu.veldsoft.tuty.fruty.slot.ReelSymbol.<init>(java.lang.String):51:51 -> <clinit>
+    66:68:void <clinit>():84 -> <clinit>
+    69:70:void <clinit>():84:84 -> <clinit>
+    71:77:void <clinit>():107:107 -> <clinit>
+eu.veldsoft.tuty.fruty.slot.ReelsDistribution -> a.p:
+# {"id":"sourceFile","fileName":"ReelsDistribution.java"}
+    eu.veldsoft.tuty.fruty.slot.ReelSymbol[][] DISTRIBUTION -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"[[La/n;"}
+    1:1:void <clinit>():44:44 -> <clinit>
+    6:20:void selectRandomSymbols(eu.veldsoft.tuty.fruty.slot.ReelSymbol[][]):495:495 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"([[La/n;)V"}
+    21:24:void selectRandomSymbols(eu.veldsoft.tuty.fruty.slot.ReelSymbol[][]):500:500 -> a
+    25:37:void selectRandomSymbols(eu.veldsoft.tuty.fruty.slot.ReelSymbol[][]):501:501 -> a
+    38:48:void selectRandomSymbols(eu.veldsoft.tuty.fruty.slot.ReelSymbol[][]):503:503 -> a
+    49:63:void selectRandomSymbols(eu.veldsoft.tuty.fruty.slot.ReelSymbol[][]):505:505 -> a
+eu.veldsoft.tuty.fruty.slot.SlotActivity -> eu.veldsoft.tuty.fruty.slot.SlotActivity:
+# {"id":"sourceFile","fileName":"SlotActivity.java"}
+    android.media.SoundPool sounds -> a
+    int rollSoundId -> b
+    int winSoundId -> c
+    eu.veldsoft.tuty.fruty.slot.GameScreen gameScreen -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/c;"}
+    android.widget.ImageView[][] symbols -> e
+    java.util.Map mapping -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/HashMap;"}
+    int $r8$clinit -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void <init>():20:20 -> <init>
+    5:7:void <init>():21:21 -> <init>
+    8:9:void <init>():23:23 -> <init>
+    10:11:void <init>():25:25 -> <init>
+    12:13:void <init>():30:30 -> <init>
+    14:16:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():85:85 -> <init>
+    14:16:void <init>():30 -> <init>
+    17:18:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():41:41 -> <init>
+    17:18:void <init>():30 -> <init>
+    19:20:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():46:46 -> <init>
+    19:20:void <init>():30 -> <init>
+    21:22:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():51:51 -> <init>
+    21:22:void <init>():30 -> <init>
+    23:24:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():61:61 -> <init>
+    23:24:void <init>():30 -> <init>
+    25:26:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():66:66 -> <init>
+    25:26:void <init>():30 -> <init>
+    27:28:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():71:71 -> <init>
+    27:28:void <init>():30 -> <init>
+    29:30:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():86:86 -> <init>
+    29:30:void <init>():30 -> <init>
+    31:34:void eu.veldsoft.tuty.fruty.slot.Reels.<init>():140:140 -> <init>
+    31:34:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():86 -> <init>
+    31:34:void <init>():30 -> <init>
+    35:54:void eu.veldsoft.tuty.fruty.slot.Reels.<init>():124:124 -> <init>
+    35:54:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():86 -> <init>
+    35:54:void <init>():30 -> <init>
+    55:56:void eu.veldsoft.tuty.fruty.slot.Reels.<init>():129:129 -> <init>
+    55:56:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():86 -> <init>
+    55:56:void <init>():30 -> <init>
+    57:59:void eu.veldsoft.tuty.fruty.slot.ReelsDistribution.<init>():34:34 -> <init>
+    57:59:void eu.veldsoft.tuty.fruty.slot.Reels.<init>():129 -> <init>
+    57:59:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():86 -> <init>
+    57:59:void <init>():30 -> <init>
+    60:61:void eu.veldsoft.tuty.fruty.slot.Reels.<init>():129:129 -> <init>
+    60:61:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():86 -> <init>
+    60:61:void <init>():30 -> <init>
+    62:64:void eu.veldsoft.tuty.fruty.slot.Reels.<init>():141:141 -> <init>
+    62:64:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():86 -> <init>
+    62:64:void <init>():30 -> <init>
+    65:66:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():86:86 -> <init>
+    65:66:void <init>():30 -> <init>
+    67:68:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():87:87 -> <init>
+    67:68:void <init>():30 -> <init>
+    69:73:void eu.veldsoft.tuty.fruty.slot.LinesSelector.<init>():741:741 -> <init>
+    69:73:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():87 -> <init>
+    69:73:void <init>():30 -> <init>
+    74:78:void eu.veldsoft.tuty.fruty.slot.LinesSelector.<init>():724:724 -> <init>
+    74:78:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():87 -> <init>
+    74:78:void <init>():30 -> <init>
+    79:83:void eu.veldsoft.tuty.fruty.slot.LinesSelector.setAllSeleceted():736:736 -> <init>
+    79:83:void eu.veldsoft.tuty.fruty.slot.LinesSelector.<init>():742 -> <init>
+    79:83:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():87 -> <init>
+    79:83:void <init>():30 -> <init>
+    84:88:void eu.veldsoft.tuty.fruty.slot.LinesSelector.setAllSeleceted():737:737 -> <init>
+    84:88:void eu.veldsoft.tuty.fruty.slot.LinesSelector.<init>():742 -> <init>
+    84:88:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():87 -> <init>
+    84:88:void <init>():30 -> <init>
+    89:90:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():87:87 -> <init>
+    89:90:void <init>():30 -> <init>
+    91:92:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():88:88 -> <init>
+    91:92:void <init>():30 -> <init>
+    93:97:void eu.veldsoft.tuty.fruty.slot.Bet.<init>():56:56 -> <init>
+    93:97:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():88 -> <init>
+    93:97:void <init>():30 -> <init>
+    98:99:void eu.veldsoft.tuty.fruty.slot.Bet.<init>():57:57 -> <init>
+    98:99:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():88 -> <init>
+    98:99:void <init>():30 -> <init>
+    100:101:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():88:88 -> <init>
+    100:101:void <init>():30 -> <init>
+    102:103:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():89:89 -> <init>
+    102:103:void <init>():30 -> <init>
+    104:106:void eu.veldsoft.tuty.fruty.slot.LinesSelected.<init>(eu.veldsoft.tuty.fruty.slot.LinesSelector):55:55 -> <init>
+    104:106:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():89 -> <init>
+    104:106:void <init>():30 -> <init>
+    107:108:void eu.veldsoft.tuty.fruty.slot.LinesSelected.<init>(eu.veldsoft.tuty.fruty.slot.LinesSelector):56:56 -> <init>
+    107:108:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():89 -> <init>
+    107:108:void <init>():30 -> <init>
+    109:110:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():90:90 -> <init>
+    109:110:void <init>():30 -> <init>
+    111:113:void eu.veldsoft.tuty.fruty.slot.TotalBet.<init>(eu.veldsoft.tuty.fruty.slot.Bet,eu.veldsoft.tuty.fruty.slot.LinesSelected):67:67 -> <init>
+    111:113:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():90 -> <init>
+    111:113:void <init>():30 -> <init>
+    114:115:void eu.veldsoft.tuty.fruty.slot.TotalBet.<init>(eu.veldsoft.tuty.fruty.slot.Bet,eu.veldsoft.tuty.fruty.slot.LinesSelected):68:68 -> <init>
+    114:115:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():90 -> <init>
+    114:115:void <init>():30 -> <init>
+    116:117:void eu.veldsoft.tuty.fruty.slot.TotalBet.<init>(eu.veldsoft.tuty.fruty.slot.Bet,eu.veldsoft.tuty.fruty.slot.LinesSelected):69:69 -> <init>
+    116:117:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():90 -> <init>
+    116:117:void <init>():30 -> <init>
+    118:120:void eu.veldsoft.tuty.fruty.slot.TotalBet.<init>(eu.veldsoft.tuty.fruty.slot.Bet,eu.veldsoft.tuty.fruty.slot.LinesSelected):70:70 -> <init>
+    118:120:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():90 -> <init>
+    118:120:void <init>():30 -> <init>
+    121:122:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():90:90 -> <init>
+    121:122:void <init>():30 -> <init>
+    123:129:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():91:91 -> <init>
+    123:129:void <init>():30 -> <init>
+    130:131:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():92:92 -> <init>
+    130:131:void <init>():30 -> <init>
+    132:136:void eu.veldsoft.tuty.fruty.slot.Credit.<init>():35:35 -> <init>
+    132:136:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():92 -> <init>
+    132:136:void <init>():30 -> <init>
+    137:138:void eu.veldsoft.tuty.fruty.slot.Credit.<init>():40:40 -> <init>
+    137:138:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():92 -> <init>
+    137:138:void <init>():30 -> <init>
+    139:140:void eu.veldsoft.tuty.fruty.slot.GameScreen.<init>():92:92 -> <init>
+    139:140:void <init>():30 -> <init>
+    141:142:void <init>():30:30 -> <init>
+    143:158:void <init>():32:32 -> <init>
+    159:166:void <init>():34:34 -> <init>
+    1:15:void update():37:37 -> a
+    16:19:eu.veldsoft.tuty.fruty.slot.Bet eu.veldsoft.tuty.fruty.slot.GameScreen.getBet():155:155 -> a
+    16:19:void update():38 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    20:21:long eu.veldsoft.tuty.fruty.slot.Bet.getValue():72:72 -> a
+    20:21:void update():38 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    22:28:void update():38:38 -> a
+    29:31:void update():37:37 -> a
+    32:44:void update():39:39 -> a
+    45:46:eu.veldsoft.tuty.fruty.slot.LinesSelector eu.veldsoft.tuty.fruty.slot.GameScreen.getSelector():170:170 -> a
+    45:46:void update():40 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    47:57:void update():40:40 -> a
+    58:60:void update():39:39 -> a
+    61:73:void update():41:41 -> a
+    74:75:eu.veldsoft.tuty.fruty.slot.Bet eu.veldsoft.tuty.fruty.slot.GameScreen.getBet():155:155 -> a
+    74:75:void update():42 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    76:77:long eu.veldsoft.tuty.fruty.slot.Bet.getValue():72:72 -> a
+    76:77:void update():42 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    78:79:eu.veldsoft.tuty.fruty.slot.LinesSelector eu.veldsoft.tuty.fruty.slot.GameScreen.getSelector():170:170 -> a
+    78:79:void update():42 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    80:92:void update():43:43 -> a
+    93:95:void update():41:41 -> a
+    96:108:void update():44:44 -> a
+    109:110:eu.veldsoft.tuty.fruty.slot.WinnerPaid eu.veldsoft.tuty.fruty.slot.GameScreen.getPaid():120:120 -> a
+    109:110:void update():45 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    111:112:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.getValue():171:171 -> a
+    111:112:void update():45 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    113:119:void update():45:45 -> a
+    120:122:void update():44:44 -> a
+    123:135:void update():46:46 -> a
+    136:137:eu.veldsoft.tuty.fruty.slot.Credit eu.veldsoft.tuty.fruty.slot.GameScreen.getCredit():128:128 -> a
+    136:137:void update():47 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    138:139:long eu.veldsoft.tuty.fruty.slot.Credit.getValue():54:54 -> a
+    138:139:void update():47 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    140:146:void update():47:47 -> a
+    147:149:void update():46:46 -> a
+    150:151:eu.veldsoft.tuty.fruty.slot.Reels eu.veldsoft.tuty.fruty.slot.GameScreen.getReels():96:96 -> a
+    150:151:void update():49 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    152:155:void update():50:50 -> a
+    156:179:eu.veldsoft.tuty.fruty.slot.ReelSymbol[][] eu.veldsoft.tuty.fruty.slot.Reels.getVisibleCombination():156:156 -> a
+    156:179:void update():50 -> a
+    180:196:eu.veldsoft.tuty.fruty.slot.ReelSymbol[][] eu.veldsoft.tuty.fruty.slot.Reels.getVisibleCombination():160:160 -> a
+    180:196:void update():50 -> a
+    197:202:void update():51:51 -> a
+    203:207:void update():52:52 -> a
+    208:223:void update():53:53 -> a
+    224:227:void update():56:56 -> a
+    228:232:void update():57:57 -> a
+    233:237:void update():58:58 -> a
+    238:262:void update():61:61 -> a
+    263:264:eu.veldsoft.tuty.fruty.slot.WinnerPaid eu.veldsoft.tuty.fruty.slot.GameScreen.getPaid():120:120 -> a
+    263:264:void update():64 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    265:267:char[][] eu.veldsoft.tuty.fruty.slot.WinnerPaid.getWinsMask():195:195 -> a
+    265:267:void update():64 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    268:271:void update():65:65 -> a
+    272:276:void update():66:66 -> a
+    277:282:void update():67:67 -> a
+    283:298:void update():68:68 -> a
+    1:2:void onCreate(android.os.Bundle):76:77 -> onCreate
+    3:5:void onCreate(android.os.Bundle):79:81 -> onCreate
+    6:15:void onCreate(android.os.Bundle):83:92 -> onCreate
+    16:30:void onCreate(android.os.Bundle):94:108 -> onCreate
+    31:32:void onCreate(android.os.Bundle):110:111 -> onCreate
+    33:33:void onCreate(android.os.Bundle):110:110 -> onCreate
+    34:40:void onCreate(android.os.Bundle):112:118 -> onCreate
+    41:42:void onCreate(android.os.Bundle):120:121 -> onCreate
+    43:43:void onCreate(android.os.Bundle):135:135 -> onCreate
+    44:44:void eu.veldsoft.tuty.fruty.slot.SlotActivity$2.<init>(eu.veldsoft.tuty.fruty.slot.SlotActivity):136:136 -> onCreate
+    44:44:void onCreate(android.os.Bundle):135 -> onCreate
+    45:45:void onCreate(android.os.Bundle):136:136 -> onCreate
+    46:47:void onCreate(android.os.Bundle):145:146 -> onCreate
+    48:49:void onCreate(android.os.Bundle):154:155 -> onCreate
+    50:51:void onCreate(android.os.Bundle):163:164 -> onCreate
+    52:52:void onCreate(android.os.Bundle):172:172 -> onCreate
+    1:4:boolean onCreateOptionsMenu(android.view.Menu):185:185 -> onCreateOptionsMenu
+    5:9:boolean onCreateOptionsMenu(android.view.Menu):186:186 -> onCreateOptionsMenu
+    10:14:boolean onCreateOptionsMenu(android.view.Menu):187:187 -> onCreateOptionsMenu
+    1:3:void onDestroy():177:177 -> onDestroy
+    4:9:void onDestroy():179:179 -> onDestroy
+    10:12:void onDestroy():180:180 -> onDestroy
+    1:8:boolean onOptionsItemSelected(android.view.MenuItem):192:192 -> onOptionsItemSelected
+    9:12:void eu.veldsoft.tuty.fruty.slot.GameScreen.addCredit(long):223:223 -> onOptionsItemSelected
+    9:12:boolean onOptionsItemSelected(android.view.MenuItem):193 -> onOptionsItemSelected
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    13:17:void eu.veldsoft.tuty.fruty.slot.Credit.increment(long):87:87 -> onOptionsItemSelected
+    13:17:void eu.veldsoft.tuty.fruty.slot.GameScreen.addCredit(long):223 -> onOptionsItemSelected
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    13:17:boolean onOptionsItemSelected(android.view.MenuItem):193 -> onOptionsItemSelected
+    18:19:void eu.veldsoft.tuty.fruty.slot.Credit.increment(long):87:87 -> onOptionsItemSelected
+    18:19:void eu.veldsoft.tuty.fruty.slot.GameScreen.addCredit(long):223 -> onOptionsItemSelected
+    18:19:boolean onOptionsItemSelected(android.view.MenuItem):193 -> onOptionsItemSelected
+    20:22:boolean onOptionsItemSelected(android.view.MenuItem):194:194 -> onOptionsItemSelected
+    23:32:boolean onOptionsItemSelected(android.view.MenuItem):195:195 -> onOptionsItemSelected
+    33:40:boolean onOptionsItemSelected(android.view.MenuItem):198:198 -> onOptionsItemSelected
+    41:50:boolean onOptionsItemSelected(android.view.MenuItem):199:199 -> onOptionsItemSelected
+    51:58:boolean onOptionsItemSelected(android.view.MenuItem):202:202 -> onOptionsItemSelected
+    59:70:boolean onOptionsItemSelected(android.view.MenuItem):203:203 -> onOptionsItemSelected
+eu.veldsoft.tuty.fruty.slot.SlotActivity$1 -> a.q:
+# {"id":"sourceFile","fileName":"SlotActivity.java"}
+    int a.SlotActivity$1.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    eu.veldsoft.tuty.fruty.slot.SlotActivity this$0 -> b
+    1:1:void a.SlotActivity$1.<init>(eu.veldsoft.tuty.fruty.slot.SlotActivity,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void eu.veldsoft.tuty.fruty.slot.SlotActivity$5.onClick(android.view.View):168:168 -> onClick
+    2:2:void eu.veldsoft.tuty.fruty.slot.SlotActivity.access$100(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    2:2:void eu.veldsoft.tuty.fruty.slot.SlotActivity$5.onClick(android.view.View):168 -> onClick
+    3:3:eu.veldsoft.tuty.fruty.slot.GameScreen eu.veldsoft.tuty.fruty.slot.SlotActivity.access$000(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    3:3:void eu.veldsoft.tuty.fruty.slot.SlotActivity$4.onClick(android.view.View):158 -> onClick
+    4:4:void eu.veldsoft.tuty.fruty.slot.GameScreen.maxBetChange():205:205 -> onClick
+    4:4:void eu.veldsoft.tuty.fruty.slot.SlotActivity$4.onClick(android.view.View):158 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    5:5:void eu.veldsoft.tuty.fruty.slot.Bet.maximum():112:112 -> onClick
+    5:5:void eu.veldsoft.tuty.fruty.slot.GameScreen.maxBetChange():205 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    5:5:void eu.veldsoft.tuty.fruty.slot.SlotActivity$4.onClick(android.view.View):158 -> onClick
+    6:6:void eu.veldsoft.tuty.fruty.slot.GameScreen.maxBetChange():206:206 -> onClick
+    6:6:void eu.veldsoft.tuty.fruty.slot.SlotActivity$4.onClick(android.view.View):158 -> onClick
+    7:7:void eu.veldsoft.tuty.fruty.slot.LinesSelector.setAllSeleceted():736:736 -> onClick
+    7:7:void eu.veldsoft.tuty.fruty.slot.LinesSelector.maximum():858 -> onClick
+    7:7:void eu.veldsoft.tuty.fruty.slot.GameScreen.maxBetChange():206 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
+    7:7:void eu.veldsoft.tuty.fruty.slot.SlotActivity$4.onClick(android.view.View):158 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(3)"]}
+    8:9:void eu.veldsoft.tuty.fruty.slot.LinesSelector.setAllSeleceted():736:737 -> onClick
+    8:9:void eu.veldsoft.tuty.fruty.slot.LinesSelector.maximum():858 -> onClick
+    8:9:void eu.veldsoft.tuty.fruty.slot.GameScreen.maxBetChange():206 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
+    8:9:void eu.veldsoft.tuty.fruty.slot.SlotActivity$4.onClick(android.view.View):158 -> onClick
+    10:10:void eu.veldsoft.tuty.fruty.slot.GameScreen.maxBetChange():207:207 -> onClick
+    10:10:void eu.veldsoft.tuty.fruty.slot.SlotActivity$4.onClick(android.view.View):158 -> onClick
+    11:11:void eu.veldsoft.tuty.fruty.slot.SlotActivity.access$100(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    11:11:void eu.veldsoft.tuty.fruty.slot.SlotActivity$4.onClick(android.view.View):159 -> onClick
+    12:12:eu.veldsoft.tuty.fruty.slot.GameScreen eu.veldsoft.tuty.fruty.slot.SlotActivity.access$000(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    12:12:void eu.veldsoft.tuty.fruty.slot.SlotActivity$3.onClick(android.view.View):149 -> onClick
+    13:13:void eu.veldsoft.tuty.fruty.slot.GameScreen.betChange():197:197 -> onClick
+    13:13:void eu.veldsoft.tuty.fruty.slot.SlotActivity$3.onClick(android.view.View):149 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    14:14:void eu.veldsoft.tuty.fruty.slot.Bet.cycleIncrement():104:104 -> onClick
+    14:14:void eu.veldsoft.tuty.fruty.slot.GameScreen.betChange():197 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    14:14:void eu.veldsoft.tuty.fruty.slot.SlotActivity$3.onClick(android.view.View):149 -> onClick
+    15:15:void eu.veldsoft.tuty.fruty.slot.Bet.cycleIncrement():104:104 -> onClick
+    15:15:void eu.veldsoft.tuty.fruty.slot.GameScreen.betChange():197 -> onClick
+    15:15:void eu.veldsoft.tuty.fruty.slot.SlotActivity$3.onClick(android.view.View):149 -> onClick
+    16:16:void eu.veldsoft.tuty.fruty.slot.Bet.cycleIncrement():107:107 -> onClick
+    16:16:void eu.veldsoft.tuty.fruty.slot.GameScreen.betChange():197 -> onClick
+    16:16:void eu.veldsoft.tuty.fruty.slot.SlotActivity$3.onClick(android.view.View):149 -> onClick
+    17:17:void eu.veldsoft.tuty.fruty.slot.GameScreen.betChange():198:198 -> onClick
+    17:17:void eu.veldsoft.tuty.fruty.slot.SlotActivity$3.onClick(android.view.View):149 -> onClick
+    18:18:void eu.veldsoft.tuty.fruty.slot.SlotActivity.access$100(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    18:18:void eu.veldsoft.tuty.fruty.slot.SlotActivity$3.onClick(android.view.View):150 -> onClick
+    19:19:eu.veldsoft.tuty.fruty.slot.GameScreen eu.veldsoft.tuty.fruty.slot.SlotActivity.access$000(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    19:19:void onClick(android.view.View):124 -> onClick
+    20:20:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():239:239 -> onClick
+    20:20:void onClick(android.view.View):124 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    21:21:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():239:239 -> onClick
+    21:21:void onClick(android.view.View):124 -> onClick
+    22:22:long eu.veldsoft.tuty.fruty.slot.Credit.getValue():54:54 -> onClick
+    22:22:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():239 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    22:22:void onClick(android.view.View):124 -> onClick
+    23:23:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():239:239 -> onClick
+    23:23:void onClick(android.view.View):124 -> onClick
+    24:24:long eu.veldsoft.tuty.fruty.slot.TotalBet.getValue():85:85 -> onClick
+    24:24:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():239 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    24:24:void onClick(android.view.View):124 -> onClick
+    25:25:void eu.veldsoft.tuty.fruty.slot.Credit.decrement(long):104:104 -> onClick
+    25:25:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():243 -> onClick
+    25:25:void onClick(android.view.View):124 -> onClick
+    26:26:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():245:245 -> onClick
+    26:26:void onClick(android.view.View):124 -> onClick
+    27:27:void eu.veldsoft.tuty.fruty.slot.Reels.spin():197:197 -> onClick
+    27:27:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():245 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    27:27:void onClick(android.view.View):124 -> onClick
+    28:28:void eu.veldsoft.tuty.fruty.slot.Reels.spin():197:197 -> onClick
+    28:28:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():245 -> onClick
+    28:28:void onClick(android.view.View):124 -> onClick
+    29:29:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():210:210 -> onClick
+    29:29:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    29:29:void onClick(android.view.View):124 -> onClick
+    30:30:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():210:210 -> onClick
+    30:30:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    30:30:void onClick(android.view.View):124 -> onClick
+    31:32:void eu.veldsoft.tuty.fruty.slot.WinnerPaid.clearFound():76:77 -> onClick
+    31:32:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():215 -> onClick
+    31:32:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    31:32:void onClick(android.view.View):124 -> onClick
+    33:35:void eu.veldsoft.tuty.fruty.slot.WinnerPaid.clearFound():80:82 -> onClick
+    33:35:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():215 -> onClick
+    33:35:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    33:35:void onClick(android.view.View):124 -> onClick
+    36:36:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():221:221 -> onClick
+    36:36:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    36:36:void onClick(android.view.View):124 -> onClick
+    37:37:boolean eu.veldsoft.tuty.fruty.slot.LinesSelector.isActive(eu.veldsoft.tuty.fruty.slot.PrizeCombination):902:902 -> onClick
+    37:37:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():223 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    37:37:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    37:37:void onClick(android.view.View):124 -> onClick
+    38:38:boolean eu.veldsoft.tuty.fruty.slot.LinesSelector.isActive(eu.veldsoft.tuty.fruty.slot.PrizeCombination):902:902 -> onClick
+    38:38:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():223 -> onClick
+    38:38:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    38:38:void onClick(android.view.View):124 -> onClick
+    39:39:boolean eu.veldsoft.tuty.fruty.slot.LinesSelector.isActive(eu.veldsoft.tuty.fruty.slot.PrizeCombination):905:905 -> onClick
+    39:39:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():223 -> onClick
+    39:39:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    39:39:void onClick(android.view.View):124 -> onClick
+    40:40:boolean eu.veldsoft.tuty.fruty.slot.LinesSelector.isActive(eu.veldsoft.tuty.fruty.slot.PrizeCombination):907:907 -> onClick
+    40:40:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():223 -> onClick
+    40:40:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    40:40:void onClick(android.view.View):124 -> onClick
+    41:42:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():223:224 -> onClick
+    41:42:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    41:42:void onClick(android.view.View):124 -> onClick
+    43:43:eu.veldsoft.tuty.fruty.slot.Combination eu.veldsoft.tuty.fruty.slot.PrizeCombination.getCombination():110:110 -> onClick
+    43:43:boolean eu.veldsoft.tuty.fruty.slot.Reels.hasPrize(eu.veldsoft.tuty.fruty.slot.PrizeCombination):215 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    43:43:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():224 -> onClick
+    43:43:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    43:43:void onClick(android.view.View):124 -> onClick
+    44:44:boolean eu.veldsoft.tuty.fruty.slot.Reels.hasPrize(eu.veldsoft.tuty.fruty.slot.PrizeCombination):215:215 -> onClick
+    44:44:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():224 -> onClick
+    44:44:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    44:44:void onClick(android.view.View):124 -> onClick
+    45:45:boolean eu.veldsoft.tuty.fruty.slot.Reels.hasPrize(eu.veldsoft.tuty.fruty.slot.PrizeCombination):224:224 -> onClick
+    45:45:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():224 -> onClick
+    45:45:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    45:45:void onClick(android.view.View):124 -> onClick
+    46:46:boolean eu.veldsoft.tuty.fruty.slot.Reels.hasPrize(eu.veldsoft.tuty.fruty.slot.PrizeCombination):233:233 -> onClick
+    46:46:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():224 -> onClick
+    46:46:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    46:46:void onClick(android.view.View):124 -> onClick
+    47:47:eu.veldsoft.tuty.fruty.slot.ReelSymbol eu.veldsoft.tuty.fruty.slot.PrizeCombination.getSymbol():141:141 -> onClick
+    47:47:boolean eu.veldsoft.tuty.fruty.slot.Reels.hasPrize(eu.veldsoft.tuty.fruty.slot.PrizeCombination):234 -> onClick
+    47:47:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():224 -> onClick
+    47:47:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    47:47:void onClick(android.view.View):124 -> onClick
+    48:49:boolean eu.veldsoft.tuty.fruty.slot.WinnerPaid.isFound(eu.veldsoft.tuty.fruty.slot.PrizeCombination):125:126 -> onClick
+    48:49:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():227 -> onClick
+    48:49:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    48:49:void onClick(android.view.View):124 -> onClick
+    50:50:void eu.veldsoft.tuty.fruty.slot.WinnerPaid.addFound(eu.veldsoft.tuty.fruty.slot.PrizeCombination):97:97 -> onClick
+    50:50:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():229 -> onClick
+    50:50:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    50:50:void onClick(android.view.View):124 -> onClick
+    51:53:void eu.veldsoft.tuty.fruty.slot.WinnerPaid.addFound(eu.veldsoft.tuty.fruty.slot.PrizeCombination):99:101 -> onClick
+    51:53:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():229 -> onClick
+    51:53:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    51:53:void onClick(android.view.View):124 -> onClick
+    54:55:void eu.veldsoft.tuty.fruty.slot.WinnerPaid.addFound(eu.veldsoft.tuty.fruty.slot.PrizeCombination):106:107 -> onClick
+    54:55:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():229 -> onClick
+    54:55:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    54:55:void onClick(android.view.View):124 -> onClick
+    56:56:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():223:223 -> onClick
+    56:56:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    56:56:void onClick(android.view.View):124 -> onClick
+    57:57:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():236:236 -> onClick
+    57:57:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    57:57:void onClick(android.view.View):124 -> onClick
+    58:58:long eu.veldsoft.tuty.fruty.slot.Bet.getValue():72:72 -> onClick
+    58:58:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():236 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    58:58:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    58:58:void onClick(android.view.View):124 -> onClick
+    59:59:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():236:236 -> onClick
+    59:59:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    59:59:void onClick(android.view.View):124 -> onClick
+    60:60:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.calculateWin():238:238 -> onClick
+    60:60:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():251 -> onClick
+    60:60:void onClick(android.view.View):124 -> onClick
+    61:61:void eu.veldsoft.tuty.fruty.slot.WinnerPaid.setValue(long):187:187 -> onClick
+    61:61:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():252 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    61:61:void onClick(android.view.View):124 -> onClick
+    62:62:void eu.veldsoft.tuty.fruty.slot.GameScreen.addCredit(long):223:223 -> onClick
+    62:62:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():253 -> onClick
+    62:62:void onClick(android.view.View):124 -> onClick
+    63:63:void eu.veldsoft.tuty.fruty.slot.Credit.increment(long):87:87 -> onClick
+    63:63:void eu.veldsoft.tuty.fruty.slot.GameScreen.addCredit(long):223 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    63:63:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():253 -> onClick
+    63:63:void onClick(android.view.View):124 -> onClick
+    64:64:void eu.veldsoft.tuty.fruty.slot.Credit.increment(long):87:87 -> onClick
+    64:64:void eu.veldsoft.tuty.fruty.slot.GameScreen.addCredit(long):223 -> onClick
+    64:64:void eu.veldsoft.tuty.fruty.slot.GameScreen.spinReels():253 -> onClick
+    64:64:void onClick(android.view.View):124 -> onClick
+    65:65:void eu.veldsoft.tuty.fruty.slot.SlotActivity.access$100(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    65:65:void onClick(android.view.View):125 -> onClick
+    66:66:eu.veldsoft.tuty.fruty.slot.GameScreen eu.veldsoft.tuty.fruty.slot.SlotActivity.access$000(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    66:66:void onClick(android.view.View):127 -> onClick
+    67:67:eu.veldsoft.tuty.fruty.slot.WinnerPaid eu.veldsoft.tuty.fruty.slot.GameScreen.getPaid():120:120 -> onClick
+    67:67:void onClick(android.view.View):127 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    68:68:long eu.veldsoft.tuty.fruty.slot.WinnerPaid.getValue():171:171 -> onClick
+    68:68:void onClick(android.view.View):127 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    69:69:android.media.SoundPool eu.veldsoft.tuty.fruty.slot.SlotActivity.access$300(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    69:69:void onClick(android.view.View):128 -> onClick
+    70:70:int eu.veldsoft.tuty.fruty.slot.SlotActivity.access$200(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    70:70:void onClick(android.view.View):128 -> onClick
+    71:71:void onClick(android.view.View):128:128 -> onClick
+    72:72:android.media.SoundPool eu.veldsoft.tuty.fruty.slot.SlotActivity.access$300(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    72:72:void onClick(android.view.View):130 -> onClick
+    73:73:int eu.veldsoft.tuty.fruty.slot.SlotActivity.access$400(eu.veldsoft.tuty.fruty.slot.SlotActivity):20:20 -> onClick
+    73:73:void onClick(android.view.View):130 -> onClick
+    74:74:void onClick(android.view.View):130:130 -> onClick
+eu.veldsoft.tuty.fruty.slot.SlotActivity$2 -> a.r:
+# {"id":"sourceFile","fileName":"SlotActivity.java"}
+    1:1:void onClick(android.view.View):142:142 -> onClick
+eu.veldsoft.tuty.fruty.slot.SplashActivity -> eu.veldsoft.tuty.fruty.slot.SplashActivity:
+# {"id":"sourceFile","fileName":"SplashActivity.java"}
+    long timeout -> a
+    java.lang.String redirect -> b
+    1:5:void <init>():13:13 -> <init>
+    6:7:void <init>():15:15 -> <init>
+    8:12:void <init>():17:17 -> <init>
+    1:3:void onCreate(android.os.Bundle):21:21 -> onCreate
+    4:8:void onCreate(android.os.Bundle):22:22 -> onCreate
+    9:24:void onCreate(android.os.Bundle):27:27 -> onCreate
+    25:34:void onCreate(android.os.Bundle):33:33 -> onCreate
+    35:39:void onCreate(android.os.Bundle):34:34 -> onCreate
+    40:43:void onCreate(android.os.Bundle):40:40 -> onCreate
+    44:47:void onCreate(android.os.Bundle):41:41 -> onCreate
+    48:56:void onCreate(android.os.Bundle):40:40 -> onCreate
+    57:66:void onCreate(android.os.Bundle):43:43 -> onCreate
+    67:68:void onCreate(android.os.Bundle):46:46 -> onCreate
+    69:72:void onCreate(android.os.Bundle):53:53 -> onCreate
+    73:76:void onCreate(android.os.Bundle):54:54 -> onCreate
+    77:84:void onCreate(android.os.Bundle):53:53 -> onCreate
+    85:91:void onCreate(android.os.Bundle):57:57 -> onCreate
+    92:101:void onCreate(android.os.Bundle):59:59 -> onCreate
+    102:111:void onCreate(android.os.Bundle):62:62 -> onCreate
+    112:115:void onCreate(android.os.Bundle):60:60 -> onCreate
+    116:119:void onCreate(android.os.Bundle):64:64 -> onCreate
+    1:3:void onResume():70:70 -> onResume
+    4:20:void onResume():72:72 -> onResume
+eu.veldsoft.tuty.fruty.slot.TotalBet -> a.s:
+# {"id":"sourceFile","fileName":"TotalBet.java"}
+    eu.veldsoft.tuty.fruty.slot.Bet bet -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/a;"}
+    eu.veldsoft.tuty.fruty.slot.LinesSelected lines -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/b;"}
+    long value -> c
+    1:2:void update():99:99 -> a
+    3:4:long eu.veldsoft.tuty.fruty.slot.Bet.getValue():72:72 -> a
+    3:4:void update():99 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    5:6:void update():99:99 -> a
+    7:10:eu.veldsoft.tuty.fruty.slot.LinesSelector eu.veldsoft.tuty.fruty.slot.LinesSelected.getSelector():71:71 -> a
+    7:10:void update():99 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    11:19:void update():99:99 -> a
+eu.veldsoft.tuty.fruty.slot.Util -> a.t:
+# {"id":"sourceFile","fileName":"Util.java"}
+    java.util.Random PRNG -> a
+    1:8:void <clinit>():11:11 -> <clinit>
+eu.veldsoft.tuty.fruty.slot.WinnerPaid -> a.u:
+# {"id":"sourceFile","fileName":"WinnerPaid.java"}
+    long value -> a
+    eu.veldsoft.tuty.fruty.slot.Bet bet -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/a;"}
+    eu.veldsoft.tuty.fruty.slot.LinesSelector selector -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/e;"}
+    eu.veldsoft.tuty.fruty.slot.Reels reels -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/o;"}
+    eu.veldsoft.tuty.fruty.slot.PrizeCombination[] found -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"[La/f;"}
+    char[][] winSymbol -> f
+    1:1:void <init>(eu.veldsoft.tuty.fruty.slot.Bet,eu.veldsoft.tuty.fruty.slot.LinesSelector,eu.veldsoft.tuty.fruty.slot.Reels):153:153 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/a;La/e;La/o;)V"}
+    2:2:void <init>(eu.veldsoft.tuty.fruty.slot.Bet,eu.veldsoft.tuty.fruty.slot.LinesSelector,eu.veldsoft.tuty.fruty.slot.Reels):58:58 -> <init>
+    3:3:void <init>(eu.veldsoft.tuty.fruty.slot.Bet,eu.veldsoft.tuty.fruty.slot.LinesSelector,eu.veldsoft.tuty.fruty.slot.Reels):63:63 -> <init>
+    4:6:void <init>(eu.veldsoft.tuty.fruty.slot.Bet,eu.veldsoft.tuty.fruty.slot.LinesSelector,eu.veldsoft.tuty.fruty.slot.Reels):154:156 -> <init>

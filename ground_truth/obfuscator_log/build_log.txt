@@ -1,0 +1,469 @@
+在 D:\LibProbe\whitebox_apk_source 发现 102 个 .tar.gz
+
+[1/102] 处理：D:\LibProbe\whitebox_apk_source\de.quantumphysique.trale_363_src.tar.gz
+
+================================================================================
+开始处理：de.quantumphysique.trale
+================================================================================
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+错误: 没有找到进程 "java.exe"。
+[清理] 正在清空临时目录...
+[清理完成] 已成功删除 D:\LibProbe\temp。
+[ERROR] D:\LibProbe\whitebox_apk_source\de.quantumphysique.trale_363_src.tar.gz ：[Errno 2] No such file or directory: 'D:\\LibProbe\\temp\\de.quantumphysique.trale\\de.quantumphysique.trale_363_src.tar.gz\\app\\.pub-cache\\hosted\\pub.dev\\flutter_keyboard_visibility_temp_fork-0.1.5\\android\\src\\main\\java\\com\\jrai\\flutter_keyboard_visibility_temp_fork\\FlutterKeyboardVisibilityTempForkPlugin.java'
+
+[2/102] 处理：D:\LibProbe\whitebox_apk_source\org.ca.squawker_300016323_src.tar.gz
+
+================================================================================
+开始处理：org.ca.squawker
+================================================================================
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+错误: 没有找到进程 "java.exe"。
+[清理] 正在清空临时目录...
+[清理完成] 已成功删除 D:\LibProbe\temp。
+[解压完成] D:\LibProbe\whitebox_apk_source\org.ca.squawker_300016323_src.tar.gz -> D:\LibProbe\temp\org.ca.squawker
+[INFO] 发现嵌套目录，将内容移动到 D:\LibProbe\temp\org.ca.squawker。
+[项目根] D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android (via settings.gradle)
+[DEBUG] 使用的项目根目录：D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android
+--- 正在配置未混淆构建 ---
+
+--- 正在尝试使用 JDK: jdk-17.0.16 ---
+[INFO] 未找到 gradle.properties，已创建新文件并设置 org.gradle.java.home。
+[INFO] 已在 gradle.properties 中 关闭 android.enableR8.fullMode。
+[INFO] 已修改 build.gradle，为 release 构建关闭混淆。
+[警告] 未找到混淆规则文件 proguard-rules.pro，无需清空。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+错误: 没有找到进程 "java.exe"。
+[尝试] 使用 Gradle 9.0.0 和 JDK jdk-17.0.16 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 9.0.0 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-9.0.0\bin\gradle.bat wrapper --gradle-version 9.0.0 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 2 busy and 12 incompatible and 11 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\settings.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> assert localPropertiesFile.exists()
+         |                   |
+         |                   false
+         D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\local.properties
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 6s
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 9.0.0 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 9.0.0 版本的 wrapper。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+成功: 已终止进程 "java.exe"，其 PID 为 13152。
+>>> 执行命令：taskkill /f /im gradlew.bat (cwd=None)
+错误: 没有找到进程 "gradlew.bat"。
+[尝试] 使用 Gradle 9.0.0 和 JDK jdk-17.0.16 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 9.0.0 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-9.0.0\bin\gradle.bat wrapper --gradle-version 9.0.0 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 2 busy and 12 incompatible and 12 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\settings.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> assert localPropertiesFile.exists()
+         |                   |
+         |                   false
+         D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\local.properties
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 9.0.0 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 9.0.0 版本的 wrapper。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+成功: 已终止进程 "java.exe"，其 PID 为 6820。
+>>> 执行命令：taskkill /f /im gradlew.bat (cwd=None)
+错误: 没有找到进程 "gradlew.bat"。
+[尝试] 使用 Gradle 8.12.1 和 JDK jdk-17.0.16 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 8.12.1 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-8.12.1\bin\gradle.bat wrapper --gradle-version 8.12.1 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 13 busy and 74 incompatible and 15 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\settings.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> assert localPropertiesFile.exists()
+         |                   |
+         |                   false
+         D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\local.properties
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 6s
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 8.12.1 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 8.12.1 版本的 wrapper。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+成功: 已终止进程 "java.exe"，其 PID 为 7148。
+>>> 执行命令：taskkill /f /im gradlew.bat (cwd=None)
+错误: 没有找到进程 "gradlew.bat"。
+[尝试] 使用 Gradle 8.12.1 和 JDK jdk-17.0.16 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 8.12.1 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-8.12.1\bin\gradle.bat wrapper --gradle-version 8.12.1 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 13 busy and 74 incompatible and 16 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\settings.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> assert localPropertiesFile.exists()
+         |                   |
+         |                   false
+         D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\local.properties
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 8.12.1 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 8.12.1 版本的 wrapper。
+
+--- 正在尝试使用 JDK: jdk-21.0.8 ---
+[INFO] 已在 gradle.properties 中设置 org.gradle.java.home=C:/Java/jdk-21.0.8。
+[INFO] 已在 gradle.properties 中 关闭 android.enableR8.fullMode。
+[INFO] 已修改 build.gradle，为 release 构建关闭混淆。
+[警告] 未找到混淆规则文件 proguard-rules.pro，无需清空。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+成功: 已终止进程 "java.exe"，其 PID 为 14060。
+>>> 执行命令：taskkill /f /im gradlew.bat (cwd=None)
+错误: 没有找到进程 "gradlew.bat"。
+[尝试] 使用 Gradle 9.0.0 和 JDK jdk-21.0.8 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 9.0.0 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-9.0.0\bin\gradle.bat wrapper --gradle-version 9.0.0 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 2 busy and 12 incompatible and 13 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\settings.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> assert localPropertiesFile.exists()
+         |                   |
+         |                   false
+         D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\local.properties
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 9.0.0 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 9.0.0 版本的 wrapper。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+成功: 已终止进程 "java.exe"，其 PID 为 13264。
+>>> 执行命令：taskkill /f /im gradlew.bat (cwd=None)
+错误: 没有找到进程 "gradlew.bat"。
+[尝试] 使用 Gradle 9.0.0 和 JDK jdk-21.0.8 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 9.0.0 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-9.0.0\bin\gradle.bat wrapper --gradle-version 9.0.0 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 2 busy and 12 incompatible and 14 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\settings.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> assert localPropertiesFile.exists()
+         |                   |
+         |                   false
+         D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\local.properties
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 9.0.0 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 9.0.0 版本的 wrapper。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+成功: 已终止进程 "java.exe"，其 PID 为 17024。
+>>> 执行命令：taskkill /f /im gradlew.bat (cwd=None)
+错误: 没有找到进程 "gradlew.bat"。
+[尝试] 使用 Gradle 8.12.1 和 JDK jdk-21.0.8 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 8.12.1 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-8.12.1\bin\gradle.bat wrapper --gradle-version 8.12.1 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 13 busy and 74 incompatible and 17 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\settings.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> assert localPropertiesFile.exists()
+         |                   |
+         |                   false
+         D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\local.properties
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 8.12.1 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 8.12.1 版本的 wrapper。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+成功: 已终止进程 "java.exe"，其 PID 为 18436。
+>>> 执行命令：taskkill /f /im gradlew.bat (cwd=None)
+错误: 没有找到进程 "gradlew.bat"。
+[尝试] 使用 Gradle 8.12.1 和 JDK jdk-21.0.8 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 8.12.1 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-8.12.1\bin\gradle.bat wrapper --gradle-version 8.12.1 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 13 busy and 74 incompatible and 18 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\settings.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> assert localPropertiesFile.exists()
+         |                   |
+         |                   false
+         D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\local.properties
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 8.12.1 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 8.12.1 版本的 wrapper。
+
+--- 正在尝试使用 JDK: jdk-11.0.28 ---
+[INFO] 已在 gradle.properties 中设置 org.gradle.java.home=C:/Java/jdk-11.0.28。
+[INFO] 已在 gradle.properties 中 关闭 android.enableR8.fullMode。
+[INFO] build.gradle 内容未发生变化，无需修改。
+[警告] 未找到混淆规则文件 proguard-rules.pro，无需清空。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+成功: 已终止进程 "java.exe"，其 PID 为 5612。
+>>> 执行命令：taskkill /f /im gradlew.bat (cwd=None)
+错误: 没有找到进程 "gradlew.bat"。
+[尝试] 使用 Gradle 9.0.0 和 JDK jdk-11.0.28 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 9.0.0 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-9.0.0\bin\gradle.bat wrapper --gradle-version 9.0.0 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 2 busy and 12 incompatible and 14 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle requires JVM 17 or later to run. Your build is currently configured to use JVM 11.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 9.0.0 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 9.0.0 版本的 wrapper。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+错误: 没有找到进程 "java.exe"。
+[尝试] 使用 Gradle 9.0.0 和 JDK jdk-11.0.28 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 9.0.0 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-9.0.0\bin\gradle.bat wrapper --gradle-version 9.0.0 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 2 busy and 12 incompatible and 14 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle requires JVM 17 or later to run. Your build is currently configured to use JVM 11.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 9.0.0 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-9.0.0\\bin\\gradle.bat', 'wrapper', '--gradle-version', '9.0.0']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 9.0.0 版本的 wrapper。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+错误: 没有找到进程 "java.exe"。
+[尝试] 使用 Gradle 8.12.1 和 JDK jdk-11.0.28 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 8.12.1 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-8.12.1\bin\gradle.bat wrapper --gradle-version 8.12.1 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 13 busy and 74 incompatible and 19 stopped Daemons could not be reused, use --status for details
+
+[Incubating] Problems report is available at: file:///D:/LibProbe/temp/org.ca.squawker/.pub-cache/git/flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820/example/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\settings.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> assert localPropertiesFile.exists()
+         |                   |
+         |                   false
+         D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\local.properties
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.12.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 5s
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 8.12.1 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 8.12.1 版本的 wrapper。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+成功: 已终止进程 "java.exe"，其 PID 为 3856。
+>>> 执行命令：taskkill /f /im gradlew.bat (cwd=None)
+错误: 没有找到进程 "gradlew.bat"。
+[尝试] 使用 Gradle 8.12.1 和 JDK jdk-11.0.28 构建...
+在 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 中未找到 gradlew.bat，正在尝试生成...
+正在使用本地 Gradle 8.12.1 生成 wrapper...
+>>> 执行命令：C:\Users\tyler\.gradle\wrapper\dists\gradle-8.12.1\bin\gradle.bat wrapper --gradle-version 8.12.1 (cwd=D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android)
+Starting a Gradle Daemon, 13 busy and 74 incompatible and 20 stopped Daemons could not be reused, use --status for details
+
+[Incubating] Problems report is available at: file:///D:/LibProbe/temp/org.ca.squawker/.pub-cache/git/flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820/example/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\settings.gradle' line: 6
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> assert localPropertiesFile.exists()
+         |                   |
+         |                   false
+         D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android\local.properties
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.12.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 5s
+生成 Gradle wrapper 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 使用本地 Gradle 8.12.1 失败：Command '['C:\\Users\\tyler\\.gradle\\wrapper\\dists\\gradle-8.12.1\\bin\\gradle.bat', 'wrapper', '--gradle-version', '8.12.1']' returned non-zero exit status 1.
+[警告] 无法为 D:\LibProbe\temp\org.ca.squawker\.pub-cache\git\flutter_colorpicker-6689dc52d5a915f9f223f2553c8f8b88f66b2820\example\android 生成 8.12.1 版本的 wrapper。
+
+[严重失败] 该项目无法在任何可用 JDK 上构建。
+[记录] 已将 org.ca.squawker
+ 写入 info.txt。
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+成功: 已终止进程 "java.exe"，其 PID 为 19356。
+>>> 执行命令：taskkill /f /im gradlew.bat (cwd=None)
+错误: 没有找到进程 "gradlew.bat"。
+[清理警告] 尝试删除 D:\LibProbe\temp\org.ca.squawker 失败 (第 1 次): [WinError 5] 拒绝访问。: 'D:\\LibProbe\\temp\\org.ca.squawker\\.pub-cache\\git\\cache\\flutter_colorpicker-fe21401e1313cdb4e7b3ee513c7d74b9036f89c2\\objects\\pack\\pack-968a5351e140750af574100f27d7a26ea452ac5b.idx'
+[清理警告] 尝试删除 D:\LibProbe\temp\org.ca.squawker 失败 (第 2 次): [WinError 5] 拒绝访问。: 'D:\\LibProbe\\temp\\org.ca.squawker\\.pub-cache\\git\\cache\\flutter_colorpicker-fe21401e1313cdb4e7b3ee513c7d74b9036f89c2\\objects\\pack\\pack-968a5351e140750af574100f27d7a26ea452ac5b.idx'
+[清理警告] 尝试删除 D:\LibProbe\temp\org.ca.squawker 失败 (第 3 次): [WinError 5] 拒绝访问。: 'D:\\LibProbe\\temp\\org.ca.squawker\\.pub-cache\\git\\cache\\flutter_colorpicker-fe21401e1313cdb4e7b3ee513c7d74b9036f89c2\\objects\\pack\\pack-968a5351e140750af574100f27d7a26ea452ac5b.idx'
+[清理警告] 尝试删除 D:\LibProbe\temp\org.ca.squawker 失败 (第 4 次): [WinError 5] 拒绝访问。: 'D:\\LibProbe\\temp\\org.ca.squawker\\.pub-cache\\git\\cache\\flutter_colorpicker-fe21401e1313cdb4e7b3ee513c7d74b9036f89c2\\objects\\pack\\pack-968a5351e140750af574100f27d7a26ea452ac5b.idx'
+[清理警告] 尝试删除 D:\LibProbe\temp\org.ca.squawker 失败 (第 5 次): [WinError 5] 拒绝访问。: 'D:\\LibProbe\\temp\\org.ca.squawker\\.pub-cache\\git\\cache\\flutter_colorpicker-fe21401e1313cdb4e7b3ee513c7d74b9036f89c2\\objects\\pack\\pack-968a5351e140750af574100f27d7a26ea452ac5b.idx'
+[清理失败] 无法删除目录 D:\LibProbe\temp\org.ca.squawker，请手动检查是否有进程占用。
+[清理完成] 已删除 D:\LibProbe\temp\org.ca.squawker。
+[失败] org.ca.squawker - 白盒构建失败。
+[跳过记录] org.ca.squawker 已存在于 info.txt。
+
+[3/102] 处理：D:\LibProbe\whitebox_apk_source\app.fedilab.fediplan_7_src.tar.gz
+
+================================================================================
+开始处理：app.fedilab.fediplan
+================================================================================
+--- 正在清理旧的 Gradle 进程... ---
+>>> 执行命令：taskkill /f /im java.exe (cwd=None)
+错误: 没有找到进程 "java.exe"。
+[清理] 正在清空临时目录...
+[清理警告] 尝试删除 D:\LibProbe\temp 失败 (第 1 次): [WinError 5] 拒绝访问。: 'D:\\LibProbe\\temp\\org.ca.squawker\\.pub-cache\\git\\cache\\flutter_colorpicker-fe21401e1313cdb4e7b3ee513c7d74b9036f89c2\\objects\\pack\\pack-968a5351e140750af574100f27d7a26ea452ac5b.idx'
+[清理警告] 尝试删除 D:\LibProbe\temp 失败 (第 2 次): [WinError 5] 拒绝访问。: 'D:\\LibProbe\\temp\\org.ca.squawker\\.pub-cache\\git\\cache\\flutter_colorpicker-fe21401e1313cdb4e7b3ee513c7d74b9036f89c2\\objects\\pack\\pack-968a5351e140750af574100f27d7a26ea452ac5b.idx'
+[清理警告] 尝试删除 D:\LibProbe\temp 失败 (第 3 次): [WinError 5] 拒绝访问。: 'D:\\LibProbe\\temp\\org.ca.squawker\\.pub-cache\\git\\cache\\flutter_colorpicker-fe21401e1313cdb4e7b3ee513c7d74b9036f89c2\\objects\\pack\\pack-968a5351e140750af574100f27d7a26ea452ac5b.idx'
+[清理警告] 尝试删除 D:\LibProbe\temp 失败 (第 4 次): [WinError 5] 拒绝访问。: 'D:\\LibProbe\\temp\\org.ca.squawker\\.pub-cache\\git\\cache\\flutter_colorpicker-fe21401e1313cdb4e7b3ee513c7d74b9036f89c2\\objects\\pack\\pack-968a5351e140750af574100f27d7a26ea452ac5b.idx'
+[清理警告] 尝试删除 D:\LibProbe\temp 失败 (第 5 次): [WinError 5] 拒绝访问。: 'D:\\LibProbe\\temp\\org.ca.squawker\\.pub-cache\\git\\cache\\flutter_colorpicker-fe21401e1313cdb4e7b3ee513c7d74b9036f89c2\\objects\\pack\\pack-968a5351e140750af574100f27d7a26ea452ac5b.idx'
+[清理失败] 无法删除目录 D:\LibProbe\temp，请手动检查是否有进程占用。

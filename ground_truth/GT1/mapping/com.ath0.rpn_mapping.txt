@@ -1,0 +1,144 @@
+# compiler: R8
+# compiler_version: 3.2.74
+# min_api: 15
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.0"}
+# pg_map_id: daecc1f
+# pg_map_hash: SHA-256 daecc1f1cea6cda59aa46ac09d91b11cc4930289467bd0f8b0caadd9f1b4eaa0
+com.ath0.rpn.CalculatorKeyLayout -> com.ath0.rpn.CalculatorKeyLayout:
+    android.content.Context mycontext -> a
+    1:1:void resizeKeys(int):0:0 -> onMeasure
+    1:1:void onMeasure(int,int):0 -> onMeasure
+    2:2:void onMeasure(int,int):0:0 -> onMeasure
+com.ath0.rpn.CalculatorStack -> a.a:
+    java.util.Stack stack -> a
+    int scale -> b
+    java.math.BigDecimal approxPow(java.math.BigDecimal,java.math.BigDecimal) -> a
+    java.math.BigDecimal sqrt(java.math.BigDecimal,int) -> b
+    1:1:java.lang.String com.ath0.rpn.CalculatorStack.formatNumber(java.math.BigDecimal):0:0 -> c
+    1:1:java.lang.StringBuilder toString(int):0 -> c
+    2:2:java.lang.StringBuilder toString(int):0:0 -> c
+com.ath0.rpn.Eula -> a.e:
+    void closeStream(java.io.Closeable) -> a
+com.ath0.rpn.Eula$1 -> a.b:
+    android.content.SharedPreferences val$preferences -> a
+    android.app.Activity val$activity -> b
+    1:1:void com.ath0.rpn.Eula.accept(android.content.SharedPreferences):0:0 -> onClick
+    1:1:void com.ath0.rpn.Eula.access$000(android.content.SharedPreferences):0 -> onClick
+    1:1:void onClick(android.content.DialogInterface,int):0 -> onClick
+    2:2:void onClick(android.content.DialogInterface,int):0:0 -> onClick
+com.ath0.rpn.Eula$2 -> a.c:
+    android.app.Activity val$activity -> a
+    0:65535:void com.ath0.rpn.Eula.refuse(android.app.Activity):0:0 -> onClick
+    0:65535:void com.ath0.rpn.Eula.access$100(android.app.Activity):0 -> onClick
+    0:65535:void onClick(android.content.DialogInterface,int):0 -> onClick
+com.ath0.rpn.Eula$3 -> a.d:
+    android.app.Activity val$activity -> a
+    0:65535:void com.ath0.rpn.Eula.refuse(android.app.Activity):0:0 -> onCancel
+    0:65535:void com.ath0.rpn.Eula.access$100(android.app.Activity):0 -> onCancel
+    0:65535:void onCancel(android.content.DialogInterface):0 -> onCancel
+com.ath0.rpn.Eula$OnEulaAgreedTo -> a.e$a:
+    void onEulaAgreedTo() -> a
+com.ath0.rpn.InputBuffer -> a.f:
+    java.lang.StringBuilder buffer -> a
+    void append(char) -> a
+    void delete() -> b
+    java.lang.String get() -> c
+    boolean isEmpty() -> d
+    void zap() -> e
+com.ath0.rpn.Main -> com.ath0.rpn.Main:
+    com.ath0.rpn.CalculatorStack stack -> b
+    int screenlines -> d
+    java.lang.String error -> c
+    com.ath0.rpn.InputBuffer buffer -> a
+    1:1:void com.ath0.rpn.CalculatorStack.push(java.lang.String):0:0 -> a
+    1:1:void implicitPush():0 -> a
+    2:2:void implicitPush():0:0 -> a
+    1:1:void com.ath0.rpn.CalculatorStack.drop():0:0 -> b
+    1:1:void keyDelete():0 -> b
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    2:2:void keyDelete():0:0 -> b
+    1:1:void com.ath0.rpn.CalculatorStack.dup():0:0 -> c
+    1:1:void keyEnter():0 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    2:2:void keyEnter():0:0 -> c
+    3:3:void com.ath0.rpn.CalculatorStack.push(java.lang.String):0:0 -> c
+    3:3:void keyEnter():0 -> c
+    4:4:void keyEnter():0:0 -> c
+    1:1:void com.ath0.rpn.CalculatorStack.setScale():0:0 -> clickHandler
+    1:1:void clickHandler(android.view.View):0 -> clickHandler
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    2:2:void com.ath0.rpn.CalculatorStack.setScale(int):0:0 -> clickHandler
+    2:2:void com.ath0.rpn.CalculatorStack.setScale():0 -> clickHandler
+    2:2:void clickHandler(android.view.View):0 -> clickHandler
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
+    3:3:void clickHandler(android.view.View):0:0 -> clickHandler
+    4:4:void com.ath0.rpn.CalculatorStack.drop():0:0 -> clickHandler
+    4:4:void clickHandler(android.view.View):0 -> clickHandler
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    5:5:void clickHandler(android.view.View):0:0 -> clickHandler
+    6:6:void com.ath0.rpn.CalculatorStack.swap():0:0 -> clickHandler
+    6:6:void clickHandler(android.view.View):0 -> clickHandler
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    7:7:void clickHandler(android.view.View):0:0 -> clickHandler
+    8:8:java.lang.String com.ath0.rpn.CalculatorStack.power():0:0 -> clickHandler
+    8:8:void clickHandler(android.view.View):0 -> clickHandler
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    9:9:void clickHandler(android.view.View):0:0 -> clickHandler
+    10:10:java.lang.String com.ath0.rpn.CalculatorStack.reciprocal():0:0 -> clickHandler
+    10:10:void clickHandler(android.view.View):0 -> clickHandler
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    11:11:void clickHandler(android.view.View):0:0 -> clickHandler
+    12:12:void com.ath0.rpn.CalculatorStack.chs():0:0 -> clickHandler
+    12:12:void clickHandler(android.view.View):0 -> clickHandler
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    13:13:void clickHandler(android.view.View):0:0 -> clickHandler
+    14:14:java.lang.String com.ath0.rpn.CalculatorStack.sqrt():0:0 -> clickHandler
+    14:14:void clickHandler(android.view.View):0 -> clickHandler
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    15:15:void clickHandler(android.view.View):0:0 -> clickHandler
+    1:1:java.lang.String com.ath0.rpn.CalculatorStack.divide():0:0 -> d
+    1:1:boolean keyOther(char):0 -> d
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    2:2:boolean keyOther(char):0:0 -> d
+    3:3:void com.ath0.rpn.CalculatorStack.subtract():0:0 -> d
+    3:3:boolean keyOther(char):0 -> d
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    4:4:boolean keyOther(char):0:0 -> d
+    5:5:void com.ath0.rpn.CalculatorStack.add():0:0 -> d
+    5:5:boolean keyOther(char):0 -> d
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    6:6:boolean keyOther(char):0:0 -> d
+    7:7:void com.ath0.rpn.CalculatorStack.multiply():0:0 -> d
+    7:7:boolean keyOther(char):0 -> d
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    8:8:boolean keyOther(char):0:0 -> d
+    void reportError(java.lang.String,java.lang.String) -> e
+    1:1:boolean com.ath0.rpn.CalculatorStack.isEmpty():0:0 -> f
+    1:1:void updateDisplay():0 -> f
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    2:2:void updateDisplay():0:0 -> f
+    3:3:int com.ath0.rpn.CalculatorStack.getScale():0:0 -> f
+    3:3:void updateDisplay():0 -> f
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    4:4:void updateDisplay():0:0 -> f
+    5:5:void scrollToRight():0:0 -> f
+    5:5:void updateDisplay():0 -> f
+    1:1:boolean com.ath0.rpn.Eula.show(android.app.Activity):0:0 -> onCreate
+    1:1:void onCreate(android.os.Bundle):0 -> onCreate
+    2:2:java.lang.CharSequence com.ath0.rpn.Eula.readEula(android.app.Activity):0:0 -> onCreate
+    2:2:boolean com.ath0.rpn.Eula.show(android.app.Activity):0 -> onCreate
+    2:2:void onCreate(android.os.Bundle):0 -> onCreate
+    3:3:boolean com.ath0.rpn.Eula.show(android.app.Activity):0:0 -> onCreate
+    3:3:void onCreate(android.os.Bundle):0 -> onCreate
+    4:4:void onCreate(android.os.Bundle):0:0 -> onCreate
+    5:5:void loadState():0:0 -> onCreate
+    5:5:void onCreate(android.os.Bundle):0 -> onCreate
+    1:1:boolean paste():0:0 -> onOptionsItemSelected
+    1:1:boolean onOptionsItemSelected(android.view.MenuItem):0 -> onOptionsItemSelected
+    2:2:boolean copy():0:0 -> onOptionsItemSelected
+    2:2:boolean onOptionsItemSelected(android.view.MenuItem):0 -> onOptionsItemSelected
+    0:65535:void saveState():0:0 -> onPause
+    0:65535:void onPause():0 -> onPause
+com.ath0.rpn.Main$1 -> a.g:
+    com.ath0.rpn.Main this$0 -> a

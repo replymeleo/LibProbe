@@ -1,0 +1,7 @@
+appcompat
+com.github.bumptech.glide
+constraintlayout
+gson
+material
+navigation.fragment
+navigation.ui

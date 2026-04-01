@@ -1,0 +1,139 @@
+# compiler: R8
+# compiler_version: 8.10.24
+# min_api: 24
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: ceddc9d
+# pg_map_hash: SHA-256 ceddc9ddada398339aea06a0787a659c9e4c05f600aef9d7bfcd5d0af61e5749
+me.velc.devqs.BaseDevQsTileService -> a.d:
+# {"id":"sourceFile","fileName":"BaseDevQsTileService.java"}
+    java.lang.String settingName -> a
+    android.database.ContentObserver observer -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/b;"}
+    1:3:void <init>(java.lang.String):32:32 -> <init>
+    4:10:void <init>(java.lang.String):45:45 -> <init>
+    11:13:void <init>(java.lang.String):33:33 -> <init>
+    1:2:boolean canEnableSetting():93:93 -> a
+    1:17:boolean isSettingEnabled():37:37 -> b
+    1:4:void onUpdateTile(android.service.quicksettings.Tile,java.lang.CharSequence,int):85:88 -> c
+    1:1:void showCannotEnableSettingReason():96:96 -> d
+    1:1:boolean hasPermission():41:41 -> onClick
+    1:1:void onClick():68 -> onClick
+    2:8:void onClick():69:75 -> onClick
+    9:9:void onClick():77:77 -> onClick
+    10:10:void showPermissionRequestDialog():99:99 -> onClick
+    10:10:void onClick():80 -> onClick
+    11:11:void showPermissionRequestDialog():102:102 -> onClick
+    11:11:void onClick():80 -> onClick
+    12:12:void showPermissionRequestDialog():99:99 -> onClick
+    12:12:void onClick():80 -> onClick
+    13:14:void showPermissionRequestDialog():105:106 -> onClick
+    13:14:void onClick():80 -> onClick
+    15:19:void showPermissionRequestDialog():108:112 -> onClick
+    15:19:void onClick():80 -> onClick
+    20:20:void showPermissionRequestDialog():114:114 -> onClick
+    20:20:void onClick():80 -> onClick
+    1:7:void onStartListening():60:60 -> onStartListening
+    8:12:void onStartListening():61:61 -> onStartListening
+    13:21:void onStartListening():63:63 -> onStartListening
+    1:10:void onStopListening():127:127 -> onStopListening
+me.velc.devqs.BaseDevQsTileService$$ExternalSyntheticLambda0 -> a.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    me.velc.devqs.BaseDevQsTileService me.velc.devqs.BaseDevQsTileService$$InternalSyntheticLambda$1$986a519f41759ba1ebf2986159889a07c4ba5d9668fcba20614f3d4014560fa9$0.f$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/d;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String me.velc.devqs.BaseDevQsTileService$$InternalSyntheticLambda$1$986a519f41759ba1ebf2986159889a07c4ba5d9668fcba20614f3d4014560fa9$0.f$1 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.BaseDevQsTileService$$ExternalSyntheticLambda0.<init>(a.BaseDevQsTileService,java.lang.String):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/d;Ljava/lang/String;)V"}
+    1:3:void me.velc.devqs.BaseDevQsTileService.copyCommandToClipboard(java.lang.String):118:120 -> onClick
+    1:3:void me.velc.devqs.BaseDevQsTileService.lambda$showPermissionRequestDialog$0(java.lang.String,android.content.DialogInterface,int):113 -> onClick
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/content/DialogInterface;I)V"}
+    4:4:void me.velc.devqs.BaseDevQsTileService.copyCommandToClipboard(java.lang.String):122:122 -> onClick
+    4:4:void me.velc.devqs.BaseDevQsTileService.lambda$showPermissionRequestDialog$0(java.lang.String,android.content.DialogInterface,int):113 -> onClick
+me.velc.devqs.BaseDevQsTileService$1 -> a.b:
+# {"id":"sourceFile","fileName":"BaseDevQsTileService.java"}
+    me.velc.devqs.BaseDevQsTileService this$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/d;"}
+    1:7:void <init>(me.velc.devqs.BaseDevQsTileService,android.os.Handler):45:45 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/d;)V"}
+    1:2:void onChange(boolean,android.net.Uri):48:49 -> onChange
+    3:3:void onChange(boolean,android.net.Uri):51:51 -> onChange
+    4:4:void onChange(boolean,android.net.Uri):54:54 -> onChange
+me.velc.devqs.BaseDevQsTileService$DeveloperOptions -> me.velc.devqs.BaseDevQsTileService$DeveloperOptions:
+# {"id":"sourceFile","fileName":"BaseDevQsTileService.java"}
+    1:6:void <init>():133:133 -> <init>
+me.velc.devqs.BaseDevQsTileService$UsbDebugging -> me.velc.devqs.BaseDevQsTileService$UsbDebugging:
+# {"id":"sourceFile","fileName":"BaseDevQsTileService.java"}
+    1:6:void <init>():140:140 -> <init>
+me.velc.devqs.BaseDevQsTileService$WirelessDebugging -> me.velc.devqs.BaseDevQsTileService$WirelessDebugging:
+# {"id":"sourceFile","fileName":"BaseDevQsTileService.java"}
+    1:6:void <init>():148:148 -> <init>
+    1:12:boolean isWifiConnected(android.content.Context):281:281 -> a
+    1:12:boolean canEnableSetting():235 -> a
+    13:22:boolean isWifiConnected(android.content.Context):284:284 -> a
+    13:22:boolean canEnableSetting():235 -> a
+    23:30:boolean isWifiConnected(android.content.Context):285:285 -> a
+    23:30:boolean canEnableSetting():235 -> a
+    31:41:boolean isWifiConnected(android.content.Context):288:288 -> a
+    31:41:boolean canEnableSetting():235 -> a
+    1:2:void onUpdateTile(android.service.quicksettings.Tile,java.lang.CharSequence,int):229:230 -> c
+    1:7:void showCannotEnableSettingReason():240:240 -> d
+    8:13:void showCannotEnableSettingReason():241:241 -> d
+    14:21:void showCannotEnableSettingReason():242:242 -> d
+    22:25:void showCannotEnableSettingReason():243:243 -> d
+    26:33:void showCannotEnableSettingReason():244:244 -> d
+    1:7:void onServiceFound(android.net.nsd.NsdServiceInfo):172:172 -> onServiceFound
+    8:15:void onServiceFound(android.net.nsd.NsdServiceInfo):175:175 -> onServiceFound
+    16:24:void onServiceFound(android.net.nsd.NsdServiceInfo):176:176 -> onServiceFound
+    1:3:void onStartListening():153:153 -> onStartListening
+    4:13:void onStartListening():154:154 -> onStartListening
+    14:20:void onStartListening():156:156 -> onStartListening
+    1:10:void onStopListening():250:250 -> onStopListening
+    11:13:void onStopListening():252:252 -> onStopListening
+    14:17:void onStopListening():256:256 -> onStopListening
+me.velc.devqs.BaseDevQsTileService$WirelessDebugging$1 -> a.c:
+# {"id":"sourceFile","fileName":"BaseDevQsTileService.java"}
+    me.velc.devqs.BaseDevQsTileService$WirelessDebugging this$0 -> a
+    1:6:void <init>(me.velc.devqs.BaseDevQsTileService$WirelessDebugging):176:176 -> <init>
+    1:6:void onResolveFailed(android.net.nsd.NsdServiceInfo,int):184:184 -> onResolveFailed
+    1:1:void me.velc.devqs.BaseDevQsTileService$WirelessDebugging.onServiceResolved(android.net.nsd.NsdServiceInfo):190:190 -> onServiceResolved
+    1:1:void onServiceResolved(android.net.nsd.NsdServiceInfo):179 -> onServiceResolved
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    2:2:void me.velc.devqs.BaseDevQsTileService$WirelessDebugging.onServiceResolved(android.net.nsd.NsdServiceInfo):193:193 -> onServiceResolved
+    2:2:void onServiceResolved(android.net.nsd.NsdServiceInfo):179 -> onServiceResolved
+    3:3:void me.velc.devqs.BaseDevQsTileService$WirelessDebugging.onServiceResolved(android.net.nsd.NsdServiceInfo):195:195 -> onServiceResolved
+    3:3:void onServiceResolved(android.net.nsd.NsdServiceInfo):179 -> onServiceResolved
+    4:4:java.lang.String me.velc.devqs.BaseDevQsTileService$WirelessDebugging.getIpv4Address(android.content.Context):260:260 -> onServiceResolved
+    4:4:void me.velc.devqs.BaseDevQsTileService$WirelessDebugging.onServiceResolved(android.net.nsd.NsdServiceInfo):198 -> onServiceResolved
+    4:4:void onServiceResolved(android.net.nsd.NsdServiceInfo):179 -> onServiceResolved
+    5:7:java.lang.String me.velc.devqs.BaseDevQsTileService$WirelessDebugging.getIpv4Address(android.content.Context):263:265 -> onServiceResolved
+    5:7:void me.velc.devqs.BaseDevQsTileService$WirelessDebugging.onServiceResolved(android.net.nsd.NsdServiceInfo):198 -> onServiceResolved
+    5:7:void onServiceResolved(android.net.nsd.NsdServiceInfo):179 -> onServiceResolved
+    8:8:java.lang.String me.velc.devqs.BaseDevQsTileService$WirelessDebugging.getIpv4Address(android.content.Context):267:267 -> onServiceResolved
+    8:8:void me.velc.devqs.BaseDevQsTileService$WirelessDebugging.onServiceResolved(android.net.nsd.NsdServiceInfo):198 -> onServiceResolved
+    8:8:void onServiceResolved(android.net.nsd.NsdServiceInfo):179 -> onServiceResolved
+    9:12:java.lang.String me.velc.devqs.BaseDevQsTileService$WirelessDebugging.getIpv4Address(android.content.Context):270:273 -> onServiceResolved
+    9:12:void me.velc.devqs.BaseDevQsTileService$WirelessDebugging.onServiceResolved(android.net.nsd.NsdServiceInfo):198 -> onServiceResolved
+    9:12:void onServiceResolved(android.net.nsd.NsdServiceInfo):179 -> onServiceResolved
+    13:16:void me.velc.devqs.BaseDevQsTileService$WirelessDebugging.onServiceResolved(android.net.nsd.NsdServiceInfo):201:204 -> onServiceResolved
+    13:16:void onServiceResolved(android.net.nsd.NsdServiceInfo):179 -> onServiceResolved
+me.velc.devqs.R$id -> a.e:
+me.velc.devqs.R$layout -> a.f:
+me.velc.devqs.R$string -> a.g:
+me.velc.devqs.TrampolineActivity -> me.velc.devqs.TrampolineActivity:
+# {"id":"sourceFile","fileName":"TrampolineActivity.java"}
+    1:4:void <init>():10:10 -> <init>
+    1:7:android.content.Intent makeIntent(java.lang.String):42:42 -> a
+    8:13:android.content.Intent makeIntent(java.lang.String):43:43 -> a
+    14:18:android.content.Intent makeIntent(java.lang.String):44:44 -> a
+    19:22:android.content.Intent makeIntent(java.lang.String):45:45 -> a
+    1:2:void onCreate(android.os.Bundle):14:15 -> onCreate
+    3:3:void onCreate(android.os.Bundle):18:18 -> onCreate
+    4:4:void onCreate(android.os.Bundle):17:17 -> onCreate
+    5:5:void onCreate(android.os.Bundle):19:19 -> onCreate
+    6:8:void onCreate(android.os.Bundle):23:25 -> onCreate
+    9:9:void onCreate(android.os.Bundle):30:30 -> onCreate
+    10:10:void onCreate(android.os.Bundle):35:35 -> onCreate

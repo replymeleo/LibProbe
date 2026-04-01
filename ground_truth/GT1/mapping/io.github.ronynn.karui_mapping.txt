@@ -1,0 +1,68 @@
+# compiler: R8
+# compiler_version: 8.2.33
+# min_api: 21
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 8db3828
+# pg_map_hash: SHA-256 8db3828138348f719c83d29f2223a3f892880556b02038834c188bc0b5101193
+io.github.ronynn.karui.MainActivity -> io.github.ronynn.karui.MainActivity:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    android.webkit.WebView mWebView -> a
+    android.view.View splashScreen -> b
+    java.lang.String pendingFileData -> c
+    int $r8$clinit -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+io.github.ronynn.karui.MainActivity$1 -> a.b:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    io.github.ronynn.karui.MainActivity this$0 -> a
+    1:1:void <init>(io.github.ronynn.karui.MainActivity):0:0 -> <init>
+    1:1:android.view.View io.github.ronynn.karui.MainActivity.access$000(io.github.ronynn.karui.MainActivity):0:0 -> onPageFinished
+    1:1:void onPageFinished(android.webkit.WebView,java.lang.String):0 -> onPageFinished
+    2:2:void onPageFinished(android.webkit.WebView,java.lang.String):0:0 -> onPageFinished
+    3:3:android.view.View io.github.ronynn.karui.MainActivity.access$000(io.github.ronynn.karui.MainActivity):0:0 -> onPageFinished
+    3:3:void onPageFinished(android.webkit.WebView,java.lang.String):0 -> onPageFinished
+    4:4:void onPageFinished(android.webkit.WebView,java.lang.String):0:0 -> onPageFinished
+    5:5:android.webkit.WebView io.github.ronynn.karui.MainActivity.access$100(io.github.ronynn.karui.MainActivity):0:0 -> onPageFinished
+    5:5:void onPageFinished(android.webkit.WebView,java.lang.String):0 -> onPageFinished
+    6:6:void onPageFinished(android.webkit.WebView,java.lang.String):0:0 -> onPageFinished
+    7:7:android.webkit.WebView io.github.ronynn.karui.MainActivity.access$100(io.github.ronynn.karui.MainActivity):0:0 -> onPageFinished
+    7:7:void onPageFinished(android.webkit.WebView,java.lang.String):0 -> onPageFinished
+    8:8:void onPageFinished(android.webkit.WebView,java.lang.String):0:0 -> onPageFinished
+    1:1:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String):0:0 -> shouldOverrideUrlLoading
+io.github.ronynn.karui.MainActivity$1$$ExternalSyntheticApiModelOutline0 -> a.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:1:int io.github.ronynn.karui.MainActivity$1$$InternalSyntheticApiModelOutline$1$c9e5dec842f2dfc9493cd61c8963a2acf8331803a7cc0d8cd42c5b86d59eb62b$0.m(io.github.ronynn.karui.MainActivity,int):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lio/github/ronynn/karui/MainActivity;)I"}
+    1:1:int io.github.ronynn.karui.MainActivity$1$$InternalSyntheticApiModelOutline$1$c9e5dec842f2dfc9493cd61c8963a2acf8331803a7cc0d8cd42c5b86d59eb62b$1.m(io.github.ronynn.karui.MainActivity,int):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lio/github/ronynn/karui/MainActivity;)I"}
+    1:1:int io.github.ronynn.karui.MainActivity$1$$InternalSyntheticApiModelOutline$1$c9e5dec842f2dfc9493cd61c8963a2acf8331803a7cc0d8cd42c5b86d59eb62b$2.m(io.github.ronynn.karui.MainActivity,int):0:0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lio/github/ronynn/karui/MainActivity;)I"}
+io.github.ronynn.karui.MainActivity$WebAppInterface -> a.d:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    io.github.ronynn.karui.MainActivity this$0 -> a
+    1:1:void <init>(io.github.ronynn.karui.MainActivity):0:0 -> <init>
+    1:1:void getDynamicColors():0:0 -> getDynamicColors
+    1:1:void importJsonFile():0:0 -> importJsonFile
+    1:1:java.lang.String io.github.ronynn.karui.MainActivity.access$202(io.github.ronynn.karui.MainActivity,java.lang.String):0:0 -> saveFile
+    1:1:void saveFile(java.lang.String,java.lang.String,java.lang.String):0 -> saveFile
+    2:2:java.lang.String io.github.ronynn.karui.MainActivity.access$302(io.github.ronynn.karui.MainActivity,java.lang.String):0:0 -> saveFile
+    2:2:void saveFile(java.lang.String,java.lang.String,java.lang.String):0 -> saveFile
+    3:3:java.lang.String io.github.ronynn.karui.MainActivity.access$402(io.github.ronynn.karui.MainActivity,java.lang.String):0:0 -> saveFile
+    3:3:void saveFile(java.lang.String,java.lang.String,java.lang.String):0 -> saveFile
+    4:4:void saveFile(java.lang.String,java.lang.String,java.lang.String):0:0 -> saveFile
+io.github.ronynn.karui.MainActivity$WebAppInterface$1 -> a.c:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    java.lang.String val$jsCode -> a
+    io.github.ronynn.karui.MainActivity$WebAppInterface this$1 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/d;"}
+    1:1:void <init>(io.github.ronynn.karui.MainActivity$WebAppInterface,java.lang.String):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/d;Ljava/lang/String;)V"}
+    1:1:android.webkit.WebView io.github.ronynn.karui.MainActivity.access$100(io.github.ronynn.karui.MainActivity):0:0 -> run
+    1:1:void run():0 -> run
+    2:2:void run():0:0 -> run
+io.github.ronynn.karui.R$id -> a.e:
+io.github.ronynn.karui.R$layout -> a.f:

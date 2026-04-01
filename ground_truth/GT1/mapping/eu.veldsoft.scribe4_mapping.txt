@@ -1,0 +1,1713 @@
+# compiler: R8
+# compiler_version: 8.11.18
+# min_api: 25
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: f121b9f
+# pg_map_hash: SHA-256 f121b9ff47a20398a7b3200b01a773e27fde1ba0351c55d92abe8a2ddd866738
+eu.veldsoft.scribe4.AIPlayer -> R8$$REMOVED$$CLASS$$0:
+# {"id":"sourceFile","fileName":"AIPlayer.java"}
+eu.veldsoft.scribe4.AIPlayer$1 -> a.a:
+# {"id":"sourceFile","fileName":"AIPlayer.java"}
+    eu.veldsoft.scribe4.model.GridPosition theMove -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/b;"}
+    eu.veldsoft.scribe4.AIPlayer this$0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lb/a;"}
+    1:6:void <init>(eu.veldsoft.scribe4.AIPlayer):48:48 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lb/a;)V"}
+    7:9:void <init>(eu.veldsoft.scribe4.AIPlayer):49:49 -> <init>
+    3:6:java.lang.Object doInBackground(java.lang.Object[]):48:48 -> doInBackground
+    7:10:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():32:32 -> doInBackground
+    7:10:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    7:10:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    11:13:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():32:32 -> doInBackground
+    11:13:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    11:13:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    14:18:java.util.List eu.veldsoft.scribe4.model.ScribeBoard.getEnabledMinigrids():125:125 -> doInBackground
+    14:18:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():32 -> doInBackground
+    14:18:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    14:18:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    19:24:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> doInBackground
+    19:24:java.util.List eu.veldsoft.scribe4.model.ScribeBoard.getEnabledMinigrids():126 -> doInBackground
+    19:24:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():32 -> doInBackground
+    19:24:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    19:24:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    25:40:java.util.List eu.veldsoft.scribe4.model.ScribeBoard.getEnabledMinigrids():126:126 -> doInBackground
+    25:40:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():32 -> doInBackground
+    25:40:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    25:40:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    41:44:java.util.List eu.veldsoft.scribe4.model.ScribeBoard.getEnabledMinigrids():127:127 -> doInBackground
+    41:44:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():32 -> doInBackground
+    41:44:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    41:44:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    45:48:boolean eu.veldsoft.scribe4.model.MiniGrid.isEnabled():254:254 -> doInBackground
+    45:48:java.util.List eu.veldsoft.scribe4.model.ScribeBoard.getEnabledMinigrids():128 -> doInBackground
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    45:48:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():32 -> doInBackground
+    45:48:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    45:48:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    49:52:java.util.List eu.veldsoft.scribe4.model.ScribeBoard.getEnabledMinigrids():129:129 -> doInBackground
+    49:52:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():32 -> doInBackground
+    49:52:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    49:52:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    53:56:java.util.List eu.veldsoft.scribe4.model.ScribeBoard.getEnabledMinigrids():132:132 -> doInBackground
+    53:56:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():32 -> doInBackground
+    53:56:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    53:56:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    57:66:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():34:34 -> doInBackground
+    57:66:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    57:66:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    67:73:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():35:35 -> doInBackground
+    67:73:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    67:73:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    74:75:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():40:40 -> doInBackground
+    74:75:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    74:75:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    76:81:java.lang.Object eu.veldsoft.scribe4.Util.choice(java.util.List):34:34 -> doInBackground
+    76:81:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():40 -> doInBackground
+    76:81:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    76:81:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    82:95:java.lang.Object eu.veldsoft.scribe4.Util.choice(java.util.List):38:38 -> doInBackground
+    82:95:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():40 -> doInBackground
+    82:95:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    82:95:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    96:97:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():40:40 -> doInBackground
+    96:97:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    96:97:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    98:103:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():42:42 -> doInBackground
+    98:103:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    98:103:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    104:115:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():43:43 -> doInBackground
+    104:115:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    104:115:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    116:132:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():44:44 -> doInBackground
+    116:132:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    116:132:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    133:154:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():46:46 -> doInBackground
+    133:154:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    133:154:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    155:159:void eu.veldsoft.scribe4.Log.d(java.lang.String):18:18 -> doInBackground
+    155:159:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():46 -> doInBackground
+    155:159:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    155:159:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    160:164:java.util.List eu.veldsoft.scribe4.model.MiniGrid.getEmptyCells():105:105 -> doInBackground
+    160:164:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():47 -> doInBackground
+    160:164:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    160:164:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    165:170:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> doInBackground
+    165:170:java.util.List eu.veldsoft.scribe4.model.MiniGrid.getEmptyCells():106 -> doInBackground
+    165:170:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():47 -> doInBackground
+    165:170:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    165:170:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    171:186:java.util.List eu.veldsoft.scribe4.model.MiniGrid.getEmptyCells():106:106 -> doInBackground
+    171:186:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():47 -> doInBackground
+    171:186:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    171:186:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    187:194:eu.veldsoft.scribe4.model.ScribeMark eu.veldsoft.scribe4.model.MiniGrid.get(eu.veldsoft.scribe4.model.XY):97:97 -> doInBackground
+    187:194:java.util.List eu.veldsoft.scribe4.model.MiniGrid.getEmptyCells():107 -> doInBackground
+    187:194:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():47 -> doInBackground
+    187:194:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    187:194:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    195:198:java.util.List eu.veldsoft.scribe4.model.MiniGrid.getEmptyCells():107:107 -> doInBackground
+    195:198:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():47 -> doInBackground
+    195:198:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    195:198:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    199:202:java.util.List eu.veldsoft.scribe4.model.MiniGrid.getEmptyCells():108:108 -> doInBackground
+    199:202:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():47 -> doInBackground
+    199:202:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    199:202:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    203:218:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():49:49 -> doInBackground
+    203:218:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    203:218:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    219:223:eu.veldsoft.scribe4.model.MiniGrid eu.veldsoft.scribe4.model.MiniGrid.copy():284:284 -> doInBackground
+    219:223:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():50 -> doInBackground
+    219:223:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    219:223:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    224:238:eu.veldsoft.scribe4.model.MiniGrid eu.veldsoft.scribe4.model.MiniGrid.copy():285:285 -> doInBackground
+    224:238:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():50 -> doInBackground
+    224:238:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    224:238:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    239:244:eu.veldsoft.scribe4.model.ScribeMark eu.veldsoft.scribe4.model.MiniGrid.get(int,int):93:93 -> doInBackground
+    239:244:eu.veldsoft.scribe4.model.MiniGrid eu.veldsoft.scribe4.model.MiniGrid.copy():288 -> doInBackground
+    239:244:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():50 -> doInBackground
+    239:244:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    239:244:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    245:268:void eu.veldsoft.scribe4.model.MiniGrid.set(int,int,eu.veldsoft.scribe4.model.ScribeMark):41:41 -> doInBackground
+    245:268:eu.veldsoft.scribe4.model.MiniGrid eu.veldsoft.scribe4.model.MiniGrid.copy():288 -> doInBackground
+    245:268:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():50 -> doInBackground
+    245:268:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    245:268:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    269:273:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():51:51 -> doInBackground
+    269:273:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    269:273:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    274:277:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():52:52 -> doInBackground
+    274:277:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    274:277:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    278:291:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():53:53 -> doInBackground
+    278:291:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    278:291:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    292:306:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():54:54 -> doInBackground
+    292:306:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    292:306:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    307:342:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():55:55 -> doInBackground
+    307:342:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    307:342:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    343:360:void eu.veldsoft.scribe4.Log.d(java.lang.String):18:18 -> doInBackground
+    343:360:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():55 -> doInBackground
+    343:360:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    343:360:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    361:366:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():63:63 -> doInBackground
+    361:366:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    361:366:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    367:370:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():65:65 -> doInBackground
+    367:370:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    367:370:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    371:376:java.lang.Object eu.veldsoft.scribe4.Util.choice(java.util.List):34:34 -> doInBackground
+    371:376:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():65 -> doInBackground
+    371:376:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    371:376:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    377:390:java.lang.Object eu.veldsoft.scribe4.Util.choice(java.util.List):38:38 -> doInBackground
+    377:390:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():65 -> doInBackground
+    377:390:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    377:390:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    391:395:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():65:65 -> doInBackground
+    391:395:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    391:395:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    396:398:java.lang.Void doInBackground(java.lang.Void[]):53:53 -> doInBackground
+    396:398:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    399:404:java.lang.Object eu.veldsoft.scribe4.Util.choice(java.util.List):35:35 -> doInBackground
+    399:404:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():65 -> doInBackground
+    399:404:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    399:404:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    405:410:java.lang.Object eu.veldsoft.scribe4.Util.choice(java.util.List):35:35 -> doInBackground
+    405:410:eu.veldsoft.scribe4.model.GridPosition eu.veldsoft.scribe4.ai.LeesAIPlayer.itsYourTurn():40 -> doInBackground
+    405:410:java.lang.Void doInBackground(java.lang.Void[]):53 -> doInBackground
+    405:410:java.lang.Object doInBackground(java.lang.Object[]):48 -> doInBackground
+    1:2:void onPostExecute(java.lang.Object):48:48 -> onPostExecute
+    3:5:void onPostExecute(java.lang.Void):59:59 -> onPostExecute
+    3:5:void onPostExecute(java.lang.Object):48 -> onPostExecute
+    6:11:void onPostExecute(java.lang.Void):60:60 -> onPostExecute
+    6:11:void onPostExecute(java.lang.Object):48 -> onPostExecute
+    12:15:void eu.veldsoft.scribe4.AIPlayer.move(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):35:35 -> onPostExecute
+    12:15:void eu.veldsoft.scribe4.AIPlayer.access$000(eu.veldsoft.scribe4.AIPlayer,eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):16 -> onPostExecute
+    12:15:void onPostExecute(java.lang.Void):60 -> onPostExecute
+    12:15:void onPostExecute(java.lang.Object):48 -> onPostExecute
+    16:17:eu.veldsoft.scribe4.model.ScribeMark eu.veldsoft.scribe4.model.ScribeBoard.whoseTurn():46:46 -> onPostExecute
+    16:17:void eu.veldsoft.scribe4.AIPlayer.move(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):35 -> onPostExecute
+    16:17:void eu.veldsoft.scribe4.AIPlayer.access$000(eu.veldsoft.scribe4.AIPlayer,eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):16 -> onPostExecute
+    16:17:void onPostExecute(java.lang.Void):60 -> onPostExecute
+    16:17:void onPostExecute(java.lang.Object):48 -> onPostExecute
+    18:21:void eu.veldsoft.scribe4.AIPlayer.move(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):35:35 -> onPostExecute
+    18:21:void eu.veldsoft.scribe4.AIPlayer.access$000(eu.veldsoft.scribe4.AIPlayer,eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):16 -> onPostExecute
+    18:21:void onPostExecute(java.lang.Void):60 -> onPostExecute
+    18:21:void onPostExecute(java.lang.Object):48 -> onPostExecute
+    22:25:void eu.veldsoft.scribe4.AIPlayer.move(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):36:36 -> onPostExecute
+    22:25:void eu.veldsoft.scribe4.AIPlayer.access$000(eu.veldsoft.scribe4.AIPlayer,eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):16 -> onPostExecute
+    22:25:void onPostExecute(java.lang.Void):60 -> onPostExecute
+    22:25:void onPostExecute(java.lang.Object):48 -> onPostExecute
+    26:29:void eu.veldsoft.scribe4.AIPlayer.move(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):38:38 -> onPostExecute
+    26:29:void eu.veldsoft.scribe4.AIPlayer.access$000(eu.veldsoft.scribe4.AIPlayer,eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):16 -> onPostExecute
+    26:29:void onPostExecute(java.lang.Void):60 -> onPostExecute
+    26:29:void onPostExecute(java.lang.Object):48 -> onPostExecute
+    30:32:void eu.veldsoft.scribe4.model.ScribeException.<init>(java.lang.String):5:5 -> onPostExecute
+    30:32:void eu.veldsoft.scribe4.AIPlayer.move(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):38 -> onPostExecute
+    30:32:void eu.veldsoft.scribe4.AIPlayer.access$000(eu.veldsoft.scribe4.AIPlayer,eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):16 -> onPostExecute
+    30:32:void onPostExecute(java.lang.Void):60 -> onPostExecute
+    30:32:void onPostExecute(java.lang.Object):48 -> onPostExecute
+    33:33:void eu.veldsoft.scribe4.AIPlayer.move(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):38:38 -> onPostExecute
+    33:33:void eu.veldsoft.scribe4.AIPlayer.access$000(eu.veldsoft.scribe4.AIPlayer,eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):16 -> onPostExecute
+    33:33:void onPostExecute(java.lang.Void):60 -> onPostExecute
+    33:33:void onPostExecute(java.lang.Object):48 -> onPostExecute
+eu.veldsoft.scribe4.CellView -> eu.veldsoft.scribe4.CellView:
+# {"id":"sourceFile","fileName":"CellView.java"}
+    eu.veldsoft.scribe4.model.ScribeMark mark -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/k;"}
+    int size -> b
+    eu.veldsoft.scribe4.model.XY xy -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/n;"}
+    boolean lastMove -> d
+    1:3:void <init>(android.content.Context,android.util.AttributeSet):27:27 -> <init>
+    4:8:void <init>(android.content.Context,android.util.AttributeSet):17:17 -> <init>
+    9:11:void <init>(android.content.Context,android.util.AttributeSet):18:18 -> <init>
+    12:14:void <init>(android.content.Context,android.util.AttributeSet):23:23 -> <init>
+    15:20:void <init>(android.content.Context,android.util.AttributeSet):29:29 -> <init>
+    21:28:void <init>(android.content.Context,android.util.AttributeSet):32:32 -> <init>
+    29:37:void <init>(android.content.Context,android.util.AttributeSet):33:33 -> <init>
+    38:45:void <init>(android.content.Context,android.util.AttributeSet):35:35 -> <init>
+    46:51:void <init>(android.content.Context,android.util.AttributeSet):36:36 -> <init>
+    52:59:void <init>(android.content.Context,android.util.AttributeSet):37:37 -> <init>
+    60:65:void <init>(android.content.Context,android.util.AttributeSet):38:38 -> <init>
+    66:73:void <init>(android.content.Context,android.util.AttributeSet):39:39 -> <init>
+    74:79:void <init>(android.content.Context,android.util.AttributeSet):40:40 -> <init>
+    80:87:void <init>(android.content.Context,android.util.AttributeSet):41:41 -> <init>
+    88:93:void <init>(android.content.Context,android.util.AttributeSet):42:42 -> <init>
+    94:101:void <init>(android.content.Context,android.util.AttributeSet):44:44 -> <init>
+    102:105:void <init>(android.content.Context,android.util.AttributeSet):34:34 -> <init>
+    1:3:eu.veldsoft.scribe4.model.ScribeMark getMark():111:111 -> getMark
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Lc/k;"}
+    1:3:eu.veldsoft.scribe4.model.XY getXY():107:107 -> getXY
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Lc/n;"}
+    1:3:void onDraw(android.graphics.Canvas):86:86 -> onDraw
+    4:8:void onDraw(android.graphics.Canvas):87:87 -> onDraw
+    9:32:void onDraw(android.graphics.Canvas):88:88 -> onDraw
+    33:60:int eu.veldsoft.scribe4.Settings.getEnabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):18:18 -> onDraw
+    33:60:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):59 -> onDraw
+    33:60:void onDraw(android.graphics.Canvas):88 -> onDraw
+    61:79:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):35:35 -> onDraw
+    61:79:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    61:79:void onDraw(android.graphics.Canvas):88 -> onDraw
+    80:84:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):53:53 -> onDraw
+    80:84:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    80:84:void onDraw(android.graphics.Canvas):88 -> onDraw
+    85:94:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):54:54 -> onDraw
+    85:94:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    85:94:void onDraw(android.graphics.Canvas):88 -> onDraw
+    95:99:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):53:53 -> onDraw
+    95:99:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    95:99:void onDraw(android.graphics.Canvas):88 -> onDraw
+    100:104:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):50:50 -> onDraw
+    100:104:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    100:104:void onDraw(android.graphics.Canvas):88 -> onDraw
+    105:114:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):51:51 -> onDraw
+    105:114:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    105:114:void onDraw(android.graphics.Canvas):88 -> onDraw
+    115:119:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):50:50 -> onDraw
+    115:119:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    115:119:void onDraw(android.graphics.Canvas):88 -> onDraw
+    120:124:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):46:46 -> onDraw
+    120:124:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    120:124:void onDraw(android.graphics.Canvas):88 -> onDraw
+    125:129:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):47:47 -> onDraw
+    125:129:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    125:129:void onDraw(android.graphics.Canvas):88 -> onDraw
+    130:134:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):48:48 -> onDraw
+    130:134:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    130:134:void onDraw(android.graphics.Canvas):88 -> onDraw
+    135:139:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):46:46 -> onDraw
+    135:139:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    135:139:void onDraw(android.graphics.Canvas):88 -> onDraw
+    140:144:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):43:43 -> onDraw
+    140:144:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    140:144:void onDraw(android.graphics.Canvas):88 -> onDraw
+    145:154:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):44:44 -> onDraw
+    145:154:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    145:154:void onDraw(android.graphics.Canvas):88 -> onDraw
+    155:159:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):43:43 -> onDraw
+    155:159:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    155:159:void onDraw(android.graphics.Canvas):88 -> onDraw
+    160:164:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):40:40 -> onDraw
+    160:164:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    160:164:void onDraw(android.graphics.Canvas):88 -> onDraw
+    165:174:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):41:41 -> onDraw
+    165:174:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    165:174:void onDraw(android.graphics.Canvas):88 -> onDraw
+    175:179:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):40:40 -> onDraw
+    175:179:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    175:179:void onDraw(android.graphics.Canvas):88 -> onDraw
+    180:184:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):37:37 -> onDraw
+    180:184:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    180:184:void onDraw(android.graphics.Canvas):88 -> onDraw
+    185:194:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):38:38 -> onDraw
+    185:194:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    185:194:void onDraw(android.graphics.Canvas):88 -> onDraw
+    195:198:int eu.veldsoft.scribe4.Settings.getDisabledColorForMark(eu.veldsoft.scribe4.model.ScribeMark):37:37 -> onDraw
+    195:198:int eu.veldsoft.scribe4.Settings.getColorForMark(eu.veldsoft.scribe4.model.ScribeMark,boolean):60 -> onDraw
+    195:198:void onDraw(android.graphics.Canvas):88 -> onDraw
+    199:201:void onDraw(android.graphics.Canvas):88:88 -> onDraw
+    202:203:void onDraw(android.graphics.Canvas):89:89 -> onDraw
+    204:217:void onDraw(android.graphics.Canvas):90:90 -> onDraw
+    218:227:void onDraw(android.graphics.Canvas):91:91 -> onDraw
+    228:238:void onDraw(android.graphics.Canvas):92:92 -> onDraw
+    239:241:void onDraw(android.graphics.Canvas):89:89 -> onDraw
+    242:245:void onDraw(android.graphics.Canvas):94:94 -> onDraw
+    246:248:void onDraw(android.graphics.Canvas):96:96 -> onDraw
+    249:251:void onDraw(android.graphics.Canvas):95:95 -> onDraw
+    252:263:void onDraw(android.graphics.Canvas):97:97 -> onDraw
+    264:270:void onDraw(android.graphics.Canvas):98:98 -> onDraw
+    271:274:void onDraw(android.graphics.Canvas):97:97 -> onDraw
+    1:6:void onMeasure(int,int):67:67 -> onMeasure
+    7:12:void onMeasure(int,int):68:68 -> onMeasure
+    13:20:void onMeasure(int,int):69:69 -> onMeasure
+    21:28:void onMeasure(int,int):70:70 -> onMeasure
+    29:33:void onMeasure(int,int):73:73 -> onMeasure
+    34:42:void onMeasure(int,int):79:79 -> onMeasure
+    43:50:void onMeasure(int,int):75:75 -> onMeasure
+    51:54:void onMeasure(int,int):81:81 -> onMeasure
+    1:5:void setLastMove(boolean):58:58 -> setLastMove
+    6:7:void setLastMove(boolean):61:61 -> setLastMove
+    8:11:void setLastMove(boolean):62:62 -> setLastMove
+    1:2:void setMark(eu.veldsoft.scribe4.model.ScribeMark):53:53 -> setMark
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/k;)V"}
+    3:6:void setMark(eu.veldsoft.scribe4.model.ScribeMark):54:54 -> setMark
+    1:3:void setXY(eu.veldsoft.scribe4.model.XY):103:103 -> setXY
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/n;)V"}
+eu.veldsoft.scribe4.GlyphActivity -> eu.veldsoft.scribe4.GlyphActivity:
+# {"id":"sourceFile","fileName":"GlyphActivity.java"}
+    1:4:void <init>():20:20 -> <init>
+    1:4:void onClick(android.view.View):58:58 -> onClick
+    1:3:void onCreate(android.os.Bundle):24:24 -> onCreate
+    4:8:void onCreate(android.os.Bundle):26:26 -> onCreate
+    9:16:void onCreate(android.os.Bundle):27:27 -> onCreate
+    17:25:void onCreate(android.os.Bundle):28:28 -> onCreate
+    26:30:void onCreate(android.os.Bundle):30:30 -> onCreate
+    31:56:void onCreate(android.os.Bundle):31:31 -> onCreate
+    57:61:void onCreate(android.os.Bundle):32:32 -> onCreate
+    62:68:void onCreate(android.os.Bundle):33:33 -> onCreate
+    69:75:void onCreate(android.os.Bundle):34:34 -> onCreate
+    76:79:void onCreate(android.os.Bundle):35:35 -> onCreate
+    80:100:void onCreate(android.os.Bundle):38:38 -> onCreate
+    101:102:void onCreate(android.os.Bundle):41:41 -> onCreate
+    103:105:void eu.veldsoft.scribe4.GlyphActivity$1.<init>(eu.veldsoft.scribe4.GlyphActivity):41:41 -> onCreate
+    103:105:void onCreate(android.os.Bundle):41 -> onCreate
+    106:108:void onCreate(android.os.Bundle):52:52 -> onCreate
+    109:112:void onCreate(android.os.Bundle):53:53 -> onCreate
+eu.veldsoft.scribe4.GlyphActivity$1 -> a.b:
+# {"id":"sourceFile","fileName":"GlyphActivity.java"}
+    1:8:boolean setViewValue(android.view.View,java.lang.Object,java.lang.String):45:45 -> setViewValue
+    9:19:boolean setViewValue(android.view.View,java.lang.Object,java.lang.String):46:46 -> setViewValue
+eu.veldsoft.scribe4.GlyphView -> eu.veldsoft.scribe4.GlyphView:
+# {"id":"sourceFile","fileName":"GlyphView.java"}
+    java.util.Set glyph -> a
+    android.graphics.Paint paint -> b
+    1:3:void <init>(android.content.Context,android.util.AttributeSet):24:24 -> <init>
+    4:10:void <init>(android.content.Context,android.util.AttributeSet):21:21 -> <init>
+    11:16:void <init>(android.content.Context,android.util.AttributeSet):25:25 -> <init>
+    1:3:void onDraw(android.graphics.Canvas):51:51 -> onDraw
+    4:9:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> onDraw
+    4:9:void onDraw(android.graphics.Canvas):52 -> onDraw
+    10:25:void onDraw(android.graphics.Canvas):52:52 -> onDraw
+    26:36:void onDraw(android.graphics.Canvas):53:53 -> onDraw
+    37:43:void onDraw(android.graphics.Canvas):54:54 -> onDraw
+    44:46:void onDraw(android.graphics.Canvas):56:56 -> onDraw
+    47:52:void onDraw(android.graphics.Canvas):58:58 -> onDraw
+    53:60:int centerX(int):29:29 -> onDraw
+    53:60:void onDraw(android.graphics.Canvas):58 -> onDraw
+    61:66:void onDraw(android.graphics.Canvas):58:58 -> onDraw
+    67:74:int centerY(int):33:33 -> onDraw
+    67:74:void onDraw(android.graphics.Canvas):58 -> onDraw
+    75:86:void onDraw(android.graphics.Canvas):58:58 -> onDraw
+    1:3:void onMeasure(int,int):38:38 -> onMeasure
+    4:9:void onMeasure(int,int):40:40 -> onMeasure
+    10:15:void onMeasure(int,int):41:41 -> onMeasure
+    16:23:void onMeasure(int,int):42:42 -> onMeasure
+    24:30:void onMeasure(int,int):44:44 -> onMeasure
+    31:34:void onMeasure(int,int):46:46 -> onMeasure
+    1:2:void setGlyph(java.util.Set):64:64 -> setGlyph
+    3:6:void setGlyph(java.util.Set):65:65 -> setGlyph
+eu.veldsoft.scribe4.Log -> R8$$REMOVED$$CLASS$$1:
+# {"id":"sourceFile","fileName":"Log.java"}
+eu.veldsoft.scribe4.Main -> eu.veldsoft.scribe4.Main:
+# {"id":"sourceFile","fileName":"Main.java"}
+    eu.veldsoft.scribe4.model.ScribeBoard scribeBoard -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/g;"}
+    eu.veldsoft.scribe4.model.ScribeMark winner -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/k;"}
+    eu.veldsoft.scribe4.model.MiniGrid lastClickedMiniGrid -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/c;"}
+    eu.veldsoft.scribe4.ScribeBoardView scribeBoardView -> d
+    boolean aiMode -> e
+    eu.veldsoft.scribe4.AIPlayer aiPlayer1 -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lb/a;"}
+    eu.veldsoft.scribe4.AIPlayer aiPlayer2 -> g
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lb/a;"}
+    eu.veldsoft.scribe4.AIPlayer aiPlayer3 -> h
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lb/a;"}
+    android.content.DialogInterface$OnClickListener newGameDialogClickListener -> i
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/d;"}
+    android.content.DialogInterface$OnClickListener winnerDialogClickListener -> j
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/d;"}
+    1:4:void <init>():29:29 -> <init>
+    5:6:void <init>():38:38 -> <init>
+    7:8:void <init>():39:39 -> <init>
+    9:11:void eu.veldsoft.scribe4.AIPlayer.<init>():16:16 -> <init>
+    9:11:void eu.veldsoft.scribe4.ai.LeesAIPlayer.<init>():17 -> <init>
+    9:11:void <init>():39 -> <init>
+    12:13:void <init>():39:39 -> <init>
+    14:15:void <init>():40:40 -> <init>
+    16:18:void eu.veldsoft.scribe4.AIPlayer.<init>():16:16 -> <init>
+    16:18:void eu.veldsoft.scribe4.ai.LeesAIPlayer.<init>():17 -> <init>
+    16:18:void <init>():40 -> <init>
+    19:20:void <init>():40:40 -> <init>
+    21:22:void <init>():41:41 -> <init>
+    23:25:void eu.veldsoft.scribe4.AIPlayer.<init>():16:16 -> <init>
+    23:25:void eu.veldsoft.scribe4.ai.LeesAIPlayer.<init>():17 -> <init>
+    23:25:void <init>():41 -> <init>
+    26:27:void <init>():41:41 -> <init>
+    28:35:void <init>():223:223 -> <init>
+    36:44:void <init>():244:244 -> <init>
+    1:5:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):276:276 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/g;Lc/k;)V"}
+    6:8:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):280:280 -> a
+    9:13:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):282:282 -> a
+    14:18:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):286:286 -> a
+    19:23:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):287:287 -> a
+    24:28:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):288:288 -> a
+    29:33:android.os.AsyncTask eu.veldsoft.scribe4.AIPlayer.getTask():48:48 -> a
+    29:33:void eu.veldsoft.scribe4.AIPlayer.move():44 -> a
+    29:33:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):288 -> a
+    34:38:void eu.veldsoft.scribe4.AIPlayer.move():44:44 -> a
+    34:38:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):288 -> a
+    39:42:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):290:290 -> a
+    43:47:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):291:291 -> a
+    48:52:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):292:292 -> a
+    53:57:android.os.AsyncTask eu.veldsoft.scribe4.AIPlayer.getTask():48:48 -> a
+    53:57:void eu.veldsoft.scribe4.AIPlayer.move():44 -> a
+    53:57:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):292 -> a
+    58:62:void eu.veldsoft.scribe4.AIPlayer.move():44:44 -> a
+    58:62:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):292 -> a
+    63:66:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):294:294 -> a
+    67:71:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):295:295 -> a
+    72:76:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):296:296 -> a
+    77:81:android.os.AsyncTask eu.veldsoft.scribe4.AIPlayer.getTask():48:48 -> a
+    77:81:void eu.veldsoft.scribe4.AIPlayer.move():44 -> a
+    77:81:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):296 -> a
+    82:87:void eu.veldsoft.scribe4.AIPlayer.move():44:44 -> a
+    82:87:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):296 -> a
+    7:29:void prepareDialog(int,android.app.Dialog):143:143 -> b
+    30:40:void prepareDialog(int,android.app.Dialog):144:144 -> b
+    41:44:void prepareDialog(int,android.app.Dialog):143:143 -> b
+    45:50:void prepareDialog(int,android.app.Dialog):135:135 -> b
+    51:54:eu.veldsoft.scribe4.model.ScribeMark eu.veldsoft.scribe4.model.ScribeBoard.whoseTurn():46:46 -> b
+    51:54:void prepareDialog(int,android.app.Dialog):136 -> b
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    55:56:void prepareDialog(int,android.app.Dialog):137:137 -> b
+    57:58:void eu.veldsoft.scribe4.MiniGridDialog.setValues(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):27:27 -> b
+    57:58:void prepareDialog(int,android.app.Dialog):138 -> b
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    59:75:void eu.veldsoft.scribe4.MiniGridDialog.setValues(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):28:28 -> b
+    59:75:void prepareDialog(int,android.app.Dialog):138 -> b
+    76:92:void eu.veldsoft.scribe4.MiniGridDialog.setValues(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):29:29 -> b
+    76:92:void prepareDialog(int,android.app.Dialog):138 -> b
+    93:95:void eu.veldsoft.scribe4.MiniGridDialog.setValues(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):28:28 -> b
+    93:95:void prepareDialog(int,android.app.Dialog):138 -> b
+    96:105:void eu.veldsoft.scribe4.MiniGridDialog.setup():34:34 -> b
+    96:105:void eu.veldsoft.scribe4.MiniGridDialog.setValues(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):30 -> b
+    96:105:void prepareDialog(int,android.app.Dialog):138 -> b
+    106:110:void eu.veldsoft.scribe4.MiniGridDialog.setup():36:36 -> b
+    106:110:void eu.veldsoft.scribe4.MiniGridDialog.setValues(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):30 -> b
+    106:110:void prepareDialog(int,android.app.Dialog):138 -> b
+    111:113:void eu.veldsoft.scribe4.MiniGridDialog.setup():37:37 -> b
+    111:113:void eu.veldsoft.scribe4.MiniGridDialog.setValues(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):30 -> b
+    111:113:void prepareDialog(int,android.app.Dialog):138 -> b
+    114:121:void eu.veldsoft.scribe4.MiniGridDialog.setup():38:38 -> b
+    114:121:void eu.veldsoft.scribe4.MiniGridDialog.setValues(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):30 -> b
+    114:121:void prepareDialog(int,android.app.Dialog):138 -> b
+    122:123:void eu.veldsoft.scribe4.model.MiniGrid.addMiniGridListener(eu.veldsoft.scribe4.model.MiniGridListener):217:217 -> b
+    122:123:void eu.veldsoft.scribe4.MiniGridDialog.setup():38 -> b
+    122:123:void eu.veldsoft.scribe4.MiniGridDialog.setValues(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):30 -> b
+    122:123:void prepareDialog(int,android.app.Dialog):138 -> b
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(3)"]}
+    124:127:void eu.veldsoft.scribe4.model.MiniGrid.addMiniGridListener(eu.veldsoft.scribe4.model.MiniGridListener):217:217 -> b
+    124:127:void eu.veldsoft.scribe4.MiniGridDialog.setup():38 -> b
+    124:127:void eu.veldsoft.scribe4.MiniGridDialog.setValues(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):30 -> b
+    124:127:void prepareDialog(int,android.app.Dialog):138 -> b
+    1:3:void startNewGame(boolean):64:64 -> c
+    4:5:void startNewGame(boolean):65:65 -> c
+    6:7:void startNewGame(boolean):66:66 -> c
+    8:11:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():26:26 -> c
+    8:11:void startNewGame(boolean):66 -> c
+    12:30:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():17:17 -> c
+    12:30:void startNewGame(boolean):66 -> c
+    31:39:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():19:19 -> c
+    31:39:void startNewGame(boolean):66 -> c
+    40:43:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():22:22 -> c
+    40:43:void startNewGame(boolean):66 -> c
+    44:50:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():24:24 -> c
+    44:50:void startNewGame(boolean):66 -> c
+    51:58:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():213:213 -> c
+    51:58:void startNewGame(boolean):66 -> c
+    59:64:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> c
+    59:64:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():27 -> c
+    59:64:void startNewGame(boolean):66 -> c
+    65:80:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():27:27 -> c
+    65:80:void startNewGame(boolean):66 -> c
+    81:82:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():28:28 -> c
+    81:82:void startNewGame(boolean):66 -> c
+    83:85:void eu.veldsoft.scribe4.model.MiniGrid.<init>(eu.veldsoft.scribe4.model.ScribeBoard):35:35 -> c
+    83:85:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():28 -> c
+    83:85:void startNewGame(boolean):66 -> c
+    86:87:void eu.veldsoft.scribe4.model.MiniGrid.<init>(eu.veldsoft.scribe4.model.ScribeBoard):36:36 -> c
+    86:87:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():28 -> c
+    86:87:void startNewGame(boolean):66 -> c
+    88:91:void eu.veldsoft.scribe4.model.MiniGrid.<init>(eu.veldsoft.scribe4.model.ScribeBoard):37:37 -> c
+    88:91:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():28 -> c
+    88:91:void startNewGame(boolean):66 -> c
+    92:96:void eu.veldsoft.scribe4.model.MiniGrid.addMiniGridListener(eu.veldsoft.scribe4.model.MiniGridListener):217:217 -> c
+    92:96:void eu.veldsoft.scribe4.model.MiniGrid.<init>(eu.veldsoft.scribe4.model.ScribeBoard):37 -> c
+    92:96:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():28 -> c
+    92:96:void startNewGame(boolean):66 -> c
+    97:107:void eu.veldsoft.scribe4.model.ScribeBoard.<init>():29:29 -> c
+    97:107:void startNewGame(boolean):66 -> c
+    108:109:void startNewGame(boolean):66:66 -> c
+    110:114:void startNewGame(boolean):67:67 -> c
+    115:116:void startNewGame(boolean):68:68 -> c
+    117:118:void eu.veldsoft.scribe4.model.ScribeBoard.addListener(eu.veldsoft.scribe4.model.ScribeListener):154:154 -> c
+    117:118:void startNewGame(boolean):68 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    119:121:void eu.veldsoft.scribe4.model.ScribeBoard.addListener(eu.veldsoft.scribe4.model.ScribeListener):154:154 -> c
+    119:121:void startNewGame(boolean):68 -> c
+    122:133:void startNewGame(boolean):69:69 -> c
+    134:135:void startNewGame(boolean):70:70 -> c
+    136:140:void eu.veldsoft.scribe4.Log.i(java.lang.String):22:22 -> c
+    136:140:void startNewGame(boolean):70 -> c
+    141:144:eu.veldsoft.scribe4.MoveLogger eu.veldsoft.scribe4.MoveLogger.getInstance():17:17 -> c
+    141:144:void startNewGame(boolean):71 -> c
+    145:146:eu.veldsoft.scribe4.MoveLogger eu.veldsoft.scribe4.MoveLogger.getInstance():18:18 -> c
+    145:146:void startNewGame(boolean):71 -> c
+    147:149:void eu.veldsoft.scribe4.MoveLogger.<init>():12:12 -> c
+    147:149:eu.veldsoft.scribe4.MoveLogger eu.veldsoft.scribe4.MoveLogger.getInstance():18 -> c
+    147:149:void startNewGame(boolean):71 -> c
+    150:151:eu.veldsoft.scribe4.MoveLogger eu.veldsoft.scribe4.MoveLogger.getInstance():18:18 -> c
+    150:151:void startNewGame(boolean):71 -> c
+    152:153:eu.veldsoft.scribe4.MoveLogger eu.veldsoft.scribe4.MoveLogger.getInstance():20:20 -> c
+    152:153:void startNewGame(boolean):71 -> c
+    154:155:void startNewGame(boolean):71:71 -> c
+    156:157:void eu.veldsoft.scribe4.MoveLogger.setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):24:24 -> c
+    156:157:void startNewGame(boolean):71 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    158:159:void eu.veldsoft.scribe4.model.ScribeBoard.addListener(eu.veldsoft.scribe4.model.ScribeListener):154:154 -> c
+    158:159:void eu.veldsoft.scribe4.MoveLogger.setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):25 -> c
+    158:159:void startNewGame(boolean):71 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
+    160:162:void eu.veldsoft.scribe4.model.ScribeBoard.addListener(eu.veldsoft.scribe4.model.ScribeListener):154:154 -> c
+    160:162:void eu.veldsoft.scribe4.MoveLogger.setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):25 -> c
+    160:162:void startNewGame(boolean):71 -> c
+    163:168:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> c
+    163:168:void eu.veldsoft.scribe4.MoveLogger.setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):27 -> c
+    163:168:void startNewGame(boolean):71 -> c
+    169:184:void eu.veldsoft.scribe4.MoveLogger.setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):27:27 -> c
+    169:184:void startNewGame(boolean):71 -> c
+    185:190:void eu.veldsoft.scribe4.MoveLogger.setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):28:28 -> c
+    185:190:void startNewGame(boolean):71 -> c
+    191:192:void eu.veldsoft.scribe4.model.MiniGrid.addMiniGridListener(eu.veldsoft.scribe4.model.MiniGridListener):217:217 -> c
+    191:192:void eu.veldsoft.scribe4.MoveLogger.setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):28 -> c
+    191:192:void startNewGame(boolean):71 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
+    193:196:void eu.veldsoft.scribe4.model.MiniGrid.addMiniGridListener(eu.veldsoft.scribe4.model.MiniGridListener):217:217 -> c
+    193:196:void eu.veldsoft.scribe4.MoveLogger.setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):28 -> c
+    193:196:void startNewGame(boolean):71 -> c
+    197:198:void startNewGame(boolean):73:73 -> c
+    199:200:eu.veldsoft.scribe4.model.ScribeMark eu.veldsoft.scribe4.model.ScribeBoard.whoseTurn():46:46 -> c
+    199:200:void startNewGame(boolean):73 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    201:205:void startNewGame(boolean):73:73 -> c
+    206:209:void startNewGame(boolean):75:75 -> c
+    210:213:void eu.veldsoft.scribe4.AIPlayer.restart(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):30:30 -> c
+    210:213:void startNewGame(boolean):75 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    214:215:void eu.veldsoft.scribe4.AIPlayer.restart(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):31:31 -> c
+    214:215:void startNewGame(boolean):75 -> c
+    216:217:void startNewGame(boolean):76:76 -> c
+    218:221:void eu.veldsoft.scribe4.AIPlayer.restart(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):30:30 -> c
+    218:221:void startNewGame(boolean):76 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    222:223:void eu.veldsoft.scribe4.AIPlayer.restart(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):31:31 -> c
+    222:223:void startNewGame(boolean):76 -> c
+    224:225:void startNewGame(boolean):77:77 -> c
+    226:229:void eu.veldsoft.scribe4.AIPlayer.restart(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):30:30 -> c
+    226:229:void startNewGame(boolean):77 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    230:232:void eu.veldsoft.scribe4.AIPlayer.restart(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):31:31 -> c
+    230:232:void startNewGame(boolean):77 -> c
+    1:4:void scribeBoardWon(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):267:267 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/g;Lc/k;)V"}
+    5:7:void scribeBoardWon(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):268:268 -> d
+    8:11:void scribeBoardWon(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):269:269 -> d
+    1:6:void updateGameMode():330:330 -> e
+    7:16:void updateGameMode():331:331 -> e
+    17:22:void updateGameMode():332:332 -> e
+    23:32:void updateGameMode():333:333 -> e
+    33:34:void updateGameMode():336:336 -> e
+    35:40:void eu.veldsoft.scribe4.model.Settings.setGameMode(java.lang.String):16:16 -> e
+    35:40:void updateGameMode():336 -> e
+    41:45:void eu.veldsoft.scribe4.model.Settings.setGameMode(java.lang.String):17:17 -> e
+    41:45:void updateGameMode():336 -> e
+    46:53:void eu.veldsoft.scribe4.model.Settings.setGameMode(java.lang.String):18:18 -> e
+    46:53:void updateGameMode():336 -> e
+    54:57:void eu.veldsoft.scribe4.model.Settings.setGameMode(java.lang.String):19:19 -> e
+    54:57:void updateGameMode():336 -> e
+    58:73:void updateGameMode():337:337 -> e
+    74:85:void updateGameMode():338:338 -> e
+    86:97:void eu.veldsoft.scribe4.model.Settings.setGameMode(java.lang.String):21:21 -> e
+    86:97:void updateGameMode():336 -> e
+    1:11:void updatePlayerViews(eu.veldsoft.scribe4.model.ScribeMark):82:82 -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/k;)V"}
+    12:21:void updatePlayerViews(eu.veldsoft.scribe4.model.ScribeMark):83:83 -> f
+    22:24:void updatePlayerViews(eu.veldsoft.scribe4.model.ScribeMark):84:84 -> f
+    25:35:void updatePlayerViews(eu.veldsoft.scribe4.model.ScribeMark):85:85 -> f
+    2:5:void onBackPressed():262:262 -> onBackPressed
+    1:5:void onClick(android.view.View):307:307 -> onClick
+    6:12:void onClick(android.view.View):309:309 -> onClick
+    13:18:void onClick(android.view.View):311:311 -> onClick
+    19:20:eu.veldsoft.scribe4.model.ScribeMark eu.veldsoft.scribe4.model.ScribeBoard.whoseTurn():46:46 -> onClick
+    19:20:void onClick(android.view.View):311 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    21:25:void onClick(android.view.View):311:311 -> onClick
+    26:34:void onClick(android.view.View):314:314 -> onClick
+    35:38:void onClick(android.view.View):315:315 -> onClick
+    1:3:void onCreate(android.os.Bundle):45:45 -> onCreate
+    4:14:void onCreate(android.os.Bundle):47:47 -> onCreate
+    15:25:void onCreate(android.os.Bundle):48:48 -> onCreate
+    26:36:void onCreate(android.os.Bundle):49:49 -> onCreate
+    37:47:void onCreate(android.os.Bundle):50:50 -> onCreate
+    48:58:void onCreate(android.os.Bundle):51:51 -> onCreate
+    59:63:void onCreate(android.os.Bundle):53:53 -> onCreate
+    64:73:void onCreate(android.os.Bundle):54:54 -> onCreate
+    74:77:void onCreate(android.os.Bundle):56:56 -> onCreate
+    78:80:void onCreate(android.os.Bundle):57:57 -> onCreate
+    81:84:void onCreate(android.os.Bundle):58:58 -> onCreate
+    85:88:void onCreate(android.os.Bundle):60:60 -> onCreate
+    1:19:android.app.Dialog onCreateDialog(int):150:150 -> onCreateDialog
+    20:27:android.app.Dialog createAboutDialog():196:196 -> onCreateDialog
+    20:27:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    28:35:android.app.Dialog createAboutDialog():197:197 -> onCreateDialog
+    28:35:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    36:39:android.app.Dialog createAboutDialog():200:200 -> onCreateDialog
+    36:39:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    40:44:android.app.Dialog createAboutDialog():201:201 -> onCreateDialog
+    40:44:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    45:48:android.app.Dialog createAboutDialog():200:200 -> onCreateDialog
+    45:48:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    49:56:android.app.Dialog createAboutDialog():202:202 -> onCreateDialog
+    49:56:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    57:58:android.app.Dialog createAboutDialog():204:204 -> onCreateDialog
+    57:58:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    59:63:void eu.veldsoft.scribe4.Log.w(java.lang.String):26:26 -> onCreateDialog
+    59:63:android.app.Dialog createAboutDialog():204 -> onCreateDialog
+    59:63:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    64:81:android.app.Dialog createAboutDialog():205:205 -> onCreateDialog
+    64:81:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    82:84:void eu.veldsoft.scribe4.Log.w(java.lang.String):26:26 -> onCreateDialog
+    82:84:android.app.Dialog createAboutDialog():205 -> onCreateDialog
+    82:84:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    85:86:android.app.Dialog createAboutDialog():205:205 -> onCreateDialog
+    85:86:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    87:98:android.app.Dialog createAboutDialog():207:207 -> onCreateDialog
+    87:98:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    99:100:android.app.Dialog createAboutDialog():209:209 -> onCreateDialog
+    99:100:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    101:108:android.app.Dialog createAboutDialog():210:210 -> onCreateDialog
+    101:108:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    109:118:android.app.Dialog createAboutDialog():211:211 -> onCreateDialog
+    109:118:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    119:122:android.app.Dialog createAboutDialog():213:213 -> onCreateDialog
+    119:122:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    123:125:android.app.Dialog createAboutDialog():214:214 -> onCreateDialog
+    123:125:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    126:132:android.app.Dialog createAboutDialog():215:215 -> onCreateDialog
+    126:132:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    133:136:android.app.Dialog createAboutDialog():216:216 -> onCreateDialog
+    133:136:android.app.Dialog onCreateDialog(int):153 -> onCreateDialog
+    137:143:android.app.Dialog onCreateDialog(int):174:174 -> onCreateDialog
+    144:155:android.app.Dialog onCreateDialog(int):175:175 -> onCreateDialog
+    156:161:android.app.Dialog onCreateDialog(int):176:176 -> onCreateDialog
+    162:166:void eu.veldsoft.scribe4.Main$1.<init>(eu.veldsoft.scribe4.Main):184:184 -> onCreateDialog
+    162:166:android.app.Dialog onCreateDialog(int):176 -> onCreateDialog
+    167:170:android.app.Dialog onCreateDialog(int):183:183 -> onCreateDialog
+    171:175:android.app.Dialog onCreateDialog(int):189:189 -> onCreateDialog
+    176:183:android.app.Dialog onCreateDialog(int):166:166 -> onCreateDialog
+    184:192:android.app.Dialog onCreateDialog(int):167:167 -> onCreateDialog
+    193:196:android.app.Dialog onCreateDialog(int):169:169 -> onCreateDialog
+    197:200:android.app.Dialog onCreateDialog(int):170:170 -> onCreateDialog
+    201:204:android.app.Dialog onCreateDialog(int):171:171 -> onCreateDialog
+    205:211:android.app.Dialog onCreateDialog(int):159:159 -> onCreateDialog
+    212:217:android.app.Dialog onCreateDialog(int):160:160 -> onCreateDialog
+    218:225:android.app.Dialog onCreateDialog(int):161:161 -> onCreateDialog
+    226:229:android.app.Dialog onCreateDialog(int):163:163 -> onCreateDialog
+    230:234:android.app.Dialog onCreateDialog(int):164:164 -> onCreateDialog
+    235:236:android.app.Dialog onCreateDialog(int):155:155 -> onCreateDialog
+    237:239:void eu.veldsoft.scribe4.MiniGridDialog.<init>(android.content.Context):17:17 -> onCreateDialog
+    237:239:android.app.Dialog onCreateDialog(int):155 -> onCreateDialog
+    240:243:android.app.Dialog onCreateDialog(int):156:156 -> onCreateDialog
+    1:11:boolean onCreateOptionsMenu(android.view.Menu):90:90 -> onCreateOptionsMenu
+    1:3:boolean onOptionsItemSelected(android.view.MenuItem):96:96 -> onOptionsItemSelected
+    4:11:boolean onOptionsItemSelected(android.view.MenuItem):98:98 -> onOptionsItemSelected
+    12:21:boolean onOptionsItemSelected(android.view.MenuItem):99:99 -> onOptionsItemSelected
+    22:29:boolean onOptionsItemSelected(android.view.MenuItem):102:102 -> onOptionsItemSelected
+    30:39:boolean onOptionsItemSelected(android.view.MenuItem):103:103 -> onOptionsItemSelected
+    40:48:boolean onOptionsItemSelected(android.view.MenuItem):106:106 -> onOptionsItemSelected
+    49:51:boolean onOptionsItemSelected(android.view.MenuItem):107:107 -> onOptionsItemSelected
+    52:59:boolean onOptionsItemSelected(android.view.MenuItem):110:110 -> onOptionsItemSelected
+    60:69:boolean onOptionsItemSelected(android.view.MenuItem):111:111 -> onOptionsItemSelected
+    70:78:boolean onOptionsItemSelected(android.view.MenuItem):114:114 -> onOptionsItemSelected
+    79:81:boolean onOptionsItemSelected(android.view.MenuItem):115:115 -> onOptionsItemSelected
+    82:89:boolean onOptionsItemSelected(android.view.MenuItem):118:118 -> onOptionsItemSelected
+    90:98:boolean onOptionsItemSelected(android.view.MenuItem):119:119 -> onOptionsItemSelected
+    99:118:boolean onOptionsItemSelected(android.view.MenuItem):120:120 -> onOptionsItemSelected
+    119:122:boolean onOptionsItemSelected(android.view.MenuItem):119:119 -> onOptionsItemSelected
+    1:3:void onPrepareDialog(int,android.app.Dialog):128:128 -> onPrepareDialog
+    4:7:void onPrepareDialog(int,android.app.Dialog):129:129 -> onPrepareDialog
+    1:6:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):322:322 -> onSharedPreferenceChanged
+    7:18:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):323:323 -> onSharedPreferenceChanged
+    19:22:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):324:324 -> onSharedPreferenceChanged
+eu.veldsoft.scribe4.Main$1 -> a.c:
+# {"id":"sourceFile","fileName":"Main.java"}
+    1:4:void onClick(android.content.DialogInterface,int):187:187 -> onClick
+eu.veldsoft.scribe4.Main$2 -> a.d:
+# {"id":"sourceFile","fileName":"Main.java"}
+    int a.Main$2.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    eu.veldsoft.scribe4.Main this$0 -> b
+    1:1:void a.Main$2.<init>(eu.veldsoft.scribe4.Main,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    7:13:void eu.veldsoft.scribe4.Main$4.onClick(android.content.DialogInterface,int):247:247 -> onClick
+    14:18:void eu.veldsoft.scribe4.Main$4.onClick(android.content.DialogInterface,int):255:255 -> onClick
+    19:22:void eu.veldsoft.scribe4.Main$4.onClick(android.content.DialogInterface,int):249:249 -> onClick
+    23:27:void eu.veldsoft.scribe4.Main$4.onClick(android.content.DialogInterface,int):252:252 -> onClick
+    28:34:void eu.veldsoft.scribe4.Main$3.onClick(android.content.DialogInterface,int):225:225 -> onClick
+    35:39:void eu.veldsoft.scribe4.Main$3.onClick(android.content.DialogInterface,int):239:239 -> onClick
+    40:44:void eu.veldsoft.scribe4.Main$3.onClick(android.content.DialogInterface,int):230:230 -> onClick
+    45:48:void eu.veldsoft.scribe4.Main$3.onClick(android.content.DialogInterface,int):236:236 -> onClick
+    49:54:void onClick(android.content.DialogInterface,int):180:180 -> onClick
+eu.veldsoft.scribe4.MiniGridDialog -> a.f:
+# {"id":"sourceFile","fileName":"MiniGridDialog.java"}
+    eu.veldsoft.scribe4.model.MiniGrid miniGrid -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/c;"}
+    1:4:void onCreate(android.os.Bundle):22:22 -> onCreate
+    5:8:void onCreate(android.os.Bundle):23:23 -> onCreate
+eu.veldsoft.scribe4.MiniGridDialog$1 -> a.e:
+# {"id":"sourceFile","fileName":"MiniGridDialog.java"}
+    int a.MiniGridDialog$1.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    eu.veldsoft.scribe4.MiniGridDialog this$0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Object;"}
+    1:1:void a.MiniGridDialog$1.<init>(java.lang.Object,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void eu.veldsoft.scribe4.model.DefaultMiniGridListener.miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):26:26 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Lc/k;)V"}
+    1:1:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):216:216 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Lc/n;Lc/k;)V"}
+    2:2:java.util.Map eu.veldsoft.scribe4.model.ScribeBoard.access$000(eu.veldsoft.scribe4.model.ScribeBoard):14:14 -> c
+    2:2:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):216 -> c
+    3:3:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):216:216 -> c
+    4:4:void eu.veldsoft.scribe4.model.ScribeBoard.update():70:70 -> c
+    4:4:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    4:4:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    5:5:void eu.veldsoft.scribe4.model.ScribeBoard.update():70:70 -> c
+    5:5:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    5:5:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    6:6:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> c
+    6:6:boolean eu.veldsoft.scribe4.model.ScribeBoard.isFull():50 -> c
+    6:6:void eu.veldsoft.scribe4.model.ScribeBoard.update():70 -> c
+    6:6:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    6:6:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    7:8:boolean eu.veldsoft.scribe4.model.ScribeBoard.isFull():50:51 -> c
+    7:8:void eu.veldsoft.scribe4.model.ScribeBoard.update():70 -> c
+    7:8:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    7:8:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    9:9:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():178:178 -> c
+    9:9:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    9:9:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    9:9:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    10:10:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():159:159 -> c
+    10:10:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    10:10:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    10:10:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    11:11:eu.veldsoft.scribe4.model.Settings$GameMode eu.veldsoft.scribe4.model.Settings.getGameMode():30:30 -> c
+    11:11:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():159 -> c
+    11:11:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    11:11:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    11:11:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    12:12:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():159:159 -> c
+    12:12:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    12:12:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    12:12:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    13:13:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():176:176 -> c
+    13:13:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    13:13:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    13:13:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    14:17:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():178:181 -> c
+    14:17:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    14:17:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    14:17:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    18:18:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> c
+    18:18:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():182 -> c
+    18:18:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    18:18:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    18:18:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    19:23:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():182:186 -> c
+    19:23:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    19:23:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    19:23:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    24:26:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():194:196 -> c
+    24:26:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    24:26:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    24:26:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    27:29:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():203:205 -> c
+    27:29:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    27:29:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    27:29:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    30:30:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():209:209 -> c
+    30:30:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    30:30:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    30:30:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    31:31:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():164:164 -> c
+    31:31:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    31:31:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    31:31:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    32:32:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> c
+    32:32:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():165 -> c
+    32:32:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    32:32:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    32:32:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    33:38:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():165:170 -> c
+    33:38:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    33:38:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    33:38:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    39:39:java.util.Set eu.veldsoft.scribe4.model.ScribeBoard.winner():173:173 -> c
+    39:39:void eu.veldsoft.scribe4.model.ScribeBoard.update():71 -> c
+    39:39:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    39:39:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    40:42:void eu.veldsoft.scribe4.model.ScribeBoard.update():71:73 -> c
+    40:42:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    40:42:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    43:44:void eu.veldsoft.scribe4.model.ScribeBoard.notifyListenersOfWinner(eu.veldsoft.scribe4.model.ScribeMark):148:149 -> c
+    43:44:void eu.veldsoft.scribe4.model.ScribeBoard.update():74 -> c
+    43:44:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    43:44:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    45:45:void eu.veldsoft.scribe4.model.ScribeBoard.update():77:77 -> c
+    45:45:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    45:45:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    46:46:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):136:136 -> c
+    46:46:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    46:46:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    46:46:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    47:47:void eu.veldsoft.scribe4.model.ScribeBoard.enableMiniGrids():91:91 -> c
+    47:47:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):137 -> c
+    47:47:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    47:47:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    47:47:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    48:48:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> c
+    48:48:void eu.veldsoft.scribe4.model.ScribeBoard.setAllMiniGridsEnabled(boolean):116 -> c
+    48:48:void eu.veldsoft.scribe4.model.ScribeBoard.enableMiniGrids():93 -> c
+    48:48:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):137 -> c
+    48:48:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    48:48:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    48:48:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    49:50:void eu.veldsoft.scribe4.model.ScribeBoard.setAllMiniGridsEnabled(boolean):116:117 -> c
+    49:50:void eu.veldsoft.scribe4.model.ScribeBoard.enableMiniGrids():93 -> c
+    49:50:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):137 -> c
+    49:50:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    49:50:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    49:50:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    51:53:void eu.veldsoft.scribe4.model.ScribeBoard.enableMiniGrids():97:99 -> c
+    51:53:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):137 -> c
+    51:53:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    51:53:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    51:53:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    54:54:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> c
+    54:54:void eu.veldsoft.scribe4.model.ScribeBoard.enableAllNonFullMiniGrids():108 -> c
+    54:54:void eu.veldsoft.scribe4.model.ScribeBoard.enableMiniGrids():100 -> c
+    54:54:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):137 -> c
+    54:54:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    54:54:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    54:54:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    55:58:void eu.veldsoft.scribe4.model.ScribeBoard.enableAllNonFullMiniGrids():108:111 -> c
+    55:58:void eu.veldsoft.scribe4.model.ScribeBoard.enableMiniGrids():100 -> c
+    55:58:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):137 -> c
+    55:58:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    55:58:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    55:58:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    59:59:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> c
+    59:59:void eu.veldsoft.scribe4.model.ScribeBoard.setAllMiniGridsEnabled(boolean):116 -> c
+    59:59:void eu.veldsoft.scribe4.model.ScribeBoard.enableMiniGrids():102 -> c
+    59:59:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):137 -> c
+    59:59:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    59:59:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    59:59:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    60:61:void eu.veldsoft.scribe4.model.ScribeBoard.setAllMiniGridsEnabled(boolean):116:117 -> c
+    60:61:void eu.veldsoft.scribe4.model.ScribeBoard.enableMiniGrids():102 -> c
+    60:61:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):137 -> c
+    60:61:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    60:61:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    60:61:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    62:62:void eu.veldsoft.scribe4.model.ScribeBoard.enableMiniGrids():103:103 -> c
+    62:62:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):137 -> c
+    62:62:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    62:62:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    62:62:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    63:64:void eu.veldsoft.scribe4.model.ScribeBoard.notifyListenersOfWhoseTurn():142:143 -> c
+    63:64:void eu.veldsoft.scribe4.model.ScribeBoard.setWhoseTurn(eu.veldsoft.scribe4.model.ScribeMark):138 -> c
+    63:64:void eu.veldsoft.scribe4.model.ScribeBoard.update():77 -> c
+    63:64:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    63:64:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    65:65:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> c
+    65:65:void eu.veldsoft.scribe4.model.ScribeBoard.update():80 -> c
+    65:65:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    65:65:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    66:67:void eu.veldsoft.scribe4.model.ScribeBoard.update():80:81 -> c
+    66:67:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    66:67:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    68:68:void eu.veldsoft.scribe4.model.MiniGrid.clearLastMoves():258:258 -> c
+    68:68:void eu.veldsoft.scribe4.model.ScribeBoard.update():82 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    68:68:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    68:68:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    69:71:void eu.veldsoft.scribe4.model.MiniGrid.clearLastMoves():258:260 -> c
+    69:71:void eu.veldsoft.scribe4.model.ScribeBoard.update():82 -> c
+    69:71:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    69:71:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    72:73:void eu.veldsoft.scribe4.model.ScribeBoard.update():85:86 -> c
+    72:73:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    72:73:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    74:74:void eu.veldsoft.scribe4.model.MiniGrid.addLastMove(eu.veldsoft.scribe4.model.XY):265:265 -> c
+    74:74:void eu.veldsoft.scribe4.model.ScribeBoard.update():86 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    74:74:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    74:74:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    75:76:void eu.veldsoft.scribe4.model.MiniGrid.addLastMove(eu.veldsoft.scribe4.model.XY):265:266 -> c
+    75:76:void eu.veldsoft.scribe4.model.ScribeBoard.update():86 -> c
+    75:76:void eu.veldsoft.scribe4.model.ScribeBoard.access$100(eu.veldsoft.scribe4.model.ScribeBoard):14 -> c
+    75:76:void eu.veldsoft.scribe4.model.ScribeBoard$1.miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):217 -> c
+    77:77:void miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):41:41 -> c
+    1:1:void eu.veldsoft.scribe4.model.DefaultMiniGridListener.miniGridLastMovesChanged(eu.veldsoft.scribe4.model.MiniGrid,java.util.Collection):18:18 -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Ljava/util/Collection;)V"}
+    1:1:void eu.veldsoft.scribe4.model.DefaultMiniGridListener.miniGridEnabled(eu.veldsoft.scribe4.model.MiniGrid,boolean):13:13 -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Z)V"}
+eu.veldsoft.scribe4.MiniGridView -> eu.veldsoft.scribe4.MiniGridView:
+# {"id":"sourceFile","fileName":"MiniGridView.java"}
+    eu.veldsoft.scribe4.model.MiniGrid miniGrid -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/c;"}
+    int size -> b
+    1:1:void <init>(android.content.Context,android.util.AttributeSet):47:47 -> <init>
+    2:2:void <init>(android.content.Context,android.util.AttributeSet):27:27 -> <init>
+    3:3:void <init>(android.content.Context,android.util.AttributeSet):30:30 -> <init>
+    4:4:void <init>(android.content.Context,android.util.AttributeSet):49:49 -> <init>
+    5:5:void <init>(android.content.Context,android.util.AttributeSet):51:51 -> <init>
+    6:7:eu.veldsoft.scribe4.model.MiniGrid eu.veldsoft.scribe4.model.MiniGrid.fromString(java.lang.String):204:205 -> <init>
+    6:7:void <init>(android.content.Context,android.util.AttributeSet):53 -> <init>
+    8:8:eu.veldsoft.scribe4.model.MiniGrid eu.veldsoft.scribe4.model.MiniGrid.fromString(java.lang.String):209:209 -> <init>
+    8:8:void <init>(android.content.Context,android.util.AttributeSet):53 -> <init>
+    9:9:void eu.veldsoft.scribe4.model.MiniGrid.set(int,int,eu.veldsoft.scribe4.model.ScribeMark):41:41 -> <init>
+    9:9:eu.veldsoft.scribe4.model.MiniGrid eu.veldsoft.scribe4.model.MiniGrid.fromString(java.lang.String):209 -> <init>
+    9:9:void <init>(android.content.Context,android.util.AttributeSet):53 -> <init>
+    10:10:void <init>(android.content.Context,android.util.AttributeSet):54:54 -> <init>
+    11:11:void <init>(android.content.Context,int):59:59 -> <init>
+    12:12:void <init>(android.content.Context,int):27:27 -> <init>
+    13:13:void <init>(android.content.Context,int):30:30 -> <init>
+    14:14:void <init>(android.content.Context,int):60:60 -> <init>
+    1:7:java.lang.Iterable allCellViews():96:96 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/ArrayList;"}
+    8:13:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> a
+    8:13:java.lang.Iterable allCellViews():98 -> a
+    14:29:java.lang.Iterable allCellViews():98:98 -> a
+    30:37:eu.veldsoft.scribe4.CellView get(eu.veldsoft.scribe4.model.XY):90:90 -> a
+    30:37:java.lang.Iterable allCellViews():99 -> a
+    38:45:eu.veldsoft.scribe4.CellView get(eu.veldsoft.scribe4.model.XY):92:92 -> a
+    38:45:java.lang.Iterable allCellViews():99 -> a
+    46:50:java.lang.Iterable allCellViews():99:99 -> a
+    1:5:void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):141:141 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Lc/k;)V"}
+    6:22:void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):145:145 -> b
+    23:39:void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):146:146 -> b
+    40:51:void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):147:147 -> b
+    52:54:void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):148:148 -> b
+    55:58:void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):149:149 -> b
+    1:4:void miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):117:117 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Lc/n;Lc/k;)V"}
+    5:12:eu.veldsoft.scribe4.CellView get(eu.veldsoft.scribe4.model.XY):90:90 -> c
+    5:12:void miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):118 -> c
+    13:20:eu.veldsoft.scribe4.CellView get(eu.veldsoft.scribe4.model.XY):92:92 -> c
+    13:20:void miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):118 -> c
+    21:24:void miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):118:118 -> c
+    1:20:void miniGridLastMovesChanged(eu.veldsoft.scribe4.model.MiniGrid,java.util.Collection):130:130 -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Ljava/util/Collection;)V"}
+    21:24:void miniGridLastMovesChanged(eu.veldsoft.scribe4.model.MiniGrid,java.util.Collection):131:131 -> e
+    25:40:void miniGridLastMovesChanged(eu.veldsoft.scribe4.model.MiniGrid,java.util.Collection):134:134 -> e
+    41:48:eu.veldsoft.scribe4.CellView get(eu.veldsoft.scribe4.model.XY):90:90 -> e
+    41:48:void miniGridLastMovesChanged(eu.veldsoft.scribe4.model.MiniGrid,java.util.Collection):135 -> e
+    49:57:eu.veldsoft.scribe4.CellView get(eu.veldsoft.scribe4.model.XY):92:92 -> e
+    49:57:void miniGridLastMovesChanged(eu.veldsoft.scribe4.model.MiniGrid,java.util.Collection):135 -> e
+    58:62:void miniGridLastMovesChanged(eu.veldsoft.scribe4.model.MiniGrid,java.util.Collection):135:135 -> e
+    1:4:void miniGridEnabled(eu.veldsoft.scribe4.model.MiniGrid,boolean):124:124 -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Z)V"}
+    1:3:eu.veldsoft.scribe4.model.MiniGrid getMiniGrid():64:64 -> getMiniGrid
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Lc/c;"}
+    1:6:void onClick(android.view.View):111:111 -> onClick
+    7:11:void onClick(android.view.View):112:112 -> onClick
+    12:13:void eu.veldsoft.scribe4.model.MiniGrid.tryMove(eu.veldsoft.scribe4.model.XY):275:275 -> onClick
+    12:13:void onClick(android.view.View):112 -> onClick
+    14:15:eu.veldsoft.scribe4.model.ScribeMark eu.veldsoft.scribe4.model.ScribeBoard.whoseTurn():46:46 -> onClick
+    14:15:void eu.veldsoft.scribe4.model.MiniGrid.tryMove(eu.veldsoft.scribe4.model.XY):275 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    14:15:void onClick(android.view.View):112 -> onClick
+    16:19:void eu.veldsoft.scribe4.model.MiniGrid.tryMove(eu.veldsoft.scribe4.model.XY):275:275 -> onClick
+    16:19:void onClick(android.view.View):112 -> onClick
+    1:3:void setEnabled(boolean):154:154 -> setEnabled
+    4:13:void setEnabled(boolean):156:156 -> setEnabled
+    14:23:void setEnabled(boolean):157:157 -> setEnabled
+    24:29:void setEnabled(boolean):158:158 -> setEnabled
+    30:35:void setEnabled(boolean):159:159 -> setEnabled
+    36:54:void setEnabled(boolean):160:160 -> setEnabled
+    55:67:void setEnabled(boolean):161:161 -> setEnabled
+    68:85:void setEnabled(boolean):165:165 -> setEnabled
+    86:90:void setEnabled(boolean):166:166 -> setEnabled
+    1:2:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):68:68 -> setMiniGrid
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;)V"}
+    3:10:void rebuildLayout():74:74 -> setMiniGrid
+    3:10:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    11:19:void rebuildLayout():76:76 -> setMiniGrid
+    11:19:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    20:25:void rebuildLayout():77:77 -> setMiniGrid
+    20:25:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    26:31:void rebuildLayout():79:79 -> setMiniGrid
+    26:31:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    32:34:void eu.veldsoft.scribe4.CellView.<init>(android.content.Context,int):48:48 -> setMiniGrid
+    32:34:void rebuildLayout():79 -> setMiniGrid
+    32:34:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    35:38:void eu.veldsoft.scribe4.CellView.<init>(android.content.Context,int):17:17 -> setMiniGrid
+    35:38:void rebuildLayout():79 -> setMiniGrid
+    35:38:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    39:41:void eu.veldsoft.scribe4.CellView.<init>(android.content.Context,int):18:18 -> setMiniGrid
+    39:41:void rebuildLayout():79 -> setMiniGrid
+    39:41:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    42:44:void eu.veldsoft.scribe4.CellView.<init>(android.content.Context,int):23:23 -> setMiniGrid
+    42:44:void rebuildLayout():79 -> setMiniGrid
+    42:44:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    45:48:void eu.veldsoft.scribe4.CellView.<init>(android.content.Context,int):49:49 -> setMiniGrid
+    45:48:void rebuildLayout():79 -> setMiniGrid
+    45:48:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    49:55:void rebuildLayout():80:80 -> setMiniGrid
+    49:55:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    56:57:void rebuildLayout():81:81 -> setMiniGrid
+    56:57:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    58:59:eu.veldsoft.scribe4.model.ScribeMark eu.veldsoft.scribe4.model.MiniGrid.get(int,int):93:93 -> setMiniGrid
+    58:59:void rebuildLayout():81 -> setMiniGrid
+    58:59:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
+    60:63:eu.veldsoft.scribe4.model.ScribeMark eu.veldsoft.scribe4.model.MiniGrid.get(int,int):93:93 -> setMiniGrid
+    60:63:void rebuildLayout():81 -> setMiniGrid
+    60:63:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    64:69:void rebuildLayout():81:81 -> setMiniGrid
+    64:69:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    70:72:void rebuildLayout():83:83 -> setMiniGrid
+    70:72:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    73:81:void rebuildLayout():84:84 -> setMiniGrid
+    73:81:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):69 -> setMiniGrid
+    82:83:void eu.veldsoft.scribe4.model.MiniGrid.addMiniGridListener(eu.veldsoft.scribe4.model.MiniGridListener):217:217 -> setMiniGrid
+    82:83:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):70 -> setMiniGrid
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    84:87:void eu.veldsoft.scribe4.model.MiniGrid.addMiniGridListener(eu.veldsoft.scribe4.model.MiniGridListener):217:217 -> setMiniGrid
+    84:87:void setMiniGrid(eu.veldsoft.scribe4.model.MiniGrid):70 -> setMiniGrid
+eu.veldsoft.scribe4.MoveLogger -> a.g:
+# {"id":"sourceFile","fileName":"MoveLogger.java"}
+    eu.veldsoft.scribe4.model.ScribeBoard scribeBoard -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/g;"}
+    eu.veldsoft.scribe4.MoveLogger singleton -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/g;"}
+    1:14:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):40:40 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/g;Lc/k;)V"}
+    15:20:void eu.veldsoft.scribe4.Log.v(java.lang.String):14:14 -> a
+    15:20:void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):40 -> a
+    1:22:void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):62:62 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Lc/k;)V"}
+    23:27:void eu.veldsoft.scribe4.Log.i(java.lang.String):22:22 -> b
+    23:27:void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):62 -> b
+    28:45:void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):63:63 -> b
+    46:49:void eu.veldsoft.scribe4.Log.i(java.lang.String):22:22 -> b
+    46:49:void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark):63 -> b
+    1:22:void miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):56:56 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Lc/n;Lc/k;)V"}
+    23:28:void eu.veldsoft.scribe4.Log.v(java.lang.String):14:14 -> c
+    23:28:void miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):56 -> c
+    1:14:void scribeBoardWon(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):34:34 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/g;Lc/k;)V"}
+    15:20:void eu.veldsoft.scribe4.Log.v(java.lang.String):14:14 -> d
+    15:20:void scribeBoardWon(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark):34 -> d
+    1:22:void miniGridLastMovesChanged(eu.veldsoft.scribe4.model.MiniGrid,java.util.Collection):51:51 -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Ljava/util/Collection;)V"}
+    23:28:void eu.veldsoft.scribe4.Log.v(java.lang.String):14:14 -> e
+    23:28:void miniGridLastMovesChanged(eu.veldsoft.scribe4.model.MiniGrid,java.util.Collection):51 -> e
+    1:26:void miniGridEnabled(eu.veldsoft.scribe4.model.MiniGrid,boolean):45:45 -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Z)V"}
+    27:32:void eu.veldsoft.scribe4.Log.v(java.lang.String):14:14 -> f
+    27:32:void miniGridEnabled(eu.veldsoft.scribe4.model.MiniGrid,boolean):45 -> f
+eu.veldsoft.scribe4.R$array -> a.h:
+eu.veldsoft.scribe4.R$bool -> a.i:
+eu.veldsoft.scribe4.R$id -> a.j:
+eu.veldsoft.scribe4.R$layout -> a.k:
+eu.veldsoft.scribe4.R$menu -> a.l:
+eu.veldsoft.scribe4.R$string -> a.m:
+eu.veldsoft.scribe4.R$styleable -> a.n:
+    3:18:void <clinit>():0:0 -> <clinit>
+eu.veldsoft.scribe4.R$xml -> a.o:
+eu.veldsoft.scribe4.RulesActivity -> eu.veldsoft.scribe4.RulesActivity:
+# {"id":"sourceFile","fileName":"RulesActivity.java"}
+    1:4:void <init>():9:9 -> <init>
+    1:3:void onCreate(android.os.Bundle):13:13 -> onCreate
+    4:8:void onCreate(android.os.Bundle):14:14 -> onCreate
+    9:16:void onCreate(android.os.Bundle):16:16 -> onCreate
+    17:22:void onCreate(android.os.Bundle):17:17 -> onCreate
+    23:28:void onCreate(android.os.Bundle):18:18 -> onCreate
+    29:40:void onCreate(android.os.Bundle):19:19 -> onCreate
+    41:42:void onCreate(android.os.Bundle):16:16 -> onCreate
+    43:52:void onCreate(android.os.Bundle):20:20 -> onCreate
+    1:3:boolean onCreateOptionsMenu(android.view.Menu):26:26 -> onCreateOptionsMenu
+    4:15:boolean onCreateOptionsMenu(android.view.Menu):27:27 -> onCreateOptionsMenu
+eu.veldsoft.scribe4.ScribeBoardView -> eu.veldsoft.scribe4.ScribeBoardView:
+# {"id":"sourceFile","fileName":"ScribeBoardView.java"}
+    eu.veldsoft.scribe4.model.ScribeBoard scribeBoard -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/g;"}
+    1:4:void <init>(android.content.Context,android.util.AttributeSet):17:17 -> <init>
+    1:2:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):21:21 -> setScribeBoard
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/g;)V"}
+    3:10:void rebuildLayout():26:26 -> setScribeBoard
+    3:10:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):22 -> setScribeBoard
+    11:19:void rebuildLayout():29:29 -> setScribeBoard
+    11:19:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):22 -> setScribeBoard
+    20:25:void rebuildLayout():30:30 -> setScribeBoard
+    20:25:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):22 -> setScribeBoard
+    26:34:void rebuildLayout():32:32 -> setScribeBoard
+    26:34:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):22 -> setScribeBoard
+    35:43:void rebuildLayout():34:34 -> setScribeBoard
+    35:43:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):22 -> setScribeBoard
+    44:45:void rebuildLayout():36:36 -> setScribeBoard
+    44:45:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):22 -> setScribeBoard
+    46:47:eu.veldsoft.scribe4.model.MiniGrid eu.veldsoft.scribe4.model.ScribeBoard.get(int,int):38:38 -> setScribeBoard
+    46:47:void rebuildLayout():36 -> setScribeBoard
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    46:47:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):22 -> setScribeBoard
+    48:51:eu.veldsoft.scribe4.model.MiniGrid eu.veldsoft.scribe4.model.ScribeBoard.get(int,int):38:38 -> setScribeBoard
+    48:51:void rebuildLayout():36 -> setScribeBoard
+    48:51:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):22 -> setScribeBoard
+    52:54:void rebuildLayout():37:37 -> setScribeBoard
+    52:54:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):22 -> setScribeBoard
+    55:64:void rebuildLayout():39:39 -> setScribeBoard
+    55:64:void setScribeBoard(eu.veldsoft.scribe4.model.ScribeBoard):22 -> setScribeBoard
+eu.veldsoft.scribe4.ScribePreferences -> eu.veldsoft.scribe4.ScribePreferences:
+# {"id":"sourceFile","fileName":"ScribePreferences.java"}
+    1:4:void <init>():10:10 -> <init>
+    1:6:void updateGameModeSummary():45:45 -> a
+    7:10:void updateGameModeSummary():46:46 -> a
+    11:16:void updateGameModeSummary():47:47 -> a
+    17:24:void updateGameModeSummary():49:49 -> a
+    25:33:void updateGameModeSummary():50:50 -> a
+    34:35:void updateGameModeSummary():51:51 -> a
+    36:39:void updateGameModeSummary():50:50 -> a
+    1:3:void onCreate(android.os.Bundle):14:14 -> onCreate
+    4:8:void onCreate(android.os.Bundle):15:15 -> onCreate
+    9:12:void onCreate(android.os.Bundle):16:16 -> onCreate
+    13:15:void onCreate(android.os.Bundle):17:17 -> onCreate
+    16:19:void onCreate(android.os.Bundle):18:18 -> onCreate
+    1:3:void onPause():31:31 -> onPause
+    4:7:void onPause():32:32 -> onPause
+    8:11:void onPause():33:33 -> onPause
+    1:3:void onResume():23:23 -> onResume
+    4:7:void onResume():24:24 -> onResume
+    8:10:void onResume():25:25 -> onResume
+    11:14:void onResume():26:26 -> onResume
+    1:12:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):39:39 -> onSharedPreferenceChanged
+    13:16:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):40:40 -> onSharedPreferenceChanged
+eu.veldsoft.scribe4.Settings -> R8$$REMOVED$$CLASS$$2:
+# {"id":"sourceFile","fileName":"Settings.java"}
+eu.veldsoft.scribe4.Settings$1 -> a.p:
+# {"id":"sourceFile","fileName":"Settings.java"}
+    int[] $SwitchMap$eu$veldsoft$scribe4$model$ScribeMark -> a
+    1:63:void <clinit>():18:18 -> <clinit>
+eu.veldsoft.scribe4.SplashActivity -> eu.veldsoft.scribe4.SplashActivity:
+# {"id":"sourceFile","fileName":"SplashActivity.java"}
+    long timeout -> a
+    java.lang.String redirect -> b
+    1:5:void <init>():13:13 -> <init>
+    6:7:void <init>():15:15 -> <init>
+    8:12:void <init>():17:17 -> <init>
+    1:3:void onCreate(android.os.Bundle):21:21 -> onCreate
+    4:8:void onCreate(android.os.Bundle):22:22 -> onCreate
+    9:24:void onCreate(android.os.Bundle):27:27 -> onCreate
+    25:34:void onCreate(android.os.Bundle):33:33 -> onCreate
+    35:39:void onCreate(android.os.Bundle):34:34 -> onCreate
+    40:43:void onCreate(android.os.Bundle):40:40 -> onCreate
+    44:47:void onCreate(android.os.Bundle):41:41 -> onCreate
+    48:56:void onCreate(android.os.Bundle):40:40 -> onCreate
+    57:66:void onCreate(android.os.Bundle):43:43 -> onCreate
+    67:68:void onCreate(android.os.Bundle):46:46 -> onCreate
+    69:72:void onCreate(android.os.Bundle):53:53 -> onCreate
+    73:76:void onCreate(android.os.Bundle):54:54 -> onCreate
+    77:84:void onCreate(android.os.Bundle):53:53 -> onCreate
+    85:91:void onCreate(android.os.Bundle):57:57 -> onCreate
+    92:101:void onCreate(android.os.Bundle):59:59 -> onCreate
+    102:111:void onCreate(android.os.Bundle):62:62 -> onCreate
+    112:115:void onCreate(android.os.Bundle):60:60 -> onCreate
+    116:119:void onCreate(android.os.Bundle):64:64 -> onCreate
+    1:3:void onResume():70:70 -> onResume
+    4:19:void onResume():72:72 -> onResume
+eu.veldsoft.scribe4.SplashActivity$1 -> a.q:
+# {"id":"sourceFile","fileName":"SplashActivity.java"}
+    eu.veldsoft.scribe4.SplashActivity this$0 -> a
+    1:6:void <init>(eu.veldsoft.scribe4.SplashActivity):72:72 -> <init>
+    1:4:void run():75:75 -> run
+    5:6:java.lang.String eu.veldsoft.scribe4.SplashActivity.access$000(eu.veldsoft.scribe4.SplashActivity):13:13 -> run
+    5:6:void run():76 -> run
+    7:13:void run():76:76 -> run
+    14:17:void run():75:75 -> run
+eu.veldsoft.scribe4.UpsideDownTextView -> eu.veldsoft.scribe4.UpsideDownTextView:
+# {"id":"sourceFile","fileName":"UpsideDownTextView.java"}
+    1:4:void <init>(android.content.Context,android.util.AttributeSet):20:20 -> <init>
+    1:3:void onDraw(android.graphics.Canvas):25:25 -> onDraw
+    4:11:void onDraw(android.graphics.Canvas):27:27 -> onDraw
+    12:19:void onDraw(android.graphics.Canvas):28:28 -> onDraw
+    20:22:void onDraw(android.graphics.Canvas):29:29 -> onDraw
+    23:25:void onDraw(android.graphics.Canvas):31:31 -> onDraw
+    26:29:void onDraw(android.graphics.Canvas):33:33 -> onDraw
+eu.veldsoft.scribe4.Util -> a.r:
+# {"id":"sourceFile","fileName":"Util.java"}
+    java.util.Random PRNG -> a
+    1:8:void <clinit>():13:13 -> <clinit>
+eu.veldsoft.scribe4.ai.LeesAIPlayer -> b.a:
+# {"id":"sourceFile","fileName":"LeesAIPlayer.java"}
+    eu.veldsoft.scribe4.model.ScribeBoard eu.veldsoft.scribe4.AIPlayer.board -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/g;"}
+    eu.veldsoft.scribe4.model.ScribeMark eu.veldsoft.scribe4.AIPlayer.mark -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/k;"}
+eu.veldsoft.scribe4.model.Glyphs -> c.a:
+# {"id":"sourceFile","fileName":"Glyphs.java"}
+    java.util.Map ALL_GLYPHS -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/LinkedHashMap;"}
+    1:1:void <clinit>():9:9 -> <clinit>
+    2:4:void addSingle():34:36 -> <clinit>
+    2:4:void <clinit>():12 -> <clinit>
+    5:8:void addDouble():40:43 -> <clinit>
+    5:8:void <clinit>():13 -> <clinit>
+    9:13:void addLine():47:51 -> <clinit>
+    9:13:void <clinit>():14 -> <clinit>
+    14:19:void addPipe():55:60 -> <clinit>
+    14:19:void <clinit>():15 -> <clinit>
+    20:25:void addSquatT():64:69 -> <clinit>
+    20:25:void <clinit>():16 -> <clinit>
+    26:31:void addFourBlock():73:78 -> <clinit>
+    26:31:void <clinit>():17 -> <clinit>
+    32:38:void addT():82:88 -> <clinit>
+    32:38:void <clinit>():18 -> <clinit>
+    39:45:void addCross():92:98 -> <clinit>
+    39:45:void <clinit>():19 -> <clinit>
+    46:46:void addSixBlock():102:102 -> <clinit>
+    46:46:void <clinit>():20 -> <clinit>
+    47:47:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    47:47:void addSixBlock():103 -> <clinit>
+    47:47:void <clinit>():20 -> <clinit>
+    48:52:void addSixBlock():103:107 -> <clinit>
+    48:52:void <clinit>():20 -> <clinit>
+    53:53:void addBomber():111:111 -> <clinit>
+    53:53:void <clinit>():21 -> <clinit>
+    54:54:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    54:54:void addBomber():112 -> <clinit>
+    54:54:void <clinit>():21 -> <clinit>
+    55:59:void addBomber():112:116 -> <clinit>
+    55:59:void <clinit>():21 -> <clinit>
+    60:60:void addChair():120:120 -> <clinit>
+    60:60:void <clinit>():22 -> <clinit>
+    61:61:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    61:61:void addChair():121 -> <clinit>
+    61:61:void <clinit>():22 -> <clinit>
+    62:66:void addChair():121:125 -> <clinit>
+    62:66:void <clinit>():22 -> <clinit>
+    67:67:void addJ():129:129 -> <clinit>
+    67:67:void <clinit>():23 -> <clinit>
+    68:68:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    68:68:void addJ():130 -> <clinit>
+    68:68:void <clinit>():23 -> <clinit>
+    69:73:void addJ():130:134 -> <clinit>
+    69:73:void <clinit>():23 -> <clinit>
+    74:74:void addEarring():138:138 -> <clinit>
+    74:74:void <clinit>():24 -> <clinit>
+    75:75:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    75:75:void addEarring():139 -> <clinit>
+    75:75:void <clinit>():24 -> <clinit>
+    76:79:void addEarring():139:142 -> <clinit>
+    76:79:void <clinit>():24 -> <clinit>
+    80:80:void addHouse():146:146 -> <clinit>
+    80:80:void <clinit>():25 -> <clinit>
+    81:81:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    81:81:void addHouse():147 -> <clinit>
+    81:81:void <clinit>():25 -> <clinit>
+    82:85:void addHouse():147:150 -> <clinit>
+    82:85:void <clinit>():25 -> <clinit>
+    86:86:void addH():154:154 -> <clinit>
+    86:86:void <clinit>():26 -> <clinit>
+    87:87:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    87:87:void addH():155 -> <clinit>
+    87:87:void <clinit>():26 -> <clinit>
+    88:91:void addH():155:158 -> <clinit>
+    88:91:void <clinit>():26 -> <clinit>
+    92:92:void addU():162:162 -> <clinit>
+    92:92:void <clinit>():27 -> <clinit>
+    93:93:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    93:93:void addU():163 -> <clinit>
+    93:93:void <clinit>():27 -> <clinit>
+    94:97:void addU():163:166 -> <clinit>
+    94:97:void <clinit>():27 -> <clinit>
+    98:98:void addOttoman():170:170 -> <clinit>
+    98:98:void <clinit>():28 -> <clinit>
+    99:99:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    99:99:void addOttoman():171 -> <clinit>
+    99:99:void <clinit>():28 -> <clinit>
+    100:102:void addOttoman():171:173 -> <clinit>
+    100:102:void <clinit>():28 -> <clinit>
+    103:103:void addO():177:177 -> <clinit>
+    103:103:void <clinit>():29 -> <clinit>
+    104:104:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    104:104:void addO():178 -> <clinit>
+    104:104:void <clinit>():29 -> <clinit>
+    105:107:void addO():178:180 -> <clinit>
+    105:107:void <clinit>():29 -> <clinit>
+    108:108:void addNineBlock():184:184 -> <clinit>
+    108:108:void <clinit>():30 -> <clinit>
+    109:109:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <clinit>
+    109:109:void addNineBlock():185 -> <clinit>
+    109:109:void <clinit>():30 -> <clinit>
+    110:111:void addNineBlock():185:186 -> <clinit>
+    110:111:void <clinit>():30 -> <clinit>
+eu.veldsoft.scribe4.model.GridPosition -> c.b:
+# {"id":"sourceFile","fileName":"GridPosition.java"}
+    eu.veldsoft.scribe4.model.MiniGrid miniGrid -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/c;"}
+    eu.veldsoft.scribe4.model.XY xy -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/n;"}
+    1:3:void <init>(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):15:15 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Lc/n;)V"}
+    4:5:void <init>(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):16:16 -> <init>
+    6:8:void <init>(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY):17:17 -> <init>
+eu.veldsoft.scribe4.model.MiniGrid -> c.c:
+# {"id":"sourceFile","fileName":"MiniGrid.java"}
+    eu.veldsoft.scribe4.model.ScribeMark[][] data -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"[[Lc/k;"}
+    java.util.List regions -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/ArrayList;"}
+    java.util.List listeners -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/ArrayList;"}
+    boolean enabled -> d
+    java.util.Collection lastMoves -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/HashSet;"}
+    eu.veldsoft.scribe4.model.ScribeBoard parent -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/g;"}
+    1:3:void <init>():27:27 -> <init>
+    4:10:void <init>():18:18 -> <init>
+    11:18:void <init>():19:19 -> <init>
+    19:20:void <init>():20:20 -> <init>
+    21:28:void <init>():22:22 -> <init>
+    29:46:void <init>():28:28 -> <init>
+    47:52:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> <init>
+    47:52:void <init>():29 -> <init>
+    53:68:void <init>():29:29 -> <init>
+    69:82:void <init>():30:30 -> <init>
+    1:6:java.util.Collection eu.veldsoft.scribe4.model.XY.allXYs():55:55 -> a
+    1:6:boolean isFull():124 -> a
+    7:22:boolean isFull():124:124 -> a
+    23:32:eu.veldsoft.scribe4.model.ScribeMark get(eu.veldsoft.scribe4.model.XY):97:97 -> a
+    23:32:boolean isFull():125 -> a
+    33:40:boolean isFull():125:125 -> a
+    1:17:void notifyListenersOfLastMovesChange():233:233 -> b
+    18:23:java.util.Collection getLastMoves():270:270 -> b
+    18:23:void notifyListenersOfLastMovesChange():234 -> b
+    24:28:void notifyListenersOfLastMovesChange():234:234 -> b
+    1:7:java.util.Map points():168:168 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/EnumMap;"}
+    8:17:java.util.Map points():171:171 -> c
+    18:22:java.util.Map points():172:172 -> c
+    23:27:java.util.Map points():173:173 -> c
+    28:32:java.util.Map points():174:174 -> c
+    33:48:java.util.Map points():176:176 -> c
+    49:56:boolean eu.veldsoft.scribe4.model.Region.isGlyph():86:86 -> c
+    49:56:java.util.Map points():177 -> c
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    57:61:eu.veldsoft.scribe4.model.Region eu.veldsoft.scribe4.model.Region.reflected():49:49 -> c
+    57:61:boolean eu.veldsoft.scribe4.model.Region.isGlyphReflected():82 -> c
+    57:61:boolean eu.veldsoft.scribe4.model.Region.isGlyph():86 -> c
+    57:61:java.util.Map points():177 -> c
+    62:77:eu.veldsoft.scribe4.model.Region eu.veldsoft.scribe4.model.Region.reflected():50:50 -> c
+    62:77:boolean eu.veldsoft.scribe4.model.Region.isGlyphReflected():82 -> c
+    62:77:boolean eu.veldsoft.scribe4.model.Region.isGlyph():86 -> c
+    62:77:java.util.Map points():177 -> c
+    78:91:eu.veldsoft.scribe4.model.Region eu.veldsoft.scribe4.model.Region.reflected():51:51 -> c
+    78:91:boolean eu.veldsoft.scribe4.model.Region.isGlyphReflected():82 -> c
+    78:91:boolean eu.veldsoft.scribe4.model.Region.isGlyph():86 -> c
+    78:91:java.util.Map points():177 -> c
+    92:97:boolean eu.veldsoft.scribe4.model.Region.isGlyphReflected():82:82 -> c
+    92:97:boolean eu.veldsoft.scribe4.model.Region.isGlyph():86 -> c
+    92:97:java.util.Map points():177 -> c
+    98:121:java.util.Map points():181:181 -> c
+    7:10:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):45:45 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/n;Lc/k;)V"}
+    11:16:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):47:47 -> d
+    17:27:eu.veldsoft.scribe4.model.ScribeMark get(eu.veldsoft.scribe4.model.XY):97:97 -> d
+    17:27:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):47 -> d
+    28:31:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):48:48 -> d
+    32:34:void eu.veldsoft.scribe4.model.ScribeException.<init>(java.lang.String):5:5 -> d
+    32:34:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):48 -> d
+    35:35:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):48:48 -> d
+    36:43:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):51:51 -> d
+    44:49:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):52:52 -> d
+    50:54:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):62:62 -> d
+    50:54:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    55:71:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):64:64 -> d
+    55:71:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    72:78:java.util.Collection eu.veldsoft.scribe4.model.XY.neighbors():59:59 -> d
+    72:78:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):65 -> d
+    72:78:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    79:91:java.util.Collection eu.veldsoft.scribe4.model.XY.neighbors():60:60 -> d
+    79:91:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):65 -> d
+    79:91:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    92:119:java.util.Collection eu.veldsoft.scribe4.model.XY.neighbors():61:61 -> d
+    92:119:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):65 -> d
+    92:119:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    120:131:java.util.Collection eu.veldsoft.scribe4.model.XY.neighbors():63:63 -> d
+    120:131:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):65 -> d
+    120:131:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    132:146:java.util.Collection eu.veldsoft.scribe4.model.XY.neighbors():65:65 -> d
+    132:146:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):65 -> d
+    132:146:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    147:161:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):65:65 -> d
+    147:161:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    162:171:eu.veldsoft.scribe4.model.ScribeMark get(eu.veldsoft.scribe4.model.XY):97:97 -> d
+    162:171:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):66 -> d
+    162:171:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    172:177:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):66:66 -> d
+    172:177:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    178:180:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):67:67 -> d
+    178:180:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    181:188:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):68:68 -> d
+    181:188:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    189:195:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):74:74 -> d
+    189:195:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    196:201:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):83:83 -> d
+    196:201:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    202:216:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):84:84 -> d
+    202:216:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    217:219:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):85:85 -> d
+    217:219:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    220:224:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):86:86 -> d
+    220:224:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    225:226:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):76:76 -> d
+    225:226:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    227:230:void eu.veldsoft.scribe4.model.Region.<init>(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):16:16 -> d
+    227:230:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):76 -> d
+    227:230:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    231:232:void eu.veldsoft.scribe4.model.Region.<init>(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):14:14 -> d
+    231:232:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):76 -> d
+    231:232:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    233:235:void eu.veldsoft.scribe4.model.Region.<init>(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):17:17 -> d
+    233:235:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):76 -> d
+    233:235:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    236:237:void eu.veldsoft.scribe4.model.Region.<init>(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):18:18 -> d
+    236:237:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):76 -> d
+    236:237:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    238:240:void updateRegions(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):77:77 -> d
+    238:240:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):53 -> d
+    241:255:void notifyListenersOfMark(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):221:221 -> d
+    241:255:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):54 -> d
+    256:260:void notifyListenersOfMark(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):222:222 -> d
+    256:260:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):54 -> d
+    261:266:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):56:56 -> d
+    267:274:void notifyListenersOfMiniGridWon():239:239 -> d
+    267:274:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):57 -> d
+    275:281:void notifyListenersOfMiniGridWon():240:240 -> d
+    275:281:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):57 -> d
+    282:287:void notifyListenersOfMiniGridWon():241:241 -> d
+    282:287:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):57 -> d
+    288:302:void notifyListenersOfMiniGridWon():242:242 -> d
+    288:302:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):57 -> d
+    303:307:void notifyListenersOfMiniGridWon():243:243 -> d
+    303:307:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):57 -> d
+    308:311:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):46:46 -> d
+    312:314:void eu.veldsoft.scribe4.model.ScribeException.<init>(java.lang.String):5:5 -> d
+    312:314:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):46 -> d
+    315:315:void set(eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark):46:46 -> d
+    1:2:void setEnabled(boolean):249:249 -> e
+    3:19:void notifyListenersOfEnabledState():227:227 -> e
+    3:19:void setEnabled(boolean):250 -> e
+    20:26:void notifyListenersOfEnabledState():228:228 -> e
+    20:26:void setEnabled(boolean):250 -> e
+    1:6:java.util.Set winner():137:137 -> f
+    7:11:java.util.Set winner():138:138 -> f
+    12:17:java.util.Set winner():139:139 -> f
+    18:21:java.util.Set winner():143:143 -> f
+    22:42:java.util.Set winner():149:149 -> f
+    43:54:java.util.Set winner():150:150 -> f
+    55:65:java.util.Set winner():151:151 -> f
+    66:85:java.util.Set winner():158:158 -> f
+    86:97:java.util.Set winner():159:159 -> f
+    98:101:java.util.Set winner():160:160 -> f
+    102:106:java.util.Set winner():164:164 -> f
+    1:13:java.lang.String toString():189:189 -> toString
+    14:34:java.lang.String toString():192:192 -> toString
+    35:40:java.lang.String toString():195:195 -> toString
+    41:45:java.lang.String toString():197:197 -> toString
+eu.veldsoft.scribe4.model.MiniGridListener -> c.d:
+# {"id":"sourceFile","fileName":"MiniGridListener.java"}
+    void miniGridWon(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.ScribeMark) -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Lc/k;)V"}
+    void miniGridMarked(eu.veldsoft.scribe4.model.MiniGrid,eu.veldsoft.scribe4.model.XY,eu.veldsoft.scribe4.model.ScribeMark) -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Lc/n;Lc/k;)V"}
+    void miniGridLastMovesChanged(eu.veldsoft.scribe4.model.MiniGrid,java.util.Collection) -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Ljava/util/Collection;)V"}
+    void miniGridEnabled(eu.veldsoft.scribe4.model.MiniGrid,boolean) -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/c;Z)V"}
+eu.veldsoft.scribe4.model.Region -> c.e:
+# {"id":"sourceFile","fileName":"Region.java"}
+    eu.veldsoft.scribe4.model.ScribeMark mark -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/k;"}
+    eu.veldsoft.scribe4.model.Region normalized -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/e;"}
+    1:4:void <init>(eu.veldsoft.scribe4.model.ScribeMark):21:21 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/k;)V"}
+    5:6:void <init>(eu.veldsoft.scribe4.model.ScribeMark):14:14 -> <init>
+    7:9:void <init>(eu.veldsoft.scribe4.model.ScribeMark):22:22 -> <init>
+    1:5:boolean isGlyphUnreflected():68:68 -> a
+    6:27:boolean isGlyphUnreflected():71:71 -> a
+    28:35:boolean isGlyphUnreflected():72:72 -> a
+    36:37:eu.veldsoft.scribe4.model.Region rotated():60:60 -> a
+    36:37:boolean isGlyphUnreflected():76 -> a
+    38:39:eu.veldsoft.scribe4.model.Region rotated():60:60 -> a
+    38:39:boolean isGlyphUnreflected():76 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    40:42:eu.veldsoft.scribe4.model.Region rotated():60:60 -> a
+    40:42:boolean isGlyphUnreflected():76 -> a
+    43:58:eu.veldsoft.scribe4.model.Region rotated():61:61 -> a
+    43:58:boolean isGlyphUnreflected():76 -> a
+    59:72:eu.veldsoft.scribe4.model.Region rotated():62:62 -> a
+    59:72:boolean isGlyphUnreflected():76 -> a
+    73:76:eu.veldsoft.scribe4.model.Region rotated():64:64 -> a
+    73:76:boolean isGlyphUnreflected():76 -> a
+    77:84:boolean isGlyphUnreflected():77:77 -> a
+    1:4:eu.veldsoft.scribe4.model.Region normalized():30:30 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Lc/e;"}
+    5:24:eu.veldsoft.scribe4.model.Region normalized():33:33 -> b
+    25:30:eu.veldsoft.scribe4.model.Region normalized():34:34 -> b
+    31:37:eu.veldsoft.scribe4.model.Region normalized():35:35 -> b
+    38:46:eu.veldsoft.scribe4.model.Region normalized():37:37 -> b
+    47:62:eu.veldsoft.scribe4.model.Region normalized():38:38 -> b
+    63:78:eu.veldsoft.scribe4.model.Region normalized():39:39 -> b
+    79:81:eu.veldsoft.scribe4.model.Region normalized():42:42 -> b
+    1:12:java.lang.String toString():91:91 -> toString
+    13:18:java.lang.String toString():93:93 -> toString
+    19:28:java.lang.String toString():95:95 -> toString
+    29:38:java.lang.String toString():96:96 -> toString
+    39:53:java.lang.String toString():98:98 -> toString
+    54:58:java.lang.String toString():102:102 -> toString
+eu.veldsoft.scribe4.model.ScribeBoard -> c.g:
+# {"id":"sourceFile","fileName":"ScribeBoard.java"}
+    eu.veldsoft.scribe4.model.MiniGrid[][] data -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"[[Lc/c;"}
+    java.util.Map lastMove -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/EnumMap;"}
+    eu.veldsoft.scribe4.model.ScribeMark whoseTurn -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/k;"}
+    java.util.List listeners -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/ArrayList;"}
+    eu.veldsoft.scribe4.model.MiniGridListener miniGridListener -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/e;"}
+    1:11:eu.veldsoft.scribe4.model.MiniGrid get(eu.veldsoft.scribe4.model.XY):34:34 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/n;)Lc/c;"}
+eu.veldsoft.scribe4.model.ScribeBoard$2 -> c.f:
+# {"id":"sourceFile","fileName":"ScribeBoard.java"}
+    int[] $SwitchMap$eu$veldsoft$scribe4$model$Settings$GameMode -> a
+    1:30:void <clinit>():159:159 -> <clinit>
+eu.veldsoft.scribe4.model.ScribeException -> c.h:
+# {"id":"sourceFile","fileName":"ScribeException.java"}
+eu.veldsoft.scribe4.model.ScribeListener -> c.i:
+# {"id":"sourceFile","fileName":"ScribeListener.java"}
+    void whoseTurnChanged(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark) -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/g;Lc/k;)V"}
+    void scribeBoardWon(eu.veldsoft.scribe4.model.ScribeBoard,eu.veldsoft.scribe4.model.ScribeMark) -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/g;Lc/k;)V"}
+eu.veldsoft.scribe4.model.ScribeMark -> c.k:
+# {"id":"sourceFile","fileName":"ScribeMark.java"}
+    eu.veldsoft.scribe4.model.ScribeMark[] $VALUES -> $VALUES
+      # {"id":"com.android.tools.r8.residualsignature","signature":"[Lc/k;"}
+    eu.veldsoft.scribe4.model.ScribeMark BLUE -> BLUE
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/k;"}
+    eu.veldsoft.scribe4.model.ScribeMark EMPTY -> EMPTY
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/k;"}
+    eu.veldsoft.scribe4.model.ScribeMark GREEN -> GREEN
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/k;"}
+    eu.veldsoft.scribe4.model.ScribeMark PURPLE -> PURPLE
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/k;"}
+    eu.veldsoft.scribe4.model.ScribeMark RED -> RED
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/k;"}
+    1:15:eu.veldsoft.scribe4.model.ScribeMark[] $values():8:8 -> $values
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()[Lc/k;"}
+    1:60:void <clinit>():9:9 -> <clinit>
+    61:67:void <clinit>():8:8 -> <clinit>
+    1:3:void <init>(java.lang.String,int,char):15:15 -> <init>
+    4:7:void <init>(java.lang.String,int,char):13:13 -> <init>
+    8:10:void <init>(java.lang.String,int,char):16:16 -> <init>
+    1:7:eu.veldsoft.scribe4.model.ScribeMark fromChar(char):47:47 -> fromChar
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(C)Lc/k;"}
+    8:14:eu.veldsoft.scribe4.model.ScribeMark fromChar(char):50:50 -> fromChar
+    15:21:eu.veldsoft.scribe4.model.ScribeMark fromChar(char):53:53 -> fromChar
+    22:28:eu.veldsoft.scribe4.model.ScribeMark fromChar(char):56:56 -> fromChar
+    29:31:eu.veldsoft.scribe4.model.ScribeMark fromChar(char):59:59 -> fromChar
+    1:20:eu.veldsoft.scribe4.model.ScribeMark getRandomMark():28:28 -> getRandomMark
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Lc/k;"}
+    21:23:eu.veldsoft.scribe4.model.ScribeMark getRandomMark():36:36 -> getRandomMark
+    24:26:eu.veldsoft.scribe4.model.ScribeMark getRandomMark():34:34 -> getRandomMark
+    27:29:eu.veldsoft.scribe4.model.ScribeMark getRandomMark():32:32 -> getRandomMark
+    30:32:eu.veldsoft.scribe4.model.ScribeMark getRandomMark():30:30 -> getRandomMark
+    1:23:eu.veldsoft.scribe4.model.ScribeMark other():66:66 -> other
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Lc/k;"}
+    24:26:eu.veldsoft.scribe4.model.ScribeMark other():78:78 -> other
+    27:29:eu.veldsoft.scribe4.model.ScribeMark other():76:76 -> other
+    30:32:eu.veldsoft.scribe4.model.ScribeMark other():74:74 -> other
+    33:35:eu.veldsoft.scribe4.model.ScribeMark other():72:72 -> other
+    36:38:eu.veldsoft.scribe4.model.ScribeMark other():70:70 -> other
+    39:41:eu.veldsoft.scribe4.model.ScribeMark other():68:68 -> other
+    1:3:java.lang.String scribeMarkName():24:24 -> scribeMarkName
+    1:3:void setName(java.lang.String):20:20 -> setName
+    1:3:char toChar():43:43 -> toChar
+    1:9:eu.veldsoft.scribe4.model.ScribeMark valueOf(java.lang.String):8:8 -> valueOf
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;)Lc/k;"}
+    1:9:eu.veldsoft.scribe4.model.ScribeMark[] values():8:8 -> values
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()[Lc/k;"}
+eu.veldsoft.scribe4.model.ScribeMark$1 -> c.j:
+# {"id":"sourceFile","fileName":"ScribeMark.java"}
+    int[] $SwitchMap$eu$veldsoft$scribe4$model$ScribeMark -> a
+    1:63:void <clinit>():66:66 -> <clinit>
+eu.veldsoft.scribe4.model.Settings -> c.m:
+# {"id":"sourceFile","fileName":"Settings.java"}
+    eu.veldsoft.scribe4.model.Settings$GameMode gameMode -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/l;"}
+    1:5:void <clinit>():13:13 -> <clinit>
+eu.veldsoft.scribe4.model.Settings$GameMode -> c.l:
+# {"id":"sourceFile","fileName":"Settings.java"}
+    eu.veldsoft.scribe4.model.Settings$GameMode[] $VALUES -> $VALUES
+      # {"id":"com.android.tools.r8.residualsignature","signature":"[Lc/l;"}
+    eu.veldsoft.scribe4.model.Settings$GameMode Majority -> Majority
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/l;"}
+    eu.veldsoft.scribe4.model.Settings$GameMode SuperGlyph -> SuperGlyph
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/l;"}
+    1:9:eu.veldsoft.scribe4.model.Settings$GameMode[] $values():7:7 -> $values
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()[Lc/l;"}
+    1:20:void <clinit>():8:8 -> <clinit>
+    21:27:void <clinit>():7:7 -> <clinit>
+    1:4:void <init>(java.lang.String,int):7:7 -> <init>
+    1:9:eu.veldsoft.scribe4.model.Settings$GameMode valueOf(java.lang.String):7:7 -> valueOf
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;)Lc/l;"}
+    1:9:eu.veldsoft.scribe4.model.Settings$GameMode[] values():7:7 -> values
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()[Lc/l;"}
+eu.veldsoft.scribe4.model.XY -> c.n:
+# {"id":"sourceFile","fileName":"XY.java"}
+    int x -> a
+    int y -> b
+    java.util.Map map -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/HashMap;"}
+    1:9:void <clinit>():20:20 -> <clinit>
+    10:22:java.util.List createAllXYs():45:45 -> <clinit>
+    10:22:void <clinit>():24 -> <clinit>
+    23:36:java.util.List createAllXYs():48:48 -> <clinit>
+    23:36:void <clinit>():24 -> <clinit>
+    37:50:void <clinit>():24:24 -> <clinit>
+    51:65:void <clinit>():25:25 -> <clinit>
+    1:8:void <init>(int,int):29:29 -> <init>
+    9:14:void <init>(int,int):31:31 -> <init>
+    15:17:void <init>(int,int):35:35 -> <init>
+    18:23:void <init>(int,int):37:37 -> <init>
+    24:29:void <init>(int,int):33:33 -> <init>
+    4:16:eu.veldsoft.scribe4.model.XY at(int,int):41:41 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(II)Lc/n;"}
+    1:5:boolean equals(java.lang.Object):74:74 -> equals
+    6:22:boolean equals(java.lang.Object):75:75 -> equals
+    1:8:int hash(int,int):91:91 -> hashCode
+    1:8:int hashCode():82 -> hashCode
+    1:25:java.lang.String toString():87:87 -> toString

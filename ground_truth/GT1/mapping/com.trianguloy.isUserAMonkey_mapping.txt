@@ -1,0 +1,534 @@
+# compiler: R8
+# compiler_version: 8.10.24
+# min_api: 3
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 07794ca
+# pg_map_hash: SHA-256 07794ca6d4ba8d8253dff1107afa3e9fb45c9a2520aadfbf086d4021fabb779f
+com.trianguloy.isUserAMonkey.MainActivity -> com.trianguloy.isUserAMonkey.MainActivity:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    android.widget.TextView txt_result -> a
+    android.widget.TextView txt_comment -> b
+    android.widget.LinearLayout ll_result_extra -> c
+    com.trianguloy.isUserAMonkey.MainActivity$Egg$Run runAction -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    java.util.Map links -> e
+    java.util.List eggs -> f
+    1:2:void <clinit>():53:54 -> <clinit>
+    3:4:void <clinit>():56:57 -> <clinit>
+    5:6:void <clinit>():59:60 -> <clinit>
+    7:7:void <clinit>():62:62 -> <clinit>
+    8:10:void <clinit>():64:66 -> <clinit>
+    11:11:void <clinit>():68:68 -> <clinit>
+    12:13:void <clinit>():70:71 -> <clinit>
+    14:14:void <clinit>():73:73 -> <clinit>
+    15:16:void <clinit>():75:76 -> <clinit>
+    17:18:void <clinit>():78:79 -> <clinit>
+    19:21:void <clinit>():81:83 -> <clinit>
+    22:22:void <clinit>():85:85 -> <clinit>
+    23:24:void <clinit>():87:88 -> <clinit>
+    25:26:void <clinit>():90:91 -> <clinit>
+    27:30:void <clinit>():93:96 -> <clinit>
+    31:31:void <clinit>():98:98 -> <clinit>
+    32:32:java.util.Map java.util.Map.ofEntries(java.util.Map$Entry[]):0:0 -> <clinit>
+    32:32:void <clinit>():52 -> <clinit>
+    33:33:java.lang.Object java.util.Objects.requireNonNull(java.lang.Object):0:0 -> <clinit>
+    33:33:java.util.Map java.util.Map.ofEntries(java.util.Map$Entry[]):0 -> <clinit>
+    33:33:void <clinit>():52 -> <clinit>
+    34:34:java.util.Map java.util.Map.ofEntries(java.util.Map$Entry[]):0:0 -> <clinit>
+    34:34:void <clinit>():52 -> <clinit>
+    35:35:java.lang.Object java.util.Objects.requireNonNull(java.lang.Object):0:0 -> <clinit>
+    35:35:java.util.Map java.util.Map.ofEntries(java.util.Map$Entry[]):0 -> <clinit>
+    35:35:void <clinit>():52 -> <clinit>
+    36:36:java.util.Map java.util.Map.ofEntries(java.util.Map$Entry[]):0:0 -> <clinit>
+    36:36:void <clinit>():52 -> <clinit>
+    37:37:void <clinit>():52:52 -> <clinit>
+    38:38:void <clinit>():104:104 -> <clinit>
+    39:39:java.util.List java.util.List.of(java.lang.Object[]):0:0 -> <clinit>
+    39:39:void <clinit>():104 -> <clinit>
+    40:40:java.lang.Object java.util.Objects.requireNonNull(java.lang.Object):0:0 -> <clinit>
+    40:40:java.util.List java.util.List.of(java.lang.Object[]):0 -> <clinit>
+    40:40:void <clinit>():104 -> <clinit>
+    41:41:java.util.List java.util.List.of(java.lang.Object[]):0:0 -> <clinit>
+    41:41:void <clinit>():104 -> <clinit>
+    42:42:void <clinit>():104:104 -> <clinit>
+    1:4:void <init>():45:45 -> <init>
+    1:2:void lambda$runTweet$8(boolean):481:481 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/trianguloy/isUserAMonkey/MainActivity;Z)V"}
+    3:9:void lambda$runTweet$8(boolean):481:481 -> a
+    10:21:void lambda$runTweet$8(boolean):483:483 -> a
+    22:49:void lambda$runTweet$8(boolean):485:485 -> a
+    50:60:void lambda$runTweet$8(boolean):488:488 -> a
+    3:6:void runMonkey():263:263 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/trianguloy/isUserAMonkey/MainActivity;)V"}
+    7:15:void runMonkey():264:264 -> b
+    16:25:void runMonkey():266:266 -> b
+    26:55:void runMonkey():268:268 -> b
+    56:66:void runMonkey():271:271 -> b
+    67:74:void runMonkey():276:276 -> b
+    75:78:void runMonkey():278:278 -> b
+    79:87:void runMonkey():280:280 -> b
+    88:95:void runMonkey():283:283 -> b
+    96:102:void runMonkey():285:285 -> b
+    103:112:void runMonkey():286:286 -> b
+    3:16:void runGoat():293:293 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/trianguloy/isUserAMonkey/MainActivity;)V"}
+    17:25:void runGoat():294:294 -> c
+    26:29:void runGoat():296:296 -> c
+    30:44:void runGoat():298:298 -> c
+    45:63:void runGoat():301:301 -> c
+    64:78:void runGoat():304:304 -> c
+    79:93:void runGoat():307:307 -> c
+    94:101:void runGoat():311:311 -> c
+    102:105:void runGoat():313:313 -> c
+    106:114:void runGoat():315:315 -> c
+    115:122:void runGoat():318:318 -> c
+    123:129:void runGoat():320:320 -> c
+    130:139:void runGoat():321:321 -> c
+    1:2:void lambda$runLike$9(boolean):512:512 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/trianguloy/isUserAMonkey/MainActivity;Z)V"}
+    3:9:void lambda$runLike$9(boolean):512:512 -> d
+    10:21:void lambda$runLike$9(boolean):514:514 -> d
+    22:49:void lambda$runLike$9(boolean):516:516 -> d
+    50:60:void lambda$runLike$9(boolean):519:519 -> d
+    3:16:void runDisallowFun():328:328 -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/trianguloy/isUserAMonkey/MainActivity;)V"}
+    17:25:void runDisallowFun():329:329 -> e
+    26:35:void runDisallowFun():331:331 -> e
+    36:65:void runDisallowFun():333:333 -> e
+    66:76:void runDisallowFun():336:336 -> e
+    77:84:void runDisallowFun():341:341 -> e
+    85:88:void runDisallowFun():343:343 -> e
+    89:97:void runDisallowFun():345:345 -> e
+    98:105:void runDisallowFun():348:348 -> e
+    106:112:void runDisallowFun():350:350 -> e
+    113:122:void runDisallowFun():351:351 -> e
+    3:11:void runChronoFinalCountdown():358:358 -> f
+    12:20:void runChronoFinalCountdown():359:359 -> f
+    21:24:void runChronoFinalCountdown():361:361 -> f
+    25:58:void runChronoFinalCountdown():363:363 -> f
+    59:73:void runChronoFinalCountdown():366:366 -> f
+    74:81:void runChronoFinalCountdown():370:370 -> f
+    82:85:void runChronoFinalCountdown():372:372 -> f
+    86:94:void runChronoFinalCountdown():374:374 -> f
+    95:102:void runChronoFinalCountdown():377:377 -> f
+    103:109:void runChronoFinalCountdown():379:379 -> f
+    110:119:void runChronoFinalCountdown():380:380 -> f
+    3:10:void runFYI():450:450 -> g
+    11:18:void runFYI():451:451 -> g
+    19:25:void runFYI():453:453 -> g
+    26:50:void runFYI():455:455 -> g
+    51:56:void runFYI():458:458 -> g
+    57:64:void runFYI():462:462 -> g
+    65:68:void runFYI():464:464 -> g
+    69:77:void runFYI():466:466 -> g
+    78:85:void runFYI():469:469 -> g
+    86:92:void runFYI():472:472 -> g
+    93:102:void runFYI():473:473 -> g
+    3:12:void runJazzHands():388:388 -> h
+    13:21:void runJazzHands():389:389 -> h
+    22:31:void runJazzHands():391:391 -> h
+    32:61:void runJazzHands():393:393 -> h
+    62:72:void runJazzHands():396:396 -> h
+    73:80:void runJazzHands():400:400 -> h
+    81:84:void runJazzHands():402:402 -> h
+    85:93:void runJazzHands():404:404 -> h
+    94:101:void runJazzHands():407:407 -> h
+    102:108:void runJazzHands():410:410 -> h
+    109:118:void runJazzHands():411:411 -> h
+    1:14:void runLike():511:511 -> i
+    15:22:void runLike():523:523 -> i
+    23:28:void runLike():525:525 -> i
+    29:37:void runLike():527:527 -> i
+    38:45:void runLike():530:530 -> i
+    46:52:void runLike():533:533 -> i
+    53:62:void runLike():534:534 -> i
+    1:14:void runTweet():480:480 -> j
+    15:22:void runTweet():493:493 -> j
+    23:28:void runTweet():495:495 -> j
+    29:37:void runTweet():497:497 -> j
+    38:45:void runTweet():500:500 -> j
+    46:52:void runTweet():503:503 -> j
+    53:62:void runTweet():504:504 -> j
+    3:10:void runWTF():418:418 -> k
+    11:19:void runWTF():419:419 -> k
+    20:29:void runWTF():421:421 -> k
+    30:59:void runWTF():423:423 -> k
+    60:70:void runWTF():426:426 -> k
+    71:78:void runWTF():431:431 -> k
+    79:82:void runWTF():433:433 -> k
+    83:91:void runWTF():435:435 -> k
+    92:99:void runWTF():438:438 -> k
+    100:106:void runWTF():441:441 -> k
+    107:116:void runWTF():442:442 -> k
+    1:13:void showAbout(java.lang.Runnable):223:223 -> l
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/i;)V"}
+    14:22:void showAbout(java.lang.Runnable):224:224 -> l
+    23:30:void showAbout(java.lang.Runnable):225:225 -> l
+    31:34:void showAbout(java.lang.Runnable):226:226 -> l
+    35:42:void showAbout(java.lang.Runnable):227:227 -> l
+    43:57:void showAbout(java.lang.Runnable):228:228 -> l
+    58:66:void showAbout(java.lang.Runnable):229:229 -> l
+    67:70:void showAbout(java.lang.Runnable):230:230 -> l
+    1:2:void onCreate(android.os.Bundle):145:146 -> onCreate
+    3:5:void onCreate(android.os.Bundle):149:151 -> onCreate
+    6:10:void onCreate(android.os.Bundle):154:158 -> onCreate
+    11:11:void onCreate(android.os.Bundle):172:172 -> onCreate
+    12:15:void onCreate(android.os.Bundle):175:178 -> onCreate
+    16:16:void onCreate(android.os.Bundle):204:204 -> onCreate
+    17:17:void onCreate(android.os.Bundle):208:208 -> onCreate
+    18:18:void onCreate(android.os.Bundle):211:211 -> onCreate
+    19:21:void onCreate(android.os.Bundle):214:216 -> onCreate
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticApiModelOutline0 -> a.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:1:android.os.UserManager a.MainActivity$$ExternalSyntheticApiModelOutline0.m(java.lang.Object):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:boolean a.MainActivity$$ExternalSyntheticApiModelOutline0.m(android.os.UserManager):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticApiModelOutline1 -> a.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:1:boolean a.MainActivity$$ExternalSyntheticApiModelOutline1.m(android.os.UserManager):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticApiModelOutline2 -> a.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:1:boolean a.MainActivity$$ExternalSyntheticApiModelOutline2.m(android.widget.Chronometer):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticBackport10 -> a.d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> A
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> B
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> C
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> g
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> h
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> i
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> j
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> k
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> l
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> m
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> n
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> o
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> p
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> q
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> r
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> s
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> t
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> u
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> v
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> w
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> x
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> y
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> z
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticBackport9 -> a.e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+    1:10:java.util.Map$Entry java.util.Map.entry(java.lang.Object,java.lang.Object):0:0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/util/Map$Entry;"}
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticLambda35 -> a.f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int a.MainActivity$$ExternalSyntheticLambda35.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$$ExternalSyntheticLambda35.<init>(int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticLambda48 -> a.g:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int a.MainActivity$$ExternalSyntheticLambda48.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.trianguloy.isUserAMonkey.MainActivity com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$1$de9202850e4e36cb655b924b1984fcf9521665adf810696560ab9e39e6dbe8a7$0.f$0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$$ExternalSyntheticLambda48.<init>(com.trianguloy.isUserAMonkey.MainActivity,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$1(android.view.View):172:172 -> onClick
+    2:4:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):160:162 -> onClick
+    5:5:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165:165 -> onClick
+    6:8:void com.trianguloy.isUserAMonkey.MainActivity.runBlink():602:604 -> onClick
+    6:8:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    9:9:void com.trianguloy.isUserAMonkey.MainActivity.runBlink():606:606 -> onClick
+    9:9:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    10:11:void com.trianguloy.isUserAMonkey.MainActivity.runBlink():609:610 -> onClick
+    10:11:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    12:13:void com.trianguloy.isUserAMonkey.MainActivity.runBlink():612:613 -> onClick
+    12:13:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    14:15:void com.trianguloy.isUserAMonkey.MainActivity.runIsland():588:589 -> onClick
+    14:15:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    16:17:void com.trianguloy.isUserAMonkey.MainActivity.runIsland():592:593 -> onClick
+    16:17:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    18:19:void com.trianguloy.isUserAMonkey.MainActivity.runIsland():595:596 -> onClick
+    18:19:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    20:21:void com.trianguloy.isUserAMonkey.MainActivity.runDeathStar():574:575 -> onClick
+    20:21:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    22:23:void com.trianguloy.isUserAMonkey.MainActivity.runDeathStar():578:579 -> onClick
+    22:23:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    24:25:void com.trianguloy.isUserAMonkey.MainActivity.runDeathStar():581:582 -> onClick
+    24:25:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    26:26:void com.trianguloy.isUserAMonkey.MainActivity.runTricorder():540:540 -> onClick
+    26:26:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    27:28:void com.trianguloy.isUserAMonkey.MainActivity.runTricorder():542:543 -> onClick
+    27:28:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    29:29:void com.trianguloy.isUserAMonkey.MainActivity.runTricorder():555:555 -> onClick
+    29:29:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    30:31:void com.trianguloy.isUserAMonkey.MainActivity.runTricorder():558:559 -> onClick
+    30:31:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    32:32:void com.trianguloy.isUserAMonkey.MainActivity.runTricorder():561:561 -> onClick
+    32:32:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    33:34:void com.trianguloy.isUserAMonkey.MainActivity.runTricorder():564:565 -> onClick
+    33:34:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    35:36:void com.trianguloy.isUserAMonkey.MainActivity.runTricorder():567:568 -> onClick
+    35:36:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165 -> onClick
+    37:37:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):165:165 -> onClick
+    38:39:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$0(android.view.View):167:168 -> onClick
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticLambda50 -> a.h:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.trianguloy.isUserAMonkey.MainActivity com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$1$de9202850e4e36cb655b924b1984fcf9521665adf810696560ab9e39e6dbe8a7$2.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.widget.TextView com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$1$de9202850e4e36cb655b924b1984fcf9521665adf810696560ab9e39e6dbe8a7$2.f$1 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.trianguloy.isUserAMonkey.MainActivity$Egg com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$1$de9202850e4e36cb655b924b1984fcf9521665adf810696560ab9e39e6dbe8a7$2.f$2 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/n;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.widget.TextView com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$1$de9202850e4e36cb655b924b1984fcf9521665adf810696560ab9e39e6dbe8a7$2.f$3 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.widget.TextView com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$1$de9202850e4e36cb655b924b1984fcf9521665adf810696560ab9e39e6dbe8a7$2.f$4 -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.widget.LinearLayout com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$1$de9202850e4e36cb655b924b1984fcf9521665adf810696560ab9e39e6dbe8a7$2.f$5 -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.widget.Button com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$1$de9202850e4e36cb655b924b1984fcf9521665adf810696560ab9e39e6dbe8a7$2.f$6 -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$$ExternalSyntheticLambda50.<init>(com.trianguloy.isUserAMonkey.MainActivity,android.widget.TextView,a.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/trianguloy/isUserAMonkey/MainActivity;Landroid/widget/TextView;La/n;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/LinearLayout;Landroid/widget/Button;)V"}
+    1:7:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):180:180 -> onClick
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/view/View;)V"}
+    8:14:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):181:181 -> onClick
+    15:20:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):182:182 -> onClick
+    21:22:int com.trianguloy.isUserAMonkey.MainActivity$Egg.summaryRes():120:120 -> onClick
+    21:22:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):185 -> onClick
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    23:29:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):185:185 -> onClick
+    30:32:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):186:186 -> onClick
+    33:39:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):187:187 -> onClick
+    40:42:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):188:188 -> onClick
+    43:49:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):189:189 -> onClick
+    50:52:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):190:190 -> onClick
+    53:59:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):191:191 -> onClick
+    60:67:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):192:192 -> onClick
+    68:72:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):193:193 -> onClick
+    73:81:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):196:196 -> onClick
+    82:89:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):197:197 -> onClick
+    90:92:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):198:198 -> onClick
+    93:98:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):199:199 -> onClick
+    99:108:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):201:201 -> onClick
+    109:112:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$2(android.widget.TextView,com.trianguloy.isUserAMonkey.MainActivity$Egg,android.widget.TextView,android.widget.TextView,android.widget.LinearLayout,android.widget.Button,android.view.View):202:202 -> onClick
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticLambda51 -> a.i:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int a.MainActivity$$ExternalSyntheticLambda51.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.widget.HorizontalScrollView com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$1$de9202850e4e36cb655b924b1984fcf9521665adf810696560ab9e39e6dbe8a7$3.f$0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$$ExternalSyntheticLambda51.<init>(android.widget.HorizontalScrollView,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    11:14:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$4(android.widget.HorizontalScrollView):218:218 -> run
+    11:14:void a.MainActivity$$ExternalSyntheticLambda51.run():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+    15:16:void a.MainActivity$$ExternalSyntheticLambda51.run():0:0 -> run
+    17:28:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$5(android.widget.HorizontalScrollView):218:218 -> run
+    17:28:void a.MainActivity$$ExternalSyntheticLambda51.run():0 -> run
+    29:30:void a.MainActivity$$ExternalSyntheticLambda51.run():0:0 -> run
+    31:38:void com.trianguloy.isUserAMonkey.MainActivity.lambda$onCreate$3(android.widget.HorizontalScrollView):215:215 -> run
+    31:38:void a.MainActivity$$ExternalSyntheticLambda51.run():0 -> run
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticLambda54 -> a.j:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Runnable com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$2$3c19366df577479f3a5515b67ae2d6a8ee11c2311d8ae898f1cc6f2c15c1a78c$0.f$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/i;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$$ExternalSyntheticLambda54.<init>(a.MainActivity$$ExternalSyntheticLambda51):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/i;)V"}
+    3:8:void com.trianguloy.isUserAMonkey.MainActivity.lambda$showAbout$6(java.lang.Runnable,android.content.DialogInterface,int):228:228 -> onClick
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/content/DialogInterface;I)V"}
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticLambda55 -> a.k:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Runnable com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$2$3c19366df577479f3a5515b67ae2d6a8ee11c2311d8ae898f1cc6f2c15c1a78c$1.f$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/i;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$$ExternalSyntheticLambda55.<init>(a.MainActivity$$ExternalSyntheticLambda51):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/i;)V"}
+    3:8:void com.trianguloy.isUserAMonkey.MainActivity.lambda$showAbout$7(java.lang.Runnable,android.content.DialogInterface):229:229 -> onCancel
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/content/DialogInterface;)V"}
+com.trianguloy.isUserAMonkey.MainActivity$$ExternalSyntheticLambda56 -> a.l:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int a.MainActivity$$ExternalSyntheticLambda56.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.trianguloy.isUserAMonkey.MainActivity com.trianguloy.isUserAMonkey.MainActivity$$InternalSyntheticLambda$2$657ffd835d4e939d97b1bf5da04e52d6970671c58a2e0af173261bff48047ae1$0.f$0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$$ExternalSyntheticLambda56.<init>(com.trianguloy.isUserAMonkey.MainActivity,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$$ExternalSyntheticLambda56.onTransactionCompleted(boolean):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.trianguloy.isUserAMonkey.MainActivity$1 -> a.m:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    android.hardware.SensorManager val$sensorManager -> a
+    android.hardware.SensorListener[] val$listener -> b
+    com.trianguloy.isUserAMonkey.MainActivity this$0 -> c
+    1:1:void <init>(com.trianguloy.isUserAMonkey.MainActivity,android.hardware.SensorManager,android.hardware.SensorListener[]):543:543 -> <init>
+    1:1:void onAccuracyChanged(int,int):553:553 -> onAccuracyChanged
+    1:11:void onSensorChanged(int,float[]):546:546 -> onSensorChanged
+    12:19:void onSensorChanged(int,float[]):547:547 -> onSensorChanged
+    20:30:void onSensorChanged(int,float[]):548:548 -> onSensorChanged
+com.trianguloy.isUserAMonkey.MainActivity$Egg -> a.n:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    java.lang.String btnText -> a
+    int summaryRes -> b
+    int explanationRes -> c
+    int functionRes -> d
+    com.trianguloy.isUserAMonkey.MainActivity$Egg$Run runAction -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    1:1:void <init>(java.lang.String,int,int,int,com.trianguloy.isUserAMonkey.MainActivity$Egg$Run):120:120 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;IIILa/f;)V"}
+    1:24:boolean equals(java.lang.Object):120:120 -> equals
+    25:52:boolean java.util.Objects.equals(java.lang.Object,java.lang.Object):0:0 -> equals
+    25:52:boolean equals(java.lang.Object):120 -> equals
+    1:14:int hashCode():120:120 -> hashCode
+    15:31:int java.util.Objects.hashCode(java.lang.Object):0:0 -> hashCode
+    15:31:int hashCode():120 -> hashCode
+    3:115:java.lang.String toString():120:120 -> toString
+com.trianguloy.isUserAMonkey.services.LocalService -> com.trianguloy.isUserAMonkey.services.LocalService:
+# {"id":"sourceFile","fileName":"LocalService.java"}
+    1:4:void <init>():17:17 -> <init>
+    1:1:void sendTransaction(int,android.content.Context,com.trianguloy.isUserAMonkey.services.LocalService$Callback):37:37 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(ILcom/trianguloy/isUserAMonkey/MainActivity;La/l;)V"}
+    2:2:void sendTransaction(int,android.content.Context,com.trianguloy.isUserAMonkey.services.LocalService$Callback):39:39 -> a
+    3:3:void sendTransaction(int,android.content.Context,com.trianguloy.isUserAMonkey.services.LocalService$Callback):58:58 -> a
+    4:4:void sendTransaction(int,android.content.Context,com.trianguloy.isUserAMonkey.services.LocalService$Callback):60:60 -> a
+    1:6:android.os.IBinder onBind(android.content.Intent):20:20 -> onBind
+com.trianguloy.isUserAMonkey.services.LocalService$1 -> b.a:
+# {"id":"sourceFile","fileName":"LocalService.java"}
+    com.trianguloy.isUserAMonkey.services.LocalService this$0 -> a
+    1:6:void <init>(com.trianguloy.isUserAMonkey.services.LocalService):20:20 -> <init>
+    1:1:boolean onTransact(int,android.os.Parcel,android.os.Parcel,int):23:23 -> onTransact
+com.trianguloy.isUserAMonkey.services.LocalService$2 -> b.b:
+# {"id":"sourceFile","fileName":"LocalService.java"}
+    com.trianguloy.isUserAMonkey.services.LocalService$Callback val$callback -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/l;"}
+    int val$code -> b
+    android.content.Context val$cntx -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lcom/trianguloy/isUserAMonkey/MainActivity;"}
+    android.content.ServiceConnection[] val$mConnection -> d
+    1:12:void <init>(com.trianguloy.isUserAMonkey.services.LocalService$Callback,int,android.content.Context,android.content.ServiceConnection[]):39:39 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/l;ILcom/trianguloy/isUserAMonkey/MainActivity;[Landroid/content/ServiceConnection;)V"}
+    1:21:void onServiceConnected(android.content.ComponentName,android.os.IBinder):43:43 -> onServiceConnected
+    22:24:void onServiceConnected(android.content.ComponentName,android.os.IBinder):45:45 -> onServiceConnected
+    25:34:void onServiceConnected(android.content.ComponentName,android.os.IBinder):49:49 -> onServiceConnected
+    1:1:void onServiceDisconnected(android.content.ComponentName):54:54 -> onServiceDisconnected
+com.trianguloy.isUserAMonkey.tools.Animations -> c.c:
+# {"id":"sourceFile","fileName":"Animations.java"}
+    1:6:void enable(android.view.ViewGroup):12:12 -> a
+    7:14:void enable(android.view.ViewGroup):13:13 -> a
+com.trianguloy.isUserAMonkey.tools.Animations$$ExternalSyntheticApiModelOutline0 -> c.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:1:android.animation.LayoutTransition c.Animations$$ExternalSyntheticApiModelOutline0.m(android.view.ViewGroup):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.trianguloy.isUserAMonkey.tools.Animations$$ExternalSyntheticApiModelOutline1 -> c.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:1:void c.Animations$$ExternalSyntheticApiModelOutline1.m(android.animation.LayoutTransition):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.trianguloy.isUserAMonkey.tools.ClickableLinks -> c.g:
+# {"id":"sourceFile","fileName":"ClickableLinks.java"}
+    java.util.regex.Pattern PATTERN -> a
+    1:9:void <clinit>():70:70 -> <clinit>
+    1:2:void linkify(android.widget.TextView,com.trianguloy.isUserAMonkey.tools.ClickableLinks$OnUrlListener):39:40 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/widget/TextView;Lc/f;)V"}
+    3:5:void linkify(android.widget.TextView,com.trianguloy.isUserAMonkey.tools.ClickableLinks$OnUrlListener):43:45 -> a
+    6:7:void linkify(android.widget.TextView,com.trianguloy.isUserAMonkey.tools.ClickableLinks$OnUrlListener):49:50 -> a
+    8:9:void linkify(android.widget.TextView,com.trianguloy.isUserAMonkey.tools.ClickableLinks$OnUrlListener):55:56 -> a
+    10:12:void linkify(android.widget.TextView,com.trianguloy.isUserAMonkey.tools.ClickableLinks$OnUrlListener):60:62 -> a
+com.trianguloy.isUserAMonkey.tools.ClickableLinks$1 -> c.d:
+# {"id":"sourceFile","fileName":"ClickableLinks.java"}
+    com.trianguloy.isUserAMonkey.tools.ClickableLinks$OnUrlListener val$listener -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/f;"}
+    com.trianguloy.isUserAMonkey.tools.ClickableLinks$Match val$match -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lc/e;"}
+    1:8:void <init>(com.trianguloy.isUserAMonkey.tools.ClickableLinks$OnUrlListener,com.trianguloy.isUserAMonkey.tools.ClickableLinks$Match):50:50 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc/f;Lc/e;)V"}
+    1:11:void onClick(android.view.View):52:52 -> onClick
+    12:19:void com.trianguloy.isUserAMonkey.MainActivity.onLinkClick(java.lang.String):240:240 -> onClick
+    12:19:void onClick(android.view.View):52 -> onClick
+    20:38:void com.trianguloy.isUserAMonkey.MainActivity.onLinkClick(java.lang.String):242:242 -> onClick
+    20:38:void onClick(android.view.View):52 -> onClick
+    39:44:void com.trianguloy.isUserAMonkey.MainActivity.onLinkClick(java.lang.String):243:243 -> onClick
+    39:44:void onClick(android.view.View):52 -> onClick
+    45:69:void com.trianguloy.isUserAMonkey.MainActivity.onLinkClick(java.lang.String):251:251 -> onClick
+    45:69:void onClick(android.view.View):52 -> onClick
+    70:77:void com.trianguloy.isUserAMonkey.MainActivity.onLinkClick(java.lang.String):254:254 -> onClick
+    70:77:void onClick(android.view.View):52 -> onClick
+com.trianguloy.isUserAMonkey.tools.ClickableLinks$Match -> c.e:
+# {"id":"sourceFile","fileName":"ClickableLinks.java"}
+    int start -> a
+    int end -> b
+    java.lang.String tag -> c
+    java.lang.String text -> d
+    1:15:void <init>(int,int,java.lang.String,java.lang.String):76:76 -> <init>
+    1:18:boolean equals(java.lang.Object):75:75 -> equals
+    19:50:boolean java.util.Objects.equals(java.lang.Object,java.lang.Object):0:0 -> equals
+    19:50:boolean equals(java.lang.Object):75 -> equals
+    1:9:int hashCode():75:75 -> hashCode
+    10:34:int java.util.Objects.hashCode(java.lang.Object):0:0 -> hashCode
+    10:34:int hashCode():75 -> hashCode
+    3:106:java.lang.String toString():75:75 -> toString
+com.trianguloy.isUserAMonkey.tools.ClickableLinks$OnUrlListener -> c.f:
+# {"id":"sourceFile","fileName":"ClickableLinks.java"}
+java.lang.Record -> d.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:1:void d.Record.<init>():0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}

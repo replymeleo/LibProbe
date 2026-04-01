@@ -1,0 +1,2 @@
+*.jar
+com.jakewharton.timber

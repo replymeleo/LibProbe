@@ -1,0 +1,2630 @@
+[Layer1 - ademar.textlauncher]
+  TP: 11, FP: 77, TN: 0, FN: 0
+  Precision: 0.1250, Recall: 1.0000, F1-score: 0.2222
+  Time: 0.3272
+----------------------------------------
+[Layer2 - ademar.textlauncher]
+  TP: 2, FP: 4, TN: 73, FN: 9
+  Precision: 0.3333, Recall: 0.1818, F1-score: 0.2353
+  Time: 0.3297
+----------------------------------------
+[Layer1 - alt.nainapps.aer]
+  TP: 5637, FP: 15402, TN: 1307, FN: 0
+  Precision: 0.2679, Recall: 1.0000, F1-score: 0.4226
+  Time: 54.1787
+----------------------------------------
+[Layer2 - alt.nainapps.aer]
+  TP: 3328, FP: 2791, TN: 13918, FN: 2309
+  Precision: 0.5439, Recall: 0.5904, F1-score: 0.5662
+  Time: 54.1980
+----------------------------------------
+[Layer1 - app.cclauncher]
+  TP: 13430, FP: 33327, TN: 2969, FN: 0
+  Precision: 0.2872, Recall: 1.0000, F1-score: 0.4463
+  Time: 424.5508
+----------------------------------------
+[Layer2 - app.cclauncher]
+  TP: 8000, FP: 6898, TN: 29398, FN: 5430
+  Precision: 0.5370, Recall: 0.5957, F1-score: 0.5648
+  Time: 424.5718
+----------------------------------------
+[Layer1 - app.clauncher]
+  TP: 6403, FP: 15536, TN: 1800, FN: 0
+  Precision: 0.2919, Recall: 1.0000, F1-score: 0.4518
+  Time: 857.1452
+----------------------------------------
+[Layer2 - app.clauncher]
+  TP: 3927, FP: 2663, TN: 14673, FN: 2476
+  Precision: 0.5959, Recall: 0.6133, F1-score: 0.6045
+  Time: 857.1618
+----------------------------------------
+[Layer1 - app.easy.launcher]
+  TP: 7035, FP: 20883, TN: 1450, FN: 0
+  Precision: 0.2520, Recall: 1.0000, F1-score: 0.4025
+  Time: 1352.4997
+----------------------------------------
+[Layer2 - app.easy.launcher]
+  TP: 4184, FP: 3317, TN: 19016, FN: 2851
+  Precision: 0.5578, Recall: 0.5947, F1-score: 0.5757
+  Time: 1352.5160
+----------------------------------------
+[Layer1 - app.fluffy]
+  TP: 13731, FP: 41209, TN: 4150, FN: 0
+  Precision: 0.2499, Recall: 1.0000, F1-score: 0.3999
+  Time: 2114.6599
+----------------------------------------
+[Layer2 - app.fluffy]
+  TP: 8104, FP: 7757, TN: 37602, FN: 5627
+  Precision: 0.5109, Recall: 0.5902, F1-score: 0.5477
+  Time: 2114.6937
+----------------------------------------
+[Layer1 - app.olauncher]
+  TP: 789, FP: 21101, TN: 4247, FN: 0
+  Precision: 0.0360, Recall: 1.0000, F1-score: 0.0696
+  Time: 2543.1223
+----------------------------------------
+[Layer2 - app.olauncher]
+  TP: 157, FP: 5669, TN: 19679, FN: 632
+  Precision: 0.0269, Recall: 0.1990, F1-score: 0.0475
+  Time: 2543.1395
+----------------------------------------
+[Layer1 - app.plugbrain.android]
+  TP: 12576, FP: 27235, TN: 2403, FN: 0
+  Precision: 0.3159, Recall: 1.0000, F1-score: 0.4801
+  Time: 2940.0513
+----------------------------------------
+[Layer2 - app.plugbrain.android]
+  TP: 7590, FP: 5855, TN: 23783, FN: 4986
+  Precision: 0.5645, Recall: 0.6035, F1-score: 0.5834
+  Time: 2940.0784
+----------------------------------------
+[Layer1 - askanimus.arbeitszeiterfassung2]
+  TP: 6918, FP: 17469, TN: 723, FN: 0
+  Precision: 0.2837, Recall: 1.0000, F1-score: 0.4420
+  Time: 3208.5589
+----------------------------------------
+[Layer2 - askanimus.arbeitszeiterfassung2]
+  TP: 4067, FP: 3031, TN: 15161, FN: 2851
+  Precision: 0.5730, Recall: 0.5879, F1-score: 0.5803
+  Time: 3208.5749
+----------------------------------------
+[Layer1 - at.bitfire.icsdroid]
+  TP: 8061, FP: 41987, TN: 3964, FN: 0
+  Precision: 0.1611, Recall: 1.0000, F1-score: 0.2774
+  Time: 3846.1784
+----------------------------------------
+[Layer2 - at.bitfire.icsdroid]
+  TP: 4969, FP: 7520, TN: 38431, FN: 3092
+  Precision: 0.3979, Recall: 0.6164, F1-score: 0.4836
+  Time: 3846.2091
+----------------------------------------
+[Layer1 - cat.mvmike.minimalcalendarwidget]
+  TP: 6038, FP: 11282, TN: 1356, FN: 0
+  Precision: 0.3486, Recall: 1.0000, F1-score: 0.5170
+  Time: 4179.0537
+----------------------------------------
+[Layer2 - cat.mvmike.minimalcalendarwidget]
+  TP: 3844, FP: 2291, TN: 10347, FN: 2194
+  Precision: 0.6266, Recall: 0.6366, F1-score: 0.6316
+  Time: 4179.0658
+----------------------------------------
+[Layer1 - ch.ihdg.calendarcolor]
+  TP: 3360, FP: 20934, TN: 1184, FN: 0
+  Precision: 0.1383, Recall: 1.0000, F1-score: 0.2430
+  Time: 4289.2927
+----------------------------------------
+[Layer2 - ch.ihdg.calendarcolor]
+  TP: 1730, FP: 4539, TN: 17579, FN: 1630
+  Precision: 0.2760, Recall: 0.5149, F1-score: 0.3593
+  Time: 4289.3080
+----------------------------------------
+[Layer1 - ch.rmy.android.statusbar]
+  TP: 5933, FP: 21939, TN: 2022, FN: 0
+  Precision: 0.2129, Recall: 1.0000, F1-score: 0.3510
+  Time: 4389.5236
+----------------------------------------
+[Layer2 - ch.rmy.android.statusbar]
+  TP: 3682, FP: 3801, TN: 20160, FN: 2251
+  Precision: 0.4920, Recall: 0.6206, F1-score: 0.5489
+  Time: 4389.5400
+----------------------------------------
+[Layer1 - com.MarcosDiez.shareviahttp]
+  TP: 3176, FP: 17528, TN: 2126, FN: 0
+  Precision: 0.1534, Recall: 1.0000, F1-score: 0.2660
+  Time: 4487.6499
+----------------------------------------
+[Layer2 - com.MarcosDiez.shareviahttp]
+  TP: 1509, FP: 4022, TN: 15632, FN: 1667
+  Precision: 0.2728, Recall: 0.4751, F1-score: 0.3466
+  Time: 4487.6652
+----------------------------------------
+[Layer1 - com.aks]
+  TP: 6692, FP: 34554, TN: 3374, FN: 0
+  Precision: 0.1622, Recall: 1.0000, F1-score: 0.2792
+  Time: 5092.4940
+----------------------------------------
+[Layer2 - com.aks]
+  TP: 4034, FP: 4938, TN: 32990, FN: 2658
+  Precision: 0.4496, Recall: 0.6028, F1-score: 0.5151
+  Time: 5092.5322
+----------------------------------------
+[Layer1 - com.amrdeveloper.linkhub]
+  TP: 7552, FP: 18984, TN: 2238, FN: 0
+  Precision: 0.2846, Recall: 1.0000, F1-score: 0.4431
+  Time: 5856.4040
+----------------------------------------
+[Layer2 - com.amrdeveloper.linkhub]
+  TP: 4161, FP: 3596, TN: 17626, FN: 3391
+  Precision: 0.5364, Recall: 0.5510, F1-score: 0.5436
+  Time: 5856.4287
+----------------------------------------
+[Layer1 - com.antony.muzei.pixiv]
+  TP: 6815, FP: 20503, TN: 2078, FN: 0
+  Precision: 0.2495, Recall: 1.0000, F1-score: 0.3993
+  Time: 6485.0751
+----------------------------------------
+[Layer2 - com.antony.muzei.pixiv]
+  TP: 3786, FP: 3338, TN: 19243, FN: 3029
+  Precision: 0.5314, Recall: 0.5555, F1-score: 0.5432
+  Time: 6485.0990
+----------------------------------------
+[Layer1 - com.appmindlab.nano]
+  TP: 7204, FP: 18436, TN: 2128, FN: 0
+  Precision: 0.2810, Recall: 1.0000, F1-score: 0.4387
+  Time: 6652.1831
+----------------------------------------
+[Layer2 - com.appmindlab.nano]
+  TP: 3919, FP: 3372, TN: 17192, FN: 3285
+  Precision: 0.5375, Recall: 0.5440, F1-score: 0.5407
+  Time: 6652.2046
+----------------------------------------
+[Layer1 - com.asdoi.quicktiles]
+  TP: 6494, FP: 16260, TN: 836, FN: 0
+  Precision: 0.2854, Recall: 1.0000, F1-score: 0.4441
+  Time: 7137.2716
+----------------------------------------
+[Layer2 - com.asdoi.quicktiles]
+  TP: 3949, FP: 2901, TN: 14195, FN: 2545
+  Precision: 0.5765, Recall: 0.6081, F1-score: 0.5919
+  Time: 7137.2920
+----------------------------------------
+[Layer1 - com.ath0.rpn]
+  TP: 9, FP: 175, TN: 0, FN: 0
+  Precision: 0.0489, Recall: 1.0000, F1-score: 0.0933
+  Time: 7139.9998
+----------------------------------------
+[Layer2 - com.ath0.rpn]
+  TP: 0, FP: 9, TN: 166, FN: 9
+  Precision: 0.0000, Recall: 0.0000, F1-score: 0.0000
+  Time: 7140.0028
+----------------------------------------
+[Layer1 - com.atul.musicplayer]
+  TP: 7122, FP: 18068, TN: 860, FN: 0
+  Precision: 0.2827, Recall: 1.0000, F1-score: 0.4408
+  Time: 7299.0913
+----------------------------------------
+[Layer2 - com.atul.musicplayer]
+  TP: 4048, FP: 3361, TN: 15567, FN: 3074
+  Precision: 0.5464, Recall: 0.5684, F1-score: 0.5572
+  Time: 7299.1012
+----------------------------------------
+[Layer1 - com.bily]
+  TP: 5939, FP: 21348, TN: 2673, FN: 0
+  Precision: 0.2176, Recall: 1.0000, F1-score: 0.3575
+  Time: 7459.4352
+----------------------------------------
+[Layer2 - com.bily]
+  TP: 3864, FP: 3693, TN: 20328, FN: 2075
+  Precision: 0.5113, Recall: 0.6506, F1-score: 0.5726
+  Time: 7459.4611
+----------------------------------------
+[Layer1 - com.burhanrashid52.photoediting]
+  TP: 3436, FP: 17517, TN: 3218, FN: 0
+  Precision: 0.1640, Recall: 1.0000, F1-score: 0.2818
+  Time: 7528.6393
+----------------------------------------
+[Layer2 - com.burhanrashid52.photoediting]
+  TP: 1540, FP: 3813, TN: 16922, FN: 1896
+  Precision: 0.2877, Recall: 0.4482, F1-score: 0.3504
+  Time: 7528.6598
+----------------------------------------
+[Layer1 - com.byterdevs.rsswidget]
+  TP: 6324, FP: 16044, TN: 1517, FN: 0
+  Precision: 0.2827, Recall: 1.0000, F1-score: 0.4408
+  Time: 7597.4713
+----------------------------------------
+[Layer2 - com.byterdevs.rsswidget]
+  TP: 3849, FP: 2853, TN: 14708, FN: 2475
+  Precision: 0.5743, Recall: 0.6086, F1-score: 0.5910
+  Time: 7597.4771
+----------------------------------------
+[Layer1 - com.cappielloantonio.notquitemy.tempo]
+  TP: 4758, FP: 35976, TN: 4346, FN: 0
+  Precision: 0.1168, Recall: 1.0000, F1-score: 0.2092
+  Time: 7744.6048
+----------------------------------------
+[Layer2 - com.cappielloantonio.notquitemy.tempo]
+  TP: 2140, FP: 6776, TN: 33546, FN: 2618
+  Precision: 0.2400, Recall: 0.4498, F1-score: 0.3130
+  Time: 7744.6305
+----------------------------------------
+[Layer1 - com.cax.pmk.ext]
+  TP: 20, FP: 370, TN: 4, FN: 0
+  Precision: 0.0513, Recall: 1.0000, F1-score: 0.0976
+  Time: 7746.5305
+----------------------------------------
+[Layer2 - com.cax.pmk.ext]
+  TP: 6, FP: 19, TN: 355, FN: 14
+  Precision: 0.2400, Recall: 0.3000, F1-score: 0.2667
+  Time: 7746.5435
+----------------------------------------
+[Layer1 - com.cliffracertech.soundaura]
+  TP: 7047, FP: 25450, TN: 3324, FN: 0
+  Precision: 0.2169, Recall: 1.0000, F1-score: 0.3564
+  Time: 7829.2857
+----------------------------------------
+[Layer2 - com.cliffracertech.soundaura]
+  TP: 4104, FP: 4382, TN: 24392, FN: 2943
+  Precision: 0.4836, Recall: 0.5824, F1-score: 0.5284
+  Time: 7829.3019
+----------------------------------------
+[Layer1 - com.codedead.advancedpassgen]
+  TP: 6344, FP: 15433, TN: 508, FN: 0
+  Precision: 0.2913, Recall: 1.0000, F1-score: 0.4512
+  Time: 7886.9616
+----------------------------------------
+[Layer2 - com.codedead.advancedpassgen]
+  TP: 3580, FP: 2804, TN: 13137, FN: 2764
+  Precision: 0.5608, Recall: 0.5643, F1-score: 0.5625
+  Time: 7886.9834
+----------------------------------------
+[Layer1 - com.daniebeler.pfpixelix]
+  TP: 7106, FP: 41547, TN: 4633, FN: 0
+  Precision: 0.1461, Recall: 1.0000, F1-score: 0.2549
+  Time: 8007.3563
+----------------------------------------
+[Layer2 - com.daniebeler.pfpixelix]
+  TP: 4311, FP: 5953, TN: 40227, FN: 2795
+  Precision: 0.4200, Recall: 0.6067, F1-score: 0.4964
+  Time: 8007.3947
+----------------------------------------
+[Layer1 - com.danilkinkin.buckwheat]
+  TP: 5716, FP: 22743, TN: 4125, FN: 0
+  Precision: 0.2009, Recall: 1.0000, F1-score: 0.3345
+  Time: 8077.4451
+----------------------------------------
+[Layer2 - com.danilkinkin.buckwheat]
+  TP: 3152, FP: 3777, TN: 23091, FN: 2564
+  Precision: 0.4549, Recall: 0.5514, F1-score: 0.4985
+  Time: 8077.4513
+----------------------------------------
+[Layer1 - com.dar.nclientv2]
+  TP: 8426, FP: 19647, TN: 7209, FN: 0
+  Precision: 0.3001, Recall: 1.0000, F1-score: 0.4617
+  Time: 8161.3442
+----------------------------------------
+[Layer2 - com.dar.nclientv2]
+  TP: 4233, FP: 2926, TN: 23930, FN: 4193
+  Precision: 0.5913, Recall: 0.5024, F1-score: 0.5432
+  Time: 8161.3629
+----------------------------------------
+[Layer1 - com.darkempire78.opencalculator]
+  TP: 6414, FP: 16315, TN: 654, FN: 0
+  Precision: 0.2822, Recall: 1.0000, F1-score: 0.4402
+  Time: 8217.0259
+----------------------------------------
+[Layer2 - com.darkempire78.opencalculator]
+  TP: 3377, FP: 3083, TN: 13886, FN: 3037
+  Precision: 0.5228, Recall: 0.5265, F1-score: 0.5246
+  Time: 8217.0399
+----------------------------------------
+[Layer1 - com.darkrockstudios.app.securecamera]
+  TP: 6190, FP: 27253, TN: 4214, FN: 0
+  Precision: 0.1851, Recall: 1.0000, F1-score: 0.3124
+  Time: 8298.5111
+----------------------------------------
+[Layer2 - com.darkrockstudios.app.securecamera]
+  TP: 3907, FP: 4067, TN: 27400, FN: 2283
+  Precision: 0.4900, Recall: 0.6312, F1-score: 0.5517
+  Time: 8298.5311
+----------------------------------------
+[Layer1 - com.davidtakac.bura]
+  TP: 5942, FP: 21250, TN: 2240, FN: 0
+  Precision: 0.2185, Recall: 1.0000, F1-score: 0.3587
+  Time: 8364.5076
+----------------------------------------
+[Layer2 - com.davidtakac.bura]
+  TP: 3511, FP: 3480, TN: 20010, FN: 2431
+  Precision: 0.5022, Recall: 0.5909, F1-score: 0.5430
+  Time: 8364.5308
+----------------------------------------
+[Layer1 - com.dessalines.thumbkey]
+  TP: 13248, FP: 35427, TN: 2884, FN: 0
+  Precision: 0.2722, Recall: 1.0000, F1-score: 0.4279
+  Time: 8473.7252
+----------------------------------------
+[Layer2 - com.dessalines.thumbkey]
+  TP: 7904, FP: 7160, TN: 31151, FN: 5344
+  Precision: 0.5247, Recall: 0.5966, F1-score: 0.5583
+  Time: 8473.7634
+----------------------------------------
+[Layer1 - com.dijia1124.plusplusbattery]
+  TP: 5762, FP: 20097, TN: 2761, FN: 0
+  Precision: 0.2228, Recall: 1.0000, F1-score: 0.3644
+  Time: 8536.6358
+----------------------------------------
+[Layer2 - com.dijia1124.plusplusbattery]
+  TP: 3815, FP: 3295, TN: 19563, FN: 1947
+  Precision: 0.5366, Recall: 0.6621, F1-score: 0.5928
+  Time: 8536.6520
+----------------------------------------
+[Layer1 - com.dn0ne.lotus]
+  TP: 13629, FP: 43400, TN: 4246, FN: 0
+  Precision: 0.2390, Recall: 1.0000, F1-score: 0.3858
+  Time: 8648.6781
+----------------------------------------
+[Layer2 - com.dn0ne.lotus]
+  TP: 7981, FP: 7949, TN: 39697, FN: 5648
+  Precision: 0.5010, Recall: 0.5856, F1-score: 0.5400
+  Time: 8648.7141
+----------------------------------------
+[Layer1 - com.dosse.clock31]
+  TP: 4, FP: 161, TN: 1, FN: 0
+  Precision: 0.0242, Recall: 1.0000, F1-score: 0.0473
+  Time: 8649.3223
+----------------------------------------
+[Layer2 - com.dosse.clock31]
+  TP: 0, FP: 38, TN: 124, FN: 4
+  Precision: 0.0000, Recall: 0.0000, F1-score: 0.0000
+  Time: 8649.3223
+----------------------------------------
+[Layer1 - com.encrypt.bwt]
+  TP: 6576, FP: 18409, TN: 608, FN: 0
+  Precision: 0.2632, Recall: 1.0000, F1-score: 0.4167
+  Time: 8711.2438
+----------------------------------------
+[Layer2 - com.encrypt.bwt]
+  TP: 3364, FP: 3098, TN: 15919, FN: 3212
+  Precision: 0.5206, Recall: 0.5116, F1-score: 0.5160
+  Time: 8711.2543
+----------------------------------------
+[Layer1 - com.example.deeplviewer]
+  TP: 6389, FP: 15544, TN: 605, FN: 0
+  Precision: 0.2913, Recall: 1.0000, F1-score: 0.4512
+  Time: 8765.3736
+----------------------------------------
+[Layer2 - com.example.deeplviewer]
+  TP: 3715, FP: 2887, TN: 13262, FN: 2674
+  Precision: 0.5627, Recall: 0.5815, F1-score: 0.5719
+  Time: 8765.3843
+----------------------------------------
+[Layer1 - com.example.muzei.muzeiapod]
+  TP: 5706, FP: 6907, TN: 215, FN: 0
+  Precision: 0.4524, Recall: 1.0000, F1-score: 0.6230
+  Time: 8798.8300
+----------------------------------------
+[Layer2 - com.example.muzei.muzeiapod]
+  TP: 3660, FP: 1703, TN: 5419, FN: 2046
+  Precision: 0.6825, Recall: 0.6414, F1-score: 0.6613
+  Time: 8798.8355
+----------------------------------------
+[Layer1 - com.example.photoswooper]
+  TP: 6406, FP: 26241, TN: 2868, FN: 0
+  Precision: 0.1962, Recall: 1.0000, F1-score: 0.3281
+  Time: 8874.6452
+----------------------------------------
+[Layer2 - com.example.photoswooper]
+  TP: 3919, FP: 4396, TN: 24713, FN: 2487
+  Precision: 0.4713, Recall: 0.6118, F1-score: 0.5324
+  Time: 8874.6655
+----------------------------------------
+[Layer1 - com.example.timenotification]
+  TP: 5882, FP: 12088, TN: 589, FN: 0
+  Precision: 0.3273, Recall: 1.0000, F1-score: 0.4932
+  Time: 8920.8776
+----------------------------------------
+[Layer2 - com.example.timenotification]
+  TP: 3058, FP: 2339, TN: 10338, FN: 2824
+  Precision: 0.5666, Recall: 0.5199, F1-score: 0.5422
+  Time: 8920.8932
+----------------------------------------
+[Layer1 - com.exner.tools.fototimer]
+  TP: 6423, FP: 25046, TN: 2864, FN: 0
+  Precision: 0.2041, Recall: 1.0000, F1-score: 0.3390
+  Time: 8996.4413
+----------------------------------------
+[Layer2 - com.exner.tools.fototimer]
+  TP: 4051, FP: 4093, TN: 23817, FN: 2372
+  Precision: 0.4974, Recall: 0.6307, F1-score: 0.5562
+  Time: 8996.4609
+----------------------------------------
+[Layer1 - com.ezpnix.writeon]
+  TP: 6322, FP: 29673, TN: 4162, FN: 0
+  Precision: 0.1756, Recall: 1.0000, F1-score: 0.2988
+  Time: 9080.1596
+----------------------------------------
+[Layer2 - com.ezpnix.writeon]
+  TP: 3579, FP: 4809, TN: 29026, FN: 2743
+  Precision: 0.4267, Recall: 0.5661, F1-score: 0.4866
+  Time: 9080.1760
+----------------------------------------
+[Layer1 - com.flux]
+  TP: 6094, FP: 26834, TN: 3079, FN: 0
+  Precision: 0.1851, Recall: 1.0000, F1-score: 0.3123
+  Time: 9158.5701
+----------------------------------------
+[Layer2 - com.flux]
+  TP: 3828, FP: 4126, TN: 25787, FN: 2266
+  Precision: 0.4813, Recall: 0.6282, F1-score: 0.5450
+  Time: 9158.5910
+----------------------------------------
+[Layer1 - com.flx]
+  TP: 12746, FP: 25947, TN: 2802, FN: 0
+  Precision: 0.3294, Recall: 1.0000, F1-score: 0.4956
+  Time: 9231.3295
+----------------------------------------
+[Layer2 - com.flx]
+  TP: 7366, FP: 5394, TN: 23355, FN: 5380
+  Precision: 0.5773, Recall: 0.5779, F1-score: 0.5776
+  Time: 9231.3533
+----------------------------------------
+[Layer1 - com.fmsys.snapdrop]
+  TP: 6729, FP: 18763, TN: 1207, FN: 0
+  Precision: 0.2640, Recall: 1.0000, F1-score: 0.4177
+  Time: 9295.6658
+----------------------------------------
+[Layer2 - com.fmsys.snapdrop]
+  TP: 3458, FP: 3397, TN: 16573, FN: 3271
+  Precision: 0.5044, Recall: 0.5139, F1-score: 0.5091
+  Time: 9295.6801
+----------------------------------------
+[Layer1 - com.fpf.smartscan]
+  TP: 6474, FP: 30175, TN: 2362, FN: 0
+  Precision: 0.1766, Recall: 1.0000, F1-score: 0.3003
+  Time: 9380.9542
+----------------------------------------
+[Layer2 - com.fpf.smartscan]
+  TP: 3977, FP: 4491, TN: 28046, FN: 2497
+  Precision: 0.4697, Recall: 0.6143, F1-score: 0.5323
+  Time: 9380.9788
+----------------------------------------
+[Layer1 - com.git.amarradi.leafpad]
+  TP: 6334, FP: 15070, TN: 702, FN: 0
+  Precision: 0.2959, Recall: 1.0000, F1-score: 0.4567
+  Time: 9433.8663
+----------------------------------------
+[Layer2 - com.git.amarradi.leafpad]
+  TP: 3798, FP: 2817, TN: 12955, FN: 2536
+  Precision: 0.5741, Recall: 0.5996, F1-score: 0.5866
+  Time: 9433.8785
+----------------------------------------
+[Layer1 - com.github.catfriend1.syncthinglite]
+  TP: 8010, FP: 31254, TN: 2745, FN: 0
+  Precision: 0.2040, Recall: 1.0000, F1-score: 0.3389
+  Time: 9523.3869
+----------------------------------------
+[Layer2 - com.github.catfriend1.syncthinglite]
+  TP: 4686, FP: 4824, TN: 29175, FN: 3324
+  Precision: 0.4927, Recall: 0.5850, F1-score: 0.5349
+  Time: 9523.4093
+----------------------------------------
+[Layer1 - com.github.shadowsocks.plugin.ck]
+  TP: 637, FP: 17518, TN: 2273, FN: 0
+  Precision: 0.0351, Recall: 1.0000, F1-score: 0.0678
+  Time: 9572.6694
+----------------------------------------
+[Layer2 - com.github.shadowsocks.plugin.ck]
+  TP: 134, FP: 4848, TN: 14943, FN: 503
+  Precision: 0.0269, Recall: 0.2104, F1-score: 0.0477
+  Time: 9572.6803
+----------------------------------------
+[Layer1 - com.github.xfalcon.vhosts]
+  TP: 314, FP: 7139, TN: 1903, FN: 0
+  Precision: 0.0421, Recall: 1.0000, F1-score: 0.0809
+  Time: 9591.7964
+----------------------------------------
+[Layer2 - com.github.xfalcon.vhosts]
+  TP: 54, FP: 977, TN: 8065, FN: 260
+  Precision: 0.0524, Recall: 0.1720, F1-score: 0.0803
+  Time: 9591.8051
+----------------------------------------
+[Layer1 - com.gitlab.dibdib.dib2calc]
+  TP: 626, FP: 9738, TN: 2986, FN: 0
+  Precision: 0.0604, Recall: 1.0000, F1-score: 0.1139
+  Time: 9620.7942
+----------------------------------------
+[Layer2 - com.gitlab.dibdib.dib2calc]
+  TP: 120, FP: 1141, TN: 11583, FN: 506
+  Precision: 0.0952, Recall: 0.1917, F1-score: 0.1272
+  Time: 9620.8024
+----------------------------------------
+[Layer1 - com.guruswarupa.launch]
+  TP: 6422, FP: 16247, TN: 656, FN: 0
+  Precision: 0.2833, Recall: 1.0000, F1-score: 0.4415
+  Time: 9675.7671
+----------------------------------------
+[Layer2 - com.guruswarupa.launch]
+  TP: 3510, FP: 2935, TN: 13968, FN: 2912
+  Precision: 0.5446, Recall: 0.5466, F1-score: 0.5456
+  Time: 9675.7720
+----------------------------------------
+[Layer1 - com.gyorog.polycal]
+  TP: 273, FP: 17232, TN: 2390, FN: 0
+  Precision: 0.0156, Recall: 1.0000, F1-score: 0.0307
+  Time: 9722.5165
+----------------------------------------
+[Layer2 - com.gyorog.polycal]
+  TP: 61, FP: 4758, TN: 14864, FN: 212
+  Precision: 0.0127, Recall: 0.2234, F1-score: 0.0240
+  Time: 9722.5305
+----------------------------------------
+[Layer1 - com.haringeymobile.ukweather]
+  TP: 646, FP: 18959, TN: 3207, FN: 0
+  Precision: 0.0330, Recall: 1.0000, F1-score: 0.0638
+  Time: 9776.5011
+----------------------------------------
+[Layer2 - com.haringeymobile.ukweather]
+  TP: 149, FP: 5919, TN: 16247, FN: 497
+  Precision: 0.0246, Recall: 0.2307, F1-score: 0.0444
+  Time: 9776.5119
+----------------------------------------
+[Layer1 - com.inator.calculator]
+  TP: 999, FP: 22948, TN: 5224, FN: 0
+  Precision: 0.0417, Recall: 1.0000, F1-score: 0.0801
+  Time: 9846.1864
+----------------------------------------
+[Layer2 - com.inator.calculator]
+  TP: 190, FP: 5603, TN: 22569, FN: 809
+  Precision: 0.0328, Recall: 0.1902, F1-score: 0.0559
+  Time: 9846.2048
+----------------------------------------
+[Layer1 - com.indieweb.indigenous]
+  TP: 1272, FP: 25343, TN: 4047, FN: 0
+  Precision: 0.0478, Recall: 1.0000, F1-score: 0.0912
+  Time: 9916.7843
+----------------------------------------
+[Layer2 - com.indieweb.indigenous]
+  TP: 279, FP: 6103, TN: 23287, FN: 993
+  Precision: 0.0437, Recall: 0.2193, F1-score: 0.0729
+  Time: 9916.8086
+----------------------------------------
+[Layer1 - com.jherkenhoff.qalculate]
+  TP: 5666, FP: 20077, TN: 4696, FN: 0
+  Precision: 0.2201, Recall: 1.0000, F1-score: 0.3608
+  Time: 9981.3955
+----------------------------------------
+[Layer2 - com.jherkenhoff.qalculate]
+  TP: 3349, FP: 3529, TN: 21244, FN: 2317
+  Precision: 0.4869, Recall: 0.5911, F1-score: 0.5340
+  Time: 9981.4242
+----------------------------------------
+[Layer1 - com.jkuester.unlauncher]
+  TP: 632, FP: 20163, TN: 4077, FN: 0
+  Precision: 0.0304, Recall: 1.0000, F1-score: 0.0590
+  Time: 10037.8255
+----------------------------------------
+[Layer2 - com.jkuester.unlauncher]
+  TP: 146, FP: 5511, TN: 18729, FN: 486
+  Precision: 0.0258, Recall: 0.2310, F1-score: 0.0464
+  Time: 10037.8392
+----------------------------------------
+[Layer1 - com.kaanelloed.iconeration]
+  TP: 6587, FP: 33079, TN: 3182, FN: 0
+  Precision: 0.1661, Recall: 1.0000, F1-score: 0.2848
+  Time: 10131.6804
+----------------------------------------
+[Layer2 - com.kaanelloed.iconeration]
+  TP: 3511, FP: 5793, TN: 30468, FN: 3076
+  Precision: 0.3774, Recall: 0.5330, F1-score: 0.4419
+  Time: 10131.7076
+----------------------------------------
+[Layer1 - com.kolloware.hypezigapp]
+  TP: 587, FP: 9728, TN: 2066, FN: 0
+  Precision: 0.0569, Recall: 1.0000, F1-score: 0.1077
+  Time: 10159.4698
+----------------------------------------
+[Layer2 - com.kolloware.hypezigapp]
+  TP: 115, FP: 1358, TN: 10436, FN: 472
+  Precision: 0.0781, Recall: 0.1959, F1-score: 0.1117
+  Time: 10159.4821
+----------------------------------------
+[Layer1 - com.leestarb.fourthtools]
+  TP: 993, FP: 23322, TN: 4666, FN: 0
+  Precision: 0.0408, Recall: 1.0000, F1-score: 0.0785
+  Time: 10224.3615
+----------------------------------------
+[Layer2 - com.leestarb.fourthtools]
+  TP: 200, FP: 5693, TN: 22295, FN: 793
+  Precision: 0.0339, Recall: 0.2014, F1-score: 0.0581
+  Time: 10224.3719
+----------------------------------------
+[Layer1 - com.looker.droidify]
+  TP: 7048, FP: 30887, TN: 2461, FN: 0
+  Precision: 0.1858, Recall: 1.0000, F1-score: 0.3134
+  Time: 10313.6870
+----------------------------------------
+[Layer2 - com.looker.droidify]
+  TP: 4190, FP: 5118, TN: 28230, FN: 2858
+  Precision: 0.4502, Recall: 0.5945, F1-score: 0.5124
+  Time: 10313.7129
+----------------------------------------
+[Layer1 - com.machiav3lli.fdroid]
+  TP: 17120, FP: 29139, TN: 4702, FN: 0
+  Precision: 0.3701, Recall: 1.0000, F1-score: 0.5402
+  Time: 10887.0330
+----------------------------------------
+[Layer2 - com.machiav3lli.fdroid]
+  TP: 7583, FP: 5331, TN: 28510, FN: 9537
+  Precision: 0.5872, Recall: 0.4429, F1-score: 0.5050
+  Time: 10887.0573
+----------------------------------------
+[Layer1 - com.maforn.timedshutdown]
+  TP: 6397, FP: 15428, TN: 516, FN: 0
+  Precision: 0.2931, Recall: 1.0000, F1-score: 0.4533
+  Time: 10962.7402
+----------------------------------------
+[Layer2 - com.maforn.timedshutdown]
+  TP: 3554, FP: 2851, TN: 13093, FN: 2843
+  Precision: 0.5549, Recall: 0.5556, F1-score: 0.5552
+  Time: 10962.7521
+----------------------------------------
+[Layer1 - com.marktka.calculatorYou]
+  TP: 6436, FP: 15981, TN: 436, FN: 0
+  Precision: 0.2871, Recall: 1.0000, F1-score: 0.4461
+  Time: 11024.6361
+----------------------------------------
+[Layer2 - com.marktka.calculatorYou]
+  TP: 3534, FP: 3028, TN: 13389, FN: 2902
+  Precision: 0.5386, Recall: 0.5491, F1-score: 0.5438
+  Time: 11024.6458
+----------------------------------------
+[Layer1 - com.markusborg.test]
+  TP: 128, FP: 4466, TN: 416, FN: 0
+  Precision: 0.0279, Recall: 1.0000, F1-score: 0.0542
+  Time: 11039.4333
+----------------------------------------
+[Layer2 - com.markusborg.test]
+  TP: 33, FP: 519, TN: 4363, FN: 95
+  Precision: 0.0598, Recall: 0.2578, F1-score: 0.0971
+  Time: 11039.4390
+----------------------------------------
+[Layer1 - com.maxistar.textpad]
+  TP: 148, FP: 4926, TN: 502, FN: 0
+  Precision: 0.0292, Recall: 1.0000, F1-score: 0.0567
+  Time: 11053.3331
+----------------------------------------
+[Layer2 - com.maxistar.textpad]
+  TP: 46, FP: 640, TN: 4788, FN: 102
+  Precision: 0.0671, Recall: 0.3108, F1-score: 0.1103
+  Time: 11053.3379
+----------------------------------------
+[Layer1 - com.minar.birday]
+  TP: 7516, FP: 20540, TN: 2491, FN: 0
+  Precision: 0.2679, Recall: 1.0000, F1-score: 0.4226
+  Time: 11136.9835
+----------------------------------------
+[Layer2 - com.minar.birday]
+  TP: 4330, FP: 3798, TN: 19233, FN: 3186
+  Precision: 0.5327, Recall: 0.5761, F1-score: 0.5536
+  Time: 11136.9985
+----------------------------------------
+[Layer1 - com.mkulesh.micromath.plus]
+  TP: 941, FP: 10543, TN: 2964, FN: 0
+  Precision: 0.0819, Recall: 1.0000, F1-score: 0.1515
+  Time: 11176.1875
+----------------------------------------
+[Layer2 - com.mkulesh.micromath.plus]
+  TP: 251, FP: 1445, TN: 12062, FN: 690
+  Precision: 0.1480, Recall: 0.2667, F1-score: 0.1904
+  Time: 11176.2015
+----------------------------------------
+[Layer1 - com.mrsep.musicrecognizer]
+  TP: 6467, FP: 32023, TN: 4819, FN: 0
+  Precision: 0.1680, Recall: 1.0000, F1-score: 0.2877
+  Time: 11283.0802
+----------------------------------------
+[Layer2 - com.mrsep.musicrecognizer]
+  TP: 4110, FP: 4809, TN: 32033, FN: 2357
+  Precision: 0.4608, Recall: 0.6355, F1-score: 0.5343
+  Time: 11283.1094
+----------------------------------------
+[Layer1 - com.mustafacanyucel.fireflyiiishortcuts]
+  TP: 6729, FP: 19635, TN: 1645, FN: 0
+  Precision: 0.2552, Recall: 1.0000, F1-score: 0.4067
+  Time: 11349.0697
+----------------------------------------
+[Layer2 - com.mustafacanyucel.fireflyiiishortcuts]
+  TP: 3693, FP: 3406, TN: 17874, FN: 3036
+  Precision: 0.5202, Recall: 0.5488, F1-score: 0.5341
+  Time: 11349.0731
+----------------------------------------
+[Layer1 - com.nemesis.droidcrypt]
+  TP: 3320, FP: 17430, TN: 1492, FN: 0
+  Precision: 0.1600, Recall: 1.0000, F1-score: 0.2759
+  Time: 11402.4274
+----------------------------------------
+[Layer2 - com.nemesis.droidcrypt]
+  TP: 1546, FP: 4160, TN: 14762, FN: 1774
+  Precision: 0.2709, Recall: 0.4657, F1-score: 0.3426
+  Time: 11402.4390
+----------------------------------------
+[Layer1 - com.noahjutz.gymroutines]
+  TP: 6311, FP: 28675, TN: 3168, FN: 0
+  Precision: 0.1804, Recall: 1.0000, F1-score: 0.3056
+  Time: 11484.9154
+----------------------------------------
+[Layer2 - com.noahjutz.gymroutines]
+  TP: 3688, FP: 4583, TN: 27260, FN: 2623
+  Precision: 0.4459, Recall: 0.5844, F1-score: 0.5058
+  Time: 11484.9360
+----------------------------------------
+[Layer1 - com.nunosempere.distributioncalculator]
+  TP: 2982, FP: 16424, TN: 2591, FN: 0
+  Precision: 0.1537, Recall: 1.0000, F1-score: 0.2664
+  Time: 11535.5004
+----------------------------------------
+[Layer2 - com.nunosempere.distributioncalculator]
+  TP: 1629, FP: 3850, TN: 15165, FN: 1353
+  Precision: 0.2973, Recall: 0.5463, F1-score: 0.3851
+  Time: 11535.5275
+----------------------------------------
+[Layer1 - com.oF2pks.jquarks]
+  TP: 3648, FP: 19816, TN: 3611, FN: 0
+  Precision: 0.1555, Recall: 1.0000, F1-score: 0.2691
+  Time: 11596.8585
+----------------------------------------
+[Layer2 - com.oF2pks.jquarks]
+  TP: 1716, FP: 5030, TN: 18397, FN: 1932
+  Precision: 0.2544, Recall: 0.4704, F1-score: 0.3302
+  Time: 11596.8719
+----------------------------------------
+[Layer1 - com.pcinpact]
+  TP: 6849, FP: 19128, TN: 857, FN: 0
+  Precision: 0.2637, Recall: 1.0000, F1-score: 0.4173
+  Time: 11661.9739
+----------------------------------------
+[Layer2 - com.pcinpact]
+  TP: 3870, FP: 3314, TN: 16671, FN: 2979
+  Precision: 0.5387, Recall: 0.5650, F1-score: 0.5516
+  Time: 11661.9987
+----------------------------------------
+[Layer1 - com.phpbg.easysync]
+  TP: 5905, FP: 21085, TN: 2167, FN: 0
+  Precision: 0.2188, Recall: 1.0000, F1-score: 0.3590
+  Time: 11727.5543
+----------------------------------------
+[Layer2 - com.phpbg.easysync]
+  TP: 3889, FP: 3624, TN: 19628, FN: 2016
+  Precision: 0.5176, Recall: 0.6586, F1-score: 0.5797
+  Time: 11727.5646
+----------------------------------------
+[Layer1 - com.phstudio.darktheme]
+  TP: 772, FP: 21595, TN: 4425, FN: 0
+  Precision: 0.0345, Recall: 1.0000, F1-score: 0.0667
+  Time: 11785.3489
+----------------------------------------
+[Layer2 - com.phstudio.darktheme]
+  TP: 157, FP: 6209, TN: 19811, FN: 615
+  Precision: 0.0247, Recall: 0.2034, F1-score: 0.0440
+  Time: 11785.3563
+----------------------------------------
+[Layer1 - com.plexer0.nitter]
+  TP: 809, FP: 19011, TN: 3680, FN: 0
+  Precision: 0.0408, Recall: 1.0000, F1-score: 0.0784
+  Time: 11837.3441
+----------------------------------------
+[Layer2 - com.plexer0.nitter]
+  TP: 171, FP: 5119, TN: 17572, FN: 638
+  Precision: 0.0323, Recall: 0.2114, F1-score: 0.0561
+  Time: 11837.3616
+----------------------------------------
+[Layer1 - com.pocket]
+  TP: 7515, FP: 16925, TN: 1818, FN: 0
+  Precision: 0.3075, Recall: 1.0000, F1-score: 0.4703
+  Time: 11897.3625
+----------------------------------------
+[Layer2 - com.pocket]
+  TP: 4031, FP: 3161, TN: 15582, FN: 3484
+  Precision: 0.5605, Recall: 0.5364, F1-score: 0.5482
+  Time: 11897.3761
+----------------------------------------
+[Layer1 - com.quaap.launchtime]
+  TP: 5911, FP: 8508, TN: 77, FN: 0
+  Precision: 0.4099, Recall: 1.0000, F1-score: 0.5815
+  Time: 11924.6428
+----------------------------------------
+[Layer2 - com.quaap.launchtime]
+  TP: 4358, FP: 1758, TN: 6827, FN: 1553
+  Precision: 0.7126, Recall: 0.7373, F1-score: 0.7247
+  Time: 11924.6557
+----------------------------------------
+[Layer1 - com.rabbittownsoftware.coinvert]
+  TP: 5670, FP: 19021, TN: 1748, FN: 0
+  Precision: 0.2296, Recall: 1.0000, F1-score: 0.3735
+  Time: 11983.9826
+----------------------------------------
+[Layer2 - com.rabbittownsoftware.coinvert]
+  TP: 3631, FP: 3266, TN: 17503, FN: 2039
+  Precision: 0.5265, Recall: 0.6404, F1-score: 0.5779
+  Time: 11983.9917
+----------------------------------------
+[Layer1 - com.rabbittownsoftware.convertly]
+  TP: 3086, FP: 22087, TN: 1779, FN: 0
+  Precision: 0.1226, Recall: 1.0000, F1-score: 0.2184
+  Time: 12044.5421
+----------------------------------------
+[Layer2 - com.rabbittownsoftware.convertly]
+  TP: 1837, FP: 4925, TN: 18941, FN: 1249
+  Precision: 0.2717, Recall: 0.5953, F1-score: 0.3731
+  Time: 12044.5571
+----------------------------------------
+[Layer1 - com.reminimalism.materialslivewallpaper]
+  TP: 5376, FP: 11514, TN: 1294, FN: 0
+  Precision: 0.3183, Recall: 1.0000, F1-score: 0.4829
+  Time: 12088.6978
+----------------------------------------
+[Layer2 - com.reminimalism.materialslivewallpaper]
+  TP: 2744, FP: 2089, TN: 10719, FN: 2632
+  Precision: 0.5678, Recall: 0.5104, F1-score: 0.5376
+  Time: 12088.7135
+----------------------------------------
+[Layer1 - com.rootminusone8004.bazarnote]
+  TP: 6072, FP: 15237, TN: 495, FN: 0
+  Precision: 0.2850, Recall: 1.0000, F1-score: 0.4435
+  Time: 12140.5852
+----------------------------------------
+[Layer2 - com.rootminusone8004.bazarnote]
+  TP: 3120, FP: 2884, TN: 12848, FN: 2952
+  Precision: 0.5197, Recall: 0.5138, F1-score: 0.5167
+  Time: 12140.5951
+----------------------------------------
+[Layer1 - com.roozbehzarei.filester]
+  TP: 13898, FP: 25429, TN: 1593, FN: 0
+  Precision: 0.3534, Recall: 1.0000, F1-score: 0.5222
+  Time: 12229.5256
+----------------------------------------
+[Layer2 - com.roozbehzarei.filester]
+  TP: 7648, FP: 5186, TN: 21836, FN: 6250
+  Precision: 0.5959, Recall: 0.5503, F1-score: 0.5722
+  Time: 12229.5370
+----------------------------------------
+[Layer1 - com.sakethh.linkora]
+  TP: 6124, FP: 30920, TN: 4484, FN: 0
+  Precision: 0.1653, Recall: 1.0000, F1-score: 0.2837
+  Time: 12317.4722
+----------------------------------------
+[Layer2 - com.sakethh.linkora]
+  TP: 3829, FP: 4674, TN: 30730, FN: 2295
+  Precision: 0.4503, Recall: 0.6252, F1-score: 0.5236
+  Time: 12317.4969
+----------------------------------------
+[Layer1 - com.sbv.linkdroid]
+  TP: 6527, FP: 16908, TN: 422, FN: 0
+  Precision: 0.2785, Recall: 1.0000, F1-score: 0.4357
+  Time: 12374.7174
+----------------------------------------
+[Layer2 - com.sbv.linkdroid]
+  TP: 3592, FP: 3107, TN: 14223, FN: 2935
+  Precision: 0.5362, Recall: 0.5503, F1-score: 0.5432
+  Time: 12374.7205
+----------------------------------------
+[Layer1 - com.seafile.seadroid2]
+  TP: 10925, FP: 50968, TN: 7469, FN: 0
+  Precision: 0.1765, Recall: 1.0000, F1-score: 0.3001
+  Time: 12525.6355
+----------------------------------------
+[Layer2 - com.seafile.seadroid2]
+  TP: 5763, FP: 10546, TN: 47891, FN: 5162
+  Precision: 0.3534, Recall: 0.5275, F1-score: 0.4232
+  Time: 12525.6766
+----------------------------------------
+[Layer1 - com.seyfal.whatsdown]
+  TP: 3174, FP: 32915, TN: 0, FN: 0
+  Precision: 0.0879, Recall: 1.0000, F1-score: 0.1617
+  Time: 12604.6188
+----------------------------------------
+[Layer2 - com.seyfal.whatsdown]
+  TP: 827, FP: 5341, TN: 27574, FN: 2347
+  Precision: 0.1341, Recall: 0.2606, F1-score: 0.1770
+  Time: 12604.6406
+----------------------------------------
+[Layer1 - com.shezik.drawanywhere]
+  TP: 6334, FP: 20491, TN: 1967, FN: 0
+  Precision: 0.2361, Recall: 1.0000, F1-score: 0.3820
+  Time: 12669.6678
+----------------------------------------
+[Layer2 - com.shezik.drawanywhere]
+  TP: 4008, FP: 3617, TN: 18841, FN: 2326
+  Precision: 0.5256, Recall: 0.6328, F1-score: 0.5743
+  Time: 12669.6828
+----------------------------------------
+[Layer1 - com.sjapps.jsonlist]
+  TP: 3564, FP: 18966, TN: 1606, FN: 0
+  Precision: 0.1582, Recall: 1.0000, F1-score: 0.2732
+  Time: 12725.7631
+----------------------------------------
+[Layer2 - com.sjapps.jsonlist]
+  TP: 1742, FP: 4288, TN: 16284, FN: 1822
+  Precision: 0.2889, Recall: 0.4888, F1-score: 0.3631
+  Time: 12725.7843
+----------------------------------------
+[Layer1 - com.sosauce.cutecalc]
+  TP: 5701, FP: 19530, TN: 2767, FN: 0
+  Precision: 0.2260, Recall: 1.0000, F1-score: 0.3686
+  Time: 12787.0342
+----------------------------------------
+[Layer2 - com.sosauce.cutecalc]
+  TP: 3579, FP: 3406, TN: 18891, FN: 2122
+  Precision: 0.5124, Recall: 0.6278, F1-score: 0.5642
+  Time: 12787.0605
+----------------------------------------
+[Layer1 - com.sosauce.cutemusic]
+  TP: 7162, FP: 35091, TN: 4429, FN: 0
+  Precision: 0.1695, Recall: 1.0000, F1-score: 0.2899
+  Time: 12884.7008
+----------------------------------------
+[Layer2 - com.sosauce.cutemusic]
+  TP: 4526, FP: 5704, TN: 33816, FN: 2636
+  Precision: 0.4424, Recall: 0.6319, F1-score: 0.5205
+  Time: 12884.7242
+----------------------------------------
+[Layer1 - com.starry.greenstash]
+  TP: 6716, FP: 33903, TN: 3965, FN: 0
+  Precision: 0.1653, Recall: 1.0000, F1-score: 0.2838
+  Time: 12980.7791
+----------------------------------------
+[Layer2 - com.starry.greenstash]
+  TP: 4105, FP: 5372, TN: 32496, FN: 2611
+  Precision: 0.4332, Recall: 0.6112, F1-score: 0.5070
+  Time: 12980.8073
+----------------------------------------
+[Layer1 - com.starry.myne]
+  TP: 13278, FP: 38771, TN: 3758, FN: 0
+  Precision: 0.2551, Recall: 1.0000, F1-score: 0.4065
+  Time: 13085.8075
+----------------------------------------
+[Layer2 - com.starry.myne]
+  TP: 7717, FP: 7354, TN: 35175, FN: 5561
+  Precision: 0.5120, Recall: 0.5812, F1-score: 0.5444
+  Time: 13085.8398
+----------------------------------------
+[Layer1 - com.stoutner.privacybrowser.standard]
+  TP: 6612, FP: 17093, TN: 806, FN: 0
+  Precision: 0.2789, Recall: 1.0000, F1-score: 0.4362
+  Time: 13144.2702
+----------------------------------------
+[Layer2 - com.stoutner.privacybrowser.standard]
+  TP: 3608, FP: 3068, TN: 14831, FN: 3004
+  Precision: 0.5404, Recall: 0.5457, F1-score: 0.5430
+  Time: 13144.2936
+----------------------------------------
+[Layer1 - com.stoutner.privacycell]
+  TP: 6419, FP: 16396, TN: 658, FN: 0
+  Precision: 0.2813, Recall: 1.0000, F1-score: 0.4391
+  Time: 13200.7390
+----------------------------------------
+[Layer2 - com.stoutner.privacycell]
+  TP: 3878, FP: 2883, TN: 14171, FN: 2541
+  Precision: 0.5736, Recall: 0.6041, F1-score: 0.5885
+  Time: 13200.7482
+----------------------------------------
+[Layer1 - com.streamatico.polymarketviewer]
+  TP: 6198, FP: 24802, TN: 3041, FN: 0
+  Precision: 0.1999, Recall: 1.0000, F1-score: 0.3332
+  Time: 13275.9879
+----------------------------------------
+[Layer2 - com.streamatico.polymarketviewer]
+  TP: 3977, FP: 3985, TN: 23858, FN: 2221
+  Precision: 0.4995, Recall: 0.6417, F1-score: 0.5617
+  Time: 13276.0097
+----------------------------------------
+[Layer1 - com.sunilpaulmathew.snotz]
+  TP: 7088, FP: 16527, TN: 1784, FN: 0
+  Precision: 0.3001, Recall: 1.0000, F1-score: 0.4617
+  Time: 13335.3071
+----------------------------------------
+[Layer2 - com.sunilpaulmathew.snotz]
+  TP: 3928, FP: 3136, TN: 15175, FN: 3160
+  Precision: 0.5561, Recall: 0.5542, F1-score: 0.5551
+  Time: 13335.3132
+----------------------------------------
+[Layer1 - com.sweak.qralarm]
+  TP: 6268, FP: 36595, TN: 5014, FN: 0
+  Precision: 0.1462, Recall: 1.0000, F1-score: 0.2552
+  Time: 13441.5995
+----------------------------------------
+[Layer2 - com.sweak.qralarm]
+  TP: 3833, FP: 5830, TN: 35779, FN: 2435
+  Precision: 0.3967, Recall: 0.6115, F1-score: 0.4812
+  Time: 13441.6176
+----------------------------------------
+[Layer1 - com.tananaev.calculator]
+  TP: 123, FP: 5826, TN: 1417, FN: 0
+  Precision: 0.0207, Recall: 1.0000, F1-score: 0.0405
+  Time: 13460.0563
+----------------------------------------
+[Layer2 - com.tananaev.calculator]
+  TP: 25, FP: 825, TN: 6418, FN: 98
+  Precision: 0.0294, Recall: 0.2033, F1-score: 0.0514
+  Time: 13460.0630
+----------------------------------------
+[Layer1 - com.termux.api]
+  TP: 7058, FP: 16764, TN: 1989, FN: 0
+  Precision: 0.2963, Recall: 1.0000, F1-score: 0.4571
+  Time: 13522.5000
+----------------------------------------
+[Layer2 - com.termux.api]
+  TP: 3738, FP: 3256, TN: 15497, FN: 3320
+  Precision: 0.5345, Recall: 0.5296, F1-score: 0.5320
+  Time: 13522.5170
+----------------------------------------
+[Layer1 - com.termux.tasker]
+  TP: 6249, FP: 18829, TN: 1410, FN: 0
+  Precision: 0.2492, Recall: 1.0000, F1-score: 0.3990
+  Time: 13583.6495
+----------------------------------------
+[Layer2 - com.termux.tasker]
+  TP: 3129, FP: 3508, TN: 16731, FN: 3120
+  Precision: 0.4714, Recall: 0.5007, F1-score: 0.4856
+  Time: 13583.6634
+----------------------------------------
+[Layer1 - com.termux.window]
+  TP: 6138, FP: 11511, TN: 478, FN: 0
+  Precision: 0.3478, Recall: 1.0000, F1-score: 0.5161
+  Time: 13630.2744
+----------------------------------------
+[Layer2 - com.termux.window]
+  TP: 3165, FP: 2124, TN: 9865, FN: 2973
+  Precision: 0.5984, Recall: 0.5156, F1-score: 0.5540
+  Time: 13630.2898
+----------------------------------------
+[Layer1 - com.trianguloy.isUserAMonkey]
+  TP: 15, FP: 148, TN: 41, FN: 0
+  Precision: 0.0920, Recall: 1.0000, F1-score: 0.1685
+  Time: 13630.8914
+----------------------------------------
+[Layer2 - com.trianguloy.isUserAMonkey]
+  TP: 8, FP: 5, TN: 184, FN: 7
+  Precision: 0.6154, Recall: 0.5333, F1-score: 0.5714
+  Time: 13630.8997
+----------------------------------------
+[Layer1 - com.unciv.app]
+  TP: 12487, FP: 25730, TN: 1596, FN: 0
+  Precision: 0.3267, Recall: 1.0000, F1-score: 0.4925
+  Time: 13699.6460
+----------------------------------------
+[Layer2 - com.unciv.app]
+  TP: 7172, FP: 5782, TN: 21544, FN: 5315
+  Precision: 0.5537, Recall: 0.5744, F1-score: 0.5638
+  Time: 13699.6548
+----------------------------------------
+[Layer1 - com.utazukin.ichaival]
+  TP: 7023, FP: 29304, TN: 2600, FN: 0
+  Precision: 0.1933, Recall: 1.0000, F1-score: 0.3240
+  Time: 13787.0151
+----------------------------------------
+[Layer2 - com.utazukin.ichaival]
+  TP: 3648, FP: 4557, TN: 27347, FN: 3375
+  Precision: 0.4446, Recall: 0.5194, F1-score: 0.4791
+  Time: 13787.0374
+----------------------------------------
+[Layer1 - com.vipedev.kords]
+  TP: 3085, FP: 22831, TN: 2513, FN: 0
+  Precision: 0.1190, Recall: 1.0000, F1-score: 0.2128
+  Time: 13850.0257
+----------------------------------------
+[Layer2 - com.vipedev.kords]
+  TP: 1838, FP: 5037, TN: 20307, FN: 1247
+  Precision: 0.2673, Recall: 0.5958, F1-score: 0.3691
+  Time: 13850.0332
+----------------------------------------
+[Layer1 - com.wirelessalien.android.moviedb]
+  TP: 4418, FP: 30132, TN: 2706, FN: 0
+  Precision: 0.1279, Recall: 1.0000, F1-score: 0.2268
+  Time: 13937.4604
+----------------------------------------
+[Layer2 - com.wirelessalien.android.moviedb]
+  TP: 2164, FP: 5978, TN: 26860, FN: 2254
+  Precision: 0.2658, Recall: 0.4898, F1-score: 0.3446
+  Time: 13937.4800
+----------------------------------------
+[Layer1 - com.wirelessalien.zipxtract]
+  TP: 829, FP: 21626, TN: 4254, FN: 0
+  Precision: 0.0369, Recall: 1.0000, F1-score: 0.0712
+  Time: 14000.2957
+----------------------------------------
+[Layer2 - com.wirelessalien.zipxtract]
+  TP: 165, FP: 5599, TN: 20281, FN: 664
+  Precision: 0.0286, Recall: 0.1990, F1-score: 0.0501
+  Time: 14000.3090
+----------------------------------------
+[Layer1 - com.xvzan.simplemoneytracker]
+  TP: 3618, FP: 19466, TN: 1593, FN: 0
+  Precision: 0.1567, Recall: 1.0000, F1-score: 0.2710
+  Time: 14055.8538
+----------------------------------------
+[Layer2 - com.xvzan.simplemoneytracker]
+  TP: 1802, FP: 5139, TN: 15920, FN: 1816
+  Precision: 0.2596, Recall: 0.4981, F1-score: 0.3413
+  Time: 14055.8675
+----------------------------------------
+[Layer1 - com.zell]
+  TP: 6735, FP: 28754, TN: 2781, FN: 0
+  Precision: 0.1898, Recall: 1.0000, F1-score: 0.3190
+  Time: 14140.7640
+----------------------------------------
+[Layer2 - com.zell]
+  TP: 4086, FP: 4681, TN: 26854, FN: 2649
+  Precision: 0.4661, Recall: 0.6067, F1-score: 0.5272
+  Time: 14140.7894
+----------------------------------------
+[Layer1 - com.ztftrue.music]
+  TP: 7491, FP: 33382, TN: 3690, FN: 0
+  Precision: 0.1833, Recall: 1.0000, F1-score: 0.3098
+  Time: 14237.7555
+----------------------------------------
+[Layer2 - com.ztftrue.music]
+  TP: 4669, FP: 5131, TN: 31941, FN: 2822
+  Precision: 0.4764, Recall: 0.6233, F1-score: 0.5400
+  Time: 14237.7804
+----------------------------------------
+[Layer1 - corewala.gemini.buran]
+  TP: 575, FP: 19476, TN: 2298, FN: 0
+  Precision: 0.0287, Recall: 1.0000, F1-score: 0.0558
+  Time: 14295.8739
+----------------------------------------
+[Layer2 - corewala.gemini.buran]
+  TP: 104, FP: 4501, TN: 17273, FN: 471
+  Precision: 0.0226, Recall: 0.1809, F1-score: 0.0402
+  Time: 14295.8869
+----------------------------------------
+[Layer1 - cu.axel.smartdock]
+  TP: 837, FP: 19699, TN: 3779, FN: 0
+  Precision: 0.0408, Recall: 1.0000, F1-score: 0.0783
+  Time: 14350.2209
+----------------------------------------
+[Layer2 - cu.axel.smartdock]
+  TP: 172, FP: 5440, TN: 18038, FN: 665
+  Precision: 0.0306, Recall: 0.2055, F1-score: 0.0533
+  Time: 14350.2277
+----------------------------------------
+[Layer1 - d.d.meshenger]
+  TP: 6337, FP: 16218, TN: 1983, FN: 0
+  Precision: 0.2810, Recall: 1.0000, F1-score: 0.4387
+  Time: 14407.4259
+----------------------------------------
+[Layer2 - d.d.meshenger]
+  TP: 3307, FP: 2869, TN: 15332, FN: 3030
+  Precision: 0.5355, Recall: 0.5219, F1-score: 0.5286
+  Time: 14407.4446
+----------------------------------------
+[Layer1 - de.arnowelzel.android.periodical]
+  TP: 7050, FP: 20742, TN: 1638, FN: 0
+  Precision: 0.2537, Recall: 1.0000, F1-score: 0.4047
+  Time: 14471.0838
+----------------------------------------
+[Layer2 - de.arnowelzel.android.periodical]
+  TP: 3976, FP: 4227, TN: 18153, FN: 3074
+  Precision: 0.4847, Recall: 0.5640, F1-score: 0.5213
+  Time: 14471.0923
+----------------------------------------
+[Layer1 - de.baumann.browser]
+  TP: 6385, FP: 15429, TN: 1450, FN: 0
+  Precision: 0.2927, Recall: 1.0000, F1-score: 0.4529
+  Time: 14525.6104
+----------------------------------------
+[Layer2 - de.baumann.browser]
+  TP: 3511, FP: 2856, TN: 14023, FN: 2874
+  Precision: 0.5514, Recall: 0.5499, F1-score: 0.5507
+  Time: 14525.6213
+----------------------------------------
+[Layer1 - de.chaosdorf.meteroid]
+  TP: 6483, FP: 18004, TN: 1360, FN: 0
+  Precision: 0.2648, Recall: 1.0000, F1-score: 0.4187
+  Time: 14585.5815
+----------------------------------------
+[Layer2 - de.chaosdorf.meteroid]
+  TP: 3432, FP: 3004, TN: 16360, FN: 3051
+  Precision: 0.5333, Recall: 0.5294, F1-score: 0.5313
+  Time: 14585.5969
+----------------------------------------
+[Layer1 - de.dbauer.expensetracker]
+  TP: 6049, FP: 29099, TN: 3886, FN: 0
+  Precision: 0.1721, Recall: 1.0000, F1-score: 0.2937
+  Time: 14668.6041
+----------------------------------------
+[Layer2 - de.dbauer.expensetracker]
+  TP: 3938, FP: 4890, TN: 28095, FN: 2111
+  Precision: 0.4461, Recall: 0.6510, F1-score: 0.5294
+  Time: 14668.6262
+----------------------------------------
+[Layer1 - de.devmil.muzei.bingimageofthedayartsource]
+  TP: 5587, FP: 8986, TN: 766, FN: 0
+  Precision: 0.3834, Recall: 1.0000, F1-score: 0.5543
+  Time: 14707.5010
+----------------------------------------
+[Layer2 - de.devmil.muzei.bingimageofthedayartsource]
+  TP: 3130, FP: 1795, TN: 7957, FN: 2457
+  Precision: 0.6355, Recall: 0.5602, F1-score: 0.5955
+  Time: 14707.5101
+----------------------------------------
+[Layer1 - de.devmil.paperlaunch]
+  TP: 15637, FP: 18160, TN: 630, FN: 0
+  Precision: 0.4627, Recall: 1.0000, F1-score: 0.6326
+  Time: 14770.9304
+----------------------------------------
+[Layer2 - de.devmil.paperlaunch]
+  TP: 10516, FP: 4077, TN: 14713, FN: 5121
+  Precision: 0.7206, Recall: 0.6725, F1-score: 0.6957
+  Time: 14770.9579
+----------------------------------------
+[Layer1 - de.felixnuesse.timedsilence]
+  TP: 7408, FP: 17024, TN: 1635, FN: 0
+  Precision: 0.3032, Recall: 1.0000, F1-score: 0.4653
+  Time: 14829.7094
+----------------------------------------
+[Layer2 - de.felixnuesse.timedsilence]
+  TP: 4289, FP: 3478, TN: 15181, FN: 3119
+  Precision: 0.5522, Recall: 0.5790, F1-score: 0.5653
+  Time: 14829.7208
+----------------------------------------
+[Layer1 - de.freehamburger]
+  TP: 1841, FP: 34643, TN: 5160, FN: 0
+  Precision: 0.0505, Recall: 1.0000, F1-score: 0.0961
+  Time: 14917.8637
+----------------------------------------
+[Layer2 - de.freehamburger]
+  TP: 396, FP: 8628, TN: 31175, FN: 1445
+  Precision: 0.0439, Recall: 0.2151, F1-score: 0.0729
+  Time: 14917.8749
+----------------------------------------
+[Layer1 - de.freewarepoint.whohasmystuff]
+  TP: 3570, FP: 20846, TN: 901, FN: 0
+  Precision: 0.1462, Recall: 1.0000, F1-score: 0.2551
+  Time: 14975.6002
+----------------------------------------
+[Layer2 - de.freewarepoint.whohasmystuff]
+  TP: 1887, FP: 5504, TN: 16243, FN: 1683
+  Precision: 0.2553, Recall: 0.5286, F1-score: 0.3443
+  Time: 14975.6213
+----------------------------------------
+[Layer1 - de.k3b.android.calef]
+  TP: 2707, FP: 8496, TN: 99, FN: 0
+  Precision: 0.2416, Recall: 1.0000, F1-score: 0.3892
+  Time: 15005.8779
+----------------------------------------
+[Layer2 - de.k3b.android.calef]
+  TP: 1339, FP: 2636, TN: 5959, FN: 1368
+  Precision: 0.3369, Recall: 0.4946, F1-score: 0.4008
+  Time: 15005.8868
+----------------------------------------
+[Layer1 - de.k3b.android.intentintercept]
+  TP: 2942, FP: 14737, TN: 1681, FN: 0
+  Precision: 0.1664, Recall: 1.0000, F1-score: 0.2853
+  Time: 15051.9983
+----------------------------------------
+[Layer2 - de.k3b.android.intentintercept]
+  TP: 1391, FP: 3680, TN: 12738, FN: 1551
+  Precision: 0.2743, Recall: 0.4728, F1-score: 0.3472
+  Time: 15052.0093
+----------------------------------------
+[Layer1 - de.kitshn.android]
+  TP: 7919, FP: 46008, TN: 5668, FN: 0
+  Precision: 0.1468, Recall: 1.0000, F1-score: 0.2561
+  Time: 15174.7735
+----------------------------------------
+[Layer2 - de.kitshn.android]
+  TP: 4790, FP: 6851, TN: 44825, FN: 3129
+  Precision: 0.4115, Recall: 0.6049, F1-score: 0.4898
+  Time: 15174.8136
+----------------------------------------
+[Layer1 - de.lukasneugebauer.nextcloudcookbook]
+  TP: 7624, FP: 31729, TN: 6579, FN: 0
+  Precision: 0.1937, Recall: 1.0000, F1-score: 0.3246
+  Time: 15274.1597
+----------------------------------------
+[Layer2 - de.lukasneugebauer.nextcloudcookbook]
+  TP: 4735, FP: 4488, TN: 33820, FN: 2889
+  Precision: 0.5134, Recall: 0.6211, F1-score: 0.5621
+  Time: 15274.1898
+----------------------------------------
+[Layer1 - de.markusfisch.android.pielauncher]
+  TP: 40, FP: 647, TN: 64, FN: 0
+  Precision: 0.0582, Recall: 1.0000, F1-score: 0.1100
+  Time: 15276.3434
+----------------------------------------
+[Layer2 - de.markusfisch.android.pielauncher]
+  TP: 9, FP: 31, TN: 680, FN: 31
+  Precision: 0.2250, Recall: 0.2250, F1-score: 0.2250
+  Time: 15276.3469
+----------------------------------------
+[Layer1 - de.markusfisch.android.shadereditor]
+  TP: 6363, FP: 16969, TN: 2714, FN: 0
+  Precision: 0.2727, Recall: 1.0000, F1-score: 0.4286
+  Time: 15335.7540
+----------------------------------------
+[Layer2 - de.markusfisch.android.shadereditor]
+  TP: 3315, FP: 2825, TN: 16858, FN: 3048
+  Precision: 0.5399, Recall: 0.5210, F1-score: 0.5303
+  Time: 15335.7714
+----------------------------------------
+[Layer1 - de.markusfisch.android.wavelines]
+  TP: 6135, FP: 14802, TN: 1327, FN: 0
+  Precision: 0.2930, Recall: 1.0000, F1-score: 0.4532
+  Time: 15387.9769
+----------------------------------------
+[Layer2 - de.markusfisch.android.wavelines]
+  TP: 3244, FP: 2668, TN: 13461, FN: 2891
+  Precision: 0.5487, Recall: 0.5288, F1-score: 0.5386
+  Time: 15387.9790
+----------------------------------------
+[Layer1 - de.marmaro.krt.ffupdater]
+  TP: 6568, FP: 25708, TN: 2223, FN: 0
+  Precision: 0.2035, Recall: 1.0000, F1-score: 0.3382
+  Time: 15462.3953
+----------------------------------------
+[Layer2 - de.marmaro.krt.ffupdater]
+  TP: 3248, FP: 4597, TN: 23334, FN: 3320
+  Precision: 0.4140, Recall: 0.4945, F1-score: 0.4507
+  Time: 15462.4160
+----------------------------------------
+[Layer1 - de.micmun.android.nextcloudcookbook]
+  TP: 7821, FP: 20376, TN: 4995, FN: 0
+  Precision: 0.2774, Recall: 1.0000, F1-score: 0.4343
+  Time: 15541.8274
+----------------------------------------
+[Layer2 - de.micmun.android.nextcloudcookbook]
+  TP: 3990, FP: 3865, TN: 21506, FN: 3831
+  Precision: 0.5080, Recall: 0.5102, F1-score: 0.5091
+  Time: 15541.8449
+----------------------------------------
+[Layer1 - de.miraisoft.wadoku]
+  TP: 5995, FP: 11878, TN: 499, FN: 0
+  Precision: 0.3354, Recall: 1.0000, F1-score: 0.5023
+  Time: 15587.0855
+----------------------------------------
+[Layer2 - de.miraisoft.wadoku]
+  TP: 3097, FP: 2346, TN: 10031, FN: 2898
+  Precision: 0.5690, Recall: 0.5166, F1-score: 0.5415
+  Time: 15587.1076
+----------------------------------------
+[Layer1 - de.mm20.launcher2.release]
+  TP: 23580, FP: 41873, TN: 0, FN: 0
+  Precision: 0.3603, Recall: 1.0000, F1-score: 0.5297
+  Time: 16119.0293
+----------------------------------------
+[Layer2 - de.mm20.launcher2.release]
+  TP: 10820, FP: 6674, TN: 35199, FN: 12760
+  Precision: 0.6185, Recall: 0.4589, F1-score: 0.5269
+  Time: 16119.0765
+----------------------------------------
+[Layer1 - de.monocles.browser]
+  TP: 6683, FP: 17164, TN: 902, FN: 0
+  Precision: 0.2802, Recall: 1.0000, F1-score: 0.4378
+  Time: 16318.7158
+----------------------------------------
+[Layer2 - de.monocles.browser]
+  TP: 4042, FP: 2994, TN: 15072, FN: 2641
+  Precision: 0.5745, Recall: 0.6048, F1-score: 0.5893
+  Time: 16318.7298
+----------------------------------------
+[Layer1 - de.monocles.translator]
+  TP: 2989, FP: 20979, TN: 4361, FN: 0
+  Precision: 0.1247, Recall: 1.0000, F1-score: 0.2218
+  Time: 16389.5955
+----------------------------------------
+[Layer2 - de.monocles.translator]
+  TP: 1559, FP: 4215, TN: 21125, FN: 1430
+  Precision: 0.2700, Recall: 0.5216, F1-score: 0.3558
+  Time: 16389.6232
+----------------------------------------
+[Layer1 - de.mwarning.memento]
+  TP: 7257, FP: 15401, TN: 1567, FN: 0
+  Precision: 0.3203, Recall: 1.0000, F1-score: 0.4852
+  Time: 16452.8442
+----------------------------------------
+[Layer2 - de.mwarning.memento]
+  TP: 4382, FP: 2956, TN: 14012, FN: 2875
+  Precision: 0.5972, Recall: 0.6038, F1-score: 0.6005
+  Time: 16452.8575
+----------------------------------------
+[Layer1 - de.niendo.ImapNotes3]
+  TP: 6414, FP: 15825, TN: 1699, FN: 0
+  Precision: 0.2884, Recall: 1.0000, F1-score: 0.4477
+  Time: 16509.9606
+----------------------------------------
+[Layer2 - de.niendo.ImapNotes3]
+  TP: 3473, FP: 2812, TN: 14712, FN: 2941
+  Precision: 0.5526, Recall: 0.5415, F1-score: 0.5470
+  Time: 16509.9683
+----------------------------------------
+[Layer1 - de.phasenrauscher.bicyweather]
+  TP: 6075, FP: 13855, TN: 1165, FN: 0
+  Precision: 0.3048, Recall: 1.0000, F1-score: 0.4672
+  Time: 16559.9127
+----------------------------------------
+[Layer2 - de.phasenrauscher.bicyweather]
+  TP: 3220, FP: 2661, TN: 12359, FN: 2855
+  Precision: 0.5475, Recall: 0.5300, F1-score: 0.5386
+  Time: 16559.9311
+----------------------------------------
+[Layer1 - de.readeckapp]
+  TP: 6956, FP: 31289, TN: 2880, FN: 0
+  Precision: 0.1819, Recall: 1.0000, F1-score: 0.3078
+  Time: 16653.2079
+----------------------------------------
+[Layer2 - de.readeckapp]
+  TP: 3811, FP: 4676, TN: 29493, FN: 3145
+  Precision: 0.4490, Recall: 0.5479, F1-score: 0.4936
+  Time: 16653.2249
+----------------------------------------
+[Layer1 - de.schliweb.bluesharpbendingapp]
+  TP: 10812, FP: 14031, TN: 0, FN: 0
+  Precision: 0.4352, Recall: 1.0000, F1-score: 0.6065
+  Time: 16925.0172
+----------------------------------------
+[Layer2 - de.schliweb.bluesharpbendingapp]
+  TP: 3813, FP: 2204, TN: 11827, FN: 6999
+  Precision: 0.6337, Recall: 0.3527, F1-score: 0.4531
+  Time: 16925.0313
+----------------------------------------
+[Layer1 - de.szalkowski.activitylauncher]
+  TP: 6273, FP: 15402, TN: 1997, FN: 0
+  Precision: 0.2894, Recall: 1.0000, F1-score: 0.4489
+  Time: 17089.4450
+----------------------------------------
+[Layer2 - de.szalkowski.activitylauncher]
+  TP: 3475, FP: 2737, TN: 14662, FN: 2798
+  Precision: 0.5594, Recall: 0.5540, F1-score: 0.5567
+  Time: 17089.4683
+----------------------------------------
+[Layer1 - de.theiling.neatlauncher]
+  TP: 3376, FP: 16896, TN: 1639, FN: 0
+  Precision: 0.1665, Recall: 1.0000, F1-score: 0.2855
+  Time: 17142.8727
+----------------------------------------
+[Layer2 - de.theiling.neatlauncher]
+  TP: 1702, FP: 4148, TN: 14387, FN: 1674
+  Precision: 0.2909, Recall: 0.5041, F1-score: 0.3690
+  Time: 17142.8791
+----------------------------------------
+[Layer1 - dev.anilbeesetti.nextplayer]
+  TP: 7413, FP: 40532, TN: 4051, FN: 0
+  Precision: 0.1546, Recall: 1.0000, F1-score: 0.2678
+  Time: 17297.5676
+----------------------------------------
+[Layer2 - dev.anilbeesetti.nextplayer]
+  TP: 4059, FP: 6204, TN: 38379, FN: 3354
+  Precision: 0.3955, Recall: 0.5476, F1-score: 0.4593
+  Time: 17297.5897
+----------------------------------------
+[Layer1 - dev.jdtech.jellyfin]
+  TP: 2289, FP: 59852, TN: 0, FN: 0
+  Precision: 0.0368, Recall: 1.0000, F1-score: 0.0711
+  Time: 17438.4353
+----------------------------------------
+[Layer2 - dev.jdtech.jellyfin]
+  TP: 1080, FP: 6623, TN: 53229, FN: 1209
+  Precision: 0.1402, Recall: 0.4718, F1-score: 0.2162
+  Time: 17438.4753
+----------------------------------------
+[Layer1 - dev.leonlatsch.photok]
+  TP: 8089, FP: 34197, TN: 3236, FN: 0
+  Precision: 0.1913, Recall: 1.0000, F1-score: 0.3212
+  Time: 17541.9192
+----------------------------------------
+[Layer2 - dev.leonlatsch.photok]
+  TP: 4803, FP: 5337, TN: 32096, FN: 3286
+  Precision: 0.4737, Recall: 0.5938, F1-score: 0.5270
+  Time: 17541.9429
+----------------------------------------
+[Layer1 - dnsfilter.android]
+  TP: 124, FP: 1236, TN: 82, FN: 0
+  Precision: 0.0912, Recall: 1.0000, F1-score: 0.1671
+  Time: 17546.6387
+----------------------------------------
+[Layer2 - dnsfilter.android]
+  TP: 16, FP: 34, TN: 1284, FN: 108
+  Precision: 0.3200, Recall: 0.1290, F1-score: 0.1839
+  Time: 17546.6427
+----------------------------------------
+[Layer1 - eu.domob.shopt2]
+  TP: 3315, FP: 16740, TN: 2556, FN: 0
+  Precision: 0.1653, Recall: 1.0000, F1-score: 0.2837
+  Time: 17600.9934
+----------------------------------------
+[Layer2 - eu.domob.shopt2]
+  TP: 1501, FP: 3796, TN: 15500, FN: 1814
+  Precision: 0.2834, Recall: 0.4528, F1-score: 0.3486
+  Time: 17601.0057
+----------------------------------------
+[Layer1 - eu.ottop.yamlauncher]
+  TP: 6219, FP: 13766, TN: 1886, FN: 0
+  Precision: 0.3112, Recall: 1.0000, F1-score: 0.4747
+  Time: 17653.7695
+----------------------------------------
+[Layer2 - eu.ottop.yamlauncher]
+  TP: 3232, FP: 2577, TN: 13075, FN: 2987
+  Precision: 0.5564, Recall: 0.5197, F1-score: 0.5374
+  Time: 17653.7913
+----------------------------------------
+[Layer1 - eu.veldsoft.fish.rings]
+  TP: 5944, FP: 11836, TN: 542, FN: 0
+  Precision: 0.3343, Recall: 1.0000, F1-score: 0.5011
+  Time: 17699.3394
+----------------------------------------
+[Layer2 - eu.veldsoft.fish.rings]
+  TP: 3337, FP: 2276, TN: 10102, FN: 2607
+  Precision: 0.5945, Recall: 0.5614, F1-score: 0.5775
+  Time: 17699.3509
+----------------------------------------
+[Layer1 - eu.veldsoft.scribe4]
+  TP: 57, FP: 274, TN: 4, FN: 0
+  Precision: 0.1722, Recall: 1.0000, F1-score: 0.2938
+  Time: 17700.4299
+----------------------------------------
+[Layer2 - eu.veldsoft.scribe4]
+  TP: 17, FP: 7, TN: 271, FN: 40
+  Precision: 0.7083, Recall: 0.2982, F1-score: 0.4198
+  Time: 17700.4388
+----------------------------------------
+[Layer1 - eu.veldsoft.tuty.fruty.slot]
+  TP: 8, FP: 80, TN: 2, FN: 0
+  Precision: 0.0909, Recall: 1.0000, F1-score: 0.1667
+  Time: 17700.8368
+----------------------------------------
+[Layer2 - eu.veldsoft.tuty.fruty.slot]
+  TP: 2, FP: 2, TN: 80, FN: 6
+  Precision: 0.5000, Recall: 0.2500, F1-score: 0.3333
+  Time: 17700.8418
+----------------------------------------
+[Layer1 - eu.veldsoft.vitoshadm]
+  TP: 5969, FP: 13698, TN: 1017, FN: 0
+  Precision: 0.3035, Recall: 1.0000, F1-score: 0.4657
+  Time: 17750.5090
+----------------------------------------
+[Layer2 - eu.veldsoft.vitoshadm]
+  TP: 3339, FP: 2592, TN: 12123, FN: 2630
+  Precision: 0.5630, Recall: 0.5594, F1-score: 0.5612
+  Time: 17750.5272
+----------------------------------------
+[Layer1 - exe.bbllw8.anemo]
+  TP: 67, FP: 485, TN: 26, FN: 0
+  Precision: 0.1214, Recall: 1.0000, F1-score: 0.2165
+  Time: 17752.3220
+----------------------------------------
+[Layer2 - exe.bbllw8.anemo]
+  TP: 29, FP: 26, TN: 485, FN: 38
+  Precision: 0.5273, Recall: 0.4328, F1-score: 0.4754
+  Time: 17752.3307
+----------------------------------------
+[Layer1 - foss.cnugteren.nlweer]
+  TP: 3950, FP: 20340, TN: 1745, FN: 0
+  Precision: 0.1626, Recall: 1.0000, F1-score: 0.2797
+  Time: 17813.6682
+----------------------------------------
+[Layer2 - foss.cnugteren.nlweer]
+  TP: 1814, FP: 5318, TN: 16767, FN: 2136
+  Precision: 0.2543, Recall: 0.4592, F1-score: 0.3274
+  Time: 17813.6773
+----------------------------------------
+[Layer1 - fr.guillaumevillena.opendnsupdater]
+  TP: 3516, FP: 19111, TN: 3563, FN: 0
+  Precision: 0.1554, Recall: 1.0000, F1-score: 0.2690
+  Time: 17877.6292
+----------------------------------------
+[Layer2 - fr.guillaumevillena.opendnsupdater]
+  TP: 1609, FP: 4093, TN: 18581, FN: 1907
+  Precision: 0.2822, Recall: 0.4576, F1-score: 0.3491
+  Time: 17877.6430
+----------------------------------------
+[Layer1 - fr.hnit.babyname]
+  TP: 5750, FP: 10798, TN: 628, FN: 0
+  Precision: 0.3475, Recall: 1.0000, F1-score: 0.5157
+  Time: 17921.4739
+----------------------------------------
+[Layer2 - fr.hnit.babyname]
+  TP: 2898, FP: 2080, TN: 9346, FN: 2852
+  Precision: 0.5822, Recall: 0.5040, F1-score: 0.5403
+  Time: 17921.4904
+----------------------------------------
+[Layer1 - fr.ralala.hexviewer]
+  TP: 631, FP: 9773, TN: 2318, FN: 0
+  Precision: 0.0606, Recall: 1.0000, F1-score: 0.1144
+  Time: 17948.5997
+----------------------------------------
+[Layer2 - fr.ralala.hexviewer]
+  TP: 153, FP: 1212, TN: 10879, FN: 478
+  Precision: 0.1121, Recall: 0.2425, F1-score: 0.1533
+  Time: 17948.6086
+----------------------------------------
+[Layer1 - fr.ryder.benoit.jmdictdroid]
+  TP: 5627, FP: 19290, TN: 2089, FN: 0
+  Precision: 0.2258, Recall: 1.0000, F1-score: 0.3685
+  Time: 18009.0255
+----------------------------------------
+[Layer2 - fr.ryder.benoit.jmdictdroid]
+  TP: 3313, FP: 3288, TN: 18091, FN: 2314
+  Precision: 0.5019, Recall: 0.5888, F1-score: 0.5419
+  Time: 18009.0356
+----------------------------------------
+[Layer1 - gallery.memories]
+  TP: 3562, FP: 24479, TN: 2938, FN: 0
+  Precision: 0.1270, Recall: 1.0000, F1-score: 0.2254
+  Time: 18076.5216
+----------------------------------------
+[Layer2 - gallery.memories]
+  TP: 1768, FP: 5460, TN: 21957, FN: 1794
+  Precision: 0.2446, Recall: 0.4964, F1-score: 0.3277
+  Time: 18076.5396
+----------------------------------------
+[Layer1 - helium314.keyboard]
+  TP: 5993, FP: 23431, TN: 2696, FN: 0
+  Precision: 0.2037, Recall: 1.0000, F1-score: 0.3384
+  Time: 18148.0651
+----------------------------------------
+[Layer2 - helium314.keyboard]
+  TP: 3615, FP: 3685, TN: 22442, FN: 2378
+  Precision: 0.4952, Recall: 0.6032, F1-score: 0.5439
+  Time: 18148.0881
+----------------------------------------
+[Layer1 - hev.sockstun]
+  TP: 143, FP: 3294, TN: 373, FN: 0
+  Precision: 0.0416, Recall: 1.0000, F1-score: 0.0799
+  Time: 18157.4429
+----------------------------------------
+[Layer2 - hev.sockstun]
+  TP: 40, FP: 362, TN: 3305, FN: 103
+  Precision: 0.0995, Recall: 0.2797, F1-score: 0.1468
+  Time: 18157.4429
+----------------------------------------
+[Layer1 - hu.vmiklos.plees]
+  TP: 6635, FP: 17016, TN: 937, FN: 0
+  Precision: 0.2805, Recall: 1.0000, F1-score: 0.4382
+  Time: 18215.4090
+----------------------------------------
+[Layer2 - hu.vmiklos.plees]
+  TP: 3990, FP: 3005, TN: 14948, FN: 2645
+  Precision: 0.5704, Recall: 0.6014, F1-score: 0.5855
+  Time: 18215.4254
+----------------------------------------
+[Layer1 - im.narayana.another]
+  TP: 4437, FP: 59657, TN: 0, FN: 0
+  Precision: 0.0692, Recall: 1.0000, F1-score: 0.1295
+  Time: 18549.6502
+----------------------------------------
+[Layer2 - im.narayana.another]
+  TP: 2157, FP: 14396, TN: 45261, FN: 2280
+  Precision: 0.1303, Recall: 0.4861, F1-score: 0.2055
+  Time: 18549.6810
+----------------------------------------
+[Layer1 - io.github.doubi88.slideshowwallpaper]
+  TP: 6132, FP: 14690, TN: 1407, FN: 0
+  Precision: 0.2945, Recall: 1.0000, F1-score: 0.4550
+  Time: 18707.2139
+----------------------------------------
+[Layer2 - io.github.doubi88.slideshowwallpaper]
+  TP: 3008, FP: 2753, TN: 13344, FN: 3124
+  Precision: 0.5221, Recall: 0.4905, F1-score: 0.5058
+  Time: 18707.2342
+----------------------------------------
+[Layer1 - io.github.exclude0122.xivpn]
+  TP: 6708, FP: 18064, TN: 1714, FN: 0
+  Precision: 0.2708, Recall: 1.0000, F1-score: 0.4262
+  Time: 18778.6242
+----------------------------------------
+[Layer2 - io.github.exclude0122.xivpn]
+  TP: 3727, FP: 2981, TN: 16797, FN: 2981
+  Precision: 0.5556, Recall: 0.5556, F1-score: 0.5556
+  Time: 18778.6412
+----------------------------------------
+[Layer1 - io.github.pastthepixels.freepaint]
+  TP: 3562, FP: 17127, TN: 1685, FN: 0
+  Precision: 0.1722, Recall: 1.0000, F1-score: 0.2938
+  Time: 18831.5321
+----------------------------------------
+[Layer2 - io.github.pastthepixels.freepaint]
+  TP: 1750, FP: 4172, TN: 14640, FN: 1812
+  Precision: 0.2955, Recall: 0.4913, F1-score: 0.3690
+  Time: 18831.5508
+----------------------------------------
+[Layer1 - io.github.ronynn.karui]
+  TP: 7, FP: 69, TN: 3, FN: 0
+  Precision: 0.0921, Recall: 1.0000, F1-score: 0.1687
+  Time: 18831.8301
+----------------------------------------
+[Layer2 - io.github.ronynn.karui]
+  TP: 2, FP: 1, TN: 71, FN: 5
+  Precision: 0.6667, Recall: 0.2857, F1-score: 0.4000
+  Time: 18831.8325
+----------------------------------------
+[Layer1 - io.github.sds100.keymapper]
+  TP: 7129, FP: 47368, TN: 5688, FN: 0
+  Precision: 0.1308, Recall: 1.0000, F1-score: 0.2314
+  Time: 18975.3174
+----------------------------------------
+[Layer2 - io.github.sds100.keymapper]
+  TP: 4010, FP: 7400, TN: 45656, FN: 3119
+  Precision: 0.3514, Recall: 0.5625, F1-score: 0.4326
+  Time: 18975.3517
+----------------------------------------
+[Layer1 - io.github.subhamtyagi.ocr]
+  TP: 6981, FP: 21012, TN: 1541, FN: 0
+  Precision: 0.2494, Recall: 1.0000, F1-score: 0.3992
+  Time: 19043.4920
+----------------------------------------
+[Layer2 - io.github.subhamtyagi.ocr]
+  TP: 3706, FP: 4325, TN: 18228, FN: 3275
+  Precision: 0.4615, Recall: 0.5309, F1-score: 0.4937
+  Time: 19043.5127
+----------------------------------------
+[Layer1 - io.github.teamclouday.AndroidMic]
+  TP: 5674, FP: 18260, TN: 2506, FN: 0
+  Precision: 0.2371, Recall: 1.0000, F1-score: 0.3833
+  Time: 19102.7086
+----------------------------------------
+[Layer2 - io.github.teamclouday.AndroidMic]
+  TP: 3300, FP: 3163, TN: 17603, FN: 2374
+  Precision: 0.5106, Recall: 0.5816, F1-score: 0.5438
+  Time: 19102.7285
+----------------------------------------
+[Layer1 - io.github.yawnoc.strokeinput]
+  TP: 5981, FP: 13769, TN: 1122, FN: 0
+  Precision: 0.3028, Recall: 1.0000, F1-score: 0.4649
+  Time: 19152.2563
+----------------------------------------
+[Layer2 - io.github.yawnoc.strokeinput]
+  TP: 3361, FP: 2610, TN: 12281, FN: 2620
+  Precision: 0.5629, Recall: 0.5619, F1-score: 0.5624
+  Time: 19152.2729
+----------------------------------------
+[Layer1 - io.keepalive.android]
+  TP: 6590, FP: 17929, TN: 1894, FN: 0
+  Precision: 0.2688, Recall: 1.0000, F1-score: 0.4237
+  Time: 19214.7056
+----------------------------------------
+[Layer2 - io.keepalive.android]
+  TP: 3787, FP: 2844, TN: 16979, FN: 2803
+  Precision: 0.5711, Recall: 0.5747, F1-score: 0.5729
+  Time: 19214.7193
+----------------------------------------
+[Layer1 - io.simplelogin.android.fdroid]
+  TP: 3785, FP: 20969, TN: 3765, FN: 0
+  Precision: 0.1529, Recall: 1.0000, F1-score: 0.2653
+  Time: 19281.4966
+----------------------------------------
+[Layer2 - io.simplelogin.android.fdroid]
+  TP: 1677, FP: 4381, TN: 20353, FN: 2108
+  Precision: 0.2768, Recall: 0.4431, F1-score: 0.3407
+  Time: 19281.5130
+----------------------------------------
+[Layer1 - livio.rssreader]
+  TP: 6256, FP: 17106, TN: 1737, FN: 0
+  Precision: 0.2678, Recall: 1.0000, F1-score: 0.4224
+  Time: 19340.5511
+----------------------------------------
+[Layer2 - livio.rssreader]
+  TP: 3165, FP: 2963, TN: 15880, FN: 3091
+  Precision: 0.5165, Recall: 0.5059, F1-score: 0.5111
+  Time: 19340.5750
+----------------------------------------
+[Layer1 - lying.fengfeng.foodrecords]
+  TP: 5749, FP: 25161, TN: 4055, FN: 0
+  Precision: 0.1860, Recall: 1.0000, F1-score: 0.3136
+  Time: 19419.6222
+----------------------------------------
+[Layer2 - lying.fengfeng.foodrecords]
+  TP: 3272, FP: 4082, TN: 25134, FN: 2477
+  Precision: 0.4449, Recall: 0.5691, F1-score: 0.4994
+  Time: 19419.6447
+----------------------------------------
+[Layer1 - me.haroldmartin.golwallpaper]
+  TP: 5671, FP: 16099, TN: 1470, FN: 0
+  Precision: 0.2605, Recall: 1.0000, F1-score: 0.4133
+  Time: 19473.4624
+----------------------------------------
+[Layer2 - me.haroldmartin.golwallpaper]
+  TP: 3739, FP: 2794, TN: 14775, FN: 1932
+  Precision: 0.5723, Recall: 0.6593, F1-score: 0.6127
+  Time: 19473.4762
+----------------------------------------
+[Layer1 - me.mudkip.moememos]
+  TP: 12847, FP: 29829, TN: 2496, FN: 0
+  Precision: 0.3010, Recall: 1.0000, F1-score: 0.4628
+  Time: 19570.8355
+----------------------------------------
+[Layer2 - me.mudkip.moememos]
+  TP: 7580, FP: 6014, TN: 26311, FN: 5267
+  Precision: 0.5576, Recall: 0.5900, F1-score: 0.5734
+  Time: 19570.8571
+----------------------------------------
+[Layer1 - me.ocv.partyup]
+  TP: 6138, FP: 13896, TN: 1249, FN: 0
+  Precision: 0.3064, Recall: 1.0000, F1-score: 0.4691
+  Time: 19621.1567
+----------------------------------------
+[Layer2 - me.ocv.partyup]
+  TP: 3160, FP: 2637, TN: 12508, FN: 2978
+  Precision: 0.5451, Recall: 0.5148, F1-score: 0.5295
+  Time: 19621.1770
+----------------------------------------
+[Layer1 - me.robbyblue.mylauncher]
+  TP: 889, FP: 19397, TN: 3790, FN: 0
+  Precision: 0.0438, Recall: 1.0000, F1-score: 0.0840
+  Time: 19677.8830
+----------------------------------------
+[Layer2 - me.robbyblue.mylauncher]
+  TP: 204, FP: 5303, TN: 17884, FN: 685
+  Precision: 0.0370, Recall: 0.2295, F1-score: 0.0638
+  Time: 19677.8932
+----------------------------------------
+[Layer1 - me.sergiotarxz.bedrockstation.pro]
+  TP: 5900, FP: 13717, TN: 966, FN: 0
+  Precision: 0.3008, Recall: 1.0000, F1-score: 0.4624
+  Time: 19729.0345
+----------------------------------------
+[Layer2 - me.sergiotarxz.bedrockstation.pro]
+  TP: 3060, FP: 2618, TN: 12065, FN: 2840
+  Precision: 0.5389, Recall: 0.5186, F1-score: 0.5286
+  Time: 19729.0583
+----------------------------------------
+[Layer1 - me.velc.devqs]
+  TP: 11, FP: 88, TN: 1, FN: 0
+  Precision: 0.1111, Recall: 1.0000, F1-score: 0.2000
+  Time: 19729.3366
+----------------------------------------
+[Layer2 - me.velc.devqs]
+  TP: 4, FP: 1, TN: 88, FN: 7
+  Precision: 0.8000, Recall: 0.3636, F1-score: 0.5000
+  Time: 19729.3386
+----------------------------------------
+[Layer1 - me.x2gd4.dollphone]
+  TP: 7156, FP: 20801, TN: 2289, FN: 0
+  Precision: 0.2560, Recall: 1.0000, F1-score: 0.4076
+  Time: 19799.3189
+----------------------------------------
+[Layer2 - me.x2gd4.dollphone]
+  TP: 3404, FP: 3372, TN: 19718, FN: 3752
+  Precision: 0.5024, Recall: 0.4757, F1-score: 0.4887
+  Time: 19799.3348
+----------------------------------------
+[Layer1 - net.alexbarry.calc]
+  TP: 3424, FP: 19335, TN: 2280, FN: 0
+  Precision: 0.1504, Recall: 1.0000, F1-score: 0.2615
+  Time: 19857.3892
+----------------------------------------
+[Layer2 - net.alexbarry.calc]
+  TP: 1685, FP: 4293, TN: 17322, FN: 1739
+  Precision: 0.2819, Recall: 0.4921, F1-score: 0.3584
+  Time: 19857.4000
+----------------------------------------
+[Layer1 - net.inbox.pager]
+  TP: 3433, FP: 17495, TN: 1507, FN: 0
+  Precision: 0.1640, Recall: 1.0000, F1-score: 0.2818
+  Time: 19909.9757
+----------------------------------------
+[Layer2 - net.inbox.pager]
+  TP: 1658, FP: 4168, TN: 14834, FN: 1775
+  Precision: 0.2846, Recall: 0.4830, F1-score: 0.3581
+  Time: 19909.9832
+----------------------------------------
+[Layer1 - net.nhiroki.bluelineconsole]
+  TP: 5436, FP: 12090, TN: 1426, FN: 0
+  Precision: 0.3102, Recall: 1.0000, F1-score: 0.4735
+  Time: 19955.7096
+----------------------------------------
+[Layer2 - net.nhiroki.bluelineconsole]
+  TP: 2787, FP: 2371, TN: 11145, FN: 2649
+  Precision: 0.5403, Recall: 0.5127, F1-score: 0.5261
+  Time: 19955.7290
+----------------------------------------
+[Layer1 - net.osmtracker]
+  TP: 6705, FP: 15877, TN: 1772, FN: 0
+  Precision: 0.2969, Recall: 1.0000, F1-score: 0.4579
+  Time: 20014.0730
+----------------------------------------
+[Layer2 - net.osmtracker]
+  TP: 3628, FP: 2885, TN: 14764, FN: 3077
+  Precision: 0.5570, Recall: 0.5411, F1-score: 0.5489
+  Time: 20014.0860
+----------------------------------------
+[Layer1 - net.viggers.zade.wallpaper]
+  TP: 5779, FP: 14308, TN: 1311, FN: 0
+  Precision: 0.2877, Recall: 1.0000, F1-score: 0.4468
+  Time: 20065.8503
+----------------------------------------
+[Layer2 - net.viggers.zade.wallpaper]
+  TP: 2913, FP: 2881, TN: 12738, FN: 2866
+  Precision: 0.5028, Recall: 0.5041, F1-score: 0.5034
+  Time: 20065.8553
+----------------------------------------
+[Layer1 - network.mysterium.vpn]
+  TP: 13689, FP: 28689, TN: 3167, FN: 0
+  Precision: 0.3230, Recall: 1.0000, F1-score: 0.4883
+  Time: 20147.4410
+----------------------------------------
+[Layer2 - network.mysterium.vpn]
+  TP: 7735, FP: 5832, TN: 26024, FN: 5954
+  Precision: 0.5701, Recall: 0.5651, F1-score: 0.5676
+  Time: 20147.4716
+----------------------------------------
+[Layer1 - nightlock.peppercarrot]
+  TP: 7283, FP: 35831, TN: 2190, FN: 0
+  Precision: 0.1689, Recall: 1.0000, F1-score: 0.2890
+  Time: 20228.2529
+----------------------------------------
+[Layer2 - nightlock.peppercarrot]
+  TP: 3589, FP: 10316, TN: 27705, FN: 3694
+  Precision: 0.2581, Recall: 0.4928, F1-score: 0.3388
+  Time: 20228.2835
+----------------------------------------
+[Layer1 - one.zagura.CodeRainWall]
+  TP: 3098, FP: 18460, TN: 3064, FN: 0
+  Precision: 0.1437, Recall: 1.0000, F1-score: 0.2513
+  Time: 20283.7309
+----------------------------------------
+[Layer2 - one.zagura.CodeRainWall]
+  TP: 1560, FP: 4090, TN: 17434, FN: 1538
+  Precision: 0.2761, Recall: 0.5036, F1-score: 0.3567
+  Time: 20283.7546
+----------------------------------------
+[Layer1 - org.app.geotagvideocamera]
+  TP: 6881, FP: 28886, TN: 3558, FN: 0
+  Precision: 0.1924, Recall: 1.0000, F1-score: 0.3227
+  Time: 20368.0120
+----------------------------------------
+[Layer2 - org.app.geotagvideocamera]
+  TP: 4163, FP: 5025, TN: 27419, FN: 2718
+  Precision: 0.4531, Recall: 0.6050, F1-score: 0.5181
+  Time: 20368.0333
+----------------------------------------
+[Layer1 - org.application.shikiapp]
+  TP: 6296, FP: 29897, TN: 3647, FN: 0
+  Precision: 0.1740, Recall: 1.0000, F1-score: 0.2964
+  Time: 20456.0558
+----------------------------------------
+[Layer2 - org.application.shikiapp]
+  TP: 4002, FP: 4500, TN: 29044, FN: 2294
+  Precision: 0.4707, Recall: 0.6356, F1-score: 0.5409
+  Time: 20456.0742
+----------------------------------------
+[Layer1 - org.asafonov.weather]
+  TP: 0, FP: 68, TN: 1, FN: 0
+  Precision: 0.0000, Recall: 0.0000, F1-score: 0.0000
+  Time: 20456.3806
+----------------------------------------
+[Layer2 - org.asafonov.weather]
+  TP: 0, FP: 9, TN: 60, FN: 0
+  Precision: 0.0000, Recall: 0.0000, F1-score: 0.0000
+  Time: 20456.3821
+----------------------------------------
+[Layer1 - org.avmedia.gshockGoogleSync]
+  TP: 6508, FP: 26827, TN: 3893, FN: 0
+  Precision: 0.1952, Recall: 1.0000, F1-score: 0.3267
+  Time: 20536.5271
+----------------------------------------
+[Layer2 - org.avmedia.gshockGoogleSync]
+  TP: 3963, FP: 4199, TN: 26521, FN: 2545
+  Precision: 0.4855, Recall: 0.6089, F1-score: 0.5403
+  Time: 20536.5451
+----------------------------------------
+[Layer1 - org.eagsoftware.basiccashflow]
+  TP: 6013, FP: 14905, TN: 452, FN: 0
+  Precision: 0.2875, Recall: 1.0000, F1-score: 0.4465
+  Time: 20589.8313
+----------------------------------------
+[Layer2 - org.eagsoftware.basiccashflow]
+  TP: 3131, FP: 2883, TN: 12474, FN: 2882
+  Precision: 0.5206, Recall: 0.5207, F1-score: 0.5207
+  Time: 20589.8453
+----------------------------------------
+[Layer1 - org.exbin.bined.editor.android]
+  TP: 6027, FP: 14789, TN: 1991, FN: 0
+  Precision: 0.2895, Recall: 1.0000, F1-score: 0.4491
+  Time: 20645.4594
+----------------------------------------
+[Layer2 - org.exbin.bined.editor.android]
+  TP: 3267, FP: 2606, TN: 14174, FN: 2760
+  Precision: 0.5563, Recall: 0.5421, F1-score: 0.5491
+  Time: 20645.4771
+----------------------------------------
+[Layer1 - org.fossify.calendar]
+  TP: 8040, FP: 35144, TN: 3047, FN: 0
+  Precision: 0.1862, Recall: 1.0000, F1-score: 0.3139
+  Time: 20747.1561
+----------------------------------------
+[Layer2 - org.fossify.calendar]
+  TP: 4678, FP: 5448, TN: 32743, FN: 3362
+  Precision: 0.4620, Recall: 0.5818, F1-score: 0.5150
+  Time: 20747.1793
+----------------------------------------
+[Layer1 - org.fossify.math]
+  TP: 7909, FP: 33081, TN: 2663, FN: 0
+  Precision: 0.1929, Recall: 1.0000, F1-score: 0.3235
+  Time: 20837.5313
+----------------------------------------
+[Layer2 - org.fossify.math]
+  TP: 4594, FP: 5188, TN: 30556, FN: 3315
+  Precision: 0.4696, Recall: 0.5809, F1-score: 0.5194
+  Time: 20837.5545
+----------------------------------------
+[Layer1 - org.gdroid.gdroid]
+  TP: 14302, FP: 19462, TN: 562, FN: 0
+  Precision: 0.4236, Recall: 1.0000, F1-score: 0.5951
+  Time: 20899.1679
+----------------------------------------
+[Layer2 - org.gdroid.gdroid]
+  TP: 10398, FP: 4588, TN: 15436, FN: 3904
+  Precision: 0.6938, Recall: 0.7270, F1-score: 0.7101
+  Time: 20899.1750
+----------------------------------------
+[Layer1 - org.grating.styncynotes]
+  TP: 12086, FP: 26002, TN: 2552, FN: 0
+  Precision: 0.3173, Recall: 1.0000, F1-score: 0.4818
+  Time: 20967.8393
+----------------------------------------
+[Layer2 - org.grating.styncynotes]
+  TP: 7211, FP: 5677, TN: 22877, FN: 4875
+  Precision: 0.5595, Recall: 0.5966, F1-score: 0.5775
+  Time: 20967.8612
+----------------------------------------
+[Layer1 - org.joinmastodon.android]
+  TP: 675, FP: 15019, TN: 1210, FN: 0
+  Precision: 0.0430, Recall: 1.0000, F1-score: 0.0825
+  Time: 21004.1432
+----------------------------------------
+[Layer2 - org.joinmastodon.android]
+  TP: 203, FP: 3063, TN: 13166, FN: 472
+  Precision: 0.0622, Recall: 0.3007, F1-score: 0.1030
+  Time: 21004.1534
+----------------------------------------
+[Layer1 - org.jshobbysoft.cameraalign]
+  TP: 6453, FP: 16577, TN: 1536, FN: 0
+  Precision: 0.2802, Recall: 1.0000, F1-score: 0.4377
+  Time: 21060.2233
+----------------------------------------
+[Layer2 - org.jshobbysoft.cameraalign]
+  TP: 3964, FP: 2888, TN: 15225, FN: 2489
+  Precision: 0.5785, Recall: 0.6143, F1-score: 0.5959
+  Time: 21060.2433
+----------------------------------------
+[Layer1 - org.koitharu.kotatsu]
+  TP: 9246, FP: 49616, TN: 6456, FN: 0
+  Precision: 0.1571, Recall: 1.0000, F1-score: 0.2715
+  Time: 21192.2930
+----------------------------------------
+[Layer2 - org.koitharu.kotatsu]
+  TP: 5102, FP: 7615, TN: 48457, FN: 4144
+  Precision: 0.4012, Recall: 0.5518, F1-score: 0.4646
+  Time: 21192.3391
+----------------------------------------
+[Layer1 - org.koreader.launcher.fdroid]
+  TP: 3149, FP: 14372, TN: 1017, FN: 0
+  Precision: 0.1797, Recall: 1.0000, F1-score: 0.3047
+  Time: 21236.4296
+----------------------------------------
+[Layer2 - org.koreader.launcher.fdroid]
+  TP: 1607, FP: 4275, TN: 11114, FN: 1542
+  Precision: 0.2732, Recall: 0.5103, F1-score: 0.3559
+  Time: 21236.4420
+----------------------------------------
+[Layer1 - org.nqmgaming.aneko]
+  TP: 6743, FP: 28474, TN: 2241, FN: 0
+  Precision: 0.1915, Recall: 1.0000, F1-score: 0.3214
+  Time: 21319.2745
+----------------------------------------
+[Layer2 - org.nqmgaming.aneko]
+  TP: 4146, FP: 4420, TN: 26295, FN: 2597
+  Precision: 0.4840, Recall: 0.6149, F1-score: 0.5416
+  Time: 21319.2958
+----------------------------------------
+[Layer1 - org.nuclearfog.apollo]
+  TP: 6894, FP: 14155, TN: 3164, FN: 0
+  Precision: 0.3275, Recall: 1.0000, F1-score: 0.4934
+  Time: 21375.7752
+----------------------------------------
+[Layer2 - org.nuclearfog.apollo]
+  TP: 4075, FP: 2731, TN: 14588, FN: 2819
+  Precision: 0.5987, Recall: 0.5911, F1-score: 0.5949
+  Time: 21375.7974
+----------------------------------------
+[Layer1 - org.nuclearfog.smither]
+  TP: 7005, FP: 25609, TN: 1629, FN: 0
+  Precision: 0.2148, Recall: 1.0000, F1-score: 0.3536
+  Time: 21455.6057
+----------------------------------------
+[Layer2 - org.nuclearfog.smither]
+  TP: 3948, FP: 3867, TN: 23371, FN: 3057
+  Precision: 0.5052, Recall: 0.5636, F1-score: 0.5328
+  Time: 21455.6205
+----------------------------------------
+[Layer1 - org.openobservatory.ooniprobe]
+  TP: 6574, FP: 37817, TN: 5089, FN: 0
+  Precision: 0.1481, Recall: 1.0000, F1-score: 0.2580
+  Time: 21563.9771
+----------------------------------------
+[Layer2 - org.openobservatory.ooniprobe]
+  TP: 4066, FP: 5772, TN: 37134, FN: 2508
+  Precision: 0.4133, Recall: 0.6185, F1-score: 0.4955
+  Time: 21564.0059
+----------------------------------------
+[Layer1 - org.privacymatters.safespace]
+  TP: 7798, FP: 34491, TN: 3489, FN: 0
+  Precision: 0.1844, Recall: 1.0000, F1-score: 0.3114
+  Time: 21659.9928
+----------------------------------------
+[Layer2 - org.privacymatters.safespace]
+  TP: 4744, FP: 5208, TN: 32772, FN: 3054
+  Precision: 0.4767, Recall: 0.6084, F1-score: 0.5345
+  Time: 21660.0107
+----------------------------------------
+[Layer1 - org.sbv.pockettracker]
+  TP: 7309, FP: 17513, TN: 905, FN: 0
+  Precision: 0.2945, Recall: 1.0000, F1-score: 0.4550
+  Time: 21718.8282
+----------------------------------------
+[Layer2 - org.sbv.pockettracker]
+  TP: 4082, FP: 3365, TN: 15053, FN: 3227
+  Precision: 0.5481, Recall: 0.5585, F1-score: 0.5533
+  Time: 21718.8471
+----------------------------------------
+[Layer1 - org.schabi.nxbookmarks]
+  TP: 1151, FP: 21736, TN: 3652, FN: 0
+  Precision: 0.0503, Recall: 1.0000, F1-score: 0.0958
+  Time: 21780.6893
+----------------------------------------
+[Layer2 - org.schabi.nxbookmarks]
+  TP: 240, FP: 5649, TN: 19739, FN: 911
+  Precision: 0.0408, Recall: 0.2085, F1-score: 0.0682
+  Time: 21780.7132
+----------------------------------------
+[Layer1 - org.scoutant.rpn]
+  TP: 181, FP: 13768, TN: 924, FN: 0
+  Precision: 0.0130, Recall: 1.0000, F1-score: 0.0256
+  Time: 21818.2031
+----------------------------------------
+[Layer2 - org.scoutant.rpn]
+  TP: 33, FP: 3876, TN: 10816, FN: 148
+  Precision: 0.0084, Recall: 0.1823, F1-score: 0.0161
+  Time: 21818.2116
+----------------------------------------
+[Layer1 - org.secuso.aktivpause]
+  TP: 3881, FP: 22438, TN: 1818, FN: 0
+  Precision: 0.1475, Recall: 1.0000, F1-score: 0.2570
+  Time: 21881.6328
+----------------------------------------
+[Layer2 - org.secuso.aktivpause]
+  TP: 1979, FP: 5582, TN: 18674, FN: 1902
+  Precision: 0.2617, Recall: 0.5099, F1-score: 0.3459
+  Time: 21881.6604
+----------------------------------------
+[Layer1 - org.secuso.privacyfriendlybattleship]
+  TP: 7151, FP: 15906, TN: 2193, FN: 0
+  Precision: 0.3101, Recall: 1.0000, F1-score: 0.4735
+  Time: 21937.7150
+----------------------------------------
+[Layer2 - org.secuso.privacyfriendlybattleship]
+  TP: 3931, FP: 3044, TN: 15055, FN: 3220
+  Precision: 0.5636, Recall: 0.5497, F1-score: 0.5566
+  Time: 21937.7240
+----------------------------------------
+[Layer1 - org.secuso.privacyfriendlycircuittraining]
+  TP: 4037, FP: 23156, TN: 1832, FN: 0
+  Precision: 0.1485, Recall: 1.0000, F1-score: 0.2585
+  Time: 22001.3833
+----------------------------------------
+[Layer2 - org.secuso.privacyfriendlycircuittraining]
+  TP: 2030, FP: 5743, TN: 19245, FN: 2007
+  Precision: 0.2612, Recall: 0.5028, F1-score: 0.3438
+  Time: 22001.3920
+----------------------------------------
+[Layer1 - org.secuso.privacyfriendlydame]
+  TP: 3573, FP: 20122, TN: 1582, FN: 0
+  Precision: 0.1508, Recall: 1.0000, F1-score: 0.2621
+  Time: 22058.5685
+----------------------------------------
+[Layer2 - org.secuso.privacyfriendlydame]
+  TP: 1900, FP: 5257, TN: 16447, FN: 1673
+  Precision: 0.2655, Recall: 0.5318, F1-score: 0.3541
+  Time: 22058.5828
+----------------------------------------
+[Layer1 - org.secuso.privacyfriendlyfinancemanager]
+  TP: 3834, FP: 22619, TN: 2103, FN: 0
+  Precision: 0.1449, Recall: 1.0000, F1-score: 0.2532
+  Time: 22120.7981
+----------------------------------------
+[Layer2 - org.secuso.privacyfriendlyfinancemanager]
+  TP: 1960, FP: 5652, TN: 19070, FN: 1874
+  Precision: 0.2575, Recall: 0.5112, F1-score: 0.3425
+  Time: 22120.8138
+----------------------------------------
+[Layer1 - org.secuso.privacyfriendlyintervaltimer]
+  TP: 3770, FP: 21412, TN: 1700, FN: 0
+  Precision: 0.1497, Recall: 1.0000, F1-score: 0.2604
+  Time: 22185.2236
+----------------------------------------
+[Layer2 - org.secuso.privacyfriendlyintervaltimer]
+  TP: 1940, FP: 5524, TN: 17588, FN: 1830
+  Precision: 0.2599, Recall: 0.5146, F1-score: 0.3454
+  Time: 22185.2411
+----------------------------------------
+[Layer1 - org.secuso.privacyfriendlynotes]
+  TP: 3749, FP: 20579, TN: 4197, FN: 0
+  Precision: 0.1541, Recall: 1.0000, F1-score: 0.2671
+  Time: 22256.9998
+----------------------------------------
+[Layer2 - org.secuso.privacyfriendlynotes]
+  TP: 1612, FP: 4258, TN: 20518, FN: 2137
+  Precision: 0.2746, Recall: 0.4300, F1-score: 0.3352
+  Time: 22257.0279
+----------------------------------------
+[Layer1 - org.secuso.privacyfriendlypin]
+  TP: 3234, FP: 15317, TN: 904, FN: 0
+  Precision: 0.1743, Recall: 1.0000, F1-score: 0.2969
+  Time: 22303.0178
+----------------------------------------
+[Layer2 - org.secuso.privacyfriendlypin]
+  TP: 1787, FP: 4416, TN: 11805, FN: 1447
+  Precision: 0.2881, Recall: 0.5526, F1-score: 0.3787
+  Time: 22303.0307
+----------------------------------------
+[Layer1 - org.secuso.privacyfriendlysketching]
+  TP: 3648, FP: 21159, TN: 1666, FN: 0
+  Precision: 0.1471, Recall: 1.0000, F1-score: 0.2564
+  Time: 22362.3882
+----------------------------------------
+[Layer2 - org.secuso.privacyfriendlysketching]
+  TP: 1914, FP: 5481, TN: 17344, FN: 1734
+  Precision: 0.2588, Recall: 0.5247, F1-score: 0.3466
+  Time: 22362.3950
+----------------------------------------
+[Layer1 - org.secuso.privacyfriendlytodolist]
+  TP: 6610, FP: 19039, TN: 1213, FN: 0
+  Precision: 0.2577, Recall: 1.0000, F1-score: 0.4098
+  Time: 22426.5773
+----------------------------------------
+[Layer2 - org.secuso.privacyfriendlytodolist]
+  TP: 3728, FP: 3260, TN: 16992, FN: 2882
+  Precision: 0.5335, Recall: 0.5640, F1-score: 0.5483
+  Time: 22426.5919
+----------------------------------------
+[Layer1 - org.sufficientlysecure.ical]
+  TP: 218, FP: 17020, TN: 1732, FN: 0
+  Precision: 0.0126, Recall: 1.0000, F1-score: 0.0250
+  Time: 22473.2398
+----------------------------------------
+[Layer2 - org.sufficientlysecure.ical]
+  TP: 45, FP: 4775, TN: 13977, FN: 173
+  Precision: 0.0093, Recall: 0.2064, F1-score: 0.0179
+  Time: 22473.2503
+----------------------------------------
+[Layer1 - org.sunsetware.phocid]
+  TP: 7125, FP: 35854, TN: 5057, FN: 0
+  Precision: 0.1658, Recall: 1.0000, F1-score: 0.2844
+  Time: 22592.2169
+----------------------------------------
+[Layer2 - org.sunsetware.phocid]
+  TP: 4477, FP: 5273, TN: 35638, FN: 2648
+  Precision: 0.4592, Recall: 0.6284, F1-score: 0.5306
+  Time: 22592.2470
+----------------------------------------
+[Layer1 - org.totschnig.ocr.tesseract]
+  TP: 5979, FP: 16783, TN: 1203, FN: 0
+  Precision: 0.2627, Recall: 1.0000, F1-score: 0.4161
+  Time: 22649.9690
+----------------------------------------
+[Layer2 - org.totschnig.ocr.tesseract]
+  TP: 3523, FP: 2727, TN: 15259, FN: 2456
+  Precision: 0.5637, Recall: 0.5892, F1-score: 0.5762
+  Time: 22649.9804
+----------------------------------------
+[Layer1 - org.vinaygopinath.launchchat]
+  TP: 6517, FP: 21847, TN: 2105, FN: 0
+  Precision: 0.2298, Recall: 1.0000, F1-score: 0.3737
+  Time: 22719.8795
+----------------------------------------
+[Layer2 - org.vinaygopinath.launchchat]
+  TP: 3909, FP: 4039, TN: 19913, FN: 2608
+  Precision: 0.4918, Recall: 0.5998, F1-score: 0.5405
+  Time: 22719.8932
+----------------------------------------
+[Layer1 - org.wbftw.weil.passwordgenerator]
+  TP: 6253, FP: 16086, TN: 774, FN: 0
+  Precision: 0.2799, Recall: 1.0000, F1-score: 0.4374
+  Time: 22775.7635
+----------------------------------------
+[Layer2 - org.wbftw.weil.passwordgenerator]
+  TP: 3114, FP: 2884, TN: 13976, FN: 3139
+  Precision: 0.5192, Recall: 0.4980, F1-score: 0.5084
+  Time: 22775.7803
+----------------------------------------
+[Layer1 - org.wbftw.weil.sos]
+  TP: 6355, FP: 20646, TN: 1376, FN: 0
+  Precision: 0.2354, Recall: 1.0000, F1-score: 0.3810
+  Time: 22840.8913
+----------------------------------------
+[Layer2 - org.wbftw.weil.sos]
+  TP: 3912, FP: 3472, TN: 18550, FN: 2443
+  Precision: 0.5298, Recall: 0.6156, F1-score: 0.5695
+  Time: 22840.9116
+----------------------------------------
+[Layer1 - org.woheller69.PeakOrama]
+  TP: 5472, FP: 14035, TN: 1373, FN: 0
+  Precision: 0.2805, Recall: 1.0000, F1-score: 0.4381
+  Time: 22890.4666
+----------------------------------------
+[Layer2 - org.woheller69.PeakOrama]
+  TP: 2819, FP: 2756, TN: 12652, FN: 2653
+  Precision: 0.5057, Recall: 0.5152, F1-score: 0.5104
+  Time: 22890.4881
+----------------------------------------
+[Layer1 - org.woheller69.arity]
+  TP: 3301, FP: 17589, TN: 1549, FN: 0
+  Precision: 0.1580, Recall: 1.0000, F1-score: 0.2729
+  Time: 22943.1634
+----------------------------------------
+[Layer2 - org.woheller69.arity]
+  TP: 1532, FP: 4152, TN: 14986, FN: 1769
+  Precision: 0.2695, Recall: 0.4641, F1-score: 0.3410
+  Time: 22943.1880
+----------------------------------------
+[Layer1 - org.woheller69.audiometry]
+  TP: 3150, FP: 14578, TN: 1182, FN: 0
+  Precision: 0.1777, Recall: 1.0000, F1-score: 0.3018
+  Time: 22989.0606
+----------------------------------------
+[Layer2 - org.woheller69.audiometry]
+  TP: 1639, FP: 3806, TN: 11954, FN: 1511
+  Precision: 0.3010, Recall: 0.5203, F1-score: 0.3814
+  Time: 22989.0706
+----------------------------------------
+[Layer1 - org.woheller69.browser]
+  TP: 6065, FP: 16010, TN: 1415, FN: 0
+  Precision: 0.2747, Recall: 1.0000, F1-score: 0.4311
+  Time: 23045.2834
+----------------------------------------
+[Layer2 - org.woheller69.browser]
+  TP: 2992, FP: 3075, TN: 14350, FN: 3073
+  Precision: 0.4932, Recall: 0.4933, F1-score: 0.4932
+  Time: 23045.2961
+----------------------------------------
+[Layer1 - org.woheller69.gpscockpit]
+  TP: 3241, FP: 17015, TN: 1361, FN: 0
+  Precision: 0.1600, Recall: 1.0000, F1-score: 0.2759
+  Time: 23097.2966
+----------------------------------------
+[Layer2 - org.woheller69.gpscockpit]
+  TP: 1624, FP: 4104, TN: 14272, FN: 1617
+  Precision: 0.2835, Recall: 0.5011, F1-score: 0.3621
+  Time: 23097.3067
+----------------------------------------
+[Layer1 - org.woheller69.gptassist]
+  TP: 2787, FP: 11701, TN: 657, FN: 0
+  Precision: 0.1924, Recall: 1.0000, F1-score: 0.3227
+  Time: 23135.9543
+----------------------------------------
+[Layer2 - org.woheller69.gptassist]
+  TP: 1419, FP: 3239, TN: 9119, FN: 1368
+  Precision: 0.3046, Recall: 0.5091, F1-score: 0.3812
+  Time: 23135.9637
+----------------------------------------
+[Layer1 - org.woheller69.level]
+  TP: 2953, FP: 15010, TN: 1602, FN: 0
+  Precision: 0.1644, Recall: 1.0000, F1-score: 0.2824
+  Time: 23182.4211
+----------------------------------------
+[Layer2 - org.woheller69.level]
+  TP: 1443, FP: 3784, TN: 12828, FN: 1510
+  Precision: 0.2761, Recall: 0.4887, F1-score: 0.3528
+  Time: 23182.4263
+----------------------------------------
+[Layer1 - org.woheller69.omweather]
+  TP: 3825, FP: 22968, TN: 2170, FN: 0
+  Precision: 0.1428, Recall: 1.0000, F1-score: 0.2499
+  Time: 23246.7430
+----------------------------------------
+[Layer2 - org.woheller69.omweather]
+  TP: 1745, FP: 5545, TN: 19593, FN: 2080
+  Precision: 0.2394, Recall: 0.4562, F1-score: 0.3140
+  Time: 23246.7623
+----------------------------------------
+[Layer1 - org.woheller69.seemless]
+  TP: 5808, FP: 14328, TN: 1185, FN: 0
+  Precision: 0.2884, Recall: 1.0000, F1-score: 0.4477
+  Time: 23297.0483
+----------------------------------------
+[Layer2 - org.woheller69.seemless]
+  TP: 3002, FP: 2899, TN: 12614, FN: 2806
+  Precision: 0.5087, Recall: 0.5169, F1-score: 0.5128
+  Time: 23297.0673
+----------------------------------------
+[Layer1 - org.woheller69.spritpreise]
+  TP: 6814, FP: 18685, TN: 1855, FN: 0
+  Precision: 0.2672, Recall: 1.0000, F1-score: 0.4217
+  Time: 23357.4525
+----------------------------------------
+[Layer2 - org.woheller69.spritpreise]
+  TP: 3649, FP: 3690, TN: 16850, FN: 3165
+  Precision: 0.4972, Recall: 0.5355, F1-score: 0.5157
+  Time: 23357.4631
+----------------------------------------
+[Layer1 - org.woheller69.ttsengine]
+  TP: 5949, FP: 20964, TN: 3819, FN: 0
+  Precision: 0.2210, Recall: 1.0000, F1-score: 0.3621
+  Time: 23425.2852
+----------------------------------------
+[Layer2 - org.woheller69.ttsengine]
+  TP: 3083, FP: 3553, TN: 21230, FN: 2866
+  Precision: 0.4646, Recall: 0.5182, F1-score: 0.4899
+  Time: 23425.3000
+----------------------------------------
+[Layer1 - org.woheller69.whisper]
+  TP: 5992, FP: 14850, TN: 1239, FN: 0
+  Precision: 0.2875, Recall: 1.0000, F1-score: 0.4466
+  Time: 23476.8314
+----------------------------------------
+[Layer2 - org.woheller69.whisper]
+  TP: 3291, FP: 3029, TN: 13060, FN: 2701
+  Precision: 0.5207, Recall: 0.5492, F1-score: 0.5346
+  Time: 23476.8429
+----------------------------------------
+[Layer1 - org.woheller69.whisperplus]
+  TP: 6004, FP: 14926, TN: 1182, FN: 0
+  Precision: 0.2869, Recall: 1.0000, F1-score: 0.4458
+  Time: 23529.2745
+----------------------------------------
+[Layer2 - org.woheller69.whisperplus]
+  TP: 3289, FP: 3056, TN: 13052, FN: 2715
+  Precision: 0.5184, Recall: 0.5478, F1-score: 0.5327
+  Time: 23529.2961
+----------------------------------------
+[Layer1 - org.woheller69.whobird]
+  TP: 6227, FP: 17761, TN: 693, FN: 0
+  Precision: 0.2596, Recall: 1.0000, F1-score: 0.4122
+  Time: 23589.4461
+----------------------------------------
+[Layer2 - org.woheller69.whobird]
+  TP: 3342, FP: 3320, TN: 15134, FN: 2885
+  Precision: 0.5017, Recall: 0.5367, F1-score: 0.5186
+  Time: 23589.4593
+----------------------------------------
+[Layer1 - org.y20k.escapepod]
+  TP: 7468, FP: 25621, TN: 2457, FN: 0
+  Precision: 0.2257, Recall: 1.0000, F1-score: 0.3683
+  Time: 23666.4268
+----------------------------------------
+[Layer2 - org.y20k.escapepod]
+  TP: 4170, FP: 4282, TN: 23796, FN: 3298
+  Precision: 0.4934, Recall: 0.5584, F1-score: 0.5239
+  Time: 23666.4467
+----------------------------------------
+[Layer1 - page.ooooo.geoshare]
+  TP: 5902, FP: 21368, TN: 3153, FN: 0
+  Precision: 0.2164, Recall: 1.0000, F1-score: 0.3558
+  Time: 23734.2114
+----------------------------------------
+[Layer2 - page.ooooo.geoshare]
+  TP: 3811, FP: 3568, TN: 20953, FN: 2091
+  Precision: 0.5165, Recall: 0.6457, F1-score: 0.5739
+  Time: 23734.2283
+----------------------------------------
+[Layer1 - peterfajdiga.fastdraw]
+  TP: 6399, FP: 15190, TN: 457, FN: 0
+  Precision: 0.2964, Recall: 1.0000, F1-score: 0.4573
+  Time: 23787.3939
+----------------------------------------
+[Layer2 - peterfajdiga.fastdraw]
+  TP: 3865, FP: 2883, TN: 12764, FN: 2534
+  Precision: 0.5728, Recall: 0.6040, F1-score: 0.5880
+  Time: 23787.4070
+----------------------------------------
+[Layer1 - ru.ra66it.updaterforspotify]
+  TP: 744, FP: 24172, TN: 1763, FN: 0
+  Precision: 0.0299, Recall: 1.0000, F1-score: 0.0580
+  Time: 23854.7803
+----------------------------------------
+[Layer2 - ru.ra66it.updaterforspotify]
+  TP: 146, FP: 5127, TN: 20808, FN: 598
+  Precision: 0.0277, Recall: 0.1962, F1-score: 0.0485
+  Time: 23854.8017
+----------------------------------------
+[Layer1 - ru.stersh.youamp]
+  TP: 7431, FP: 38755, TN: 3771, FN: 0
+  Precision: 0.1609, Recall: 1.0000, F1-score: 0.2772
+  Time: 23960.8146
+----------------------------------------
+[Layer2 - ru.stersh.youamp]
+  TP: 4225, FP: 5954, TN: 36572, FN: 3206
+  Precision: 0.4151, Recall: 0.5686, F1-score: 0.4798
+  Time: 23960.8473
+----------------------------------------
+[Layer1 - se.arctosoft.vault]
+  TP: 7072, FP: 23614, TN: 1400, FN: 0
+  Precision: 0.2305, Recall: 1.0000, F1-score: 0.3746
+  Time: 24034.9820
+----------------------------------------
+[Layer2 - se.arctosoft.vault]
+  TP: 4181, FP: 3648, TN: 21366, FN: 2891
+  Precision: 0.5340, Recall: 0.5912, F1-score: 0.5612
+  Time: 24034.9989
+----------------------------------------
+[Layer1 - se.nullable.flickboard]
+  TP: 6015, FP: 24600, TN: 2569, FN: 0
+  Precision: 0.1965, Recall: 1.0000, F1-score: 0.3284
+  Time: 24108.1801
+----------------------------------------
+[Layer2 - se.nullable.flickboard]
+  TP: 3820, FP: 4038, TN: 23131, FN: 2195
+  Precision: 0.4861, Recall: 0.6351, F1-score: 0.5507
+  Time: 24108.1994
+----------------------------------------
+[Layer1 - spam.blocker]
+  TP: 5720, FP: 22308, TN: 2524, FN: 0
+  Precision: 0.2041, Recall: 1.0000, F1-score: 0.3390
+  Time: 24178.8898
+----------------------------------------
+[Layer2 - spam.blocker]
+  TP: 3690, FP: 3543, TN: 21289, FN: 2030
+  Precision: 0.5102, Recall: 0.6451, F1-score: 0.5698
+  Time: 24178.9070
+----------------------------------------
+[Layer1 - su.xash.husky]
+  TP: 10515, FP: 36715, TN: 6641, FN: 0
+  Precision: 0.2226, Recall: 1.0000, F1-score: 0.3642
+  Time: 24300.1910
+----------------------------------------
+[Layer2 - su.xash.husky]
+  TP: 5560, FP: 5936, TN: 37420, FN: 4955
+  Precision: 0.4836, Recall: 0.5288, F1-score: 0.5052
+  Time: 24300.2211
+----------------------------------------
+[Layer1 - systems.sieber.fsclock]
+  TP: 822, FP: 20801, TN: 3967, FN: 0
+  Precision: 0.0380, Recall: 1.0000, F1-score: 0.0732
+  Time: 24358.0612
+----------------------------------------
+[Layer2 - systems.sieber.fsclock]
+  TP: 169, FP: 5320, TN: 19448, FN: 653
+  Precision: 0.0308, Recall: 0.2056, F1-score: 0.0536
+  Time: 24358.0734
+----------------------------------------
+[Layer1 - ua.com.radiokot.photoprism]
+  TP: 8097, FP: 41269, TN: 3963, FN: 0
+  Precision: 0.1640, Recall: 1.0000, F1-score: 0.2818
+  Time: 24471.3558
+----------------------------------------
+[Layer2 - ua.com.radiokot.photoprism]
+  TP: 3737, FP: 10204, TN: 35028, FN: 4360
+  Precision: 0.2681, Recall: 0.4615, F1-score: 0.3391
+  Time: 24471.3841
+----------------------------------------
+[Layer1 - us.spotco.maps]
+  TP: 2785, FP: 11718, TN: 616, FN: 0
+  Precision: 0.1920, Recall: 1.0000, F1-score: 0.3222
+  Time: 24510.2122
+----------------------------------------
+[Layer2 - us.spotco.maps]
+  TP: 1419, FP: 3229, TN: 9105, FN: 1366
+  Precision: 0.3053, Recall: 0.5095, F1-score: 0.3818
+  Time: 24510.2260
+----------------------------------------
+[Layer1 - v4lpt.vpt.f036.esw]
+  TP: 6190, FP: 15394, TN: 1220, FN: 0
+  Precision: 0.2868, Recall: 1.0000, F1-score: 0.4457
+  Time: 24564.0331
+----------------------------------------
+[Layer2 - v4lpt.vpt.f036.esw]
+  TP: 3179, FP: 2859, TN: 13755, FN: 3011
+  Precision: 0.5265, Recall: 0.5136, F1-score: 0.5200
+  Time: 24564.0447
+----------------------------------------
+[Layer1 - yetzio.yetcalc]
+  TP: 6628, FP: 17562, TN: 1063, FN: 0
+  Precision: 0.2740, Recall: 1.0000, F1-score: 0.4301
+  Time: 24623.5965
+----------------------------------------
+[Layer2 - yetzio.yetcalc]
+  TP: 3624, FP: 2936, TN: 15689, FN: 3004
+  Precision: 0.5524, Recall: 0.5468, F1-score: 0.5496
+  Time: 24623.6218
+----------------------------------------

@@ -1,0 +1,6 @@
+aboutlibraries
+aboutlibraries.core
+evalex
+gson
+material
+mathParser.org.mXparser

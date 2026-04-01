@@ -1,0 +1,28 @@
+# compiler: R8
+# compiler_version: 4.0.48
+# min_api: 21
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: 2e0665e
+# pg_map_hash: SHA-256 2e0665e8b0c827ad69a580d7ff0789b8759a11029ee48e0296206f0ea7d7bf4e
+org.asafonov.weather.MainActivity -> org.asafonov.weather.MainActivity:
+    android.webkit.WebView mWebView -> a
+org.asafonov.weather.MyWebChromeClient -> a.a:
+org.asafonov.weather.MyWebChromeClient$1 -> a.a$a:
+    android.webkit.JsResult val$result -> a
+org.asafonov.weather.MyWebChromeClient$2 -> a.a$b:
+    android.webkit.JsResult val$result -> a
+org.asafonov.weather.MyWebChromeClient$3 -> a.a$c:
+    android.webkit.JsResult val$result -> a
+org.asafonov.weather.MyWebChromeClient$4 -> a.a$d:
+    android.webkit.JsResult val$result -> a
+org.asafonov.weather.MyWebChromeClient$5 -> a.a$e:
+    android.webkit.JsResult val$result -> a
+org.asafonov.weather.MyWebChromeClient$6 -> a.a$f:
+    android.webkit.JsPromptResult val$result -> a
+org.asafonov.weather.MyWebChromeClient$7 -> a.a$g:
+    android.webkit.JsPromptResult val$result -> a
+org.asafonov.weather.MyWebChromeClient$8 -> a.a$h:
+    android.webkit.JsPromptResult val$result -> a
+    android.widget.EditText val$input -> b
+org.asafonov.weather.MyWebViewClient -> a.b:

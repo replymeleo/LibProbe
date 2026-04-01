@@ -1,0 +1,106 @@
+======== 开始解析映射文件并保存到 mapping.db ========
+[信息] 找到 263 个 mapping 文件，准备开始解析和存储...
+
+[1/263] [解析开始] 文件: ademar.textlauncher_mapping.txt -> 表名: ademar.textlauncher
+  [DB] 成功插入/忽略 37 条映射记录到表 ademar.textlauncher。
+
+[2/263] [解析开始] 文件: alt.nainapps.aer_mapping.txt -> 表名: alt.nainapps.aer
+  [DB] 成功插入/忽略 40466 条映射记录到表 alt.nainapps.aer。
+
+[3/263] [解析开始] 文件: app.cclauncher_mapping.txt -> 表名: app.cclauncher
+  [DB] 成功插入/忽略 88939 条映射记录到表 app.cclauncher。
+
+[4/263] [解析开始] 文件: app.clauncher_mapping.txt -> 表名: app.clauncher
+  [DB] 成功插入/忽略 36199 条映射记录到表 app.clauncher。
+
+[5/263] [解析开始] 文件: app.easy.launcher_mapping.txt -> 表名: app.easy.launcher
+  [DB] 成功插入/忽略 50943 条映射记录到表 app.easy.launcher。
+
+[6/263] [解析开始] 文件: app.fluffy_mapping.txt -> 表名: app.fluffy
+  [DB] 成功插入/忽略 118763 条映射记录到表 app.fluffy。
+
+[7/263] [解析开始] 文件: app.olauncher_mapping.txt -> 表名: app.olauncher
+  [DB] 成功插入/忽略 24784 条映射记录到表 app.olauncher。
+
+[8/263] [解析开始] 文件: app.plugbrain.android_mapping.txt -> 表名: app.plugbrain.android
+  [DB] 成功插入/忽略 69784 条映射记录到表 app.plugbrain.android。
+
+[9/263] [解析开始] 文件: askanimus.arbeitszeiterfassung2_mapping.txt -> 表名: askanimus.arbeitszeiterfassung2
+  [DB] 成功插入/忽略 40649 条映射记录到表 askanimus.arbeitszeiterfassung2。
+
+[10/263] [解析开始] 文件: at.bitfire.icsdroid_mapping.txt -> 表名: at.bitfire.icsdroid
+  [DB] 成功插入/忽略 96860 条映射记录到表 at.bitfire.icsdroid。
+
+[11/263] [解析开始] 文件: cat.mvmike.minimalcalendarwidget_mapping.txt -> 表名: cat.mvmike.minimalcalendarwidget
+  [DB] 成功插入/忽略 23785 条映射记录到表 cat.mvmike.minimalcalendarwidget。
+
+[12/263] [解析开始] 文件: ch.ihdg.calendarcolor_mapping.txt -> 表名: ch.ihdg.calendarcolor
+  [DB] 成功插入/忽略 38668 条映射记录到表 ch.ihdg.calendarcolor。
+
+[13/263] [解析开始] 文件: ch.rmy.android.statusbar_mapping.txt -> 表名: ch.rmy.android.statusbar
+  [DB] 成功插入/忽略 56895 条映射记录到表 ch.rmy.android.statusbar。
+
+[14/263] [解析开始] 文件: com.MarcosDiez.shareviahttp_mapping.txt -> 表名: com.MarcosDiez.shareviahttp
+  [DB] 成功插入/忽略 26537 条映射记录到表 com.MarcosDiez.shareviahttp。
+
+[15/263] [解析开始] 文件: com.aks_mapping.txt -> 表名: com.aks
+  [DB] 成功插入/忽略 107055 条映射记录到表 com.aks。
+
+[16/263] [解析开始] 文件: com.amrdeveloper.linkhub_mapping.txt -> 表名: com.amrdeveloper.linkhub
+  [DB] 成功插入/忽略 43847 条映射记录到表 com.amrdeveloper.linkhub。
+
+[17/263] [解析开始] 文件: com.antony.muzei.pixiv_mapping.txt -> 表名: com.antony.muzei.pixiv
+  [DB] 成功插入/忽略 48319 条映射记录到表 com.antony.muzei.pixiv。
+
+[18/263] [解析开始] 文件: com.appmindlab.nano_mapping.txt -> 表名: com.appmindlab.nano
+  [DB] 成功插入/忽略 40771 条映射记录到表 com.appmindlab.nano。
+
+[19/263] [解析开始] 文件: com.asdoi.quicktiles_mapping.txt -> 表名: com.asdoi.quicktiles
+  [DB] 成功插入/忽略 35090 条映射记录到表 com.asdoi.quicktiles。
+
+[20/263] [解析开始] 文件: com.ath0.rpn_mapping.txt -> 表名: com.ath0.rpn
+  [DB] 成功插入/忽略 78 条映射记录到表 com.ath0.rpn。
+
+[21/263] [解析开始] 文件: com.atul.musicplayer_mapping.txt -> 表名: com.atul.musicplayer
+  [DB] 成功插入/忽略 37199 条映射记录到表 com.atul.musicplayer。
+
+[22/263] [解析开始] 文件: com.bily_mapping.txt -> 表名: com.bily
+  [DB] 成功插入/忽略 62933 条映射记录到表 com.bily。
+
+[23/263] [解析开始] 文件: com.burhanrashid52.photoediting_mapping.txt -> 表名: com.burhanrashid52.photoediting
+  [DB] 成功插入/忽略 28007 条映射记录到表 com.burhanrashid52.photoediting。
+
+[24/263] [解析开始] 文件: com.byterdevs.rsswidget_mapping.txt -> 表名: com.byterdevs.rsswidget
+  [DB] 成功插入/忽略 36339 条映射记录到表 com.byterdevs.rsswidget。
+
+[25/263] [解析开始] 文件: com.cappielloantonio.notquitemy.tempo_mapping.txt -> 表名: com.cappielloantonio.notquitemy.tempo
+  [DB] 成功插入/忽略 83425 条映射记录到表 com.cappielloantonio.notquitemy.tempo。
+
+[26/263] [解析开始] 文件: com.cax.pmk.ext_mapping.txt -> 表名: com.cax.pmk.ext
+  [DB] 成功插入/忽略 312 条映射记录到表 com.cax.pmk.ext。
+
+[27/263] [解析开始] 文件: com.cliffracertech.soundaura_mapping.txt -> 表名: com.cliffracertech.soundaura
+  [DB] 成功插入/忽略 69149 条映射记录到表 com.cliffracertech.soundaura。
+
+[28/263] [解析开始] 文件: com.codedead.advancedpassgen_mapping.txt -> 表名: com.codedead.advancedpassgen
+  [DB] 成功插入/忽略 32419 条映射记录到表 com.codedead.advancedpassgen。
+
+[29/263] [解析开始] 文件: com.daniebeler.pfpixelix_mapping.txt -> 表名: com.daniebeler.pfpixelix
+  [DB] 成功插入/忽略 133373 条映射记录到表 com.daniebeler.pfpixelix。
+
+[30/263] [解析开始] 文件: com.danilkinkin.buckwheat_mapping.txt -> 表名: com.danilkinkin.buckwheat
+  [DB] 成功插入/忽略 70118 条映射记录到表 com.danilkinkin.buckwheat。
+
+[31/263] [解析开始] 文件: com.dar.nclientv2_mapping.txt -> 表名: com.dar.nclientv2
+  [DB] 成功插入/忽略 53988 条映射记录到表 com.dar.nclientv2。
+
+[32/263] [解析开始] 文件: com.darkempire78.opencalculator_mapping.txt -> 表名: com.darkempire78.opencalculator
+  [DB] 成功插入/忽略 33436 条映射记录到表 com.darkempire78.opencalculator。
+
+[33/263] [解析开始] 文件: com.darkrockstudios.app.securecamera_mapping.txt -> 表名: com.darkrockstudios.app.securecamera
+  [DB] 成功插入/忽略 84379 条映射记录到表 com.darkrockstudios.app.securecamera。
+
+[34/263] [解析开始] 文件: com.davidtakac.bura_mapping.txt -> 表名: com.davidtakac.bura
+  [DB] 成功插入/忽略 61806 条映射记录到表 com.davidtakac.bura。
+
+[35/263] [解析开始] 文件: com.dessalines.thumbkey_mapping.txt -> 表名: com.dessalines.thumbkey

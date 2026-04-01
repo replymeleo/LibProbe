@@ -1,0 +1,64 @@
+# compiler: R8
+# compiler_version: 8.5.27
+# min_api: 14
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: aafd06c
+# pg_map_hash: SHA-256 aafd06cc0b33045eb9875de3d3e6a828168c7108092e1f3cc286b5be85cffa84
+ademar.textlauncher.Activity -> ademar.textlauncher.Activity:
+# {"id":"sourceFile","fileName":"Activity.java"}
+    ademar.textlauncher.Adapter adapter -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/b;"}
+    android.widget.EditText filter -> b
+    android.widget.ImageView clear -> c
+    android.content.BroadcastReceiver broadcastReceiver -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/a;"}
+    int $r8$clinit -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:boolean hideKeyboard():0:0 -> a
+    1:1:void ademar.textlauncher.Adapter.filter(java.lang.String):0:0 -> afterTextChanged
+    1:1:void afterTextChanged(android.text.Editable):0 -> afterTextChanged
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    2:2:void ademar.textlauncher.Adapter.filter(java.lang.String):0:0 -> afterTextChanged
+    2:2:void afterTextChanged(android.text.Editable):0 -> afterTextChanged
+    3:3:void afterTextChanged(android.text.Editable):0:0 -> afterTextChanged
+    1:1:void clearSearch():0:0 -> b
+    1:1:void update():0 -> b
+    2:2:void update():0:0 -> b
+    3:3:void ademar.textlauncher.Adapter.update(java.util.List):0:0 -> b
+    3:3:void update():0 -> b
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    4:4:void ademar.textlauncher.Adapter.update(java.util.List):0:0 -> b
+    4:4:void update():0 -> b
+    5:13:int compare(ademar.textlauncher.Model,ademar.textlauncher.Model):0:0 -> compare
+    5:13:int compare(java.lang.Object,java.lang.Object):0 -> compare
+    1:13:void clearSearch():0:0 -> onClick
+    1:13:void onClick(android.view.View):0 -> onClick
+ademar.textlauncher.Activity$1 -> a.a:
+# {"id":"sourceFile","fileName":"Activity.java"}
+    ademar.textlauncher.Activity this$0 -> a
+    1:6:void <init>(ademar.textlauncher.Activity):0:0 -> <init>
+    1:8:void onReceive(android.content.Context,android.content.Intent):0:0 -> onReceive
+ademar.textlauncher.Adapter -> a.b:
+# {"id":"sourceFile","fileName":"Adapter.java"}
+    java.util.ArrayList models -> a
+    boolean[] enabled -> b
+    boolean filtered -> c
+    1:1:void <init>():0:0 -> <init>
+    1:1:int getRealIndex(int):0:0 -> a
+    1:1:ademar.textlauncher.Model getItem(int):0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(I)La/c;"}
+    2:2:ademar.textlauncher.Model getItem(int):0:0 -> a
+    1:1:int getCount():0:0 -> getCount
+    1:5:java.lang.Object getItem(int):0:0 -> getItem
+    1:7:long getItemId(int):0:0 -> getItemId
+    1:1:android.view.View getView(int,android.view.View,android.view.ViewGroup):0:0 -> getView
+ademar.textlauncher.LauncherActivity -> ademar.textlauncher.LauncherActivity:
+# {"id":"sourceFile","fileName":"LauncherActivity.java"}
+ademar.textlauncher.Model -> a.c:
+# {"id":"sourceFile","fileName":"Model.java"}
+    long id -> a
+    java.lang.String label -> b
+    java.lang.String labelSearch -> c
+    java.lang.String packageName -> d
+    1:1:void <init>(long,java.lang.String,java.lang.String):0:0 -> <init>

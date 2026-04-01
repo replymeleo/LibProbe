@@ -19,7 +19,6 @@ LibProbe/
 │   ├── db/                 # 存储生成的 SQLite 白盒特征数据库
 │   ├── GT1/                # 基础数据集（白盒/黑盒APK/mapping文件/提取的库名）
 │   └── GT2/                # 对照数据集（用于极端情况测试等）
-├── LibScan/                # 依赖的分析工具模块（内含定制版 Androguard 等）
 └── LibRadar/               # 辅助反编译与缓存目录
 ```
 
